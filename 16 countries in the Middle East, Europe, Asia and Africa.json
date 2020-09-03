@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "16 countries in the Middle East, Europe, Asia and Africa",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#3266ba",
+            "#e58b64"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

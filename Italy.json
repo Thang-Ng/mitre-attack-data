@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "Italy",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#297c0b",
+            "#ca9cfc"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

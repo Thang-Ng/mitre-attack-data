@@ -1,0 +1,52 @@
+{
+    "description": "Techniques of groups: Gallmaker (G0084) & ",
+    "name": "Eastern Europe",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [
+        {
+            "score": 1,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "Gallmaker (G0084)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "Gallmaker (G0084)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "Gallmaker (G0084)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Gallmaker (G0084)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1559.002",
+            "techniqueName": "Dynamic Data Exchange",
+            "comment": "Gallmaker (G0084)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Gallmaker (G0084)"
+        }
+    ],
+    "gradient": {
+        "colors": [
+            "#ea8aba",
+            "#d31dc4"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

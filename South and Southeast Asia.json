@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "South and Southeast Asia",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#1f8c93",
+            "#ad2e61"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

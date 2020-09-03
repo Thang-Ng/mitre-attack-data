@@ -1,0 +1,462 @@
+{
+    "description": "Techniques of groups: BlackOasis (G0063) & MuddyWater (G0069) & Turla (G0010) & ",
+    "name": "Tunisia",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [
+        {
+            "score": 3,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "BlackOasis (G0063) & MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1041",
+            "techniqueName": "Exfiltration Over C2 Channel",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1137.001",
+            "techniqueName": "Office Template Macros",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1132.001",
+            "techniqueName": "Standard Encoding",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1203",
+            "techniqueName": "Exploitation for Client Execution",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1555",
+            "techniqueName": "Credentials from Password Stores",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.005",
+            "techniqueName": "Cached Domain Credentials",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.004",
+            "techniqueName": "LSA Secrets",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.003",
+            "techniqueName": "Steganography",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1555.003",
+            "techniqueName": "Credentials from Web Browsers",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1104",
+            "techniqueName": "Multi-Stage Channels",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.004",
+            "techniqueName": "Compile After Delivery",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1518.001",
+            "techniqueName": "Security Software Discovery",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1559.002",
+            "techniqueName": "Dynamic Data Exchange",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1559.001",
+            "techniqueName": "Component Object Model",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1552.001",
+            "techniqueName": "Credentials In Files",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1047",
+            "techniqueName": "Windows Management Instrumentation",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1090.002",
+            "techniqueName": "External Proxy",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.011",
+            "techniqueName": "Rundll32",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1548.002",
+            "techniqueName": "Bypass User Access Control",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.003",
+            "techniqueName": "CMSTP",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.005",
+            "techniqueName": "Mshta",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1213",
+            "techniqueName": "Data from Information Repositories",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1120",
+            "techniqueName": "Peripheral Device Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1201",
+            "techniqueName": "Password Policy Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1087.001",
+            "techniqueName": "Local Account",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1069.001",
+            "techniqueName": "Local Groups",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1069.002",
+            "techniqueName": "Domain Groups",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1570",
+            "techniqueName": "Lateral Tool Transfer",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1055.001",
+            "techniqueName": "Dynamic-link Library Injection",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1567.002",
+            "techniqueName": "Exfiltration to Cloud Storage",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1134.002",
+            "techniqueName": "Create Process with Token",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1090",
+            "techniqueName": "Proxy",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1562.001",
+            "techniqueName": "Disable or Modify Tools",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1106",
+            "techniqueName": "Native API",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1546.003",
+            "techniqueName": "Windows Management Instrumentation Event Subscription",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1112",
+            "techniqueName": "Modify Registry",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1546.013",
+            "techniqueName": "PowerShell Profile",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1055",
+            "techniqueName": "Process Injection",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1547.004",
+            "techniqueName": "Winlogon Helper DLL",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.005",
+            "techniqueName": "Indicator Removal from Tools",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1110",
+            "techniqueName": "Brute Force",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1012",
+            "techniqueName": "Query Registry",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1124",
+            "techniqueName": "System Time Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1007",
+            "techniqueName": "System Service Discovery",
+            "comment": "Turla (G0010)"
+        }
+    ],
+    "gradient": {
+        "colors": [
+            "#77adef",
+            "#098237",
+            "#15ea1c",
+            "#bcfdff"
+        ],
+        "minValue": 0,
+        "maxValue": 3
+    }
+}

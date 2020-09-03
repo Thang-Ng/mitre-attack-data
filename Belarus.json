@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "Belarus",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#5ea4d6",
+            "#f8c7fc"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

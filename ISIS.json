@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "ISIS",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#bbf475",
+            "#44ceb0"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

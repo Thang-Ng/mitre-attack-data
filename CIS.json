@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "CIS",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#e6fca9",
+            "#8e0106"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

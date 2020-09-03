@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "Kazakhstan",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#13efbc",
+            "#d6c5f9"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

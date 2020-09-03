@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "UN",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#aa9ef7",
+            "#d345e0"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

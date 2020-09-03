@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "Zimbabwe",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#ccfeff",
+            "#94efc5"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

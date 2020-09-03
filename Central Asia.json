@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "Central Asia",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#e8ae6d",
+            "#4b13f2"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

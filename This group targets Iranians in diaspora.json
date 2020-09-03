@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "This group targets Iranians in diaspora",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#d8b35d",
+            "#57f9d6"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "Unknown",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#ffa0f7",
+            "#d3007e"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

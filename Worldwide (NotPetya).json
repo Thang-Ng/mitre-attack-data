@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "Worldwide (NotPetya)",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#1cff95",
+            "#b5f29d"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

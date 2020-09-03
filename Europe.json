@@ -1,0 +1,125 @@
+{
+    "description": "Techniques of groups: Dust Storm (G0031) & Leafminer (G0077) & PittyTiger (G0011) & ",
+    "name": "Europe",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [
+        {
+            "score": 2,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Dust Storm (G0031) & Leafminer (G0077)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "Dust Storm (G0031) & Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "Dust Storm (G0031)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1555.003",
+            "techniqueName": "Credentials from Web Browsers",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1555",
+            "techniqueName": "Credentials from Password Stores",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.005",
+            "techniqueName": "Cached Domain Credentials",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.004",
+            "techniqueName": "LSA Secrets",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1552.001",
+            "techniqueName": "Credentials In Files",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1055.013",
+            "techniqueName": "Process Doppelg\u00e4nging",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1046",
+            "techniqueName": "Network Service Scanning",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1110.003",
+            "techniqueName": "Password Spraying",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1136.001",
+            "techniqueName": "Local Account",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript/JScript",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078",
+            "techniqueName": "Valid Accounts",
+            "comment": "PittyTiger (G0011)"
+        }
+    ],
+    "gradient": {
+        "colors": [
+            "#7ef26a",
+            "#d648d3",
+            "#827fd8"
+        ],
+        "minValue": 0,
+        "maxValue": 2
+    }
+}

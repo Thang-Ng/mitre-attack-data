@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "Kuwait",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#d5ea7e",
+            "#fcc7cb"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

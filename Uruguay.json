@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "Uruguay",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#ffbe28",
+            "#e8771b"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

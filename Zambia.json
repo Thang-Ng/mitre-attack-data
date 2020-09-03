@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "Zambia",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#98fc76",
+            "#c64b11"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

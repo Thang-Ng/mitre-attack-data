@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "Most of the South and Southeast Asian countries, most of the Middle Eastern countries and most of the African countries",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#e1f49c",
+            "#afef8b"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

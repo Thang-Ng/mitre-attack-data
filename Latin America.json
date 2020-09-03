@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "Latin America",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#12aa73",
+            "#96d648"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

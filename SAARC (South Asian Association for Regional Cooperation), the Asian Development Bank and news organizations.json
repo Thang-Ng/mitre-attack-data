@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "SAARC (South Asian Association for Regional Cooperation), the Asian Development Bank and news organizations",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#8e68ff",
+            "#a817d1"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

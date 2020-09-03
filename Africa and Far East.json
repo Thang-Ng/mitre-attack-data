@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "Africa and Far East",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#e27aab",
+            "#8dc13a"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

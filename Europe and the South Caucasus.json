@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "Europe and the South Caucasus",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#cc1a96",
+            "#c767ea"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

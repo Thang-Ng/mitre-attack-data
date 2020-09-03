@@ -1,0 +1,22 @@
+{
+    "description": "Techniques of groups: Scarlet Mimic (G0029) & ",
+    "name": "Tibetan and Uyghur activists as well as those who are interested in their causes",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [
+        {
+            "score": 1,
+            "techniqueID": "T1036.002",
+            "techniqueName": "Right-to-Left Override",
+            "comment": "Scarlet Mimic (G0029)"
+        }
+    ],
+    "gradient": {
+        "colors": [
+            "#e57050",
+            "#9580ed"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

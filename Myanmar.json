@@ -1,0 +1,15 @@
+{
+    "description": "Techniques of groups: ",
+    "name": "Myanmar",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [],
+    "gradient": {
+        "colors": [
+            "#f484d4",
+            "#5eed9e"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

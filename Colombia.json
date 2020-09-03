@@ -1,0 +1,100 @@
+{
+    "description": "Techniques of groups: Machete (G0095) & ",
+    "name": "Colombia",
+    "domain": "mitre-enterprise",
+    "version": "3.0",
+    "techniques": [
+        {
+            "score": 1,
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
+            "comment": "Machete (G0095)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Machete (G0095)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "Machete (G0095)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1032",
+            "techniqueName": "Standard Cryptographic Protocol",
+            "comment": "Machete (G0095)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "Machete (G0095)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "Machete (G0095)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Machete (G0095)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
+            "comment": "Machete (G0095)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1071.002",
+            "techniqueName": "File Transfer Protocols",
+            "comment": "Machete (G0095)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Machete (G0095)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "Machete (G0095)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.006",
+            "techniqueName": "Python",
+            "comment": "Machete (G0095)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
+            "comment": "Machete (G0095)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "Machete (G0095)"
+        }
+    ],
+    "gradient": {
+        "colors": [
+            "#c86af7",
+            "#0ef4c2"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}
