@@ -53,6 +53,12 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1548.002",
             "techniqueName": "Bypass User Access Control",
@@ -72,39 +78,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
-        },
-        {
             "score": 1,
-            "techniqueID": "T1012",
-            "techniqueName": "Query Registry",
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
             "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
             "score": 2,
@@ -119,6 +101,24 @@
             "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1012",
+            "techniqueName": "Query Registry",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1087.001",
             "techniqueName": "Local Account",
@@ -131,9 +131,21 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1021.006",
             "techniqueName": "Windows Remote Management",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -144,20 +156,14 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
-            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1016",
             "techniqueName": "System Network Configuration Discovery",
+            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
             "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
@@ -168,20 +174,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1562.002",
             "techniqueName": "Disable Windows Event Logging",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 2,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
             "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
@@ -198,14 +198,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
+            "techniqueID": "T1030",
+            "techniqueName": "Data Transfer Size Limits",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
-            "techniqueID": "T1030",
-            "techniqueName": "Data Transfer Size Limits",
+            "techniqueID": "T1078",
+            "techniqueName": "Valid Accounts",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -222,8 +222,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1078",
-            "techniqueName": "Valid Accounts",
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -409,9 +409,9 @@
     ],
     "gradient": {
         "colors": [
-            "#0701a3",
-            "#c99be8",
-            "#fcc7d3"
+            "#a664e0",
+            "#2c83b2",
+            "#f2e254"
         ],
         "minValue": 0,
         "maxValue": 2

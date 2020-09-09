@@ -287,6 +287,12 @@
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Threat Group-3390 (G0027) & Gallmaker (G0084) & Patchwork (G0040)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1548.002",
             "techniqueName": "Bypass User Access Control",
@@ -305,16 +311,22 @@
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1574.001",
             "techniqueName": "DLL Search Order Hijacking",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
+            "score": 1,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 2,
@@ -329,21 +341,15 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Threat Group-3390 (G0027) & Gallmaker (G0084) & Patchwork (G0040)"
-        },
-        {
             "score": 1,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
+            "techniqueID": "T1087.001",
+            "techniqueName": "Local Account",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
-            "techniqueID": "T1087.001",
-            "techniqueName": "Local Account",
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -353,22 +359,16 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
-            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
@@ -384,26 +384,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1562.002",
             "techniqueName": "Disable Windows Event Logging",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1560.002",
-            "techniqueName": "Archive via Library",
-            "comment": "Threat Group-3390 (G0027)"
+            "score": 2,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
             "score": 1,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
+            "techniqueID": "T1560.002",
+            "techniqueName": "Archive via Library",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -417,6 +411,12 @@
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 2,
@@ -468,12 +468,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1027.001",
             "techniqueName": "Binary Padding",
             "comment": "Patchwork (G0040)"
@@ -482,6 +476,12 @@
             "score": 1,
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -529,13 +529,13 @@
     ],
     "gradient": {
         "colors": [
-            "#d2ef13",
-            "#e853e0",
-            "#dce85a",
-            "#4f6fef",
-            "#36e812",
-            "#e0d90d",
-            "#7ea0d6"
+            "#a2d7f2",
+            "#4881d6",
+            "#c5d0f9",
+            "#f7dabe",
+            "#4af76f",
+            "#a6d2fc",
+            "#0fc464"
         ],
         "minValue": 0,
         "maxValue": 6

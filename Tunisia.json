@@ -221,10 +221,10 @@
             "comment": "MuddyWater (G0069) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "MuddyWater (G0069)"
+            "score": 2,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -233,10 +233,10 @@
             "comment": "MuddyWater (G0069)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "MuddyWater (G0069) & Turla (G0010)"
+            "score": 1,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "MuddyWater (G0069)"
         },
         {
             "score": 2,
@@ -378,6 +378,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1055",
             "techniqueName": "Process Injection",
             "comment": "Turla (G0010)"
@@ -386,12 +392,6 @@
             "score": 1,
             "techniqueID": "T1204.001",
             "techniqueName": "Malicious Link",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
             "comment": "Turla (G0010)"
         },
         {
@@ -426,14 +426,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Turla (G0010)"
         },
         {
@@ -451,10 +451,10 @@
     ],
     "gradient": {
         "colors": [
-            "#4066b7",
-            "#d6600c",
-            "#fcc4d9",
-            "#9997fc"
+            "#ed97a3",
+            "#b808cc",
+            "#a3b6e2",
+            "#a68ee5"
         ],
         "minValue": 0,
         "maxValue": 3

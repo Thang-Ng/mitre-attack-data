@@ -5,16 +5,16 @@
     "version": "3.0",
     "techniques": [
         {
-            "score": 4,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Orangeworm (G0071) & APT37 (G0067) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1021.002",
             "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Orangeworm (G0071) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Orangeworm (G0071) & APT37 (G0067) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -65,16 +65,16 @@
             "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "APT37 (G0067) & Tropic Trooper (G0081)"
-        },
-        {
             "score": 4,
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
             "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "APT37 (G0067) & Tropic Trooper (G0081)"
         },
         {
             "score": 3,
@@ -96,15 +96,51 @@
         },
         {
             "score": 4,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 4,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081)"
+            "score": 1,
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
+            "comment": "APT37 (G0067)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "APT37 (G0067) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1561.002",
+            "techniqueName": "Disk Structure Wipe",
+            "comment": "APT37 (G0067)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "APT37 (G0067) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "APT37 (G0067)"
         },
         {
             "score": 5,
@@ -131,46 +167,10 @@
             "comment": "APT37 (G0067)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
-            "comment": "APT37 (G0067)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "APT37 (G0067)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "APT37 (G0067) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "APT37 (G0067) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
             "comment": "APT37 (G0067) & Silence (G0091)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1561.002",
-            "techniqueName": "Disk Structure Wipe",
-            "comment": "APT37 (G0067)"
         },
         {
             "score": 1,
@@ -294,6 +294,12 @@
         },
         {
             "score": 3,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 3,
             "techniqueID": "T1016",
             "techniqueName": "System Network Configuration Discovery",
             "comment": "admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
@@ -302,12 +308,6 @@
             "score": 3,
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
-            "comment": "admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
             "comment": "admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
@@ -565,12 +565,12 @@
     ],
     "gradient": {
         "colors": [
-            "#d1457a",
-            "#2e59ad",
-            "#0e12d3",
-            "#9dba2a",
-            "#cc24aa",
-            "#1ba01f"
+            "#f9cdb8",
+            "#cce57b",
+            "#ed90b4",
+            "#d651d3",
+            "#56d3a5",
+            "#a8ce37"
         ],
         "minValue": 0,
         "maxValue": 5

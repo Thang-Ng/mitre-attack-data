@@ -18,12 +18,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1345",
-            "techniqueName": "Create custom payloads",
-            "comment": "Cleaver (G0003)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1341",
             "techniqueName": "Build social network persona",
             "comment": "Cleaver (G0003)"
@@ -32,6 +26,12 @@
             "score": 1,
             "techniqueID": "T1342",
             "techniqueName": "Develop social network persona digital footprint",
+            "comment": "Cleaver (G0003)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1345",
+            "techniqueName": "Create custom payloads",
             "comment": "Cleaver (G0003)"
         },
         {
@@ -47,34 +47,10 @@
             "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Lazarus Group (G0032) & Molerats (G0021) & MuddyWater (G0069) & Naikon (G0019) & PLATINUM (G0068) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Tropic Trooper (G0081)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1218.001",
-            "techniqueName": "Compiled HTML File",
-            "comment": "Dark Caracal (G0070) & Lazarus Group (G0032) & Silence (G0091)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1566.003",
             "techniqueName": "Spearphishing via Service",
             "comment": "Dark Caracal (G0070)"
-        },
-        {
-            "score": 13,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Molerats (G0021) & MuddyWater (G0069) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & Silence (G0091) & APT28 (G0007)"
-        },
-        {
-            "score": 9,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "Dark Caracal (G0070) & Threat Group-3390 (G0027) & Ke3chang (G0004) & Lazarus Group (G0032) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
             "score": 7,
@@ -89,6 +65,30 @@
             "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & PLATINUM (G0068) & APT37 (G0067) & Turla (G0010)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1218.001",
+            "techniqueName": "Compiled HTML File",
+            "comment": "Dark Caracal (G0070) & Lazarus Group (G0032) & Silence (G0091)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & Silence (G0091) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1027.002",
+            "techniqueName": "Software Packing",
+            "comment": "Dark Caracal (G0070) & Soft Cell (G0093)"
+        },
+        {
+            "score": 9,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "Dark Caracal (G0070) & Threat Group-3390 (G0027) & Ke3chang (G0004) & Lazarus Group (G0032) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
+        },
+        {
             "score": 11,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
@@ -101,10 +101,10 @@
             "comment": "Dark Caracal (G0070) & Threat Group-3390 (G0027) & Ke3chang (G0004) & Lazarus Group (G0032) & MuddyWater (G0069) & Orangeworm (G0071) & APT37 (G0067) & APT28 (G0007) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1027.002",
-            "techniqueName": "Software Packing",
-            "comment": "Dark Caracal (G0070) & Soft Cell (G0093)"
+            "score": 13,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Molerats (G0021) & MuddyWater (G0069) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -251,16 +251,16 @@
             "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1012",
-            "techniqueName": "Query Registry",
-            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & Turla (G0010)"
-        },
-        {
             "score": 4,
             "techniqueID": "T1543.003",
             "techniqueName": "Windows Service",
             "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & Lazarus Group (G0032) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1012",
+            "techniqueName": "Query Registry",
+            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & Turla (G0010)"
         },
         {
             "score": 4,
@@ -275,24 +275,6 @@
             "comment": "Threat Group-3390 (G0027) & Molerats (G0021) & MuddyWater (G0069) & Poseidon Group (G0033) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1021.006",
-            "techniqueName": "Windows Remote Management",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 6,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "Threat Group-3390 (G0027) & APT28 (G0007) & Tropic Trooper (G0081)"
-        },
-        {
             "score": 7,
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
@@ -300,8 +282,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.005",
-            "techniqueName": "Network Share Connection Removal",
+            "techniqueID": "T1021.006",
+            "techniqueName": "Windows Remote Management",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -311,10 +293,28 @@
             "comment": "Threat Group-3390 (G0027) & PLATINUM (G0068) & APT28 (G0007)"
         },
         {
+            "score": 6,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.005",
+            "techniqueName": "Network Share Connection Removal",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1562.002",
             "techniqueName": "Disable Windows Event Logging",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "Threat Group-3390 (G0027) & APT28 (G0007) & Tropic Trooper (G0081)"
         },
         {
             "score": 12,
@@ -329,16 +329,16 @@
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & Soft Cell (G0093)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1030",
             "techniqueName": "Data Transfer Size Limits",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1078",
+            "techniqueName": "Valid Accounts",
+            "comment": "Threat Group-3390 (G0027) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Suckfly (G0039)"
         },
         {
             "score": 5,
@@ -347,10 +347,10 @@
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1078",
-            "techniqueName": "Valid Accounts",
-            "comment": "Threat Group-3390 (G0027) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Suckfly (G0039)"
+            "score": 3,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & Soft Cell (G0093)"
         },
         {
             "score": 5,
@@ -431,16 +431,16 @@
             "comment": "Ke3chang (G0004) & APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1213.002",
-            "techniqueName": "Sharepoint",
-            "comment": "Ke3chang (G0004) & APT28 (G0007)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1558.001",
             "techniqueName": "Golden Ticket",
             "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1213.002",
+            "techniqueName": "Sharepoint",
+            "comment": "Ke3chang (G0004) & APT28 (G0007)"
         },
         {
             "score": 2,
@@ -467,28 +467,28 @@
             "comment": "Ke3chang (G0004) & Poseidon Group (G0033) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1069.002",
-            "techniqueName": "Domain Groups",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
             "score": 5,
             "techniqueID": "T1560.001",
             "techniqueName": "Archive via Utility",
             "comment": "Ke3chang (G0004) & MuddyWater (G0069) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Ke3chang (G0004) & Lazarus Group (G0032) & APT28 (G0007) & menuPass (G0045)"
+            "score": 2,
+            "techniqueID": "T1069.002",
+            "techniqueName": "Domain Groups",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
         },
         {
             "score": 4,
             "techniqueID": "T1041",
             "techniqueName": "Exfiltration Over C2 Channel",
             "comment": "Ke3chang (G0004) & Lazarus Group (G0032) & MuddyWater (G0069) & Soft Cell (G0093)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Ke3chang (G0004) & Lazarus Group (G0032) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 2,
@@ -570,15 +570,15 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1055.001",
-            "techniqueName": "Dynamic-link Library Injection",
-            "comment": "Lazarus Group (G0032) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
-            "score": 3,
             "techniqueID": "T1564.001",
             "techniqueName": "Hidden Files and Directories",
             "comment": "Lazarus Group (G0032) & APT28 (G0007) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1055.001",
+            "techniqueName": "Dynamic-link Library Injection",
+            "comment": "Lazarus Group (G0032) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -599,22 +599,22 @@
             "comment": "Lazarus Group (G0032) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1021.001",
-            "techniqueName": "Remote Desktop Protocol",
-            "comment": "Lazarus Group (G0032) & Silence (G0091) & menuPass (G0045)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1542.003",
             "techniqueName": "Bootkit",
             "comment": "Lazarus Group (G0032) & APT28 (G0007)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "Lazarus Group (G0032) & MuddyWater (G0069) & APT37 (G0067) & Soft Cell (G0093) & Tropic Trooper (G0081)"
+            "score": 3,
+            "techniqueID": "T1021.001",
+            "techniqueName": "Remote Desktop Protocol",
+            "comment": "Lazarus Group (G0032) & Silence (G0091) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1110.003",
+            "techniqueName": "Password Spraying",
+            "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
@@ -623,10 +623,10 @@
             "comment": "Lazarus Group (G0032)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1110.003",
-            "techniqueName": "Password Spraying",
-            "comment": "Lazarus Group (G0032)"
+            "score": 5,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "Lazarus Group (G0032) & MuddyWater (G0069) & APT37 (G0067) & Soft Cell (G0093) & Tropic Trooper (G0081)"
         },
         {
             "score": 1,
@@ -659,16 +659,16 @@
             "comment": "Lazarus Group (G0032)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1098",
-            "techniqueName": "Account Manipulation",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1070.006",
             "techniqueName": "Timestomp",
             "comment": "Lazarus Group (G0032) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1098",
+            "techniqueName": "Account Manipulation",
+            "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 2,
@@ -809,16 +809,16 @@
             "comment": "PLATINUM (G0068) & APT37 (G0067)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1055",
-            "techniqueName": "Process Injection",
-            "comment": "PLATINUM (G0068) & APT37 (G0067) & Silence (G0091) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1095",
             "techniqueName": "Non-Application Layer Protocol",
             "comment": "PLATINUM (G0068)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1055",
+            "techniqueName": "Process Injection",
+            "comment": "PLATINUM (G0068) & APT37 (G0067) & Silence (G0091) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -839,16 +839,16 @@
             "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1123",
-            "techniqueName": "Audio Capture",
-            "comment": "APT37 (G0067)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
             "comment": "APT37 (G0067) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1123",
+            "techniqueName": "Audio Capture",
+            "comment": "APT37 (G0067)"
         },
         {
             "score": 1,
@@ -935,16 +935,16 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
             "comment": "APT28 (G0007) & Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -954,14 +954,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
+            "techniqueID": "T1001.001",
+            "techniqueName": "Junk Data",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1001.001",
-            "techniqueName": "Junk Data",
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
             "comment": "APT28 (G0007)"
         },
         {
@@ -1123,21 +1123,21 @@
     ],
     "gradient": {
         "colors": [
-            "#1c3ace",
-            "#e8ce5f",
-            "#4dbcbc",
-            "#81e2b0",
-            "#ea7cc5",
-            "#8d92e8",
-            "#8fdd6a",
-            "#f9bfbb",
-            "#4e1c8e",
-            "#7e74ed",
-            "#f4a1ab",
-            "#8097d6",
-            "#14146d",
-            "#117c01",
-            "#c6554b"
+            "#51efc0",
+            "#ea96ab",
+            "#ffdfcc",
+            "#173070",
+            "#96d5ff",
+            "#b7fc9c",
+            "#d66490",
+            "#a3daff",
+            "#7382f4",
+            "#9bd8f7",
+            "#d12542",
+            "#3dd130",
+            "#edb389",
+            "#593ab7",
+            "#c8ea85"
         ],
         "minValue": 0,
         "maxValue": 14

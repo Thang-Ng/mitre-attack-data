@@ -36,20 +36,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1125",
             "techniqueName": "Video Capture",
             "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059",
+            "techniqueName": "Command and Scripting Interpreter",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -68,12 +74,6 @@
             "score": 1,
             "techniqueID": "T1071.004",
             "techniqueName": "DNS",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059",
-            "techniqueName": "Command and Scripting Interpreter",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -151,8 +151,8 @@
     ],
     "gradient": {
         "colors": [
-            "#e2ba7c",
-            "#9cd15c"
+            "#e266c9",
+            "#f77bb5"
         ],
         "minValue": 0,
         "maxValue": 1

@@ -36,14 +36,26 @@
         },
         {
             "score": 2,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "Patchwork (G0040) & Silence (G0091)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Patchwork (G0040) & Silence (G0091)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1053.005",
             "techniqueName": "Scheduled Task",
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
             "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
+            "techniqueID": "T1574.002",
+            "techniqueName": "DLL Side-Loading",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -59,21 +71,9 @@
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Patchwork (G0040) & Silence (G0091)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Patchwork (G0040) & Silence (G0091)"
-        },
-        {
             "score": 1,
-            "techniqueID": "T1574.002",
-            "techniqueName": "DLL Side-Loading",
+            "techniqueID": "T1027.005",
+            "techniqueName": "Indicator Removal from Tools",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -84,8 +84,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027.005",
-            "techniqueName": "Indicator Removal from Tools",
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -107,16 +107,16 @@
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "Patchwork (G0040) & Silence (G0091)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -128,6 +128,12 @@
             "score": 1,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.002",
+            "techniqueName": "Software Packing",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -144,12 +150,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027.002",
-            "techniqueName": "Software Packing",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1102.001",
             "techniqueName": "Dead Drop Resolver",
             "comment": "Patchwork (G0040)"
@@ -158,6 +158,12 @@
             "score": 1,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -174,15 +180,9 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
+            "techniqueID": "T1021.001",
+            "techniqueName": "Remote Desktop Protocol",
             "comment": "Patchwork (G0040) & Silence (G0091)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "Patchwork (G0040)"
         },
         {
             "score": 2,
@@ -198,8 +198,8 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1021.001",
-            "techniqueName": "Remote Desktop Protocol",
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
@@ -307,9 +307,9 @@
     ],
     "gradient": {
         "colors": [
-            "#babff2",
-            "#e0be60",
-            "#ef4cdf"
+            "#9745bc",
+            "#e05c78",
+            "#dfed87"
         ],
         "minValue": 0,
         "maxValue": 2

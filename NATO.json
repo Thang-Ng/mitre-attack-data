@@ -78,14 +78,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1546.003",
-            "techniqueName": "Windows Management Instrumentation Event Subscription",
+            "techniqueID": "T1548.002",
+            "techniqueName": "Bypass User Access Control",
             "comment": "APT29 (G0016)"
         },
         {
             "score": 1,
-            "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Access Control",
+            "techniqueID": "T1546.003",
+            "techniqueName": "Windows Management Instrumentation Event Subscription",
             "comment": "APT29 (G0016)"
         },
         {
@@ -96,14 +96,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1546.008",
-            "techniqueName": "Accessibility Features",
+            "techniqueID": "T1550.003",
+            "techniqueName": "Pass the Ticket",
             "comment": "APT29 (G0016)"
         },
         {
             "score": 1,
-            "techniqueID": "T1550.003",
-            "techniqueName": "Pass the Ticket",
+            "techniqueID": "T1546.008",
+            "techniqueName": "Accessibility Features",
             "comment": "APT29 (G0016)"
         },
         {
@@ -192,26 +192,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1199",
             "techniqueName": "Trusted Relationship",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1213.002",
-            "techniqueName": "Sharepoint",
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
             "comment": "APT28 (G0007)"
         },
         {
@@ -228,6 +222,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1213.002",
+            "techniqueName": "Sharepoint",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1005",
             "techniqueName": "Data from Local System",
             "comment": "APT28 (G0007)"
@@ -240,14 +240,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1210",
-            "techniqueName": "Exploitation of Remote Services",
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "techniqueID": "T1210",
+            "techniqueName": "Exploitation of Remote Services",
             "comment": "APT28 (G0007)"
         },
         {
@@ -270,12 +270,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1134.001",
             "techniqueName": "Token Impersonation/Theft",
             "comment": "APT28 (G0007)"
@@ -294,6 +288,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1120",
             "techniqueName": "Peripheral Device Discovery",
             "comment": "APT28 (G0007)"
@@ -302,12 +302,6 @@
             "score": 1,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -324,6 +318,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1091",
             "techniqueName": "Replication Through Removable Media",
             "comment": "APT28 (G0007)"
@@ -336,26 +336,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1546.015",
-            "techniqueName": "Component Object Model Hijacking",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1542.003",
             "techniqueName": "Bootkit",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "APT28 (G0007)"
         },
         {
@@ -366,14 +348,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
+            "techniqueID": "T1546.015",
+            "techniqueName": "Component Object Model Hijacking",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1001.001",
-            "techniqueName": "Junk Data",
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "APT28 (G0007)"
         },
         {
@@ -384,14 +372,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.006",
-            "techniqueName": "Timestomp",
+            "techniqueID": "T1001.001",
+            "techniqueName": "Junk Data",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1071.003",
             "techniqueName": "Mail Protocols",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.006",
+            "techniqueName": "Timestomp",
             "comment": "APT28 (G0007)"
         },
         {
@@ -415,9 +415,9 @@
     ],
     "gradient": {
         "colors": [
-            "#fffda3",
-            "#1061ed",
-            "#63e26c"
+            "#5894bc",
+            "#fbfcb3",
+            "#bab2f4"
         ],
         "minValue": 0,
         "maxValue": 2

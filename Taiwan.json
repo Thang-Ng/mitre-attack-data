@@ -101,10 +101,16 @@
             "comment": "BRONZE BUTLER (G0060)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "BRONZE BUTLER (G0060) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Night Dragon (G0014) & Tropic Trooper (G0081)"
+            "score": 2,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "BRONZE BUTLER (G0060) & APT1 (G0006)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1548.002",
+            "techniqueName": "Bypass User Access Control",
+            "comment": "BRONZE BUTLER (G0060) & Cobalt Group (G0080) & Threat Group-3390 (G0027)"
         },
         {
             "score": 2,
@@ -120,15 +126,21 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Access Control",
-            "comment": "BRONZE BUTLER (G0060) & Cobalt Group (G0080) & Threat Group-3390 (G0027)"
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "BRONZE BUTLER (G0060) & Lazarus Group (G0032) & Tropic Trooper (G0081)"
         },
         {
             "score": 2,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "BRONZE BUTLER (G0060) & APT1 (G0006)"
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "BRONZE BUTLER (G0060) & Silence (G0091)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "BRONZE BUTLER (G0060) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Night Dragon (G0014) & Tropic Trooper (G0081)"
         },
         {
             "score": 5,
@@ -143,28 +155,10 @@
             "comment": "BRONZE BUTLER (G0060) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
-            "comment": "BRONZE BUTLER (G0060) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Silence (G0091) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "BRONZE BUTLER (G0060) & Lazarus Group (G0032) & Tropic Trooper (G0081)"
-        },
-        {
             "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
             "comment": "BRONZE BUTLER (G0060)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "BRONZE BUTLER (G0060) & Silence (G0091)"
         },
         {
             "score": 3,
@@ -179,6 +173,18 @@
             "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & Threat Group-3390 (G0027) & Lazarus Group (G0032)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1550.003",
+            "techniqueName": "Pass the Ticket",
+            "comment": "BRONZE BUTLER (G0060)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
+            "comment": "BRONZE BUTLER (G0060) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Silence (G0091) & Tropic Trooper (G0081)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1124",
             "techniqueName": "System Time Discovery",
@@ -191,28 +197,22 @@
             "comment": "BRONZE BUTLER (G0060) & Cobalt Group (G0080) & APT1 (G0006) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Silence (G0091) & Tropic Trooper (G0081)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
-            "comment": "BRONZE BUTLER (G0060)"
-        },
-        {
             "score": 7,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "BRONZE BUTLER (G0060) & Cobalt Group (G0080) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Silence (G0091) & Tropic Trooper (G0081)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "BRONZE BUTLER (G0060) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Silence (G0091) & Tropic Trooper (G0081)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1132.001",
             "techniqueName": "Standard Encoding",
             "comment": "BRONZE BUTLER (G0060) & Lazarus Group (G0032) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "BRONZE BUTLER (G0060) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Silence (G0091) & Tropic Trooper (G0081)"
         },
         {
             "score": 2,
@@ -222,14 +222,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1039",
-            "techniqueName": "Data from Network Shared Drive",
-            "comment": "BRONZE BUTLER (G0060)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1550.003",
-            "techniqueName": "Pass the Ticket",
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
             "comment": "BRONZE BUTLER (G0060)"
         },
         {
@@ -237,6 +231,12 @@
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
             "comment": "BRONZE BUTLER (G0060) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Thrip (G0076) & Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
+            "comment": "BRONZE BUTLER (G0060)"
         },
         {
             "score": 1,
@@ -251,28 +251,28 @@
             "comment": "Carbanak (G0008) & Cobalt Group (G0080) & Thrip (G0076) & Night Dragon (G0014)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
-            "comment": "Carbanak (G0008) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "Carbanak (G0008)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1218.011",
             "techniqueName": "Rundll32",
             "comment": "Carbanak (G0008)"
         },
         {
+            "score": 5,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "Carbanak (G0008) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Tropic Trooper (G0081)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1562.004",
             "techniqueName": "Disable or Modify System Firewall",
             "comment": "Carbanak (G0008) & Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "Carbanak (G0008)"
         },
         {
             "score": 5,
@@ -323,22 +323,28 @@
             "comment": "Cobalt Group (G0080)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1218.003",
-            "techniqueName": "CMSTP",
-            "comment": "Cobalt Group (G0080)"
-        },
-        {
             "score": 4,
             "techniqueID": "T1021.001",
             "techniqueName": "Remote Desktop Protocol",
             "comment": "Cobalt Group (G0080) & APT1 (G0006) & Lazarus Group (G0032) & Silence (G0091)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1218.003",
+            "techniqueName": "CMSTP",
+            "comment": "Cobalt Group (G0080)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
             "comment": "Cobalt Group (G0080) & Night Dragon (G0014)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1046",
+            "techniqueName": "Network Service Scanning",
+            "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
             "score": 7,
@@ -353,16 +359,10 @@
             "comment": "Cobalt Group (G0080)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1046",
-            "techniqueName": "Network Service Scanning",
-            "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1559.002",
-            "techniqueName": "Dynamic Data Exchange",
-            "comment": "Cobalt Group (G0080)"
+            "score": 2,
+            "techniqueID": "T1573.002",
+            "techniqueName": "Asymmetric Cryptography",
+            "comment": "Cobalt Group (G0080) & Tropic Trooper (G0081)"
         },
         {
             "score": 2,
@@ -383,10 +383,10 @@
             "comment": "Cobalt Group (G0080)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1573.002",
-            "techniqueName": "Asymmetric Cryptography",
-            "comment": "Cobalt Group (G0080) & Tropic Trooper (G0081)"
+            "score": 1,
+            "techniqueID": "T1559.002",
+            "techniqueName": "Dynamic Data Exchange",
+            "comment": "Cobalt Group (G0080)"
         },
         {
             "score": 1,
@@ -450,12 +450,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1333",
-            "techniqueName": "Dynamic DNS",
-            "comment": "APT1 (G0006)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1346",
             "techniqueName": "Obtain/re-use payloads",
             "comment": "APT1 (G0006)"
@@ -465,6 +459,12 @@
             "techniqueID": "T1330",
             "techniqueName": "Acquire and/or use 3rd party software services",
             "comment": "APT1 (G0006) & Night Dragon (G0014)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1333",
+            "techniqueName": "Dynamic DNS",
+            "comment": "APT1 (G0006)"
         },
         {
             "score": 1,
@@ -581,12 +581,6 @@
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "Threat Group-3390 (G0027) & Night Dragon (G0014)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1030",
             "techniqueName": "Data Transfer Size Limits",
@@ -597,6 +591,12 @@
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "Threat Group-3390 (G0027) & Night Dragon (G0014)"
         },
         {
             "score": 3,
@@ -678,14 +678,14 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1055.001",
-            "techniqueName": "Dynamic-link Library Injection",
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
             "comment": "Lazarus Group (G0032) & Tropic Trooper (G0081)"
         },
         {
             "score": 2,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
+            "techniqueID": "T1055.001",
+            "techniqueName": "Dynamic-link Library Injection",
             "comment": "Lazarus Group (G0032) & Tropic Trooper (G0081)"
         },
         {
@@ -707,10 +707,10 @@
             "comment": "Lazarus Group (G0032)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "Lazarus Group (G0032) & Tropic Trooper (G0081)"
+            "score": 1,
+            "techniqueID": "T1110.003",
+            "techniqueName": "Password Spraying",
+            "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
@@ -719,10 +719,10 @@
             "comment": "Lazarus Group (G0032)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1110.003",
-            "techniqueName": "Password Spraying",
-            "comment": "Lazarus Group (G0032)"
+            "score": 2,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "Lazarus Group (G0032) & Tropic Trooper (G0081)"
         },
         {
             "score": 1,
@@ -744,14 +744,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -768,14 +768,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1098",
-            "techniqueName": "Account Manipulation",
+            "techniqueID": "T1070.006",
+            "techniqueName": "Timestomp",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1070.006",
-            "techniqueName": "Timestomp",
+            "techniqueID": "T1098",
+            "techniqueName": "Account Manipulation",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -877,15 +877,15 @@
     ],
     "gradient": {
         "colors": [
-            "#c31ed8",
-            "#ffcb63",
-            "#0d5477",
-            "#ffe2a8",
-            "#64fce5",
-            "#ed5aad",
-            "#0ffc32",
-            "#a0f7eb",
-            "#efc2a2"
+            "#ca81f4",
+            "#fcceae",
+            "#358c9e",
+            "#1d2393",
+            "#5cd16d",
+            "#5d44b5",
+            "#1fe2c2",
+            "#85b8d1",
+            "#51efad"
         ],
         "minValue": 0,
         "maxValue": 8

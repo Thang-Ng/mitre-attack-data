@@ -47,9 +47,27 @@
             "comment": "Leviathan (G0065)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Leviathan (G0065) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1197",
+            "techniqueName": "BITS Jobs",
+            "comment": "Leviathan (G0065)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1218.010",
             "techniqueName": "Regsvr32",
+            "comment": "Leviathan (G0065)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
             "comment": "Leviathan (G0065)"
         },
         {
@@ -66,14 +84,14 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
             "comment": "Leviathan (G0065) & APT28 (G0007)"
         },
         {
             "score": 2,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
+            "techniqueID": "T1078",
+            "techniqueName": "Valid Accounts",
             "comment": "Leviathan (G0065) & APT28 (G0007)"
         },
         {
@@ -83,21 +101,9 @@
             "comment": "Leviathan (G0065)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1197",
-            "techniqueName": "BITS Jobs",
-            "comment": "Leviathan (G0065)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059.005",
-            "techniqueName": "Visual Basic",
-            "comment": "Leviathan (G0065)"
-        },
-        {
             "score": 2,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
             "comment": "Leviathan (G0065) & APT28 (G0007)"
         },
         {
@@ -105,30 +111,6 @@
             "techniqueID": "T1047",
             "techniqueName": "Windows Management Instrumentation",
             "comment": "Leviathan (G0065)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Leviathan (G0065) & APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1546.003",
-            "techniqueName": "Windows Management Instrumentation Event Subscription",
-            "comment": "Leviathan (G0065)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1078",
-            "techniqueName": "Valid Accounts",
-            "comment": "Leviathan (G0065) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
-            "comment": "Leviathan (G0065) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -149,12 +131,6 @@
             "comment": "Leviathan (G0065) & APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "Leviathan (G0065)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
@@ -170,6 +146,30 @@
             "score": 1,
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
+            "comment": "Leviathan (G0065)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "Leviathan (G0065) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Leviathan (G0065) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1546.003",
+            "techniqueName": "Windows Management Instrumentation Event Subscription",
+            "comment": "Leviathan (G0065)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
             "comment": "Leviathan (G0065)"
         },
         {
@@ -234,26 +234,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1199",
             "techniqueName": "Trusted Relationship",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1213.002",
-            "techniqueName": "Sharepoint",
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
             "comment": "APT28 (G0007)"
         },
         {
@@ -266,6 +260,12 @@
             "score": 1,
             "techniqueID": "T1211",
             "techniqueName": "Exploitation for Defense Evasion",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1213.002",
+            "techniqueName": "Sharepoint",
             "comment": "APT28 (G0007)"
         },
         {
@@ -300,12 +300,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1134.001",
             "techniqueName": "Token Impersonation/Theft",
             "comment": "APT28 (G0007)"
@@ -324,6 +318,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1120",
             "techniqueName": "Peripheral Device Discovery",
             "comment": "APT28 (G0007)"
@@ -336,14 +336,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
+            "techniqueID": "T1550.002",
+            "techniqueName": "Pass the Hash",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1550.002",
-            "techniqueName": "Pass the Hash",
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -360,20 +360,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1546.015",
-            "techniqueName": "Component Object Model Hijacking",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1542.003",
             "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
+            "techniqueID": "T1546.015",
+            "techniqueName": "Component Object Model Hijacking",
             "comment": "APT28 (G0007)"
         },
         {
@@ -384,8 +378,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "APT28 (G0007)"
         },
         {
@@ -396,8 +390,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.006",
-            "techniqueName": "Timestomp",
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.011",
+            "techniqueName": "Rundll32",
             "comment": "APT28 (G0007)"
         },
         {
@@ -408,8 +408,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1218.011",
-            "techniqueName": "Rundll32",
+            "techniqueID": "T1070.006",
+            "techniqueName": "Timestomp",
             "comment": "APT28 (G0007)"
         },
         {
@@ -433,9 +433,9 @@
     ],
     "gradient": {
         "colors": [
-            "#86eaf9",
-            "#02935e",
-            "#efb577"
+            "#bff9a2",
+            "#2abfd6",
+            "#6168ce"
         ],
         "minValue": 0,
         "maxValue": 2
