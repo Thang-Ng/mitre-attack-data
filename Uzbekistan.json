@@ -18,12 +18,6 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1218.011",
-            "techniqueName": "Rundll32",
-            "comment": "Carbanak (G0008) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1036.005",
             "techniqueName": "Match Legitimate Name or Location",
             "comment": "Carbanak (G0008) & Silence (G0091)"
@@ -35,16 +29,22 @@
             "comment": "Carbanak (G0008) & Ke3chang (G0004)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1562.004",
-            "techniqueName": "Disable or Modify System Firewall",
-            "comment": "Carbanak (G0008)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
             "comment": "Carbanak (G0008) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1218.011",
+            "techniqueName": "Rundll32",
+            "comment": "Carbanak (G0008) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1562.004",
+            "techniqueName": "Disable or Modify System Firewall",
+            "comment": "Carbanak (G0008)"
         },
         {
             "score": 3,
@@ -185,6 +185,12 @@
             "comment": "Ke3chang (G0004) & Turla (G0010)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
@@ -210,21 +216,15 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1560",
             "techniqueName": "Archive Collected Data",
             "comment": "Ke3chang (G0004) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -443,16 +443,16 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1210",
             "techniqueName": "Exploitation of Remote Services",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -516,12 +516,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1546.015",
             "techniqueName": "Component Object Model Hijacking",
             "comment": "APT28 (G0007)"
@@ -534,8 +528,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1001.001",
             "techniqueName": "Junk Data",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.006",
+            "techniqueName": "Timestomp",
             "comment": "APT28 (G0007)"
         },
         {
@@ -552,20 +558,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.006",
-            "techniqueName": "Timestomp",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1346",
             "techniqueName": "Obtain/re-use payloads",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
@@ -691,11 +691,11 @@
     ],
     "gradient": {
         "colors": [
-            "#0e935e",
-            "#e5f481",
-            "#ed6550",
-            "#f9c0f0",
-            "#1d64d6"
+            "#e0ce57",
+            "#253982",
+            "#30d387",
+            "#ff7505",
+            "#b091e2"
         ],
         "minValue": 0,
         "maxValue": 4

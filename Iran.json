@@ -281,6 +281,12 @@
             "comment": "APT32 (G0050) & Ke3chang (G0004) & Turla (G0010)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "APT32 (G0050) & Magic Hound (G0059) & MuddyWater (G0069)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1070.001",
             "techniqueName": "Clear Windows Event Logs",
@@ -291,18 +297,6 @@
             "techniqueID": "T1027.001",
             "techniqueName": "Binary Padding",
             "comment": "APT32 (G0050)"
-        },
-        {
-            "score": 6,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "APT32 (G0050) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "APT32 (G0050) & Magic Hound (G0059) & MuddyWater (G0069)"
         },
         {
             "score": 3,
@@ -317,16 +311,22 @@
             "comment": "APT32 (G0050) & APT33 (G0064) & DarkHydrus (G0079) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1574.002",
-            "techniqueName": "DLL Side-Loading",
-            "comment": "APT32 (G0050) & Threat Group-3390 (G0027)"
-        },
-        {
             "score": 8,
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
             "comment": "APT32 (G0050) & APT33 (G0064) & DarkHydrus (G0079) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "APT32 (G0050) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1574.002",
+            "techniqueName": "DLL Side-Loading",
+            "comment": "APT32 (G0050) & Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
@@ -351,6 +351,12 @@
             "techniqueID": "T1071.001",
             "techniqueName": "Web Protocols",
             "comment": "APT32 (G0050) & APT33 (G0064) & Threat Group-3390 (G0027) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1072",
+            "techniqueName": "Software Deployment Tools",
+            "comment": "APT32 (G0050)"
         },
         {
             "score": 1,
@@ -387,12 +393,6 @@
             "techniqueID": "T1053.005",
             "techniqueName": "Scheduled Task",
             "comment": "APT32 (G0050) & APT33 (G0064) & MuddyWater (G0069)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1072",
-            "techniqueName": "Software Deployment Tools",
-            "comment": "APT32 (G0050)"
         },
         {
             "score": 3,
@@ -528,6 +528,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1055.012",
             "techniqueName": "Process Hollowing",
             "comment": "Threat Group-3390 (G0027)"
@@ -537,12 +543,6 @@
             "techniqueID": "T1548.002",
             "techniqueName": "Bypass User Access Control",
             "comment": "Threat Group-3390 (G0027) & MuddyWater (G0069)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 6,
@@ -563,12 +563,6 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1562.002",
-            "techniqueName": "Disable Windows Event Logging",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1119",
             "techniqueName": "Automated Collection",
@@ -576,9 +570,21 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1562.002",
+            "techniqueName": "Disable Windows Event Logging",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1560.002",
             "techniqueName": "Archive via Library",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & Sandworm Team (G0034)"
         },
         {
             "score": 1,
@@ -597,12 +603,6 @@
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
             "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & Sandworm Team (G0034)"
         },
         {
             "score": 3,
@@ -900,14 +900,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
+            "techniqueID": "T1546.015",
+            "techniqueName": "Component Object Model Hijacking",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1546.015",
-            "techniqueName": "Component Object Model Hijacking",
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
@@ -918,26 +918,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1328",
             "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1556.002",
-            "techniqueName": "Password Filter DLL",
-            "comment": "Strider (G0041)"
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1090.001",
             "techniqueName": "Internal Proxy",
+            "comment": "Strider (G0041)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1556.002",
+            "techniqueName": "Password Filter DLL",
             "comment": "Strider (G0041)"
         },
         {
@@ -1021,17 +1021,17 @@
     ],
     "gradient": {
         "colors": [
-            "#53e89d",
-            "#53e0d9",
-            "#059121",
-            "#d68d19",
-            "#68ffd1",
-            "#e51688",
-            "#f9ca20",
-            "#9371e2",
-            "#26d65b",
-            "#cc9ffc",
-            "#f2c280"
+            "#d402f4",
+            "#f7167f",
+            "#e0c388",
+            "#ce6352",
+            "#ba2cdd",
+            "#fbffa0",
+            "#c36be5",
+            "#0cc912",
+            "#2729ba",
+            "#dd1aef",
+            "#e1bdfc"
         ],
         "minValue": 0,
         "maxValue": 10

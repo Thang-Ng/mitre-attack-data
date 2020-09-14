@@ -167,6 +167,12 @@
             "comment": "Ke3chang (G0004) & Turla (G0010)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
@@ -191,22 +197,16 @@
             "comment": "Ke3chang (G0004)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1560",
             "techniqueName": "Archive Collected Data",
             "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -481,11 +481,11 @@
     ],
     "gradient": {
         "colors": [
-            "#913cc9",
-            "#ea7c9b",
-            "#e0976d",
-            "#4a6d03",
-            "#fc8755"
+            "#db6d5c",
+            "#0c387f",
+            "#40ddb9",
+            "#cceaff",
+            "#f7858f"
         ],
         "minValue": 0,
         "maxValue": 4

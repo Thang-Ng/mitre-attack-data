@@ -114,14 +114,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1114.002",
-            "techniqueName": "Remote Email Collection",
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript/JScript",
             "comment": "Leafminer (G0077)"
         },
         {
             "score": 1,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -133,8 +133,8 @@
     ],
     "gradient": {
         "colors": [
-            "#4c3fdb",
-            "#58dee8"
+            "#d5b1ef",
+            "#e06b67"
         ],
         "minValue": 0,
         "maxValue": 1

@@ -162,6 +162,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1213.002",
+            "techniqueName": "Sharepoint",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1037.001",
             "techniqueName": "Logon Script (Windows)",
             "comment": "APT28 (G0007)"
@@ -170,12 +176,6 @@
             "score": 1,
             "techniqueID": "T1211",
             "techniqueName": "Exploitation for Defense Evasion",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1213.002",
-            "techniqueName": "Sharepoint",
             "comment": "APT28 (G0007)"
         },
         {
@@ -191,16 +191,16 @@
             "comment": "APT28 (G0007) & Sowbug (G0054) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "APT28 (G0007) & menuPass (G0045) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1210",
             "techniqueName": "Exploitation of Remote Services",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "APT28 (G0007) & menuPass (G0045) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -288,18 +288,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "APT28 (G0007) & Soft Cell (G0093)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1546.015",
             "techniqueName": "Component Object Model Hijacking",
             "comment": "APT28 (G0007)"
@@ -309,6 +297,18 @@
             "techniqueID": "T1068",
             "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "APT28 (G0007) & Soft Cell (G0093)"
         },
         {
             "score": 4,
@@ -323,6 +323,12 @@
             "comment": "APT28 (G0007) & Sowbug (G0054) & menuPass (G0045)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1001.001",
+            "techniqueName": "Junk Data",
+            "comment": "APT28 (G0007)"
+        },
+        {
             "score": 4,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
@@ -330,8 +336,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1001.001",
-            "techniqueName": "Junk Data",
+            "techniqueID": "T1070.006",
+            "techniqueName": "Timestomp",
             "comment": "APT28 (G0007)"
         },
         {
@@ -353,16 +359,16 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1070.006",
-            "techniqueName": "Timestomp",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1090.002",
             "techniqueName": "External Proxy",
             "comment": "APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -372,9 +378,9 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
-            "comment": "APT28 (G0007)"
+            "techniqueID": "T1135",
+            "techniqueName": "Network Share Discovery",
+            "comment": "Sowbug (G0054)"
         },
         {
             "score": 4,
@@ -383,22 +389,16 @@
             "comment": "Sowbug (G0054) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1135",
-            "techniqueName": "Network Share Discovery",
-            "comment": "Sowbug (G0054)"
+            "score": 2,
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
+            "comment": "Sowbug (G0054) & menuPass (G0045)"
         },
         {
             "score": 2,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
             "comment": "Sowbug (G0054) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1039",
-            "techniqueName": "Data from Network Shared Drive",
-            "comment": "Sowbug (G0054) & menuPass (G0045)"
         },
         {
             "score": 1,
@@ -461,12 +461,6 @@
             "comment": "menuPass (G0045)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1574.002",
-            "techniqueName": "DLL Side-Loading",
-            "comment": "menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1021.001",
             "techniqueName": "Remote Desktop Protocol",
@@ -483,6 +477,12 @@
             "techniqueID": "T1021.004",
             "techniqueName": "SSH",
             "comment": "menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1574.002",
+            "techniqueName": "DLL Side-Loading",
+            "comment": "menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 1,
@@ -648,6 +648,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
             "comment": "Turla (G0010)"
@@ -668,12 +674,6 @@
             "score": 1,
             "techniqueID": "T1547.004",
             "techniqueName": "Winlogon Helper DLL",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Turla (G0010)"
         },
         {
@@ -703,12 +703,12 @@
     ],
     "gradient": {
         "colors": [
-            "#d30e98",
-            "#d65624",
-            "#704eb7",
-            "#12a5a5",
-            "#77db13",
-            "#b24408"
+            "#e3ed5e",
+            "#a78eed",
+            "#c4ea2c",
+            "#6031b7",
+            "#c632d3",
+            "#a9f9d1"
         ],
         "minValue": 0,
         "maxValue": 5

@@ -54,6 +54,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "Patchwork (G0040)"
@@ -96,12 +102,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1112",
             "techniqueName": "Modify Registry",
             "comment": "Patchwork (G0040)"
@@ -138,12 +138,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027.002",
-            "techniqueName": "Software Packing",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1055.012",
             "techniqueName": "Process Hollowing",
             "comment": "Patchwork (G0040)"
@@ -156,6 +150,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1027.002",
+            "techniqueName": "Software Packing",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1102.001",
             "techniqueName": "Dead Drop Resolver",
             "comment": "Patchwork (G0040)"
@@ -164,12 +164,6 @@
             "score": 1,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -186,14 +180,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.001",
-            "techniqueName": "Remote Desktop Protocol",
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -204,8 +204,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
+            "techniqueID": "T1021.001",
+            "techniqueName": "Remote Desktop Protocol",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -241,9 +241,9 @@
     ],
     "gradient": {
         "colors": [
-            "#43c91a",
-            "#4e9ee5",
-            "#d6645e"
+            "#2cf7d2",
+            "#a8e228",
+            "#e8e55f"
         ],
         "minValue": 0,
         "maxValue": 2

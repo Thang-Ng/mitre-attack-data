@@ -281,16 +281,16 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1055.012",
             "techniqueName": "Process Hollowing",
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Threat Group-3390 (G0027) & Gallmaker (G0084) & Patchwork (G0040)"
         },
         {
             "score": 2,
@@ -305,6 +305,12 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Threat Group-3390 (G0027) & Gallmaker (G0084) & Patchwork (G0040)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1112",
             "techniqueName": "Modify Registry",
@@ -317,18 +323,6 @@
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1140",
             "techniqueName": "Deobfuscate/Decode Files or Information",
@@ -338,6 +332,12 @@
             "score": 1,
             "techniqueID": "T1012",
             "techniqueName": "Query Registry",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -359,22 +359,10 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
@@ -384,8 +372,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1562.002",
-            "techniqueName": "Disable Windows Event Logging",
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -396,8 +390,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1562.002",
+            "techniqueName": "Disable Windows Event Logging",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1560.002",
             "techniqueName": "Archive via Library",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -413,12 +419,6 @@
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1574.002",
             "techniqueName": "DLL Side-Loading",
@@ -426,14 +426,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
+            "techniqueID": "T1003.004",
+            "techniqueName": "LSA Secrets",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
-            "techniqueID": "T1003.004",
-            "techniqueName": "LSA Secrets",
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -468,6 +468,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1027.001",
             "techniqueName": "Binary Padding",
             "comment": "Patchwork (G0040)"
@@ -476,12 +482,6 @@
             "score": 1,
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -529,13 +529,13 @@
     ],
     "gradient": {
         "colors": [
-            "#5ec0c1",
-            "#ed220b",
-            "#dadd25",
-            "#cec627",
-            "#38ea6a",
-            "#fcde97",
-            "#a4abe8"
+            "#74e268",
+            "#ecaded",
+            "#ff424e",
+            "#83c0db",
+            "#02d18c",
+            "#16a316",
+            "#dff799"
         ],
         "minValue": 0,
         "maxValue": 6

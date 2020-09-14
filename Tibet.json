@@ -48,15 +48,21 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1055.012",
-            "techniqueName": "Process Hollowing",
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 2,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
             "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1055.012",
+            "techniqueName": "Process Hollowing",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
@@ -71,6 +77,12 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1112",
             "techniqueName": "Modify Registry",
@@ -83,9 +95,15 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
+        },
+        {
             "score": 1,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
+            "techniqueID": "T1012",
+            "techniqueName": "Query Registry",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -99,24 +117,6 @@
             "techniqueID": "T1543.003",
             "techniqueName": "Windows Service",
             "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1012",
-            "techniqueName": "Query Registry",
-            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
@@ -143,16 +143,22 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.005",
+            "techniqueName": "Network Share Connection Removal",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 2,
@@ -167,22 +173,16 @@
             "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1070.005",
-            "techniqueName": "Network Share Connection Removal",
-            "comment": "Threat Group-3390 (G0027)"
+            "score": 2,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
             "score": 1,
             "techniqueID": "T1562.002",
             "techniqueName": "Disable Windows Event Logging",
             "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
             "score": 2,
@@ -198,14 +198,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1030",
-            "techniqueName": "Data Transfer Size Limits",
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
-            "techniqueID": "T1078",
-            "techniqueName": "Valid Accounts",
+            "techniqueID": "T1030",
+            "techniqueName": "Data Transfer Size Limits",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -222,8 +222,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
+            "techniqueID": "T1078",
+            "techniqueName": "Valid Accounts",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -234,14 +234,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
+            "techniqueID": "T1003.004",
+            "techniqueName": "LSA Secrets",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
-            "techniqueID": "T1003.004",
-            "techniqueName": "LSA Secrets",
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -409,9 +409,9 @@
     ],
     "gradient": {
         "colors": [
-            "#f7e456",
-            "#b7fcab",
-            "#faccff"
+            "#9bf2ab",
+            "#ffc1e9",
+            "#80f2e8"
         ],
         "minValue": 0,
         "maxValue": 2

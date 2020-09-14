@@ -143,6 +143,12 @@
             "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
         },
         {
+            "score": 5,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Turla (G0010)"
+        },
+        {
             "score": 6,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
@@ -168,21 +174,15 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
-            "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Turla (G0010)"
-        },
-        {
-            "score": 3,
             "techniqueID": "T1560",
             "techniqueName": "Archive Collected Data",
             "comment": "Ke3chang (G0004) & Patchwork (G0040) & APT28 (G0007)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -287,16 +287,16 @@
             "comment": "Magic Hound (G0059)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Magic Hound (G0059) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & The White Company (G0089)"
-        },
-        {
             "score": 7,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
             "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "Magic Hound (G0059) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & The White Company (G0089)"
         },
         {
             "score": 2,
@@ -462,18 +462,6 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1201",
-            "techniqueName": "Password Policy Discovery",
-            "comment": "OilRig (G0049) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1218.001",
-            "techniqueName": "Compiled HTML File",
-            "comment": "OilRig (G0049) & Silence (G0091)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1110",
             "techniqueName": "Brute Force",
             "comment": "OilRig (G0049) & Turla (G0010)"
@@ -485,22 +473,40 @@
             "comment": "OilRig (G0049)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1201",
+            "techniqueName": "Password Policy Discovery",
+            "comment": "OilRig (G0049) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1218.001",
+            "techniqueName": "Compiled HTML File",
+            "comment": "OilRig (G0049) & Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
+            "comment": "OilRig (G0049)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1119",
             "techniqueName": "Automated Collection",
             "comment": "OilRig (G0049) & Patchwork (G0040) & APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1069.001",
-            "techniqueName": "Local Groups",
-            "comment": "OilRig (G0049) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1021.004",
             "techniqueName": "SSH",
             "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1069.001",
+            "techniqueName": "Local Groups",
+            "comment": "OilRig (G0049) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -528,8 +534,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
+            "techniqueID": "T1008",
+            "techniqueName": "Fallback Channels",
             "comment": "OilRig (G0049)"
         },
         {
@@ -537,12 +543,6 @@
             "techniqueID": "T1078",
             "techniqueName": "Valid Accounts",
             "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1008",
-            "techniqueName": "Fallback Channels",
-            "comment": "OilRig (G0049)"
         },
         {
             "score": 3,
@@ -593,16 +593,16 @@
             "comment": "Patchwork (G0040) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1027.002",
-            "techniqueName": "Software Packing",
-            "comment": "Patchwork (G0040) & The White Company (G0089)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1055.012",
             "techniqueName": "Process Hollowing",
             "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1027.002",
+            "techniqueName": "Software Packing",
+            "comment": "Patchwork (G0040) & The White Company (G0089)"
         },
         {
             "score": 1,
@@ -756,12 +756,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1546.015",
             "techniqueName": "Component Object Model Hijacking",
             "comment": "APT28 (G0007)"
@@ -774,8 +768,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1001.001",
             "techniqueName": "Junk Data",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.006",
+            "techniqueName": "Timestomp",
             "comment": "APT28 (G0007)"
         },
         {
@@ -792,20 +798,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.006",
-            "techniqueName": "Timestomp",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1346",
             "techniqueName": "Obtain/re-use payloads",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
@@ -877,15 +877,15 @@
     ],
     "gradient": {
         "colors": [
-            "#a3ffaa",
-            "#d8190f",
-            "#134ea5",
-            "#c02de5",
-            "#90f26d",
-            "#a32e23",
-            "#5ee08b",
-            "#8c03ba",
-            "#afffdc"
+            "#e6c2fc",
+            "#6949dd",
+            "#35eac3",
+            "#3951a3",
+            "#ffbac9",
+            "#05295e",
+            "#3836a0",
+            "#b4dd1c",
+            "#85cad1"
         ],
         "minValue": 0,
         "maxValue": 8

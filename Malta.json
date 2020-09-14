@@ -54,8 +54,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1059",
-            "techniqueName": "Command and Scripting Interpreter",
+            "techniqueID": "T1071.004",
+            "techniqueName": "DNS",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -66,14 +66,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1071.004",
-            "techniqueName": "DNS",
+            "techniqueID": "T1059",
+            "techniqueName": "Command and Scripting Interpreter",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -84,14 +78,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
             "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
             "techniqueID": "T1043",
             "techniqueName": "Commonly Used Port",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -151,8 +151,8 @@
     ],
     "gradient": {
         "colors": [
-            "#32ce2d",
-            "#007501"
+            "#5de21b",
+            "#3d2b96"
         ],
         "minValue": 0,
         "maxValue": 1

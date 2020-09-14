@@ -59,6 +59,12 @@
             "comment": "APT37 (G0067) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "APT37 (G0067) & Tropic Trooper (G0081)"
+        },
+        {
             "score": 4,
             "techniqueID": "T1106",
             "techniqueName": "Native API",
@@ -69,12 +75,6 @@
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
             "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "APT37 (G0067) & Tropic Trooper (G0081)"
         },
         {
             "score": 3,
@@ -99,6 +99,30 @@
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
             "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1555.003",
+            "techniqueName": "Credentials from Web Browsers",
+            "comment": "APT37 (G0067)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
+            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1123",
+            "techniqueName": "Audio Capture",
+            "comment": "APT37 (G0067)"
         },
         {
             "score": 4,
@@ -131,40 +155,16 @@
             "comment": "APT37 (G0067)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "APT37 (G0067) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1043",
             "techniqueName": "Commonly Used Port",
             "comment": "APT37 (G0067)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1555.003",
-            "techniqueName": "Credentials from Web Browsers",
-            "comment": "APT37 (G0067)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
-            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1123",
-            "techniqueName": "Audio Capture",
-            "comment": "APT37 (G0067)"
+            "score": 2,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "APT37 (G0067) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -565,12 +565,12 @@
     ],
     "gradient": {
         "colors": [
-            "#77890d",
-            "#ff927a",
-            "#2d41a3",
-            "#f7eca3",
-            "#702bd8",
-            "#a1c625"
+            "#79e08f",
+            "#2edda3",
+            "#66e2bd",
+            "#3ef226",
+            "#f49e84",
+            "#1fc12f"
         ],
         "minValue": 0,
         "maxValue": 5
