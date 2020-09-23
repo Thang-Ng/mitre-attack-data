@@ -240,14 +240,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1210",
-            "techniqueName": "Exploitation of Remote Services",
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "techniqueID": "T1210",
+            "techniqueName": "Exploitation of Remote Services",
             "comment": "APT28 (G0007)"
         },
         {
@@ -300,12 +300,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
             "comment": "APT28 (G0007)"
@@ -320,6 +314,12 @@
             "score": 1,
             "techniqueID": "T1092",
             "techniqueName": "Communication Through Removable Media",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -342,14 +342,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "APT28 (G0007)"
         },
         {
@@ -402,22 +402,22 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         }
     ],
     "gradient": {
         "colors": [
-            "#990a14",
-            "#48d6c0",
-            "#9df0f2"
+            "#efa7ad",
+            "#85ef39",
+            "#d17a45"
         ],
         "minValue": 0,
         "maxValue": 2

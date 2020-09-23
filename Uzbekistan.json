@@ -216,15 +216,15 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Ke3chang (G0004) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
             "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Ke3chang (G0004) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -443,16 +443,16 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1210",
-            "techniqueName": "Exploitation of Remote Services",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1140",
             "techniqueName": "Deobfuscate/Decode Files or Information",
             "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1210",
+            "techniqueName": "Exploitation of Remote Services",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -485,12 +485,6 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
@@ -509,6 +503,12 @@
             "comment": "APT28 (G0007)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1091",
             "techniqueName": "Replication Through Removable Media",
@@ -522,14 +522,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "APT28 (G0007)"
         },
         {
@@ -558,14 +558,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
@@ -691,11 +691,11 @@
     ],
     "gradient": {
         "colors": [
-            "#69aa14",
-            "#c0ed5e",
-            "#ed3dde",
-            "#b2ffb5",
-            "#5ae89e"
+            "#ea7f27",
+            "#c2cef9",
+            "#2881e0",
+            "#1cb24e",
+            "#9bc928"
         ],
         "minValue": 0,
         "maxValue": 4

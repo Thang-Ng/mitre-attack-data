@@ -246,14 +246,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -282,6 +282,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1012",
             "techniqueName": "Query Registry",
             "comment": "Lazarus Group (G0032)"
@@ -290,12 +296,6 @@
             "score": 1,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -318,12 +318,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.006",
-            "techniqueName": "Timestomp",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
             "comment": "Lazarus Group (G0032)"
@@ -332,6 +326,12 @@
             "score": 1,
             "techniqueID": "T1543.003",
             "techniqueName": "Windows Service",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.006",
+            "techniqueName": "Timestomp",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -355,8 +355,8 @@
     ],
     "gradient": {
         "colors": [
-            "#cde888",
-            "#0aa83c"
+            "#f4c566",
+            "#e35ae8"
         ],
         "minValue": 0,
         "maxValue": 1

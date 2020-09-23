@@ -426,14 +426,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Turla (G0010)"
         },
         {
@@ -451,10 +451,10 @@
     ],
     "gradient": {
         "colors": [
-            "#b2ffed",
-            "#308ed1",
-            "#ffd3c6",
-            "#802eea"
+            "#d3585c",
+            "#eac73a",
+            "#adffb0",
+            "#9355d6"
         ],
         "minValue": 0,
         "maxValue": 3

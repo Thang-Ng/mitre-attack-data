@@ -83,6 +83,12 @@
             "comment": "Patchwork (G0040)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "Patchwork (G0040) & Silence (G0091)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
@@ -92,12 +98,6 @@
             "score": 2,
             "techniqueID": "T1112",
             "techniqueName": "Modify Registry",
-            "comment": "Patchwork (G0040) & Silence (G0091)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
@@ -179,12 +179,6 @@
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "Patchwork (G0040)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1036.005",
             "techniqueName": "Match Legitimate Name or Location",
@@ -194,6 +188,12 @@
             "score": 1,
             "techniqueID": "T1132.001",
             "techniqueName": "Standard Encoding",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -307,9 +307,9 @@
     ],
     "gradient": {
         "colors": [
-            "#7affbc",
-            "#7770d8",
-            "#e28f53"
+            "#fcbf07",
+            "#9b77ef",
+            "#b1f49c"
         ],
         "minValue": 0,
         "maxValue": 2

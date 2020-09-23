@@ -132,27 +132,27 @@
         },
         {
             "score": 4,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 4,
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
             "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1566.002",
-            "techniqueName": "Spearphishing Link",
-            "comment": "OilRig (G0049) & APT28 (G0007)"
+            "score": 4,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 1,
             "techniqueID": "T1573.002",
             "techniqueName": "Asymmetric Cryptography",
             "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
+            "comment": "OilRig (G0049) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -239,16 +239,16 @@
             "comment": "OilRig (G0049)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1012",
-            "techniqueName": "Query Registry",
-            "comment": "OilRig (G0049)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1016",
             "techniqueName": "System Network Configuration Discovery",
             "comment": "OilRig (G0049) & menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1012",
+            "techniqueName": "Query Registry",
+            "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
@@ -257,16 +257,40 @@
             "comment": "OilRig (G0049)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1048.003",
-            "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
-            "comment": "OilRig (G0049)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1087.002",
             "techniqueName": "Domain Account",
             "comment": "OilRig (G0049) & menuPass (G0045)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "OilRig (G0049) & Soft Cell (G0093)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1048.003",
+            "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
+            "comment": "OilRig (G0049)"
         },
         {
             "score": 3,
@@ -281,34 +305,10 @@
             "comment": "OilRig (G0049) & Soft Cell (G0093)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "OilRig (G0049) & Soft Cell (G0093)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1008",
             "techniqueName": "Fallback Channels",
             "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & Soft Cell (G0093)"
         },
         {
             "score": 5,
@@ -551,12 +551,6 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
@@ -576,6 +570,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1091",
             "techniqueName": "Replication Through Removable Media",
             "comment": "APT28 (G0007)"
@@ -588,14 +588,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "APT28 (G0007)"
         },
         {
@@ -630,14 +630,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
@@ -721,12 +721,12 @@
     ],
     "gradient": {
         "colors": [
-            "#69e522",
-            "#edff7a",
-            "#cae228",
-            "#35c6ac",
-            "#374df2",
-            "#2d02db"
+            "#4fcca6",
+            "#90c637",
+            "#2b1df4",
+            "#cb7bed",
+            "#cde278",
+            "#29d193"
         ],
         "minValue": 0,
         "maxValue": 5

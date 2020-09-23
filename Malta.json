@@ -60,14 +60,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
+            "techniqueID": "T1059",
+            "techniqueName": "Command and Scripting Interpreter",
             "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
-            "techniqueID": "T1059",
-            "techniqueName": "Command and Scripting Interpreter",
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -84,14 +84,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
             "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -151,8 +151,8 @@
     ],
     "gradient": {
         "colors": [
-            "#79f260",
-            "#ffc27c"
+            "#3a83ea",
+            "#3c84d1"
         ],
         "minValue": 0,
         "maxValue": 1

@@ -209,6 +209,12 @@
             "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Leviathan (G0065) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1573.002",
+            "techniqueName": "Asymmetric Cryptography",
+            "comment": "Cobalt Group (G0080) & OilRig (G0049)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1220",
             "techniqueName": "XSL Script Processing",
@@ -219,12 +225,6 @@
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
             "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027) & FIN7 (G0046) & Gorgon Group (G0078) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1573.002",
-            "techniqueName": "Asymmetric Cryptography",
-            "comment": "Cobalt Group (G0080) & OilRig (G0049)"
         },
         {
             "score": 10,
@@ -317,22 +317,16 @@
             "comment": "APT1 (G0006)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1333",
-            "techniqueName": "Dynamic DNS",
-            "comment": "APT1 (G0006)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1330",
-            "techniqueName": "Acquire and/or use 3rd party software services",
-            "comment": "APT1 (G0006)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1346",
             "techniqueName": "Obtain/re-use payloads",
             "comment": "APT1 (G0006) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1333",
+            "techniqueName": "Dynamic DNS",
+            "comment": "APT1 (G0006)"
         },
         {
             "score": 1,
@@ -342,15 +336,9 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1313",
-            "techniqueName": "Obfuscation or cryptography",
-            "comment": "Cleaver (G0003)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1345",
-            "techniqueName": "Create custom payloads",
-            "comment": "Cleaver (G0003)"
+            "techniqueID": "T1330",
+            "techniqueName": "Acquire and/or use 3rd party software services",
+            "comment": "APT1 (G0006)"
         },
         {
             "score": 1,
@@ -362,6 +350,18 @@
             "score": 1,
             "techniqueID": "T1342",
             "techniqueName": "Develop social network persona digital footprint",
+            "comment": "Cleaver (G0003)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1345",
+            "techniqueName": "Create custom payloads",
+            "comment": "Cleaver (G0003)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1313",
+            "techniqueName": "Obfuscation or cryptography",
             "comment": "Cleaver (G0003)"
         },
         {
@@ -905,16 +905,16 @@
             "comment": "Leviathan (G0065) & Patchwork (G0040)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1546.003",
-            "techniqueName": "Windows Management Instrumentation Event Subscription",
-            "comment": "Leviathan (G0065) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1102.003",
             "techniqueName": "One-Way Communication",
             "comment": "Leviathan (G0065)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1546.003",
+            "techniqueName": "Windows Management Instrumentation Event Subscription",
+            "comment": "Leviathan (G0065) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -1183,25 +1183,25 @@
     ],
     "gradient": {
         "colors": [
-            "#dcccff",
-            "#bf14ce",
-            "#8a94ea",
-            "#fcd5c2",
-            "#e0fcab",
-            "#cfdd63",
-            "#9df774",
-            "#ef39a3",
-            "#69ead2",
-            "#6d4abf",
-            "#f2a4a6",
-            "#9d60d6",
-            "#c1d65c",
-            "#c87fdb",
-            "#d9b6f9",
-            "#708bcc",
-            "#d6ffaa",
-            "#ed9ee9",
-            "#4087c9"
+            "#c66751",
+            "#7cffc8",
+            "#f731e3",
+            "#5ae542",
+            "#6b393a",
+            "#24f2e4",
+            "#9ffcf3",
+            "#badd6e",
+            "#dbffb2",
+            "#fcb2a1",
+            "#f2b3c9",
+            "#06cc23",
+            "#d84ea1",
+            "#e89eef",
+            "#bef970",
+            "#b84de2",
+            "#1b3e84",
+            "#c4d65e",
+            "#f9c2f2"
         ],
         "minValue": 0,
         "maxValue": 18

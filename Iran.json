@@ -305,6 +305,12 @@
             "comment": "APT32 (G0050) & Threat Group-3390 (G0027) & Turla (G0010)"
         },
         {
+            "score": 6,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "APT32 (G0050) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & Turla (G0010)"
+        },
+        {
             "score": 9,
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
@@ -315,12 +321,6 @@
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
             "comment": "APT32 (G0050) & APT33 (G0064) & DarkHydrus (G0079) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007)"
-        },
-        {
-            "score": 6,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "APT32 (G0050) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -593,16 +593,16 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
             "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -881,16 +881,16 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1092",
             "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -918,14 +918,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
@@ -1021,17 +1021,17 @@
     ],
     "gradient": {
         "colors": [
-            "#3ac192",
-            "#32fc0f",
-            "#028213",
-            "#10e8c0",
-            "#28bf5f",
-            "#27f7e2",
-            "#44c96e",
-            "#291a7c",
-            "#a8bded",
-            "#26c962",
-            "#db3683"
+            "#ef83db",
+            "#79f283",
+            "#e038ab",
+            "#36ba34",
+            "#80eddc",
+            "#67d863",
+            "#9af9c0",
+            "#84e070",
+            "#f49c61",
+            "#c4d2fc",
+            "#2edb9e"
         ],
         "minValue": 0,
         "maxValue": 10

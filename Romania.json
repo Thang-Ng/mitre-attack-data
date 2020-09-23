@@ -150,15 +150,15 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "APT37 (G0067) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
             "comment": "APT37 (G0067) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "APT37 (G0067) & APT28 (G0007)"
         },
         {
             "score": 2,
@@ -371,16 +371,16 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1210",
-            "techniqueName": "Exploitation of Remote Services",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1140",
             "techniqueName": "Deobfuscate/Decode Files or Information",
             "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1210",
+            "techniqueName": "Exploitation of Remote Services",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -407,12 +407,6 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
@@ -431,6 +425,12 @@
             "comment": "APT28 (G0007)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1091",
             "techniqueName": "Replication Through Removable Media",
@@ -444,14 +444,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "APT28 (G0007)"
         },
         {
@@ -492,14 +492,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
@@ -636,14 +636,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Turla (G0010)"
         },
         {
@@ -667,11 +667,11 @@
     ],
     "gradient": {
         "colors": [
-            "#e076dc",
-            "#f7cd13",
-            "#e085e5",
-            "#3705b5",
-            "#a32047"
+            "#a8fff0",
+            "#7ccccc",
+            "#b2fff2",
+            "#07f7a7",
+            "#fcff82"
         ],
         "minValue": 0,
         "maxValue": 4

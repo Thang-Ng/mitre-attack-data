@@ -29,12 +29,6 @@
             "comment": "Dark Caracal (G0070)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1218.001",
-            "techniqueName": "Compiled HTML File",
-            "comment": "Dark Caracal (G0070) & OilRig (G0049)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
@@ -47,28 +41,34 @@
             "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Leafminer (G0077)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & OilRig (G0049)"
-        },
-        {
             "score": 4,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Molerats (G0021) & MuddyWater (G0069)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Leafminer (G0077) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049)"
+            "score": 2,
+            "techniqueID": "T1218.001",
+            "techniqueName": "Compiled HTML File",
+            "comment": "Dark Caracal (G0070) & OilRig (G0049)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
             "score": 3,
             "techniqueID": "T1071.001",
             "techniqueName": "Web Protocols",
             "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & OilRig (G0049)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Leafminer (G0077) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
             "score": 1,
@@ -245,16 +245,16 @@
             "comment": "Leafminer (G0077)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
-            "comment": "Leafminer (G0077) & Molerats (G0021)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1114.002",
             "techniqueName": "Remote Email Collection",
             "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript/JScript",
+            "comment": "Leafminer (G0077) & Molerats (G0021)"
         },
         {
             "score": 1,
@@ -528,14 +528,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1048.003",
-            "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
             "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
+            "techniqueID": "T1048.003",
+            "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
             "comment": "OilRig (G0049)"
         },
         {
@@ -565,13 +565,13 @@
     ],
     "gradient": {
         "colors": [
-            "#8be0e0",
-            "#4542b2",
-            "#4e9bba",
-            "#27017a",
-            "#cc1c8e",
-            "#9de1e8",
-            "#fca4ae"
+            "#0958ba",
+            "#e27a78",
+            "#9f89ed",
+            "#8c8afc",
+            "#e88b6f",
+            "#e7ff87",
+            "#b234d8"
         ],
         "minValue": 0,
         "maxValue": 6

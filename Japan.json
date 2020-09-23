@@ -167,6 +167,30 @@
             "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045)"
         },
         {
+            "score": 8,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
+            "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1573.001",
+            "techniqueName": "Symmetric Cryptography",
+            "comment": "BRONZE BUTLER (G0060) & Lazarus Group (G0032) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
+            "comment": "BRONZE BUTLER (G0060) & Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1550.003",
+            "techniqueName": "Pass the Ticket",
+            "comment": "BRONZE BUTLER (G0060)"
+        },
+        {
             "score": 4,
             "techniqueID": "T1018",
             "techniqueName": "Remote System Discovery",
@@ -177,12 +201,6 @@
             "techniqueID": "T1005",
             "techniqueName": "Data from Local System",
             "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & Dust Storm (G0031) & Threat Group-3390 (G0027) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 8,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
-            "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 2,
@@ -204,27 +222,9 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1573.001",
-            "techniqueName": "Symmetric Cryptography",
-            "comment": "BRONZE BUTLER (G0060) & Lazarus Group (G0032) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "BRONZE BUTLER (G0060) & Patchwork (G0040)"
-        },
-        {
-            "score": 3,
             "techniqueID": "T1132.001",
             "techniqueName": "Standard Encoding",
             "comment": "BRONZE BUTLER (G0060) & Lazarus Group (G0032) & Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1550.003",
-            "techniqueName": "Pass the Ticket",
-            "comment": "BRONZE BUTLER (G0060)"
         },
         {
             "score": 2,
@@ -305,18 +305,6 @@
             "comment": "APT1 (G0006)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1333",
-            "techniqueName": "Dynamic DNS",
-            "comment": "APT1 (G0006)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1330",
-            "techniqueName": "Acquire and/or use 3rd party software services",
-            "comment": "APT1 (G0006)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1346",
             "techniqueName": "Obtain/re-use payloads",
@@ -324,8 +312,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1333",
+            "techniqueName": "Dynamic DNS",
+            "comment": "APT1 (G0006)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1326",
             "techniqueName": "Domain registration hijacking",
+            "comment": "APT1 (G0006)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1330",
+            "techniqueName": "Acquire and/or use 3rd party software services",
             "comment": "APT1 (G0006)"
         },
         {
@@ -437,16 +437,16 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1070.005",
-            "techniqueName": "Network Share Connection Removal",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1068",
             "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.005",
+            "techniqueName": "Network Share Connection Removal",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
@@ -473,16 +473,16 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 7,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
             "score": 4,
             "techniqueID": "T1078",
             "techniqueName": "Valid Accounts",
             "comment": "Threat Group-3390 (G0027) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
+            "score": 7,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 2,
@@ -515,12 +515,6 @@
             "comment": "Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1569.002",
-            "techniqueName": "Service Execution",
-            "comment": "Honeybee (G0072)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1055",
             "techniqueName": "Process Injection",
@@ -528,14 +522,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1071.002",
-            "techniqueName": "File Transfer Protocols",
+            "techniqueID": "T1569.002",
+            "techniqueName": "Service Execution",
             "comment": "Honeybee (G0072)"
         },
         {
             "score": 1,
             "techniqueID": "T1020",
             "techniqueName": "Automated Exfiltration",
+            "comment": "Honeybee (G0072)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1071.002",
+            "techniqueName": "File Transfer Protocols",
             "comment": "Honeybee (G0072)"
         },
         {
@@ -864,14 +864,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -937,18 +937,18 @@
     ],
     "gradient": {
         "colors": [
-            "#ddabf2",
-            "#edd482",
-            "#dd996e",
-            "#d6bbf7",
-            "#e78bef",
-            "#fff38c",
-            "#21a565",
-            "#b1f99a",
-            "#f9e6b3",
-            "#efb56e",
-            "#cb40dd",
-            "#188c0e"
+            "#af2d61",
+            "#9b071b",
+            "#00bf6f",
+            "#099b2d",
+            "#ad261f",
+            "#fcdcbd",
+            "#39bc32",
+            "#6ee597",
+            "#1de29d",
+            "#ffccf3",
+            "#caea81",
+            "#5ef427"
         ],
         "minValue": 0,
         "maxValue": 11

@@ -299,22 +299,16 @@
             "comment": "APT1 (G0006)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1333",
-            "techniqueName": "Dynamic DNS",
-            "comment": "APT1 (G0006)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1330",
-            "techniqueName": "Acquire and/or use 3rd party software services",
-            "comment": "APT1 (G0006)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1346",
             "techniqueName": "Obtain/re-use payloads",
             "comment": "APT1 (G0006) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1333",
+            "techniqueName": "Dynamic DNS",
+            "comment": "APT1 (G0006)"
         },
         {
             "score": 1,
@@ -324,15 +318,9 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1313",
-            "techniqueName": "Obfuscation or cryptography",
-            "comment": "Cleaver (G0003)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1345",
-            "techniqueName": "Create custom payloads",
-            "comment": "Cleaver (G0003)"
+            "techniqueID": "T1330",
+            "techniqueName": "Acquire and/or use 3rd party software services",
+            "comment": "APT1 (G0006)"
         },
         {
             "score": 1,
@@ -344,6 +332,18 @@
             "score": 1,
             "techniqueID": "T1342",
             "techniqueName": "Develop social network persona digital footprint",
+            "comment": "Cleaver (G0003)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1345",
+            "techniqueName": "Create custom payloads",
+            "comment": "Cleaver (G0003)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1313",
+            "techniqueName": "Obfuscation or cryptography",
             "comment": "Cleaver (G0003)"
         },
         {
@@ -479,16 +479,16 @@
             "comment": "Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1065",
-            "techniqueName": "Uncommonly Used Port",
-            "comment": "Magic Hound (G0059)"
-        },
-        {
             "score": 5,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "Magic Hound (G0059) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1065",
+            "techniqueName": "Uncommonly Used Port",
+            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 3,
@@ -665,16 +665,16 @@
             "comment": "OilRig (G0049) & Stealth Falcon (G0038)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1048.003",
-            "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
-            "comment": "OilRig (G0049)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1087.002",
             "techniqueName": "Domain Account",
             "comment": "OilRig (G0049) & Poseidon Group (G0033) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1048.003",
+            "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
+            "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
@@ -809,12 +809,6 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
@@ -828,20 +822,26 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1546.015",
             "techniqueName": "Component Object Model Hijacking",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "APT28 (G0007)"
         },
         {
@@ -931,18 +931,18 @@
     ],
     "gradient": {
         "colors": [
-            "#a378db",
-            "#90db34",
-            "#8490d8",
-            "#aa9dea",
-            "#beebf7",
-            "#eeccff",
-            "#b2e6ff",
-            "#fcbad2",
-            "#dda730",
-            "#ffeeaa",
-            "#d1bef7",
-            "#dd3b5e"
+            "#9ce84c",
+            "#d1b90a",
+            "#bf983f",
+            "#a3f7cb",
+            "#fcb48d",
+            "#0b3fa0",
+            "#e5dc59",
+            "#c5f9f9",
+            "#d5b7f4",
+            "#bae87f",
+            "#a5ffbd",
+            "#f98a57"
         ],
         "minValue": 0,
         "maxValue": 11

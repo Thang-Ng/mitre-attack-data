@@ -281,6 +281,12 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
+            "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
+        },
+        {
             "score": 8,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
@@ -291,12 +297,6 @@
             "techniqueID": "T1070.005",
             "techniqueName": "Network Share Connection Removal",
             "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
-            "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
         },
         {
             "score": 3,
@@ -383,16 +383,16 @@
             "comment": "Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1569.002",
-            "techniqueName": "Service Execution",
-            "comment": "Honeybee (G0072) & Silence (G0091)"
-        },
-        {
             "score": 4,
             "techniqueID": "T1055",
             "techniqueName": "Process Injection",
             "comment": "Honeybee (G0072) & Kimsuky (G0094) & APT37 (G0067) & Silence (G0091)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1569.002",
+            "techniqueName": "Service Execution",
+            "comment": "Honeybee (G0072) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -882,14 +882,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
@@ -943,20 +943,20 @@
     ],
     "gradient": {
         "colors": [
-            "#b28910",
-            "#bf730f",
-            "#9118c9",
-            "#e817da",
-            "#9ea0ef",
-            "#f27df0",
-            "#451aef",
-            "#db02af",
-            "#2eb28d",
-            "#41cc6d",
-            "#1238e2",
-            "#1daaa1",
-            "#e8788d",
-            "#d33b73"
+            "#719ce2",
+            "#70d7e0",
+            "#f4dbb7",
+            "#34db87",
+            "#ad4a26",
+            "#c16549",
+            "#f7f5a3",
+            "#c6edff",
+            "#c4f49a",
+            "#2c4fea",
+            "#ff6e35",
+            "#37bf88",
+            "#bf466a",
+            "#ed1e6d"
         ],
         "minValue": 0,
         "maxValue": 13

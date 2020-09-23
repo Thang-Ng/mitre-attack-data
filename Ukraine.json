@@ -155,6 +155,12 @@
             "comment": "Cobalt Group (G0080) & MuddyWater (G0069)"
         },
         {
+            "score": 8,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1068",
             "techniqueName": "Exploitation for Privilege Escalation",
@@ -165,12 +171,6 @@
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
             "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & RTM (G0048) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 8,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -210,6 +210,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1573.002",
+            "techniqueName": "Asymmetric Cryptography",
+            "comment": "Cobalt Group (G0080)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1220",
             "techniqueName": "XSL Script Processing",
             "comment": "Cobalt Group (G0080)"
@@ -219,12 +225,6 @@
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
             "comment": "Cobalt Group (G0080) & MuddyWater (G0069) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1573.002",
-            "techniqueName": "Asymmetric Cryptography",
-            "comment": "Cobalt Group (G0080)"
         },
         {
             "score": 6,
@@ -738,14 +738,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
@@ -840,14 +840,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Turla (G0010)"
         },
         {
@@ -865,16 +865,16 @@
     ],
     "gradient": {
         "colors": [
-            "#c2e7fc",
-            "#5048ba",
-            "#a5d80d",
-            "#b2003e",
-            "#d8b261",
-            "#36bcd1",
-            "#aefcb9",
-            "#22f9b5",
-            "#858dd1",
-            "#c362db"
+            "#e88fd4",
+            "#129e20",
+            "#a8caf7",
+            "#e2a6f4",
+            "#9df2b1",
+            "#1f9caf",
+            "#b9e562",
+            "#d78aea",
+            "#596bd1",
+            "#1709e5"
         ],
         "minValue": 0,
         "maxValue": 9

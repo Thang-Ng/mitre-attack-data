@@ -197,16 +197,16 @@
             "comment": "Ke3chang (G0004)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Ke3chang (G0004)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
             "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Ke3chang (G0004)"
         },
         {
             "score": 2,
@@ -481,11 +481,11 @@
     ],
     "gradient": {
         "colors": [
-            "#ffb7d0",
-            "#dd87c5",
-            "#2fb517",
-            "#990200",
-            "#f9aa16"
+            "#e2f986",
+            "#b9fca1",
+            "#8bdfe5",
+            "#b2ffca",
+            "#e8a77f"
         ],
         "minValue": 0,
         "maxValue": 4

@@ -149,16 +149,16 @@
             "comment": "APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1210",
-            "techniqueName": "Exploitation of Remote Services",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1140",
             "techniqueName": "Deobfuscate/Decode Files or Information",
             "comment": "APT28 (G0007) & menuPass (G0045) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1210",
+            "techniqueName": "Exploitation of Remote Services",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -215,12 +215,6 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
@@ -237,6 +231,12 @@
             "techniqueID": "T1092",
             "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -258,14 +258,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "APT28 (G0007)"
         },
         {
@@ -330,14 +330,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
@@ -425,6 +425,18 @@
             "comment": "menuPass (G0045)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1574.002",
+            "techniqueName": "DLL Side-Loading",
+            "comment": "menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1021.004",
+            "techniqueName": "SSH",
+            "comment": "menuPass (G0045)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1021.001",
             "techniqueName": "Remote Desktop Protocol",
@@ -435,18 +447,6 @@
             "techniqueID": "T1018",
             "techniqueName": "Remote System Discovery",
             "comment": "menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1021.004",
-            "techniqueName": "SSH",
-            "comment": "menuPass (G0045)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1574.002",
-            "techniqueName": "DLL Side-Loading",
-            "comment": "menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 3,
@@ -691,11 +691,11 @@
     ],
     "gradient": {
         "colors": [
-            "#e5960d",
-            "#a583db",
-            "#f28590",
-            "#a4fcd9",
-            "#ff8edf"
+            "#ffa3c3",
+            "#038482",
+            "#9edbe2",
+            "#ef9888",
+            "#b7001b"
         ],
         "minValue": 0,
         "maxValue": 4

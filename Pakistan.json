@@ -174,15 +174,15 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Ke3chang (G0004) & Patchwork (G0040) & APT28 (G0007)"
-        },
-        {
-            "score": 3,
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
             "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Ke3chang (G0004) & Patchwork (G0040) & APT28 (G0007)"
         },
         {
             "score": 2,
@@ -281,12 +281,6 @@
             "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1065",
-            "techniqueName": "Uncommonly Used Port",
-            "comment": "Magic Hound (G0059)"
-        },
-        {
             "score": 7,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
@@ -297,6 +291,12 @@
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "Magic Hound (G0059) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & The White Company (G0089)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1065",
+            "techniqueName": "Uncommonly Used Port",
+            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 2,
@@ -731,12 +731,6 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
@@ -747,6 +741,12 @@
             "techniqueID": "T1092",
             "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -762,14 +762,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "APT28 (G0007)"
         },
         {
@@ -798,14 +798,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
@@ -877,15 +877,15 @@
     ],
     "gradient": {
         "colors": [
-            "#82e5aa",
-            "#03ad2d",
-            "#dd132e",
-            "#d62684",
-            "#dd40e5",
-            "#e5329a",
-            "#ba25e8",
-            "#9d5bff",
-            "#16f416"
+            "#e8fcae",
+            "#dd7cab",
+            "#0fe05c",
+            "#2baf30",
+            "#ff9d89",
+            "#f5ff72",
+            "#bfebff",
+            "#0764f9",
+            "#1c4aaf"
         ],
         "minValue": 0,
         "maxValue": 8

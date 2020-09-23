@@ -293,6 +293,12 @@
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Threat Group-3390 (G0027) & Gallmaker (G0084) & Patchwork (G0040)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1548.002",
             "techniqueName": "Bypass User Access Control",
@@ -303,12 +309,6 @@
             "techniqueID": "T1047",
             "techniqueName": "Windows Management Instrumentation",
             "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Threat Group-3390 (G0027) & Gallmaker (G0084) & Patchwork (G0040)"
         },
         {
             "score": 2,
@@ -359,6 +359,12 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
@@ -368,12 +374,6 @@
             "score": 1,
             "techniqueID": "T1070.005",
             "techniqueName": "Network Share Connection Removal",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -529,13 +529,13 @@
     ],
     "gradient": {
         "colors": [
-            "#bbc4f9",
-            "#9698dd",
-            "#c339f9",
-            "#a206db",
-            "#7fdb55",
-            "#81b731",
-            "#f936a8"
+            "#2bf707",
+            "#e0ca23",
+            "#ffd756",
+            "#20bc7e",
+            "#0a6163",
+            "#e55965",
+            "#1469e0"
         ],
         "minValue": 0,
         "maxValue": 6
