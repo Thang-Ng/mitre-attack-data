@@ -53,12 +53,6 @@
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1053.005",
-            "techniqueName": "Scheduled Task",
-            "comment": "Patchwork (G0040) & Silence (G0091)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1574.002",
             "techniqueName": "DLL Side-Loading",
@@ -72,20 +66,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 2,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
@@ -93,6 +81,18 @@
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
             "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
             "score": 2,
@@ -113,16 +113,16 @@
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "Patchwork (G0040) & Silence (G0091)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
             "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -144,14 +144,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027.002",
-            "techniqueName": "Software Packing",
+            "techniqueID": "T1102.001",
+            "techniqueName": "Dead Drop Resolver",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
-            "techniqueID": "T1102.001",
-            "techniqueName": "Dead Drop Resolver",
+            "techniqueID": "T1027.002",
+            "techniqueName": "Software Packing",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -179,12 +179,6 @@
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "Patchwork (G0040) & Silence (G0091)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1132.001",
             "techniqueName": "Standard Encoding",
@@ -203,16 +197,22 @@
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Access Control",
-            "comment": "Patchwork (G0040)"
+            "score": 2,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
             "score": 2,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
             "comment": "Patchwork (G0040) & Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1548.002",
+            "techniqueName": "Bypass User Access Control",
+            "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -307,9 +307,9 @@
     ],
     "gradient": {
         "colors": [
-            "#190f89",
-            "#aedaf9",
-            "#6713ad"
+            "#cdf4a1",
+            "#58d651",
+            "#f9f7ac"
         ],
         "minValue": 0,
         "maxValue": 2

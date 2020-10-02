@@ -23,10 +23,10 @@
             "comment": "Dark Caracal (G0070) & OilRig (G0049)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "Dark Caracal (G0070)"
+            "score": 2,
+            "techniqueID": "T1218.001",
+            "techniqueName": "Compiled HTML File",
+            "comment": "Dark Caracal (G0070) & OilRig (G0049)"
         },
         {
             "score": 3,
@@ -41,16 +41,16 @@
             "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Leafminer (G0077)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "Dark Caracal (G0070)"
+        },
+        {
             "score": 4,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Molerats (G0021) & MuddyWater (G0069)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1218.001",
-            "techniqueName": "Compiled HTML File",
-            "comment": "Dark Caracal (G0070) & OilRig (G0049)"
         },
         {
             "score": 3,
@@ -65,16 +65,16 @@
             "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Leafminer (G0077) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1027.002",
             "techniqueName": "Software Packing",
             "comment": "Dark Caracal (G0070)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Leafminer (G0077) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
             "score": 1,
@@ -221,18 +221,6 @@
             "comment": "Leafminer (G0077)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1046",
-            "techniqueName": "Network Service Scanning",
-            "comment": "Leafminer (G0077) & OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1110.003",
-            "techniqueName": "Password Spraying",
-            "comment": "Leafminer (G0077)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
@@ -245,9 +233,15 @@
             "comment": "Leafminer (G0077)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1046",
+            "techniqueName": "Network Service Scanning",
+            "comment": "Leafminer (G0077) & OilRig (G0049)"
+        },
+        {
             "score": 1,
-            "techniqueID": "T1114.002",
-            "techniqueName": "Remote Email Collection",
+            "techniqueID": "T1110.003",
+            "techniqueName": "Password Spraying",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -255,6 +249,12 @@
             "techniqueID": "T1059.007",
             "techniqueName": "JavaScript/JScript",
             "comment": "Leafminer (G0077) & Molerats (G0021)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
+            "comment": "Leafminer (G0077)"
         },
         {
             "score": 1,
@@ -462,20 +462,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1573.002",
-            "techniqueName": "Asymmetric Cryptography",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1201",
             "techniqueName": "Password Policy Discovery",
             "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
+            "techniqueID": "T1573.002",
+            "techniqueName": "Asymmetric Cryptography",
             "comment": "OilRig (G0049)"
         },
         {
@@ -492,14 +486,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.004",
-            "techniqueName": "SSH",
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
             "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
             "techniqueID": "T1069.001",
             "techniqueName": "Local Groups",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1021.004",
+            "techniqueName": "SSH",
             "comment": "OilRig (G0049)"
         },
         {
@@ -528,26 +528,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1048.003",
             "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
             "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
-            "techniqueID": "T1505.003",
-            "techniqueName": "Web Shell",
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
             "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
             "techniqueID": "T1008",
             "techniqueName": "Fallback Channels",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1505.003",
+            "techniqueName": "Web Shell",
             "comment": "OilRig (G0049)"
         },
         {
@@ -565,13 +565,13 @@
     ],
     "gradient": {
         "colors": [
-            "#eacf9f",
-            "#54d8c4",
-            "#d127bd",
-            "#f453ae",
-            "#b24240",
-            "#9e060b",
-            "#5bce0e"
+            "#7b46d6",
+            "#f2c34d",
+            "#16f934",
+            "#fc7ed0",
+            "#97c609",
+            "#26f296",
+            "#6aed94"
         ],
         "minValue": 0,
         "maxValue": 6

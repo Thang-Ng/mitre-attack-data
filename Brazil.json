@@ -143,22 +143,10 @@
             "comment": "APT28 (G0007) & menuPass (G0045)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
             "comment": "APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "APT28 (G0007) & menuPass (G0045) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -171,6 +159,18 @@
             "techniqueID": "T1037.001",
             "techniqueName": "Logon Script (Windows)",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "APT28 (G0007) & menuPass (G0045) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -191,16 +191,16 @@
             "comment": "APT28 (G0007) & Sowbug (G0054) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "APT28 (G0007) & menuPass (G0045) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1210",
             "techniqueName": "Exploitation of Remote Services",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "APT28 (G0007) & menuPass (G0045) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -251,6 +251,12 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
@@ -267,12 +273,6 @@
             "techniqueID": "T1092",
             "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -294,12 +294,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1068",
             "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "APT28 (G0007)"
@@ -309,6 +303,12 @@
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
             "comment": "APT28 (G0007) & Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 4,
@@ -324,15 +324,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1001.001",
-            "techniqueName": "Junk Data",
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
-            "comment": "APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
+            "score": 1,
+            "techniqueID": "T1001.001",
+            "techniqueName": "Junk Data",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -341,10 +341,10 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
-            "comment": "APT28 (G0007)"
+            "score": 4,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
+            "comment": "APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -366,14 +366,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
@@ -390,15 +390,15 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1039",
-            "techniqueName": "Data from Network Shared Drive",
-            "comment": "Sowbug (G0054) & menuPass (G0045)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
             "comment": "Sowbug (G0054) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
+            "comment": "Sowbug (G0054) & menuPass (G0045)"
         },
         {
             "score": 1,
@@ -449,12 +449,6 @@
             "comment": "menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1053.005",
-            "techniqueName": "Scheduled Task",
-            "comment": "menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1574.001",
             "techniqueName": "DLL Search Order Hijacking",
@@ -462,14 +456,14 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1574.002",
-            "techniqueName": "DLL Side-Loading",
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
             "comment": "menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 1,
-            "techniqueID": "T1021.004",
-            "techniqueName": "SSH",
+            "techniqueID": "T1046",
+            "techniqueName": "Network Service Scanning",
             "comment": "menuPass (G0045)"
         },
         {
@@ -485,9 +479,15 @@
             "comment": "menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1574.002",
+            "techniqueName": "DLL Side-Loading",
+            "comment": "menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
             "score": 1,
-            "techniqueID": "T1046",
-            "techniqueName": "Network Service Scanning",
+            "techniqueID": "T1021.004",
+            "techniqueName": "SSH",
             "comment": "menuPass (G0045)"
         },
         {
@@ -666,14 +666,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1204.001",
-            "techniqueName": "Malicious Link",
+            "techniqueID": "T1547.004",
+            "techniqueName": "Winlogon Helper DLL",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1547.004",
-            "techniqueName": "Winlogon Helper DLL",
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
             "comment": "Turla (G0010)"
         },
         {
@@ -703,12 +703,12 @@
     ],
     "gradient": {
         "colors": [
-            "#f484e5",
-            "#e56bae",
-            "#6558f4",
-            "#f2d2b3",
-            "#5e1210",
-            "#ff14b8"
+            "#efa8f7",
+            "#2fb751",
+            "#d0ef88",
+            "#d8026d",
+            "#c42d00",
+            "#ede100"
         ],
         "minValue": 0,
         "maxValue": 5

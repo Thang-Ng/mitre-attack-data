@@ -78,26 +78,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1218.001",
             "techniqueName": "Compiled HTML File",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1124",
-            "techniqueName": "System Time Discovery",
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -114,20 +108,26 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1124",
+            "techniqueName": "System Time Discovery",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
+            "techniqueID": "T1055.001",
+            "techniqueName": "Dynamic-link Library Injection",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1055.001",
-            "techniqueName": "Dynamic-link Library Injection",
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -162,14 +162,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1021.001",
+            "techniqueName": "Remote Desktop Protocol",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1542.003",
             "techniqueName": "Bootkit",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1021.001",
-            "techniqueName": "Remote Desktop Protocol",
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -182,12 +188,6 @@
             "score": 1,
             "techniqueID": "T1033",
             "techniqueName": "System Owner/User Discovery",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -222,14 +222,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -252,14 +252,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
+            "techniqueID": "T1026",
+            "techniqueName": "Multiband Communication",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1026",
-            "techniqueName": "Multiband Communication",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -282,8 +282,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
+            "techniqueID": "T1560.002",
+            "techniqueName": "Archive via Library",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -300,8 +300,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1560.002",
-            "techniqueName": "Archive via Library",
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -312,8 +318,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
+            "techniqueID": "T1070.006",
+            "techniqueName": "Timestomp",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -330,20 +336,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.006",
-            "techniqueName": "Timestomp",
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
             "techniqueID": "T1573.001",
             "techniqueName": "Symmetric Cryptography",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -355,8 +355,8 @@
     ],
     "gradient": {
         "colors": [
-            "#fcbfe9",
-            "#3dd3c4"
+            "#7cbed6",
+            "#08d84a"
         ],
         "minValue": 0,
         "maxValue": 1

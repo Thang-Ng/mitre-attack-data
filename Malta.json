@@ -42,12 +42,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
             "comment": "FIN7 (G0046)"
@@ -60,20 +54,32 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1059",
             "techniqueName": "Command and Scripting Interpreter",
             "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
             "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -86,12 +92,6 @@
             "score": 1,
             "techniqueID": "T1113",
             "techniqueName": "Screen Capture",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -120,14 +120,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1546.011",
-            "techniqueName": "Application Shimming",
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
             "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
+            "techniqueID": "T1546.011",
+            "techniqueName": "Application Shimming",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -151,8 +151,8 @@
     ],
     "gradient": {
         "colors": [
-            "#9bf210",
-            "#e00437"
+            "#f76cb2",
+            "#4a4ab5"
         ],
         "minValue": 0,
         "maxValue": 1

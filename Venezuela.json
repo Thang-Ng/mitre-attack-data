@@ -23,10 +23,10 @@
             "comment": "Dark Caracal (G0070) & Magic Hound (G0059)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "Dark Caracal (G0070) & Turla (G0010)"
+            "score": 1,
+            "techniqueID": "T1218.001",
+            "techniqueName": "Compiled HTML File",
+            "comment": "Dark Caracal (G0070)"
         },
         {
             "score": 3,
@@ -41,16 +41,16 @@
             "comment": "Dark Caracal (G0070) & Turla (G0010)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "Dark Caracal (G0070) & Turla (G0010)"
+        },
+        {
             "score": 4,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Dark Caracal (G0070) & Machete (G0095) & Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1218.001",
-            "techniqueName": "Compiled HTML File",
-            "comment": "Dark Caracal (G0070)"
         },
         {
             "score": 2,
@@ -65,16 +65,16 @@
             "comment": "Dark Caracal (G0070) & Machete (G0095) & Magic Hound (G0059) & Turla (G0010)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Dark Caracal (G0070) & Machete (G0095) & Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1027.002",
             "techniqueName": "Software Packing",
             "comment": "Dark Caracal (G0070)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Dark Caracal (G0070) & Machete (G0095) & Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -216,20 +216,20 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1016",
             "techniqueName": "System Network Configuration Discovery",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1065",
+            "techniqueName": "Uncommonly Used Port",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
             "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
@@ -239,16 +239,10 @@
             "comment": "Magic Hound (G0059)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1065",
-            "techniqueName": "Uncommonly Used Port",
-            "comment": "Magic Hound (G0059)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "Magic Hound (G0059)"
+            "score": 2,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -258,9 +252,15 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
             "comment": "Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 1,
@@ -420,14 +420,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -445,11 +445,11 @@
     ],
     "gradient": {
         "colors": [
-            "#8ba6e0",
-            "#9ec4f7",
-            "#4fef9a",
-            "#64d6ce",
-            "#7ee5b5"
+            "#e0ac64",
+            "#aff1f7",
+            "#c63157",
+            "#c4bef7",
+            "#8afcd2"
         ],
         "minValue": 0,
         "maxValue": 4

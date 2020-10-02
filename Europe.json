@@ -60,6 +60,24 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1136.001",
+            "techniqueName": "Local Account",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1046",
             "techniqueName": "Network Service Scanning",
             "comment": "Leafminer (G0077)"
@@ -72,32 +90,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1136.001",
-            "techniqueName": "Local Account",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript/JScript",
             "comment": "Leafminer (G0077)"
         },
         {
             "score": 1,
             "techniqueID": "T1114.002",
             "techniqueName": "Remote Email Collection",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -115,9 +115,9 @@
     ],
     "gradient": {
         "colors": [
-            "#87fffb",
-            "#0b4791",
-            "#c38be0"
+            "#ffb39e",
+            "#42b0ff",
+            "#56d3c5"
         ],
         "minValue": 0,
         "maxValue": 2

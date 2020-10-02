@@ -299,6 +299,18 @@
             "comment": "APT1 (G0006)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1330",
+            "techniqueName": "Acquire and/or use 3rd party software services",
+            "comment": "APT1 (G0006)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1326",
+            "techniqueName": "Domain registration hijacking",
+            "comment": "APT1 (G0006)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1346",
             "techniqueName": "Obtain/re-use payloads",
@@ -312,15 +324,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1326",
-            "techniqueName": "Domain registration hijacking",
-            "comment": "APT1 (G0006)"
+            "techniqueID": "T1313",
+            "techniqueName": "Obfuscation or cryptography",
+            "comment": "Cleaver (G0003)"
         },
         {
             "score": 1,
-            "techniqueID": "T1330",
-            "techniqueName": "Acquire and/or use 3rd party software services",
-            "comment": "APT1 (G0006)"
+            "techniqueID": "T1345",
+            "techniqueName": "Create custom payloads",
+            "comment": "Cleaver (G0003)"
         },
         {
             "score": 1,
@@ -332,18 +344,6 @@
             "score": 1,
             "techniqueID": "T1342",
             "techniqueName": "Develop social network persona digital footprint",
-            "comment": "Cleaver (G0003)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1345",
-            "techniqueName": "Create custom payloads",
-            "comment": "Cleaver (G0003)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1313",
-            "techniqueName": "Obfuscation or cryptography",
             "comment": "Cleaver (G0003)"
         },
         {
@@ -479,16 +479,16 @@
             "comment": "Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Magic Hound (G0059) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1065",
             "techniqueName": "Uncommonly Used Port",
             "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "Magic Hound (G0059) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 3,
@@ -630,12 +630,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1573.002",
-            "techniqueName": "Asymmetric Cryptography",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1201",
             "techniqueName": "Password Policy Discovery",
             "comment": "OilRig (G0049)"
@@ -645,6 +639,12 @@
             "techniqueID": "T1218.001",
             "techniqueName": "Compiled HTML File",
             "comment": "OilRig (G0049) & Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1573.002",
+            "techniqueName": "Asymmetric Cryptography",
+            "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
@@ -665,16 +665,16 @@
             "comment": "OilRig (G0049) & Stealth Falcon (G0038)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
-            "comment": "OilRig (G0049) & Poseidon Group (G0033) & menuPass (G0045)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1048.003",
             "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
             "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
+            "comment": "OilRig (G0049) & Poseidon Group (G0033) & menuPass (G0045)"
         },
         {
             "score": 1,
@@ -762,12 +762,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1213.002",
             "techniqueName": "Sharepoint",
             "comment": "APT28 (G0007)"
@@ -776,6 +770,12 @@
             "score": 1,
             "techniqueID": "T1037.001",
             "techniqueName": "Logon Script (Windows)",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
             "comment": "APT28 (G0007)"
         },
         {
@@ -809,6 +809,12 @@
             "comment": "APT28 (G0007)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "APT28 (G0007)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
@@ -822,14 +828,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
+            "techniqueID": "T1546.015",
+            "techniqueName": "Component Object Model Hijacking",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1546.015",
-            "techniqueName": "Component Object Model Hijacking",
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "APT28 (G0007)"
         },
         {
@@ -840,8 +846,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
             "comment": "APT28 (G0007)"
         },
         {
@@ -854,12 +860,6 @@
             "score": 1,
             "techniqueID": "T1070.006",
             "techniqueName": "Timestomp",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
             "comment": "APT28 (G0007)"
         },
         {
@@ -931,18 +931,18 @@
     ],
     "gradient": {
         "colors": [
-            "#ff93b4",
-            "#227b9e",
-            "#c6ceff",
-            "#7994e5",
-            "#3db5d3",
-            "#5bce42",
-            "#24b584",
-            "#99e5ff",
-            "#e8a4e3",
-            "#5a01bf",
-            "#cc8933",
-            "#5d97ef"
+            "#80ff72",
+            "#231fad",
+            "#6ec435",
+            "#ce4c82",
+            "#fca4a9",
+            "#e84e6a",
+            "#0ed665",
+            "#586dd3",
+            "#17c68c",
+            "#0bc7ed",
+            "#420cd6",
+            "#db7a6f"
         ],
         "minValue": 0,
         "maxValue": 11

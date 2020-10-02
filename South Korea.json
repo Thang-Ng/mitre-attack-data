@@ -239,12 +239,6 @@
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1112",
-            "techniqueName": "Modify Registry",
-            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Patchwork (G0040) & Silence (G0091)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1012",
             "techniqueName": "Query Registry",
@@ -255,6 +249,12 @@
             "techniqueID": "T1543.003",
             "techniqueName": "Windows Service",
             "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Kimsuky (G0094) & Lazarus Group (G0032)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1112",
+            "techniqueName": "Modify Registry",
+            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Patchwork (G0040) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -287,28 +287,28 @@
             "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
         },
         {
-            "score": 8,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Kimsuky (G0094) & Lazarus Group (G0032) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1070.005",
             "techniqueName": "Network Share Connection Removal",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040) & APT28 (G0007)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1562.002",
             "techniqueName": "Disable Windows Event Logging",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 8,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Kimsuky (G0094) & Lazarus Group (G0032) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040) & APT28 (G0007)"
         },
         {
             "score": 9,
@@ -323,16 +323,16 @@
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "Threat Group-3390 (G0027) & Soft Cell (G0093)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1030",
             "techniqueName": "Data Transfer Size Limits",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "Threat Group-3390 (G0027) & Soft Cell (G0093)"
         },
         {
             "score": 5,
@@ -371,16 +371,16 @@
             "comment": "Honeybee (G0072) & Molerats (G0021) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1546.009",
-            "techniqueName": "AppCert DLLs",
-            "comment": "Honeybee (G0072)"
-        },
-        {
             "score": 5,
             "techniqueID": "T1560",
             "techniqueName": "Archive Collected Data",
             "comment": "Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1546.009",
+            "techniqueName": "AppCert DLLs",
+            "comment": "Honeybee (G0072)"
         },
         {
             "score": 4,
@@ -389,16 +389,16 @@
             "comment": "Honeybee (G0072) & Kimsuky (G0094) & APT37 (G0067) & Silence (G0091)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1569.002",
-            "techniqueName": "Service Execution",
-            "comment": "Honeybee (G0072) & Silence (G0091)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1020",
             "techniqueName": "Automated Exfiltration",
             "comment": "Honeybee (G0072)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1569.002",
+            "techniqueName": "Service Execution",
+            "comment": "Honeybee (G0072) & Silence (G0091)"
         },
         {
             "score": 2,
@@ -545,16 +545,16 @@
             "comment": "Lazarus Group (G0032)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
-            "comment": "Lazarus Group (G0032) & APT28 (G0007)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1055.001",
             "techniqueName": "Dynamic-link Library Injection",
             "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
+            "comment": "Lazarus Group (G0032) & APT28 (G0007)"
         },
         {
             "score": 2,
@@ -612,14 +612,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
+            "techniqueID": "T1026",
+            "techniqueName": "Multiband Communication",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1026",
-            "techniqueName": "Multiband Communication",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -677,28 +677,28 @@
             "comment": "Patchwork (G0040) & APT37 (G0067) & APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "Patchwork (G0040)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
             "comment": "Patchwork (G0040) & Soft Cell (G0093)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1027.002",
-            "techniqueName": "Software Packing",
-            "comment": "Patchwork (G0040) & Soft Cell (G0093)"
+            "score": 1,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
+            "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
             "techniqueID": "T1102.001",
             "techniqueName": "Dead Drop Resolver",
             "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1027.002",
+            "techniqueName": "Software Packing",
+            "comment": "Patchwork (G0040) & Soft Cell (G0093)"
         },
         {
             "score": 3,
@@ -858,14 +858,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1001.001",
-            "techniqueName": "Junk Data",
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
+            "techniqueID": "T1001.001",
+            "techniqueName": "Junk Data",
             "comment": "APT28 (G0007)"
         },
         {
@@ -882,14 +882,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
@@ -906,20 +906,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1039",
-            "techniqueName": "Data from Network Shared Drive",
-            "comment": "menuPass (G0045)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1087.002",
             "techniqueName": "Domain Account",
             "comment": "menuPass (G0045)"
         },
         {
             "score": 1,
-            "techniqueID": "T1021.004",
-            "techniqueName": "SSH",
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
             "comment": "menuPass (G0045)"
         },
         {
@@ -927,6 +921,12 @@
             "techniqueID": "T1560.001",
             "techniqueName": "Archive via Utility",
             "comment": "menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1021.004",
+            "techniqueName": "SSH",
+            "comment": "menuPass (G0045)"
         },
         {
             "score": 1,
@@ -943,20 +943,20 @@
     ],
     "gradient": {
         "colors": [
-            "#17efa7",
-            "#9193e0",
-            "#98f47f",
-            "#985cc4",
-            "#1b9b40",
-            "#5d6fd8",
-            "#a31a50",
-            "#c66151",
-            "#fcd1c7",
-            "#55ef37",
-            "#d0ffaa",
-            "#f2bbf9",
-            "#f2b61f",
-            "#fcd2ae"
+            "#4a78b5",
+            "#f7ca6f",
+            "#db83b6",
+            "#37529e",
+            "#f46bf2",
+            "#db4925",
+            "#4dc438",
+            "#f79651",
+            "#7c63cc",
+            "#84f4c0",
+            "#fc8af1",
+            "#f765f7",
+            "#d6209f",
+            "#e868b2"
         ],
         "minValue": 0,
         "maxValue": 13

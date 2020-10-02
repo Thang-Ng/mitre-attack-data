@@ -6,12 +6,6 @@
     "techniques": [
         {
             "score": 2,
-            "techniqueID": "T1341",
-            "techniqueName": "Build social network persona",
-            "comment": "APT17 (G0025) & Cleaver (G0003)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1342",
             "techniqueName": "Develop social network persona digital footprint",
             "comment": "APT17 (G0025) & Cleaver (G0003)"
@@ -21,6 +15,12 @@
             "techniqueID": "T1331",
             "techniqueName": "Obfuscate infrastructure",
             "comment": "APT17 (G0025)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1341",
+            "techniqueName": "Build social network persona",
+            "comment": "APT17 (G0025) & Cleaver (G0003)"
         },
         {
             "score": 7,
@@ -35,22 +35,10 @@
             "comment": "Elderwood (G0066) & APT29 (G0016) & Dark Caracal (G0070) & Patchwork (G0040)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1195",
-            "techniqueName": "Supply Chain Compromise",
-            "comment": "Elderwood (G0066)"
-        },
-        {
             "score": 11,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "Elderwood (G0066) & APT32 (G0050) & BRONZE BUTLER (G0060) & Dark Caracal (G0070) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Patchwork (G0040) & PLATINUM (G0068) & APT37 (G0067) & Turla (G0010)"
-        },
-        {
-            "score": 9,
-            "techniqueID": "T1566.002",
-            "techniqueName": "Spearphishing Link",
-            "comment": "Elderwood (G0066) & APT29 (G0016) & APT32 (G0050) & Cobalt Group (G0080) & Machete (G0095) & Molerats (G0021) & Patchwork (G0040) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 15,
@@ -59,22 +47,34 @@
             "comment": "Elderwood (G0066) & APT29 (G0016) & APT32 (G0050) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Machete (G0095) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Molerats (G0021) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 10,
-            "techniqueID": "T1203",
-            "techniqueName": "Exploitation for Client Execution",
-            "comment": "Elderwood (G0066) & APT29 (G0016) & APT32 (G0050) & BRONZE BUTLER (G0060) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007)"
-        },
-        {
             "score": 16,
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
             "comment": "Elderwood (G0066) & APT29 (G0016) & APT32 (G0050) & BRONZE BUTLER (G0060) & Cobalt Group (G0080) & Darkhotel (G0012) & Machete (G0095) & Lazarus Group (G0032) & Molerats (G0021) & Naikon (G0019) & Patchwork (G0040) & PLATINUM (G0068) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1195",
+            "techniqueName": "Supply Chain Compromise",
+            "comment": "Elderwood (G0066)"
+        },
+        {
             "score": 16,
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
             "comment": "Elderwood (G0066) & APT29 (G0016) & APT32 (G0050) & BRONZE BUTLER (G0060) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Machete (G0095) & Lazarus Group (G0032) & Molerats (G0021) & Naikon (G0019) & Patchwork (G0040) & PLATINUM (G0068) & APT37 (G0067) & Silence (G0091) & APT28 (G0007)"
+        },
+        {
+            "score": 9,
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
+            "comment": "Elderwood (G0066) & APT29 (G0016) & APT32 (G0050) & Cobalt Group (G0080) & Machete (G0095) & Molerats (G0021) & Patchwork (G0040) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 10,
+            "techniqueID": "T1203",
+            "techniqueName": "Exploitation for Client Execution",
+            "comment": "Elderwood (G0066) & APT29 (G0016) & APT32 (G0050) & BRONZE BUTLER (G0060) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007)"
         },
         {
             "score": 13,
@@ -125,6 +125,12 @@
             "comment": "APT29 (G0016) & APT32 (G0050) & BRONZE BUTLER (G0060) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Machete (G0095) & Threat Group-3390 (G0027) & Ke3chang (G0004) & Lazarus Group (G0032) & Molerats (G0021) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091) & Turla (G0010)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1546.003",
+            "techniqueName": "Windows Management Instrumentation Event Subscription",
+            "comment": "APT29 (G0016) & Turla (G0010)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1546.008",
             "techniqueName": "Accessibility Features",
@@ -137,22 +143,16 @@
             "comment": "APT29 (G0016) & BRONZE BUTLER (G0060) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Patchwork (G0040) & APT37 (G0067)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1546.003",
-            "techniqueName": "Windows Management Instrumentation Event Subscription",
-            "comment": "APT29 (G0016) & Turla (G0010)"
+            "score": 3,
+            "techniqueID": "T1550.003",
+            "techniqueName": "Pass the Ticket",
+            "comment": "APT29 (G0016) & APT32 (G0050) & BRONZE BUTLER (G0060)"
         },
         {
             "score": 4,
             "techniqueID": "T1047",
             "techniqueName": "Windows Management Instrumentation",
             "comment": "APT29 (G0016) & APT32 (G0050) & Threat Group-3390 (G0027) & Lazarus Group (G0032)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1550.003",
-            "techniqueName": "Pass the Ticket",
-            "comment": "APT29 (G0016) & APT32 (G0050) & BRONZE BUTLER (G0060)"
         },
         {
             "score": 7,
@@ -419,16 +419,16 @@
             "comment": "APT32 (G0050) & BRONZE BUTLER (G0060) & Patchwork (G0040)"
         },
         {
-            "score": 7,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "APT32 (G0050) & Darkhotel (G0012) & Ke3chang (G0004) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & Turla (G0010)"
-        },
-        {
             "score": 5,
             "techniqueID": "T1574.002",
             "techniqueName": "DLL Side-Loading",
             "comment": "APT32 (G0050) & BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Naikon (G0019) & Patchwork (G0040)"
+        },
+        {
+            "score": 7,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "APT32 (G0050) & Darkhotel (G0012) & Ke3chang (G0004) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -473,12 +473,6 @@
             "comment": "APT32 (G0050) & Lazarus Group (G0032) & APT28 (G0007)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "APT32 (G0050) & BRONZE BUTLER (G0060) & Carbanak (G0008) & Patchwork (G0040) & Silence (G0091)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1078.003",
             "techniqueName": "Local Accounts",
@@ -489,6 +483,12 @@
             "techniqueID": "T1094",
             "techniqueName": "Custom Command and Control Protocol",
             "comment": "APT32 (G0050) & PLATINUM (G0068) & APT37 (G0067)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "APT32 (G0050) & BRONZE BUTLER (G0060) & Carbanak (G0008) & Patchwork (G0040) & Silence (G0091)"
         },
         {
             "score": 3,
@@ -539,22 +539,16 @@
             "comment": "BRONZE BUTLER (G0060) & Patchwork (G0040)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "BRONZE BUTLER (G0060) & Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1053.002",
             "techniqueName": "At (Windows)",
             "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "BRONZE BUTLER (G0060) & Dark Caracal (G0070) & Silence (G0091) & APT28 (G0007)"
+            "score": 3,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "BRONZE BUTLER (G0060) & Ke3chang (G0004) & Turla (G0010)"
         },
         {
             "score": 6,
@@ -563,16 +557,16 @@
             "comment": "BRONZE BUTLER (G0060) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Molerats (G0021) & APT28 (G0007) & Turla (G0010)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "BRONZE BUTLER (G0060) & Dark Caracal (G0070) & Silence (G0091) & APT28 (G0007)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1087.002",
             "techniqueName": "Domain Account",
             "comment": "BRONZE BUTLER (G0060) & Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1573.001",
-            "techniqueName": "Symmetric Cryptography",
-            "comment": "BRONZE BUTLER (G0060) & Lazarus Group (G0032) & APT28 (G0007)"
         },
         {
             "score": 9,
@@ -588,15 +582,21 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1132.001",
-            "techniqueName": "Standard Encoding",
-            "comment": "BRONZE BUTLER (G0060) & Lazarus Group (G0032) & Patchwork (G0040)"
+            "techniqueID": "T1573.001",
+            "techniqueName": "Symmetric Cryptography",
+            "comment": "BRONZE BUTLER (G0060) & Lazarus Group (G0032) & APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1039",
             "techniqueName": "Data from Network Shared Drive",
             "comment": "BRONZE BUTLER (G0060)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1132.001",
+            "techniqueName": "Standard Encoding",
+            "comment": "BRONZE BUTLER (G0060) & Lazarus Group (G0032) & Patchwork (G0040)"
         },
         {
             "score": 2,
@@ -665,12 +665,6 @@
             "comment": "Cobalt Group (G0080)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1559.002",
-            "techniqueName": "Dynamic Data Exchange",
-            "comment": "Cobalt Group (G0080) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1573.002",
             "techniqueName": "Asymmetric Cryptography",
@@ -683,15 +677,21 @@
             "comment": "Cobalt Group (G0080)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1345",
-            "techniqueName": "Create custom payloads",
-            "comment": "Cleaver (G0003)"
+            "score": 4,
+            "techniqueID": "T1559.002",
+            "techniqueName": "Dynamic Data Exchange",
+            "comment": "Cobalt Group (G0080) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1313",
             "techniqueName": "Obfuscation or cryptography",
+            "comment": "Cleaver (G0003)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1345",
+            "techniqueName": "Create custom payloads",
             "comment": "Cleaver (G0003)"
         },
         {
@@ -803,16 +803,16 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040) & APT28 (G0007)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1562.002",
             "techniqueName": "Disable Windows Event Logging",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040) & APT28 (G0007)"
         },
         {
             "score": 2,
@@ -821,16 +821,16 @@
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1030",
             "techniqueName": "Data Transfer Size Limits",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004)"
         },
         {
             "score": 2,
@@ -1098,14 +1098,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
@@ -1183,23 +1183,23 @@
     ],
     "gradient": {
         "colors": [
-            "#4bd177",
-            "#9db3e0",
-            "#ea23fc",
-            "#db7694",
-            "#bc2061",
-            "#252b96",
-            "#cefcae",
-            "#50acaf",
-            "#e840dc",
-            "#1da5ba",
-            "#f7c8af",
-            "#1601a0",
-            "#7b77ea",
-            "#ce4833",
-            "#9a2cf4",
-            "#35e0e0",
-            "#e59482"
+            "#d60617",
+            "#3439c9",
+            "#9767bc",
+            "#b40de2",
+            "#017f16",
+            "#6af7c3",
+            "#f24fe4",
+            "#f4a1ac",
+            "#f779c2",
+            "#e2ba8e",
+            "#e87fe2",
+            "#e27ad3",
+            "#e8a5ff",
+            "#7fefd7",
+            "#db685c",
+            "#1d28f7",
+            "#2ceaf4"
         ],
         "minValue": 0,
         "maxValue": 16

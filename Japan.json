@@ -71,16 +71,16 @@
             "comment": "BRONZE BUTLER (G0060) & Patchwork (G0040) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
-            "score": 7,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "BRONZE BUTLER (G0060) & Darkhotel (G0012) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
             "score": 6,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "BRONZE BUTLER (G0060) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067)"
+        },
+        {
+            "score": 7,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "BRONZE BUTLER (G0060) & Darkhotel (G0012) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 6,
@@ -101,18 +101,6 @@
             "comment": "BRONZE BUTLER (G0060) & Patchwork (G0040)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Access Control",
-            "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Honeybee (G0072) & Patchwork (G0040) & APT37 (G0067)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1053.002",
             "techniqueName": "At (Windows)",
@@ -125,22 +113,16 @@
             "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & Patchwork (G0040) & menuPass (G0045)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "BRONZE BUTLER (G0060) & Dust Storm (G0031) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "BRONZE BUTLER (G0060) & APT28 (G0007)"
-        },
-        {
             "score": 5,
             "techniqueID": "T1071.001",
             "techniqueName": "Web Protocols",
             "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT37 (G0067) & APT28 (G0007)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 6,
@@ -150,45 +132,33 @@
         },
         {
             "score": 6,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "BRONZE BUTLER (G0060) & Dust Storm (G0031) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007)"
+        },
+        {
+            "score": 6,
             "techniqueID": "T1140",
             "techniqueName": "Deobfuscate/Decode Files or Information",
             "comment": "BRONZE BUTLER (G0060) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Honeybee (G0072) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 2,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
-            "comment": "BRONZE BUTLER (G0060) & menuPass (G0045)"
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "BRONZE BUTLER (G0060) & APT28 (G0007)"
         },
         {
-            "score": 7,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 8,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
-            "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1573.001",
-            "techniqueName": "Symmetric Cryptography",
-            "comment": "BRONZE BUTLER (G0060) & Lazarus Group (G0032) & APT28 (G0007)"
+            "score": 5,
+            "techniqueID": "T1548.002",
+            "techniqueName": "Bypass User Access Control",
+            "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Honeybee (G0072) & Patchwork (G0040) & APT37 (G0067)"
         },
         {
             "score": 2,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "BRONZE BUTLER (G0060) & Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1550.003",
-            "techniqueName": "Pass the Ticket",
-            "comment": "BRONZE BUTLER (G0060)"
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
+            "comment": "BRONZE BUTLER (G0060) & menuPass (G0045)"
         },
         {
             "score": 4,
@@ -203,6 +173,12 @@
             "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & Dust Storm (G0031) & Threat Group-3390 (G0027) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
+            "score": 7,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1124",
             "techniqueName": "System Time Discovery",
@@ -213,6 +189,18 @@
             "techniqueID": "T1059.003",
             "techniqueName": "Windows Command Shell",
             "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1573.001",
+            "techniqueName": "Symmetric Cryptography",
+            "comment": "BRONZE BUTLER (G0060) & Lazarus Group (G0032) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
+            "comment": "BRONZE BUTLER (G0060) & menuPass (G0045)"
         },
         {
             "score": 7,
@@ -227,10 +215,22 @@
             "comment": "BRONZE BUTLER (G0060) & Lazarus Group (G0032) & Patchwork (G0040)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1550.003",
+            "techniqueName": "Pass the Ticket",
+            "comment": "BRONZE BUTLER (G0060)"
+        },
+        {
+            "score": 8,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
+            "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
             "score": 2,
-            "techniqueID": "T1039",
-            "techniqueName": "Data from Network Shared Drive",
-            "comment": "BRONZE BUTLER (G0060) & menuPass (G0045)"
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
+            "comment": "BRONZE BUTLER (G0060) & Patchwork (G0040)"
         },
         {
             "score": 7,
@@ -305,15 +305,9 @@
             "comment": "APT1 (G0006)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
-            "comment": "APT1 (G0006) & APT28 (G0007)"
-        },
-        {
             "score": 1,
-            "techniqueID": "T1333",
-            "techniqueName": "Dynamic DNS",
+            "techniqueID": "T1330",
+            "techniqueName": "Acquire and/or use 3rd party software services",
             "comment": "APT1 (G0006)"
         },
         {
@@ -323,9 +317,15 @@
             "comment": "APT1 (G0006)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
+            "comment": "APT1 (G0006) & APT28 (G0007)"
+        },
+        {
             "score": 1,
-            "techniqueID": "T1330",
-            "techniqueName": "Acquire and/or use 3rd party software services",
+            "techniqueID": "T1333",
+            "techniqueName": "Dynamic DNS",
             "comment": "APT1 (G0006)"
         },
         {
@@ -413,12 +413,6 @@
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1112",
-            "techniqueName": "Modify Registry",
-            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Patchwork (G0040)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1012",
             "techniqueName": "Query Registry",
@@ -429,6 +423,12 @@
             "techniqueID": "T1543.003",
             "techniqueName": "Windows Service",
             "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Lazarus Group (G0032)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1112",
+            "techniqueName": "Modify Registry",
+            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -461,22 +461,16 @@
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "Threat Group-3390 (G0027) & Soft Cell (G0093)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1030",
             "techniqueName": "Data Transfer Size Limits",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1078",
-            "techniqueName": "Valid Accounts",
-            "comment": "Threat Group-3390 (G0027) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+            "score": 2,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "Threat Group-3390 (G0027) & Soft Cell (G0093)"
         },
         {
             "score": 7,
@@ -485,9 +479,21 @@
             "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1078",
+            "techniqueName": "Valid Accounts",
+            "comment": "Threat Group-3390 (G0027) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1003.004",
             "techniqueName": "LSA Secrets",
+            "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1046",
+            "techniqueName": "Network Service Scanning",
             "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
         },
         {
@@ -497,10 +503,10 @@
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT37 (G0067) & APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1046",
-            "techniqueName": "Network Service Scanning",
-            "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
+            "score": 5,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 1,
@@ -509,10 +515,10 @@
             "comment": "Honeybee (G0072)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045)"
+            "score": 1,
+            "techniqueID": "T1071.002",
+            "techniqueName": "File Transfer Protocols",
+            "comment": "Honeybee (G0072)"
         },
         {
             "score": 2,
@@ -522,20 +528,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1569.002",
-            "techniqueName": "Service Execution",
-            "comment": "Honeybee (G0072)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1020",
             "techniqueName": "Automated Exfiltration",
             "comment": "Honeybee (G0072)"
         },
         {
             "score": 1,
-            "techniqueID": "T1071.002",
-            "techniqueName": "File Transfer Protocols",
+            "techniqueID": "T1569.002",
+            "techniqueName": "Service Execution",
             "comment": "Honeybee (G0072)"
         },
         {
@@ -611,16 +611,16 @@
             "comment": "Lazarus Group (G0032)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
-            "comment": "Lazarus Group (G0032) & APT28 (G0007)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1055.001",
             "techniqueName": "Dynamic-link Library Injection",
             "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
+            "comment": "Lazarus Group (G0032) & APT28 (G0007)"
         },
         {
             "score": 4,
@@ -678,14 +678,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
+            "techniqueID": "T1026",
+            "techniqueName": "Multiband Communication",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1026",
-            "techniqueName": "Multiband Communication",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -864,14 +864,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -882,14 +882,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1001.001",
-            "techniqueName": "Junk Data",
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
+            "techniqueID": "T1001.001",
+            "techniqueName": "Junk Data",
             "comment": "APT28 (G0007)"
         },
         {
@@ -937,18 +937,18 @@
     ],
     "gradient": {
         "colors": [
-            "#fcc4c7",
-            "#76a51f",
-            "#5fbed3",
-            "#9e0317",
-            "#db8062",
-            "#243796",
-            "#bd5add",
-            "#ef43ca",
-            "#bf75f4",
-            "#e4b2f4",
-            "#dafc6c",
-            "#93cc39"
+            "#3df772",
+            "#13126b",
+            "#ba0b19",
+            "#0f8911",
+            "#90c6db",
+            "#8c7cd3",
+            "#0d32e8",
+            "#f27100",
+            "#ffe628",
+            "#0c01a8",
+            "#c9ffff",
+            "#0adb8e"
         ],
         "minValue": 0,
         "maxValue": 11

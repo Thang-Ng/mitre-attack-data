@@ -78,6 +78,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1546.003",
+            "techniqueName": "Windows Management Instrumentation Event Subscription",
+            "comment": "APT29 (G0016)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1546.008",
             "techniqueName": "Accessibility Features",
             "comment": "APT29 (G0016)"
@@ -90,8 +96,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1546.003",
-            "techniqueName": "Windows Management Instrumentation Event Subscription",
+            "techniqueID": "T1550.003",
+            "techniqueName": "Pass the Ticket",
             "comment": "APT29 (G0016)"
         },
         {
@@ -104,12 +110,6 @@
             "score": 1,
             "techniqueID": "T1047",
             "techniqueName": "Windows Management Instrumentation",
-            "comment": "APT29 (G0016)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1550.003",
-            "techniqueName": "Pass the Ticket",
             "comment": "APT29 (G0016)"
         },
         {
@@ -204,12 +204,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1213.002",
             "techniqueName": "Sharepoint",
             "comment": "APT28 (G0007)"
@@ -218,6 +212,12 @@
             "score": 1,
             "techniqueID": "T1037.001",
             "techniqueName": "Logon Script (Windows)",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
             "comment": "APT28 (G0007)"
         },
         {
@@ -240,14 +240,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "techniqueID": "T1210",
+            "techniqueName": "Exploitation of Remote Services",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1210",
-            "techniqueName": "Exploitation of Remote Services",
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
             "comment": "APT28 (G0007)"
         },
         {
@@ -282,20 +282,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1137.002",
             "techniqueName": "Office Test",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1120",
             "techniqueName": "Peripheral Device Discovery",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -318,12 +324,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1091",
             "techniqueName": "Replication Through Removable Media",
             "comment": "APT28 (G0007)"
@@ -342,12 +342,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1068",
             "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "APT28 (G0007)"
@@ -360,8 +354,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1056.001",
             "techniqueName": "Keylogging",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
             "comment": "APT28 (G0007)"
         },
         {
@@ -372,20 +378,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1070.006",
             "techniqueName": "Timestomp",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
             "comment": "APT28 (G0007)"
         },
         {
@@ -402,22 +402,22 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         }
     ],
     "gradient": {
         "colors": [
-            "#82f2f0",
-            "#f783a9",
-            "#e88da4"
+            "#1f3282",
+            "#058712",
+            "#bf5f05"
         ],
         "minValue": 0,
         "maxValue": 2

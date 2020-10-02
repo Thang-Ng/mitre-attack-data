@@ -131,16 +131,22 @@
             "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1033",
             "techniqueName": "System Owner/User Discovery",
             "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -149,21 +155,15 @@
             "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1065",
+            "techniqueName": "Uncommonly Used Port",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
             "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
@@ -173,22 +173,16 @@
             "comment": "Magic Hound (G0059)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1065",
-            "techniqueName": "Uncommonly Used Port",
-            "comment": "Magic Hound (G0059)"
+            "score": 2,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 3,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 3,
@@ -198,21 +192,27 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
             "comment": "Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 1,
             "techniqueID": "T1113",
             "techniqueName": "Screen Capture",
             "comment": "Magic Hound (G0059)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -408,14 +408,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -433,10 +433,10 @@
     ],
     "gradient": {
         "colors": [
-            "#e03d02",
-            "#9b7edd",
-            "#ad000e",
-            "#f4a6f2"
+            "#ff8956",
+            "#dd6aaf",
+            "#ddc2fc",
+            "#ced32c"
         ],
         "minValue": 0,
         "maxValue": 3

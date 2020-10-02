@@ -372,14 +372,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1566.002",
-            "techniqueName": "Spearphishing Link",
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
             "comment": "Turla (G0010)"
         },
         {
@@ -390,14 +390,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1204.001",
-            "techniqueName": "Malicious Link",
+            "techniqueID": "T1547.004",
+            "techniqueName": "Winlogon Helper DLL",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1547.004",
-            "techniqueName": "Winlogon Helper DLL",
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
             "comment": "Turla (G0010)"
         },
         {
@@ -426,14 +426,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -451,10 +451,10 @@
     ],
     "gradient": {
         "colors": [
-            "#e84395",
-            "#8eabdb",
-            "#edab9e",
-            "#72e597"
+            "#30bab3",
+            "#c3ed61",
+            "#ffe5cc",
+            "#211e84"
         ],
         "minValue": 0,
         "maxValue": 3

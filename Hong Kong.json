@@ -47,6 +47,12 @@
             "comment": "APT37 (G0067) & Turla (G0010)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "APT37 (G0067) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1057",
             "techniqueName": "Process Discovery",
@@ -54,21 +60,15 @@
         },
         {
             "score": 4,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "APT37 (G0067) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+            "techniqueID": "T1106",
+            "techniqueName": "Native API",
+            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 2,
             "techniqueID": "T1033",
             "techniqueName": "System Owner/User Discovery",
             "comment": "APT37 (G0067) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1106",
-            "techniqueName": "Native API",
-            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 4,
@@ -95,16 +95,16 @@
             "comment": "APT37 (G0067) & Turla (G0010)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081)"
-        },
-        {
             "score": 5,
             "techniqueID": "T1059.003",
             "techniqueName": "Windows Command Shell",
             "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -125,16 +125,16 @@
             "comment": "APT37 (G0067)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1094",
             "techniqueName": "Custom Command and Control Protocol",
             "comment": "APT37 (G0067)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081)"
         },
         {
             "score": 5,
@@ -149,12 +149,6 @@
             "comment": "APT37 (G0067) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1561.002",
-            "techniqueName": "Disk Structure Wipe",
-            "comment": "APT37 (G0067)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
@@ -162,8 +156,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
+            "techniqueID": "T1561.002",
+            "techniqueName": "Disk Structure Wipe",
             "comment": "APT37 (G0067)"
         },
         {
@@ -171,6 +165,12 @@
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
             "comment": "APT37 (G0067) & Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "APT37 (G0067)"
         },
         {
             "score": 1,
@@ -299,6 +299,12 @@
             "comment": "admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1007",
+            "techniqueName": "System Service Discovery",
+            "comment": "admin@338 (G0018) & Turla (G0010)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1016",
             "techniqueName": "System Network Configuration Discovery",
@@ -309,12 +315,6 @@
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
             "comment": "admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1007",
-            "techniqueName": "System Service Discovery",
-            "comment": "admin@338 (G0018) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -565,12 +565,12 @@
     ],
     "gradient": {
         "colors": [
-            "#f9c49a",
-            "#3d00a8",
-            "#78add3",
-            "#fc9583",
-            "#84c924",
-            "#87fc2d"
+            "#ff2402",
+            "#b408ce",
+            "#083c60",
+            "#fc8ddc",
+            "#47b8ed",
+            "#f2b7b0"
         ],
         "minValue": 0,
         "maxValue": 5
