@@ -12,12 +12,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "Sowbug (G0054)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
             "comment": "Sowbug (G0054)"
@@ -26,6 +20,12 @@
             "score": 1,
             "techniqueID": "T1056.001",
             "techniqueName": "Keylogging",
+            "comment": "Sowbug (G0054)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
             "comment": "Sowbug (G0054)"
         },
         {
@@ -42,6 +42,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
+            "comment": "Sowbug (G0054)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1036.005",
             "techniqueName": "Match Legitimate Name or Location",
             "comment": "Sowbug (G0054)"
@@ -50,12 +56,6 @@
             "score": 1,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
-            "comment": "Sowbug (G0054)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1039",
-            "techniqueName": "Data from Network Shared Drive",
             "comment": "Sowbug (G0054)"
         },
         {
@@ -79,8 +79,8 @@
     ],
     "gradient": {
         "colors": [
-            "#0cd602",
-            "#4925a3"
+            "#9ed2f7",
+            "#d7bafc"
         ],
         "minValue": 0,
         "maxValue": 1

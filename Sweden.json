@@ -192,6 +192,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
             "comment": "Turla (G0010)"
@@ -204,20 +210,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1566.002",
-            "techniqueName": "Spearphishing Link",
             "comment": "Turla (G0010)"
         },
         {
@@ -228,8 +222,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
             "comment": "Turla (G0010)"
         },
         {
@@ -240,8 +240,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1204.001",
-            "techniqueName": "Malicious Link",
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
             "comment": "Turla (G0010)"
         },
         {
@@ -300,14 +300,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
+            "techniqueID": "T1007",
+            "techniqueName": "System Service Discovery",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1007",
-            "techniqueName": "System Service Discovery",
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -319,8 +319,8 @@
     ],
     "gradient": {
         "colors": [
-            "#eab29a",
-            "#ffa3bb"
+            "#d0bdf9",
+            "#f7dab2"
         ],
         "minValue": 0,
         "maxValue": 1

@@ -65,6 +65,12 @@
             "comment": "Patchwork (G0040)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
+            "comment": "Patchwork (G0040) & Rancor (G0075)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1574.002",
             "techniqueName": "DLL Side-Loading",
@@ -83,12 +89,6 @@
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1053.005",
-            "techniqueName": "Scheduled Task",
-            "comment": "Patchwork (G0040) & Rancor (G0075)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
@@ -101,16 +101,16 @@
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "Patchwork (G0040) & Rancor (G0075)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1112",
             "techniqueName": "Modify Registry",
             "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "Patchwork (G0040) & Rancor (G0075)"
         },
         {
             "score": 1,
@@ -125,16 +125,16 @@
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1566.002",
-            "techniqueName": "Spearphishing Link",
-            "comment": "Patchwork (G0040)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
             "comment": "Patchwork (G0040) & Rancor (G0075)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
+            "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -150,14 +150,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1102.001",
-            "techniqueName": "Dead Drop Resolver",
+            "techniqueID": "T1027.002",
+            "techniqueName": "Software Packing",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
-            "techniqueID": "T1027.002",
-            "techniqueName": "Software Packing",
+            "techniqueID": "T1102.001",
+            "techniqueName": "Dead Drop Resolver",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -186,26 +186,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1132.001",
-            "techniqueName": "Standard Encoding",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1033",
             "techniqueName": "System Owner/User Discovery",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
-            "techniqueID": "T1021.001",
-            "techniqueName": "Remote Desktop Protocol",
+            "techniqueID": "T1132.001",
+            "techniqueName": "Standard Encoding",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
             "techniqueID": "T1036.005",
             "techniqueName": "Match Legitimate Name or Location",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1021.001",
+            "techniqueName": "Remote Desktop Protocol",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -241,9 +241,9 @@
     ],
     "gradient": {
         "colors": [
-            "#0d3487",
-            "#cbed42",
-            "#4795aa"
+            "#27bc99",
+            "#f920d9",
+            "#cf6bf9"
         ],
         "minValue": 0,
         "maxValue": 2

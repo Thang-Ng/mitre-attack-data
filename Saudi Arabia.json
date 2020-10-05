@@ -257,16 +257,16 @@
             "comment": "CopyKittens (G0052) & MuddyWater (G0069)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
-            "comment": "CopyKittens (G0052) & Darkhotel (G0012) & Leviathan (G0065) & Molerats (G0021) & Silence (G0091)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1560.003",
             "techniqueName": "Archive via Custom Method",
             "comment": "CopyKittens (G0052)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
+            "comment": "CopyKittens (G0052) & Darkhotel (G0012) & Leviathan (G0065) & Molerats (G0021) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -402,6 +402,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1558.001",
+            "techniqueName": "Golden Ticket",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1543.003",
             "techniqueName": "Windows Service",
             "comment": "Ke3chang (G0004)"
@@ -411,12 +417,6 @@
             "techniqueID": "T1133",
             "techniqueName": "External Remote Services",
             "comment": "Ke3chang (G0004) & OilRig (G0049) & TEMP.Veles (G0088)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1558.001",
-            "techniqueName": "Golden Ticket",
-            "comment": "Ke3chang (G0004)"
         },
         {
             "score": 1,
@@ -479,16 +479,28 @@
             "comment": "Leviathan (G0065)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "Leviathan (G0065) & TEMP.Veles (G0088)"
+            "score": 1,
+            "techniqueID": "T1218.010",
+            "techniqueName": "Regsvr32",
+            "comment": "Leviathan (G0065)"
         },
         {
             "score": 6,
             "techniqueID": "T1059.005",
             "techniqueName": "Visual Basic",
             "comment": "Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1203",
+            "techniqueName": "Exploitation for Client Execution",
+            "comment": "Leviathan (G0065) & MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "Leviathan (G0065) & TEMP.Veles (G0088)"
         },
         {
             "score": 4,
@@ -498,21 +510,9 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1218.010",
-            "techniqueName": "Regsvr32",
-            "comment": "Leviathan (G0065)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1102.003",
             "techniqueName": "One-Way Communication",
             "comment": "Leviathan (G0065)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1203",
-            "techniqueName": "Exploitation for Client Execution",
-            "comment": "Leviathan (G0065) & MuddyWater (G0069)"
         },
         {
             "score": 2,
@@ -677,6 +677,12 @@
             "comment": "OilRig (G0049)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1573.002",
+            "techniqueName": "Asymmetric Cryptography",
+            "comment": "OilRig (G0049)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1201",
             "techniqueName": "Password Policy Discovery",
@@ -684,20 +690,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1573.002",
-            "techniqueName": "Asymmetric Cryptography",
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
             "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
             "techniqueID": "T1119",
             "techniqueName": "Automated Collection",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
             "comment": "OilRig (G0049)"
         },
         {
@@ -859,18 +859,18 @@
     ],
     "gradient": {
         "colors": [
-            "#b668d8",
-            "#5e1615",
-            "#d8bffc",
-            "#fcc4dd",
-            "#f4abdb",
-            "#d111db",
-            "#5bbdd3",
-            "#db5f2e",
-            "#d88d61",
-            "#ddad1c",
-            "#ef7394",
-            "#cff49f"
+            "#f7e3a3",
+            "#464ff4",
+            "#f0a3f7",
+            "#1eb571",
+            "#5ee534",
+            "#a6fca1",
+            "#e8a4c5",
+            "#a81b08",
+            "#967dce",
+            "#2d83bc",
+            "#33e056",
+            "#073b9b"
         ],
         "minValue": 0,
         "maxValue": 11
