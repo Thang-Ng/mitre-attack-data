@@ -1,13 +1,13 @@
 {
     "description": "Techniques of groups: ",
-    "name": "Kazakhstan",
+    "name": "Iranian minorities, anti-regime organizations and resistance movements",
     "domain": "mitre-enterprise",
     "version": "3.0",
     "techniques": [],
     "gradient": {
         "colors": [
-            "#efcf9b",
-            "#3e44ef"
+            "#ea4899",
+            "#8ba9ef"
         ],
         "minValue": 0,
         "maxValue": 1
