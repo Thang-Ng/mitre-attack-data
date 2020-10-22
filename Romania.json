@@ -149,6 +149,12 @@
             "comment": "APT37 (G0067) & APT28 (G0007)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "APT37 (G0067) & Turla (G0010)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1561.002",
             "techniqueName": "Disk Structure Wipe",
@@ -156,21 +162,15 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "APT37 (G0067) & Turla (G0010)"
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
+            "comment": "APT37 (G0067) & Silence (G0091)"
         },
         {
             "score": 2,
             "techniqueID": "T1559.002",
             "techniqueName": "Dynamic Data Exchange",
             "comment": "APT37 (G0067) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
-            "comment": "APT37 (G0067) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -407,6 +407,12 @@
             "comment": "APT28 (G0007)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
+            "comment": "APT28 (G0007)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
@@ -422,12 +428,6 @@
             "score": 1,
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -667,11 +667,11 @@
     ],
     "gradient": {
         "colors": [
-            "#ffd9c1",
-            "#a3dd52",
-            "#e26c61",
-            "#d6b213",
-            "#f2b9f7"
+            "#99efee",
+            "#19697f",
+            "#f47fdf",
+            "#bc1f10",
+            "#7eaf28"
         ],
         "minValue": 0,
         "maxValue": 4

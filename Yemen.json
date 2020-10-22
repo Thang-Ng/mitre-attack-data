@@ -89,16 +89,16 @@
             "comment": "Magic Hound (G0059)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
             "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -149,9 +149,27 @@
             "comment": "Magic Hound (G0059)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1065",
             "techniqueName": "Uncommonly Used Port",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "Magic Hound (G0059)"
         },
         {
@@ -161,22 +179,16 @@
             "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
             "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
+            "score": 1,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 1,
@@ -185,22 +197,10 @@
             "comment": "Magic Hound (G0059)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "Magic Hound (G0059)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
             "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 3,
@@ -433,10 +433,10 @@
     ],
     "gradient": {
         "colors": [
-            "#87cc43",
-            "#ea83db",
-            "#2b32c4",
-            "#bc6e3e"
+            "#1b8dba",
+            "#8d8ff4",
+            "#ffdea5",
+            "#f2b0d5"
         ],
         "minValue": 0,
         "maxValue": 3

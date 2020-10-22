@@ -215,12 +215,6 @@
             "comment": "Threat Group-3390 (G0027) & Silence (G0091) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1055.012",
             "techniqueName": "Process Hollowing",
@@ -240,15 +234,21 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1012",
-            "techniqueName": "Query Registry",
-            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
         },
         {
             "score": 4,
             "techniqueID": "T1112",
             "techniqueName": "Modify Registry",
             "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Patchwork (G0040) & Silence (G0091)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1012",
+            "techniqueName": "Query Registry",
+            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
         },
         {
             "score": 4,
@@ -264,6 +264,18 @@
         },
         {
             "score": 8,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Kimsuky (G0094) & Lazarus Group (G0032) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1021.006",
+            "techniqueName": "Windows Remote Management",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 8,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
             "comment": "Threat Group-3390 (G0027) & Kimsuky (G0094) & Molerats (G0021) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
@@ -275,34 +287,22 @@
             "comment": "Threat Group-3390 (G0027) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1021.006",
-            "techniqueName": "Windows Remote Management",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1068",
             "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
         },
         {
-            "score": 8,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Kimsuky (G0094) & Lazarus Group (G0032) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+            "score": 3,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040) & APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1070.005",
             "techniqueName": "Network Share Connection Removal",
             "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -677,16 +677,16 @@
             "comment": "Patchwork (G0040) & APT37 (G0067) & APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1027.005",
-            "techniqueName": "Indicator Removal from Tools",
-            "comment": "Patchwork (G0040) & Soft Cell (G0093)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1027.001",
             "techniqueName": "Binary Padding",
             "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1027.005",
+            "techniqueName": "Indicator Removal from Tools",
+            "comment": "Patchwork (G0040) & Soft Cell (G0093)"
         },
         {
             "score": 2,
@@ -839,16 +839,16 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1550.002",
-            "techniqueName": "Pass the Hash",
-            "comment": "APT28 (G0007) & Soft Cell (G0093)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1092",
             "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1550.002",
+            "techniqueName": "Pass the Hash",
+            "comment": "APT28 (G0007) & Soft Cell (G0093)"
         },
         {
             "score": 1,
@@ -943,20 +943,20 @@
     ],
     "gradient": {
         "colors": [
-            "#45bf37",
-            "#c12c3b",
-            "#c7d1fc",
-            "#b8c9f2",
-            "#f271b4",
-            "#f2e98a",
-            "#e0de60",
-            "#fcc4a9",
-            "#c48313",
-            "#c4363e",
-            "#d6c9ff",
-            "#ba5110",
-            "#41bfbd",
-            "#e0b3f9"
+            "#60ff85",
+            "#d6a402",
+            "#45c0cc",
+            "#d12e7a",
+            "#f41199",
+            "#db2bc3",
+            "#9faa22",
+            "#ab72db",
+            "#b87bed",
+            "#fcc7f0",
+            "#d8458a",
+            "#e0dd23",
+            "#27f788",
+            "#e04a9f"
         ],
         "minValue": 0,
         "maxValue": 13

@@ -17,16 +17,16 @@
             "comment": "Dark Caracal (G0070) & Machete (G0095) & Magic Hound (G0059)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1566.003",
-            "techniqueName": "Spearphishing via Service",
-            "comment": "Dark Caracal (G0070) & Magic Hound (G0059)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1218.001",
             "techniqueName": "Compiled HTML File",
             "comment": "Dark Caracal (G0070)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1566.003",
+            "techniqueName": "Spearphishing via Service",
+            "comment": "Dark Caracal (G0070) & Magic Hound (G0059)"
         },
         {
             "score": 2,
@@ -47,12 +47,6 @@
             "comment": "Dark Caracal (G0070) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "Dark Caracal (G0070) & Magic Hound (G0059)"
-        },
-        {
             "score": 4,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
@@ -60,14 +54,20 @@
         },
         {
             "score": 4,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
             "comment": "Dark Caracal (G0070) & Machete (G0095) & Magic Hound (G0059) & Turla (G0010)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "Dark Caracal (G0070) & Magic Hound (G0059)"
+        },
+        {
             "score": 4,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
             "comment": "Dark Caracal (G0070) & Machete (G0095) & Magic Hound (G0059) & Turla (G0010)"
         },
         {
@@ -185,16 +185,16 @@
             "comment": "Magic Hound (G0059)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
             "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -221,9 +221,21 @@
             "comment": "Magic Hound (G0059)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1065",
             "techniqueName": "Uncommonly Used Port",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "Magic Hound (G0059)"
         },
         {
@@ -233,21 +245,9 @@
             "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
-            "comment": "Magic Hound (G0059)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
             "comment": "Magic Hound (G0059)"
         },
         {
@@ -445,11 +445,11 @@
     ],
     "gradient": {
         "colors": [
-            "#a7f79e",
-            "#162f93",
-            "#1b0a9b",
-            "#c0ebf7",
-            "#96e88b"
+            "#5fdd83",
+            "#2a688e",
+            "#fcbae1",
+            "#5248ad",
+            "#d6990c"
         ],
         "minValue": 0,
         "maxValue": 4

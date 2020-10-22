@@ -119,6 +119,12 @@
             "comment": "OilRig (G0049) & Silence (G0091) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1056.001",
             "techniqueName": "Keylogging",
@@ -137,22 +143,16 @@
             "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+            "score": 2,
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
+            "comment": "OilRig (G0049) & APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1573.002",
             "techniqueName": "Asymmetric Cryptography",
             "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1566.002",
-            "techniqueName": "Spearphishing Link",
-            "comment": "OilRig (G0049) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -239,10 +239,10 @@
             "comment": "OilRig (G0049)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "OilRig (G0049) & menuPass (G0045) & Soft Cell (G0093)"
+            "score": 1,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
@@ -251,15 +251,21 @@
             "comment": "OilRig (G0049)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1048.003",
-            "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
-            "comment": "OilRig (G0049)"
+            "score": 3,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "OilRig (G0049) & menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "OilRig (G0049) & Soft Cell (G0093)"
         },
         {
             "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
+            "techniqueID": "T1048.003",
+            "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
             "comment": "OilRig (G0049)"
         },
         {
@@ -275,12 +281,6 @@
             "comment": "OilRig (G0049) & Soft Cell (G0093)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
-            "comment": "OilRig (G0049) & menuPass (G0045)"
-        },
-        {
             "score": 5,
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
@@ -288,9 +288,9 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "OilRig (G0049) & Soft Cell (G0093)"
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
+            "comment": "OilRig (G0049) & menuPass (G0045)"
         },
         {
             "score": 5,
@@ -552,6 +552,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
             "comment": "APT28 (G0007)"
@@ -567,12 +573,6 @@
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
             "comment": "APT28 (G0007) & Soft Cell (G0093)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
-            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -684,14 +684,14 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1574.002",
-            "techniqueName": "DLL Side-Loading",
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
             "comment": "menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 2,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
+            "techniqueID": "T1574.002",
+            "techniqueName": "DLL Side-Loading",
             "comment": "menuPass (G0045) & Soft Cell (G0093)"
         },
         {
@@ -721,12 +721,12 @@
     ],
     "gradient": {
         "colors": [
-            "#c44e27",
-            "#03701c",
-            "#15d384",
-            "#ce0e1b",
-            "#2eea99",
-            "#bbb7f7"
+            "#adc63d",
+            "#d9dd5d",
+            "#f94d9b",
+            "#7c8edd",
+            "#9f81f9",
+            "#afadf7"
         ],
         "minValue": 0,
         "maxValue": 5

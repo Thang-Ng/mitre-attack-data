@@ -204,20 +204,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1055",
             "techniqueName": "Process Injection",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Turla (G0010)"
         },
         {
@@ -230,6 +224,12 @@
             "score": 1,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
             "comment": "Turla (G0010)"
         },
         {
@@ -319,8 +319,8 @@
     ],
     "gradient": {
         "colors": [
-            "#f4b3a6",
-            "#e25fd3"
+            "#498de5",
+            "#009347"
         ],
         "minValue": 0,
         "maxValue": 1

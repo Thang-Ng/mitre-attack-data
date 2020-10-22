@@ -143,6 +143,18 @@
             "comment": "Cobalt Group (G0080)"
         },
         {
+            "score": 8,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.010",
+            "techniqueName": "Regsvr32",
+            "comment": "Cobalt Group (G0080)"
+        },
+        {
             "score": 7,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
@@ -153,12 +165,6 @@
             "techniqueID": "T1548.002",
             "techniqueName": "Bypass User Access Control",
             "comment": "Cobalt Group (G0080) & MuddyWater (G0069)"
-        },
-        {
-            "score": 8,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -174,6 +180,18 @@
         },
         {
             "score": 3,
+            "techniqueID": "T1559.002",
+            "techniqueName": "Dynamic Data Exchange",
+            "comment": "Cobalt Group (G0080) & MuddyWater (G0069) & APT28 (G0007)"
+        },
+        {
+            "score": 7,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & RTM (G0048) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 3,
             "techniqueID": "T1055",
             "techniqueName": "Process Injection",
             "comment": "Cobalt Group (G0080) & Silence (G0091) & Turla (G0010)"
@@ -183,12 +201,6 @@
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "Cobalt Group (G0080) & Gamaredon Group (G0047) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1218.010",
-            "techniqueName": "Regsvr32",
-            "comment": "Cobalt Group (G0080)"
         },
         {
             "score": 1,
@@ -207,18 +219,6 @@
             "techniqueID": "T1203",
             "techniqueName": "Exploitation for Client Execution",
             "comment": "Cobalt Group (G0080) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1559.002",
-            "techniqueName": "Dynamic Data Exchange",
-            "comment": "Cobalt Group (G0080) & MuddyWater (G0069) & APT28 (G0007)"
-        },
-        {
-            "score": 7,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & RTM (G0048) & Silence (G0091) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -684,14 +684,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1550.002",
-            "techniqueName": "Pass the Hash",
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
+            "techniqueID": "T1550.002",
+            "techniqueName": "Pass the Hash",
             "comment": "APT28 (G0007)"
         },
         {
@@ -865,16 +865,16 @@
     ],
     "gradient": {
         "colors": [
-            "#d1177a",
-            "#adbbf7",
-            "#59f987",
-            "#d64a95",
-            "#08db0c",
-            "#e54994",
-            "#75a9ce",
-            "#d65797",
-            "#72d6e5",
-            "#330770"
+            "#c4ff82",
+            "#a4c8e8",
+            "#5c2aa8",
+            "#edf416",
+            "#ffe1bf",
+            "#aec0ef",
+            "#eacf8a",
+            "#51d188",
+            "#ffc2bc",
+            "#a3f26a"
         ],
         "minValue": 0,
         "maxValue": 9

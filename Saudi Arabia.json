@@ -294,15 +294,15 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1566.003",
-            "techniqueName": "Spearphishing via Service",
-            "comment": "Dark Caracal (G0070) & Magic Hound (G0059) & OilRig (G0049)"
-        },
-        {
-            "score": 3,
             "techniqueID": "T1218.001",
             "techniqueName": "Compiled HTML File",
             "comment": "Dark Caracal (G0070) & OilRig (G0049) & Silence (G0091)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1566.003",
+            "techniqueName": "Spearphishing via Service",
+            "comment": "Dark Caracal (G0070) & Magic Hound (G0059) & OilRig (G0049)"
         },
         {
             "score": 5,
@@ -402,14 +402,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1558.001",
-            "techniqueName": "Golden Ticket",
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
             "comment": "Ke3chang (G0004)"
         },
         {
             "score": 1,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
+            "techniqueID": "T1558.001",
+            "techniqueName": "Golden Ticket",
             "comment": "Ke3chang (G0004)"
         },
         {
@@ -443,6 +443,12 @@
             "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1041",
             "techniqueName": "Exfiltration Over C2 Channel",
@@ -453,12 +459,6 @@
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
             "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Ke3chang (G0004)"
         },
         {
             "score": 4,
@@ -485,12 +485,6 @@
             "comment": "Leviathan (G0065)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1059.005",
-            "techniqueName": "Visual Basic",
-            "comment": "Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1203",
             "techniqueName": "Exploitation for Client Execution",
@@ -503,22 +497,28 @@
             "comment": "Leviathan (G0065) & TEMP.Veles (G0088)"
         },
         {
+            "score": 6,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
+            "comment": "Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091) & Turla (G0010)"
+        },
+        {
             "score": 4,
             "techniqueID": "T1047",
             "techniqueName": "Windows Management Instrumentation",
             "comment": "Leviathan (G0065) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1102.003",
-            "techniqueName": "One-Way Communication",
-            "comment": "Leviathan (G0065)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1546.003",
             "techniqueName": "Windows Management Instrumentation Event Subscription",
             "comment": "Leviathan (G0065) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102.003",
+            "techniqueName": "One-Way Communication",
+            "comment": "Leviathan (G0065)"
         },
         {
             "score": 1,
@@ -859,18 +859,18 @@
     ],
     "gradient": {
         "colors": [
-            "#dd2a69",
-            "#ed31dd",
-            "#ffc4ee",
-            "#86b3d6",
-            "#4371f9",
-            "#97ef9f",
-            "#cf21f2",
-            "#c857f2",
-            "#4de03a",
-            "#b3daf9",
-            "#fc9e92",
-            "#80f7a6"
+            "#f48997",
+            "#b22d10",
+            "#f99b81",
+            "#fca9d9",
+            "#f9f26d",
+            "#3b1dc1",
+            "#dd9f80",
+            "#28b7b7",
+            "#29969e",
+            "#289ec9",
+            "#f7928c",
+            "#bcff93"
         ],
         "minValue": 0,
         "maxValue": 11

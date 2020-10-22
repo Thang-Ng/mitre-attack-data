@@ -378,12 +378,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1055",
             "techniqueName": "Process Injection",
             "comment": "Turla (G0010)"
@@ -392,6 +386,12 @@
             "score": 1,
             "techniqueID": "T1204.001",
             "techniqueName": "Malicious Link",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
             "comment": "Turla (G0010)"
         },
         {
@@ -451,10 +451,10 @@
     ],
     "gradient": {
         "colors": [
-            "#58d323",
-            "#e5678d",
-            "#565cc9",
-            "#f213b6"
+            "#3d1bc4",
+            "#4174d3",
+            "#713bf9",
+            "#b9d142"
         ],
         "minValue": 0,
         "maxValue": 3

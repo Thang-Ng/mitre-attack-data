@@ -282,20 +282,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1137.002",
-            "techniqueName": "Office Test",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1057",
             "techniqueName": "Process Discovery",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
+            "techniqueID": "T1137.002",
+            "techniqueName": "Office Test",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1120",
             "techniqueName": "Peripheral Device Discovery",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -314,12 +320,6 @@
             "score": 1,
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -354,14 +354,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
             "comment": "APT28 (G0007)"
         },
         {
@@ -415,9 +415,9 @@
     ],
     "gradient": {
         "colors": [
-            "#ff922d",
-            "#66d686",
-            "#b295e5"
+            "#abfcf0",
+            "#7333af",
+            "#f23ce6"
         ],
         "minValue": 0,
         "maxValue": 2

@@ -6,14 +6,14 @@
     "techniques": [
         {
             "score": 1,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
+            "techniqueID": "T1203",
+            "techniqueName": "Exploitation for Client Execution",
             "comment": "TA459 (G0062)"
         },
         {
             "score": 1,
-            "techniqueID": "T1203",
-            "techniqueName": "Exploitation for Client Execution",
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
             "comment": "TA459 (G0062)"
         },
         {
@@ -37,8 +37,8 @@
     ],
     "gradient": {
         "colors": [
-            "#fcab94",
-            "#ebf98b"
+            "#d1c606",
+            "#f7beb7"
         ],
         "minValue": 0,
         "maxValue": 1

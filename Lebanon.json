@@ -18,14 +18,14 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1566.003",
-            "techniqueName": "Spearphishing via Service",
+            "techniqueID": "T1218.001",
+            "techniqueName": "Compiled HTML File",
             "comment": "Dark Caracal (G0070) & OilRig (G0049)"
         },
         {
             "score": 2,
-            "techniqueID": "T1218.001",
-            "techniqueName": "Compiled HTML File",
+            "techniqueID": "T1566.003",
+            "techniqueName": "Spearphishing via Service",
             "comment": "Dark Caracal (G0070) & OilRig (G0049)"
         },
         {
@@ -47,28 +47,28 @@
             "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Leafminer (G0077)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & OilRig (G0049)"
-        },
-        {
             "score": 4,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Molerats (G0021) & MuddyWater (G0069)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & OilRig (G0049)"
-        },
-        {
             "score": 6,
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
             "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Leafminer (G0077) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & OilRig (G0049)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
             "score": 1,
@@ -245,6 +245,12 @@
             "comment": "Leafminer (G0077)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
+            "comment": "Leafminer (G0077)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1059.007",
             "techniqueName": "JavaScript/JScript",
@@ -254,12 +260,6 @@
             "score": 1,
             "techniqueID": "T1114.002",
             "techniqueName": "Remote Email Collection",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -565,13 +565,13 @@
     ],
     "gradient": {
         "colors": [
-            "#e281c5",
-            "#3c81e8",
-            "#77ccd1",
-            "#16998b",
-            "#8de572",
-            "#fc431e",
-            "#ab0fff"
+            "#abfcdd",
+            "#4a3899",
+            "#b1eeef",
+            "#db041d",
+            "#b3c5fc",
+            "#d6579b",
+            "#7d7ad6"
         ],
         "minValue": 0,
         "maxValue": 6

@@ -299,10 +299,10 @@
             "comment": "APT1 (G0006)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
-            "comment": "APT1 (G0006) & APT28 (G0007)"
+            "score": 1,
+            "techniqueID": "T1333",
+            "techniqueName": "Dynamic DNS",
+            "comment": "APT1 (G0006)"
         },
         {
             "score": 1,
@@ -311,10 +311,10 @@
             "comment": "APT1 (G0006)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1333",
-            "techniqueName": "Dynamic DNS",
-            "comment": "APT1 (G0006)"
+            "score": 2,
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
+            "comment": "APT1 (G0006) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -810,6 +810,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
             "comment": "APT28 (G0007)"
@@ -819,12 +825,6 @@
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
             "comment": "APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
-            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -931,18 +931,18 @@
     ],
     "gradient": {
         "colors": [
-            "#7ae8be",
-            "#19e8c5",
-            "#f23a7a",
-            "#dcf713",
-            "#af7add",
-            "#69f23c",
-            "#fce4b5",
-            "#f4fca1",
-            "#186cbf",
-            "#02dd94",
-            "#90c2db",
-            "#db67b4"
+            "#293c89",
+            "#f9a4cb",
+            "#dd253e",
+            "#e2d10d",
+            "#85f29c",
+            "#a5e8ff",
+            "#bd4bea",
+            "#6963d3",
+            "#f9d2c2",
+            "#68f2b4",
+            "#65d817",
+            "#f22ec1"
         ],
         "minValue": 0,
         "maxValue": 11

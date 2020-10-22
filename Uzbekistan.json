@@ -125,16 +125,16 @@
             "comment": "Ke3chang (G0004) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Ke3chang (G0004) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1056.001",
             "techniqueName": "Keylogging",
             "comment": "Ke3chang (G0004) & APT28 (G0007)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Ke3chang (G0004) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -203,6 +203,12 @@
             "comment": "Ke3chang (G0004) & APT28 (G0007) & Turla (G0010)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Ke3chang (G0004) & APT28 (G0007)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1057",
             "techniqueName": "Process Discovery",
@@ -219,12 +225,6 @@
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
             "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Ke3chang (G0004) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -485,6 +485,12 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
+            "comment": "APT28 (G0007)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
@@ -500,12 +506,6 @@
             "score": 1,
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -691,11 +691,11 @@
     ],
     "gradient": {
         "colors": [
-            "#ed82e2",
-            "#ab78e2",
-            "#7f5ee5",
-            "#9e75c6",
-            "#6bf435"
+            "#00705f",
+            "#0940e8",
+            "#ccf287",
+            "#f4f94f",
+            "#ebf230"
         ],
         "minValue": 0,
         "maxValue": 4

@@ -78,14 +78,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1558.001",
-            "techniqueName": "Golden Ticket",
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
             "comment": "Ke3chang (G0004)"
         },
         {
             "score": 1,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
+            "techniqueID": "T1558.001",
+            "techniqueName": "Golden Ticket",
             "comment": "Ke3chang (G0004)"
         },
         {
@@ -185,6 +185,12 @@
             "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
             "score": 4,
             "techniqueID": "T1057",
             "techniqueName": "Process Discovery",
@@ -201,12 +207,6 @@
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
             "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Ke3chang (G0004)"
         },
         {
             "score": 2,
@@ -481,11 +481,11 @@
     ],
     "gradient": {
         "colors": [
-            "#44890c",
-            "#cec825",
-            "#f97c68",
-            "#f9a581",
-            "#fcbfc6"
+            "#52ce54",
+            "#6ed354",
+            "#b5f3ff",
+            "#6de8bd",
+            "#912d14"
         ],
         "minValue": 0,
         "maxValue": 4

@@ -90,6 +90,18 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1136.001",
             "techniqueName": "Local Account",
             "comment": "Leafminer (G0077)"
@@ -102,14 +114,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -123,18 +129,12 @@
             "techniqueID": "T1114.002",
             "techniqueName": "Remote Email Collection",
             "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
-            "comment": "Leafminer (G0077)"
         }
     ],
     "gradient": {
         "colors": [
-            "#fc855d",
-            "#460ad3"
+            "#f99daf",
+            "#c9001e"
         ],
         "minValue": 0,
         "maxValue": 1

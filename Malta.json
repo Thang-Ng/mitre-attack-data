@@ -54,26 +54,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1071.004",
-            "techniqueName": "DNS",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059",
-            "techniqueName": "Command and Scripting Interpreter",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
             "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
+            "techniqueID": "T1071.004",
+            "techniqueName": "DNS",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -84,14 +72,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
+            "techniqueID": "T1059",
+            "techniqueName": "Command and Scripting Interpreter",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
             "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
             "techniqueID": "T1043",
             "techniqueName": "Commonly Used Port",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -151,8 +151,8 @@
     ],
     "gradient": {
         "colors": [
-            "#ac79ce",
-            "#b5f78f"
+            "#c69333",
+            "#f9d8c0"
         ],
         "minValue": 0,
         "maxValue": 1
