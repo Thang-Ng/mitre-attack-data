@@ -6,6 +6,48 @@
     "techniques": [
         {
             "score": 1,
+            "techniqueID": "T1587.003",
+            "techniqueName": "Digital Certificates",
+            "comment": "APT29 (G0016)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1583.006",
+            "techniqueName": "Web Services",
+            "comment": "APT29 (G0016)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1190",
+            "techniqueName": "Exploit Public-Facing Application",
+            "comment": "APT29 (G0016) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.006",
+            "techniqueName": "Python",
+            "comment": "APT29 (G0016)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "APT29 (G0016)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1001.002",
+            "techniqueName": "Steganography",
+            "comment": "APT29 (G0016)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078.002",
+            "techniqueName": "Domain Accounts",
+            "comment": "APT29 (G0016)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1547.009",
             "techniqueName": "Shortcut Modification",
             "comment": "APT29 (G0016)"
@@ -85,7 +127,7 @@
         {
             "score": 1,
             "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Access Control",
+            "techniqueName": "Bypass User Account Control",
             "comment": "APT29 (G0016)"
         },
         {
@@ -102,14 +144,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1550.003",
-            "techniqueName": "Pass the Ticket",
+            "techniqueID": "T1047",
+            "techniqueName": "Windows Management Instrumentation",
             "comment": "APT29 (G0016)"
         },
         {
             "score": 1,
-            "techniqueID": "T1047",
-            "techniqueName": "Windows Management Instrumentation",
+            "techniqueID": "T1550.003",
+            "techniqueName": "Pass the Ticket",
             "comment": "APT29 (G0016)"
         },
         {
@@ -129,6 +171,30 @@
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "APT29 (G0016) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1583.001",
+            "techniqueName": "Domains",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1498",
+            "techniqueName": "Network Denial of Service",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1110.001",
+            "techniqueName": "Password Guessing",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1110.003",
+            "techniqueName": "Password Spraying",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -300,12 +366,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
             "comment": "APT28 (G0007)"
@@ -320,6 +380,12 @@
             "score": 1,
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -354,14 +420,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "APT28 (G0007)"
         },
         {
@@ -402,22 +468,22 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         }
     ],
     "gradient": {
         "colors": [
-            "#e0881d",
-            "#c5f6f9",
-            "#b09fe0"
+            "#7bb519",
+            "#db46d1",
+            "#d9f287"
         ],
         "minValue": 0,
         "maxValue": 2

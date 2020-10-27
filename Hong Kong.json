@@ -5,16 +5,16 @@
     "version": "3.0",
     "techniques": [
         {
-            "score": 4,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Orangeworm (G0071) & APT37 (G0067) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1021.002",
             "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Orangeworm (G0071) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Orangeworm (G0071) & APT37 (G0067) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -37,7 +37,7 @@
         {
             "score": 1,
             "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Access Control",
+            "techniqueName": "Bypass User Account Control",
             "comment": "APT37 (G0067)"
         },
         {
@@ -150,8 +150,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
+            "techniqueID": "T1561.002",
+            "techniqueName": "Disk Structure Wipe",
             "comment": "APT37 (G0067)"
         },
         {
@@ -162,15 +162,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1561.002",
-            "techniqueName": "Disk Structure Wipe",
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
             "comment": "APT37 (G0067)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
-            "comment": "APT37 (G0067) & Silence (G0091)"
+            "score": 1,
+            "techniqueID": "T1036.001",
+            "techniqueName": "Invalid Code Signature",
+            "comment": "APT37 (G0067)"
         },
         {
             "score": 1,
@@ -230,6 +230,12 @@
             "score": 1,
             "techniqueID": "T1078",
             "techniqueName": "Valid Accounts",
+            "comment": "Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
             "comment": "Silence (G0091)"
         },
         {
@@ -294,6 +300,12 @@
         },
         {
             "score": 3,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 3,
             "techniqueID": "T1016",
             "techniqueName": "System Network Configuration Discovery",
             "comment": "admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
@@ -302,12 +314,6 @@
             "score": 3,
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
-            "comment": "admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
             "comment": "admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
@@ -444,6 +450,36 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1587.001",
+            "techniqueName": "Malware",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.004",
+            "techniqueName": "Server",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.006",
+            "techniqueName": "Web Services",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.003",
+            "techniqueName": "Virtual Private Server",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1588.001",
+            "techniqueName": "Malware",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1213",
             "techniqueName": "Data from Information Repositories",
             "comment": "Turla (G0010)"
@@ -565,12 +601,12 @@
     ],
     "gradient": {
         "colors": [
-            "#36eda1",
-            "#06739b",
-            "#fff2ad",
-            "#a8264d",
-            "#06ad8e",
-            "#f21db5"
+            "#4a137c",
+            "#94b5e8",
+            "#ffc6f9",
+            "#566fdd",
+            "#cc6a43",
+            "#a615c6"
         ],
         "minValue": 0,
         "maxValue": 5

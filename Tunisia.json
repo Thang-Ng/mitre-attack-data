@@ -1,5 +1,5 @@
 {
-    "description": "Techniques of groups: BlackOasis (G0063) & MuddyWater (G0069) & Turla (G0010) & ",
+    "description": "Techniques of groups: BlackOasis (G0063) & MuddyWater (G0069) & PROMETHIUM (G0056) & Turla (G0010) & ",
     "name": "Tunisia",
     "domain": "mitre-enterprise",
     "version": "3.0",
@@ -193,26 +193,26 @@
         {
             "score": 1,
             "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Access Control",
-            "comment": "MuddyWater (G0069)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "MuddyWater (G0069)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
+            "techniqueName": "Bypass User Account Control",
             "comment": "MuddyWater (G0069)"
         },
         {
             "score": 2,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "MuddyWater (G0069) & PROMETHIUM (G0056)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "MuddyWater (G0069) & PROMETHIUM (G0056)"
+        },
+        {
+            "score": 3,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "MuddyWater (G0069) & Turla (G0010)"
+            "comment": "MuddyWater (G0069) & PROMETHIUM (G0056) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -252,8 +252,80 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1587.002",
+            "techniqueName": "Code Signing Certificates",
+            "comment": "PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1587.003",
+            "techniqueName": "Digital Certificates",
+            "comment": "PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1036.004",
+            "techniqueName": "Masquerade Task or Service",
+            "comment": "PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078.003",
+            "techniqueName": "Local Accounts",
+            "comment": "PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1205.001",
+            "techniqueName": "Port Knocking",
+            "comment": "PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
+            "comment": "PROMETHIUM (G0056)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
+            "comment": "PROMETHIUM (G0056) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1587.001",
+            "techniqueName": "Malware",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.004",
+            "techniqueName": "Server",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.006",
+            "techniqueName": "Web Services",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.003",
+            "techniqueName": "Virtual Private Server",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1588.001",
+            "techniqueName": "Malware",
             "comment": "Turla (G0010)"
         },
         {
@@ -378,6 +450,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1055",
             "techniqueName": "Process Injection",
             "comment": "Turla (G0010)"
@@ -386,12 +464,6 @@
             "score": 1,
             "techniqueID": "T1204.001",
             "techniqueName": "Malicious Link",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
             "comment": "Turla (G0010)"
         },
         {
@@ -426,14 +498,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Turla (G0010)"
         },
         {
@@ -451,10 +523,10 @@
     ],
     "gradient": {
         "colors": [
-            "#6c9df7",
-            "#f8ff82",
-            "#7475cc",
-            "#eabc59"
+            "#e8c330",
+            "#08456d",
+            "#f2b38c",
+            "#d6b446"
         ],
         "minValue": 0,
         "maxValue": 3

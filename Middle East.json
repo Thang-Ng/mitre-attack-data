@@ -167,10 +167,10 @@
             "comment": "APT39 (G0087) & Threat Group-3390 (G0027)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "APT39 (G0087) & Threat Group-3390 (G0027) & Patchwork (G0040)"
+            "score": 1,
+            "techniqueID": "T1059",
+            "techniqueName": "Command and Scripting Interpreter",
+            "comment": "APT39 (G0087)"
         },
         {
             "score": 2,
@@ -281,15 +281,27 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1055.012",
             "techniqueName": "Process Hollowing",
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Threat Group-3390 (G0027) & Gallmaker (G0084) & Patchwork (G0040)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Access Control",
+            "techniqueName": "Bypass User Account Control",
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
@@ -299,22 +311,10 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1112",
             "techniqueName": "Modify Registry",
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Threat Group-3390 (G0027) & Gallmaker (G0084) & Patchwork (G0040)"
         },
         {
             "score": 2,
@@ -347,21 +347,15 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
+            "score": 1,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
             "techniqueID": "T1021.006",
             "techniqueName": "Windows Remote Management",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -372,8 +366,20 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
@@ -389,10 +395,10 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "Threat Group-3390 (G0027)"
+            "score": 2,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -447,6 +453,12 @@
             "techniqueID": "T1559.002",
             "techniqueName": "Dynamic Data Exchange",
             "comment": "Gallmaker (G0084) & Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1587.002",
+            "techniqueName": "Code Signing Certificates",
+            "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -529,13 +541,13 @@
     ],
     "gradient": {
         "colors": [
-            "#39409b",
-            "#f282bc",
-            "#4459e2",
-            "#60229e",
-            "#faaaff",
-            "#0e7987",
-            "#af3e11"
+            "#e231aa",
+            "#c793ff",
+            "#1be8b1",
+            "#b0e072",
+            "#f7dd33",
+            "#ba0b3c",
+            "#efa69e"
         ],
         "minValue": 0,
         "maxValue": 6

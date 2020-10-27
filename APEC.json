@@ -65,6 +65,18 @@
             "comment": "Leviathan (G0065)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
+            "comment": "Leviathan (G0065)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "Leviathan (G0065) & APT28 (G0007)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1203",
             "techniqueName": "Exploitation for Client Execution",
@@ -83,6 +95,12 @@
             "comment": "Leviathan (G0065) & APT28 (G0007)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1078",
+            "techniqueName": "Valid Accounts",
+            "comment": "Leviathan (G0065) & APT28 (G0007)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
@@ -90,32 +108,8 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "Leviathan (G0065) & APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059.005",
-            "techniqueName": "Visual Basic",
-            "comment": "Leviathan (G0065)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
-            "comment": "Leviathan (G0065) & APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1047",
-            "techniqueName": "Windows Management Instrumentation",
-            "comment": "Leviathan (G0065)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1078",
-            "techniqueName": "Valid Accounts",
             "comment": "Leviathan (G0065) & APT28 (G0007)"
         },
         {
@@ -126,20 +120,26 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1047",
+            "techniqueName": "Windows Management Instrumentation",
+            "comment": "Leviathan (G0065)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1547.009",
             "techniqueName": "Shortcut Modification",
             "comment": "Leviathan (G0065)"
         },
         {
             "score": 1,
-            "techniqueID": "T1546.003",
-            "techniqueName": "Windows Management Instrumentation Event Subscription",
+            "techniqueID": "T1102.003",
+            "techniqueName": "One-Way Communication",
             "comment": "Leviathan (G0065)"
         },
         {
             "score": 1,
-            "techniqueID": "T1102.003",
-            "techniqueName": "One-Way Communication",
+            "techniqueID": "T1546.003",
+            "techniqueName": "Windows Management Instrumentation Event Subscription",
             "comment": "Leviathan (G0065)"
         },
         {
@@ -171,6 +171,36 @@
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
             "comment": "Leviathan (G0065)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1583.001",
+            "techniqueName": "Domains",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1498",
+            "techniqueName": "Network Denial of Service",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1190",
+            "techniqueName": "Exploit Public-Facing Application",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1110.001",
+            "techniqueName": "Password Guessing",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1110.003",
+            "techniqueName": "Password Spraying",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -330,12 +360,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
             "comment": "APT28 (G0007)"
@@ -344,6 +368,12 @@
             "score": 1,
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -402,14 +432,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1071.003",
-            "techniqueName": "Mail Protocols",
+            "techniqueID": "T1218.011",
+            "techniqueName": "Rundll32",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1218.011",
-            "techniqueName": "Rundll32",
+            "techniqueID": "T1071.003",
+            "techniqueName": "Mail Protocols",
             "comment": "APT28 (G0007)"
         },
         {
@@ -420,22 +450,22 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         }
     ],
     "gradient": {
         "colors": [
-            "#9859d6",
-            "#e88fb7",
-            "#e0ed71"
+            "#7cb733",
+            "#8e43bc",
+            "#67cafc"
         ],
         "minValue": 0,
         "maxValue": 2

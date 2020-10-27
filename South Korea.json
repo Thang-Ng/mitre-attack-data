@@ -77,10 +77,10 @@
             "comment": "Darkhotel (G0012) & APT28 (G0007)"
         },
         {
-            "score": 7,
+            "score": 6,
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
-            "comment": "Darkhotel (G0012) & Honeybee (G0072) & Molerats (G0021) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091) & Winnti Group (G0044)"
+            "comment": "Darkhotel (G0012) & Honeybee (G0072) & Molerats (G0021) & Patchwork (G0040) & Silence (G0091) & Winnti Group (G0044)"
         },
         {
             "score": 1,
@@ -111,6 +111,12 @@
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
             "comment": "Dust Storm (G0031) & Honeybee (G0072) & Kimsuky (G0094) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1568.001",
+            "techniqueName": "Fast Flux DNS",
+            "comment": "Machete (G0095)"
         },
         {
             "score": 3,
@@ -153,12 +159,6 @@
             "techniqueID": "T1071.002",
             "techniqueName": "File Transfer Protocols",
             "comment": "Machete (G0095) & Honeybee (G0072)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "Machete (G0095) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT37 (G0067) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -215,6 +215,12 @@
             "comment": "Threat Group-3390 (G0027) & Silence (G0091) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1055.012",
             "techniqueName": "Process Hollowing",
@@ -223,7 +229,7 @@
         {
             "score": 4,
             "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Access Control",
+            "techniqueName": "Bypass User Account Control",
             "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Patchwork (G0040) & APT37 (G0067)"
         },
         {
@@ -233,16 +239,10 @@
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
-        },
-        {
-            "score": 4,
+            "score": 5,
             "techniqueID": "T1112",
             "techniqueName": "Modify Registry",
-            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Patchwork (G0040) & Silence (G0091)"
+            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & Silence (G0091)"
         },
         {
             "score": 2,
@@ -263,22 +263,10 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 8,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Kimsuky (G0094) & Lazarus Group (G0032) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1021.006",
-            "techniqueName": "Windows Remote Management",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 8,
+            "score": 9,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
-            "comment": "Threat Group-3390 (G0027) & Kimsuky (G0094) & Molerats (G0021) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "Threat Group-3390 (G0027) & Kimsuky (G0094) & Lazarus Group (G0032) & Molerats (G0021) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 3,
@@ -287,16 +275,22 @@
             "comment": "Threat Group-3390 (G0027) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1021.006",
+            "techniqueName": "Windows Remote Management",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1068",
             "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040) & APT28 (G0007)"
+            "score": 8,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Kimsuky (G0094) & Lazarus Group (G0032) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 1,
@@ -309,6 +303,12 @@
             "techniqueID": "T1562.002",
             "techniqueName": "Disable Windows Event Logging",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040) & APT28 (G0007)"
         },
         {
             "score": 9,
@@ -347,6 +347,12 @@
             "comment": "Threat Group-3390 (G0027) & Naikon (G0019) & Patchwork (G0040) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT37 (G0067) & APT28 (G0007)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1003.004",
             "techniqueName": "LSA Secrets",
@@ -365,10 +371,10 @@
             "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
         },
         {
-            "score": 5,
+            "score": 6,
             "techniqueID": "T1059.005",
             "techniqueName": "Visual Basic",
-            "comment": "Honeybee (G0072) & Molerats (G0021) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091)"
+            "comment": "Honeybee (G0072) & Lazarus Group (G0032) & Molerats (G0021) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -383,16 +389,16 @@
             "comment": "Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1569.002",
-            "techniqueName": "Service Execution",
-            "comment": "Honeybee (G0072) & Silence (G0091)"
-        },
-        {
             "score": 4,
             "techniqueID": "T1055",
             "techniqueName": "Process Injection",
             "comment": "Honeybee (G0072) & Kimsuky (G0094) & APT37 (G0067) & Silence (G0091)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1569.002",
+            "techniqueName": "Service Execution",
+            "comment": "Honeybee (G0072) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -443,10 +449,10 @@
             "comment": "Kimsuky (G0094)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1218.005",
             "techniqueName": "Mshta",
-            "comment": "Kimsuky (G0094)"
+            "comment": "Kimsuky (G0094) & Lazarus Group (G0032)"
         },
         {
             "score": 1,
@@ -477,6 +483,30 @@
             "techniqueID": "T1040",
             "techniqueName": "Network Sniffing",
             "comment": "Stolen Pencil (G0086) & APT28 (G0007)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1027.002",
+            "techniqueName": "Software Packing",
+            "comment": "Lazarus Group (G0032) & Patchwork (G0040) & Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1036.004",
+            "techniqueName": "Masquerade Task or Service",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1547.005",
+            "techniqueName": "Security Support Provider",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1566.003",
+            "techniqueName": "Spearphishing via Service",
+            "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 2,
@@ -587,15 +617,15 @@
             "comment": "Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & Soft Cell (G0093)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1008",
-            "techniqueName": "Fallback Channels",
-            "comment": "Lazarus Group (G0032)"
+            "score": 2,
+            "techniqueID": "T1110.003",
+            "techniqueName": "Password Spraying",
+            "comment": "Lazarus Group (G0032) & APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1110.003",
-            "techniqueName": "Password Spraying",
+            "techniqueID": "T1008",
+            "techniqueName": "Fallback Channels",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -666,6 +696,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1587.002",
+            "techniqueName": "Code Signing Certificates",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1197",
             "techniqueName": "BITS Jobs",
             "comment": "Patchwork (G0040)"
@@ -686,12 +722,6 @@
             "score": 2,
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
-            "comment": "Patchwork (G0040) & Soft Cell (G0093)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1027.002",
-            "techniqueName": "Software Packing",
             "comment": "Patchwork (G0040) & Soft Cell (G0093)"
         },
         {
@@ -744,6 +774,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1036.001",
+            "techniqueName": "Invalid Code Signature",
+            "comment": "APT37 (G0067)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1072",
             "techniqueName": "Software Deployment Tools",
             "comment": "Silence (G0091)"
@@ -759,6 +795,30 @@
             "techniqueID": "T1125",
             "techniqueName": "Video Capture",
             "comment": "Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1583.001",
+            "techniqueName": "Domains",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1498",
+            "techniqueName": "Network Denial of Service",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1190",
+            "techniqueName": "Exploit Public-Facing Application",
+            "comment": "APT28 (G0007) & Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1110.001",
+            "techniqueName": "Password Guessing",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -839,16 +899,16 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
             "comment": "APT28 (G0007) & Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -870,14 +930,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1218.011",
+            "techniqueName": "Rundll32",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1071.003",
             "techniqueName": "Mail Protocols",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1218.011",
-            "techniqueName": "Rundll32",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
@@ -888,9 +954,9 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
-            "comment": "APT28 (G0007)"
+            "techniqueID": "T1218.004",
+            "techniqueName": "InstallUtil",
+            "comment": "menuPass (G0045)"
         },
         {
             "score": 2,
@@ -933,30 +999,24 @@
             "techniqueID": "T1136.002",
             "techniqueName": "Domain Account",
             "comment": "Soft Cell (G0093)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1190",
-            "techniqueName": "Exploit Public-Facing Application",
-            "comment": "Soft Cell (G0093)"
         }
     ],
     "gradient": {
         "colors": [
-            "#4e53f4",
-            "#f4e1b5",
-            "#3dccaf",
-            "#2cccb9",
-            "#d32ace",
-            "#3226a0",
-            "#e2b0f4",
-            "#f7d3be",
-            "#4b9ab7",
-            "#3c8c0b",
-            "#7aff51",
-            "#d5f79e",
-            "#9df9c7",
-            "#23a896"
+            "#b7730c",
+            "#9a7ccc",
+            "#cc2676",
+            "#1fba65",
+            "#e86610",
+            "#7e73c6",
+            "#ffbae0",
+            "#56b1b7",
+            "#ff9f72",
+            "#3d3bbf",
+            "#ceab44",
+            "#d8ffad",
+            "#ffdcc6",
+            "#1dd5f2"
         ],
         "minValue": 0,
         "maxValue": 13

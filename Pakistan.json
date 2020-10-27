@@ -48,12 +48,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
-            "comment": "Ke3chang (G0004)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1558.001",
             "techniqueName": "Golden Ticket",
             "comment": "Ke3chang (G0004)"
@@ -63,6 +57,12 @@
             "techniqueID": "T1133",
             "techniqueName": "External Remote Services",
             "comment": "Ke3chang (G0004) & OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "Ke3chang (G0004)"
         },
         {
             "score": 2,
@@ -83,16 +83,16 @@
             "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & OilRig (G0049) & APT28 (G0007)"
-        },
-        {
             "score": 6,
             "techniqueID": "T1071.001",
             "techniqueName": "Web Protocols",
             "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & OilRig (G0049) & APT28 (G0007)"
         },
         {
             "score": 2,
@@ -161,12 +161,6 @@
             "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Patchwork (G0040) & APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Ke3chang (G0004) & Patchwork (G0040) & APT28 (G0007)"
-        },
-        {
             "score": 6,
             "techniqueID": "T1057",
             "techniqueName": "Process Discovery",
@@ -183,6 +177,12 @@
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
             "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Ke3chang (G0004) & Patchwork (G0040) & APT28 (G0007)"
         },
         {
             "score": 2,
@@ -276,8 +276,8 @@
         },
         {
             "score": 7,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
             "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
@@ -287,28 +287,28 @@
             "comment": "Magic Hound (G0059)"
         },
         {
-            "score": 7,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007)"
-        },
-        {
             "score": 6,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "Magic Hound (G0059) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & The White Company (G0089)"
         },
         {
+            "score": 7,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
             "comment": "Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007)"
         },
         {
             "score": 4,
@@ -409,7 +409,7 @@
         {
             "score": 2,
             "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Access Control",
+            "techniqueName": "Bypass User Account Control",
             "comment": "MuddyWater (G0069) & Patchwork (G0040)"
         },
         {
@@ -467,12 +467,6 @@
             "comment": "OilRig (G0049) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1573.002",
-            "techniqueName": "Asymmetric Cryptography",
-            "comment": "OilRig (G0049)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1201",
             "techniqueName": "Password Policy Discovery",
@@ -483,6 +477,12 @@
             "techniqueID": "T1218.001",
             "techniqueName": "Compiled HTML File",
             "comment": "OilRig (G0049) & Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1573.002",
+            "techniqueName": "Asymmetric Cryptography",
+            "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
@@ -552,6 +552,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1587.002",
+            "techniqueName": "Code Signing Certificates",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1197",
             "techniqueName": "BITS Jobs",
             "comment": "Patchwork (G0040)"
@@ -564,14 +570,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
+            "techniqueID": "T1574.002",
+            "techniqueName": "DLL Side-Loading",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
-            "techniqueID": "T1574.002",
-            "techniqueName": "DLL Side-Loading",
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -639,6 +645,36 @@
             "techniqueID": "T1125",
             "techniqueName": "Video Capture",
             "comment": "Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1583.001",
+            "techniqueName": "Domains",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1498",
+            "techniqueName": "Network Denial of Service",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1190",
+            "techniqueName": "Exploit Public-Facing Application",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1110.001",
+            "techniqueName": "Password Guessing",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1110.003",
+            "techniqueName": "Password Spraying",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -731,12 +767,6 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
@@ -746,6 +776,12 @@
             "score": 1,
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -798,15 +834,45 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1346",
             "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
-            "comment": "APT28 (G0007)"
+            "techniqueID": "T1587.001",
+            "techniqueName": "Malware",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.004",
+            "techniqueName": "Server",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.006",
+            "techniqueName": "Web Services",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.003",
+            "techniqueName": "Virtual Private Server",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1588.001",
+            "techniqueName": "Malware",
+            "comment": "Turla (G0010)"
         },
         {
             "score": 1,
@@ -877,15 +943,15 @@
     ],
     "gradient": {
         "colors": [
-            "#bff8fc",
-            "#227091",
-            "#aefcc1",
-            "#8defa9",
-            "#b815ea",
-            "#f22983",
-            "#fcb5ee",
-            "#34ff2d",
-            "#eb7fff"
+            "#59f77d",
+            "#0ea6cc",
+            "#01a041",
+            "#9dbcea",
+            "#16b9cc",
+            "#8e39d3",
+            "#d5c6ff",
+            "#dd7cd4",
+            "#e291ca"
         ],
         "minValue": 0,
         "maxValue": 8

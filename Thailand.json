@@ -1,9 +1,21 @@
 {
-    "description": "Techniques of groups: APT16 (G0023) & APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Thrip (G0076) & Naikon (G0019) & PLATINUM (G0068) & Silence (G0091) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010) & Winnti Group (G0044) & ",
+    "description": "Techniques of groups: APT16 (G0023) & APT30 (G0013) & APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Thrip (G0076) & Naikon (G0019) & PLATINUM (G0068) & Silence (G0091) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010) & Winnti Group (G0044) & ",
     "name": "Thailand",
     "domain": "mitre-enterprise",
     "version": "3.0",
     "techniques": [
+        {
+            "score": 2,
+            "techniqueID": "T1584.004",
+            "techniqueName": "Server",
+            "comment": "APT16 (G0023) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1334",
+            "techniqueName": "Compromise 3rd party infrastructure to support delivery",
+            "comment": "APT16 (G0023)"
+        },
         {
             "score": 1,
             "techniqueID": "T1272",
@@ -11,10 +23,16 @@
             "comment": "APT16 (G0023)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1334",
-            "techniqueName": "Compromise 3rd party infrastructure to support delivery",
-            "comment": "APT16 (G0023)"
+            "score": 12,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "APT30 (G0013) & APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Darkhotel (G0012) & Lazarus Group (G0032) & Naikon (G0019) & PLATINUM (G0068) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Turla (G0010)"
+        },
+        {
+            "score": 11,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "APT30 (G0013) & APT32 (G0050) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Lazarus Group (G0032) & Naikon (G0019) & PLATINUM (G0068) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 3,
@@ -107,16 +125,16 @@
             "comment": "APT32 (G0050) & PLATINUM (G0068) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1036.004",
             "techniqueName": "Masquerade Task or Service",
-            "comment": "APT32 (G0050)"
+            "comment": "APT32 (G0050) & Lazarus Group (G0032)"
         },
         {
-            "score": 4,
+            "score": 5,
             "techniqueID": "T1059.005",
             "techniqueName": "Visual Basic",
-            "comment": "APT32 (G0050) & Cobalt Group (G0080) & Silence (G0091) & Turla (G0010)"
+            "comment": "APT32 (G0050) & Cobalt Group (G0080) & Lazarus Group (G0032) & Silence (G0091) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -167,10 +185,10 @@
             "comment": "APT32 (G0050) & APT41 (G0096) & Silence (G0091)"
         },
         {
-            "score": 5,
+            "score": 6,
             "techniqueID": "T1112",
             "techniqueName": "Modify Registry",
-            "comment": "APT32 (G0050) & APT41 (G0096) & Threat Group-3390 (G0027) & Silence (G0091) & Turla (G0010)"
+            "comment": "APT32 (G0050) & APT41 (G0096) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Silence (G0091) & Turla (G0010)"
         },
         {
             "score": 4,
@@ -233,10 +251,10 @@
             "comment": "APT32 (G0050) & Cobalt Group (G0080) & APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1218.005",
             "techniqueName": "Mshta",
-            "comment": "APT32 (G0050)"
+            "comment": "APT32 (G0050) & Lazarus Group (G0032)"
         },
         {
             "score": 10,
@@ -311,34 +329,22 @@
             "comment": "APT32 (G0050)"
         },
         {
+            "score": 5,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "APT32 (G0050) & Darkhotel (G0012) & Lazarus Group (G0032) & Stealth Falcon (G0038) & Turla (G0010)"
+        },
+        {
             "score": 7,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "APT32 (G0050) & Dark Caracal (G0070) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & PLATINUM (G0068) & Turla (G0010)"
         },
         {
-            "score": 11,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Darkhotel (G0012) & Lazarus Group (G0032) & Naikon (G0019) & PLATINUM (G0068) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Turla (G0010)"
-        },
-        {
-            "score": 10,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "APT32 (G0050) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Lazarus Group (G0032) & Naikon (G0019) & PLATINUM (G0068) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
             "score": 6,
             "techniqueID": "T1574.002",
             "techniqueName": "DLL Side-Loading",
             "comment": "APT32 (G0050) & APT41 (G0096) & Threat Group-3390 (G0027) & Naikon (G0019) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "APT32 (G0050) & Darkhotel (G0012) & Lazarus Group (G0032) & Stealth Falcon (G0038) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -353,16 +359,16 @@
             "comment": "APT32 (G0050) & Threat Group-3390 (G0027) & Soft Cell (G0093)"
         },
         {
-            "score": 9,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Dark Caracal (G0070) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT28 (G0007) & Stealth Falcon (G0038) & Turla (G0010)"
-        },
-        {
             "score": 11,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
             "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & PLATINUM (G0068) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
+        },
+        {
+            "score": 9,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Dark Caracal (G0070) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT28 (G0007) & Stealth Falcon (G0038) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -383,10 +389,10 @@
             "comment": "APT32 (G0050) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & PLATINUM (G0068) & APT28 (G0007)"
         },
         {
-            "score": 11,
+            "score": 12,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
-            "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Thrip (G0076) & Silence (G0091) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
+            "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Thrip (G0076) & Silence (G0091) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
             "score": 12,
@@ -407,6 +413,12 @@
             "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Silence (G0091) & Stealth Falcon (G0038) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "APT32 (G0050) & APT41 (G0096) & Silence (G0091) & menuPass (G0045)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1078.003",
             "techniqueName": "Local Accounts",
@@ -417,12 +429,6 @@
             "techniqueID": "T1094",
             "techniqueName": "Custom Command and Control Protocol",
             "comment": "APT32 (G0050) & PLATINUM (G0068)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "APT32 (G0050) & APT41 (G0096) & Silence (G0091) & menuPass (G0045)"
         },
         {
             "score": 1,
@@ -443,10 +449,10 @@
             "comment": "APT41 (G0096)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1190",
             "techniqueName": "Exploit Public-Facing Application",
-            "comment": "APT41 (G0096) & Soft Cell (G0093)"
+            "comment": "APT41 (G0096) & APT28 (G0007) & Soft Cell (G0093)"
         },
         {
             "score": 1,
@@ -613,14 +619,8 @@
         {
             "score": 2,
             "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Access Control",
+            "techniqueName": "Bypass User Account Control",
             "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1559.002",
-            "techniqueName": "Dynamic Data Exchange",
-            "comment": "Cobalt Group (G0080) & APT28 (G0007)"
         },
         {
             "score": 2,
@@ -629,10 +629,10 @@
             "comment": "Cobalt Group (G0080) & Thrip (G0076)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1220",
-            "techniqueName": "XSL Script Processing",
-            "comment": "Cobalt Group (G0080)"
+            "score": 2,
+            "techniqueID": "T1559.002",
+            "techniqueName": "Dynamic Data Exchange",
+            "comment": "Cobalt Group (G0080) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -642,9 +642,15 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1220",
+            "techniqueName": "XSL Script Processing",
+            "comment": "Cobalt Group (G0080)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1566.003",
             "techniqueName": "Spearphishing via Service",
-            "comment": "Dark Caracal (G0070)"
+            "comment": "Dark Caracal (G0070) & Lazarus Group (G0032)"
         },
         {
             "score": 8,
@@ -659,10 +665,10 @@
             "comment": "Dark Caracal (G0070) & Silence (G0091) & APT28 (G0007)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1027.002",
             "techniqueName": "Software Packing",
-            "comment": "Dark Caracal (G0070) & Soft Cell (G0093)"
+            "comment": "Dark Caracal (G0070) & Lazarus Group (G0032) & Soft Cell (G0093)"
         },
         {
             "score": 1,
@@ -726,14 +732,14 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1055.012",
-            "techniqueName": "Process Hollowing",
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
             "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
         },
         {
             "score": 2,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
+            "techniqueID": "T1055.012",
+            "techniqueName": "Process Hollowing",
             "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
         },
         {
@@ -741,12 +747,6 @@
             "techniqueID": "T1021.006",
             "techniqueName": "Windows Remote Management",
             "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -759,6 +759,12 @@
             "techniqueID": "T1562.002",
             "techniqueName": "Disable Windows Event Logging",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
         },
         {
             "score": 2,
@@ -795,6 +801,12 @@
             "techniqueID": "T1053.002",
             "techniqueName": "At (Windows)",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1547.005",
+            "techniqueName": "Security Support Provider",
+            "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
@@ -881,10 +893,10 @@
             "comment": "Lazarus Group (G0032) & Turla (G0010)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1110.003",
             "techniqueName": "Password Spraying",
-            "comment": "Lazarus Group (G0032)"
+            "comment": "Lazarus Group (G0032) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -945,6 +957,24 @@
             "techniqueID": "T1125",
             "techniqueName": "Video Capture",
             "comment": "Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1583.001",
+            "techniqueName": "Domains",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1498",
+            "techniqueName": "Network Denial of Service",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1110.001",
+            "techniqueName": "Password Guessing",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -1013,16 +1043,16 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
             "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -1038,14 +1068,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
@@ -1059,6 +1089,12 @@
             "techniqueID": "T1555",
             "techniqueName": "Credentials from Password Stores",
             "comment": "Stealth Falcon (G0038) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.004",
+            "techniqueName": "InstallUtil",
+            "comment": "menuPass (G0045)"
         },
         {
             "score": 1,
@@ -1089,6 +1125,30 @@
             "techniqueID": "T1136.002",
             "techniqueName": "Domain Account",
             "comment": "Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1587.001",
+            "techniqueName": "Malware",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.006",
+            "techniqueName": "Web Services",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.003",
+            "techniqueName": "Virtual Private Server",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1588.001",
+            "techniqueName": "Malware",
+            "comment": "Turla (G0010)"
         },
         {
             "score": 1,
@@ -1159,19 +1219,19 @@
     ],
     "gradient": {
         "colors": [
-            "#f46be0",
-            "#cc35ea",
-            "#84dd25",
-            "#7ceaa6",
-            "#d563f2",
-            "#d3c4ff",
-            "#6df75d",
-            "#e595dd",
-            "#b9fcab",
-            "#5433a0",
-            "#86f9ee",
-            "#f1fca9",
-            "#17598c"
+            "#0383aa",
+            "#6620c1",
+            "#f4b8a4",
+            "#1c3da8",
+            "#23d1ae",
+            "#a795d8",
+            "#d31dd3",
+            "#e597d0",
+            "#8bc12e",
+            "#ff89cc",
+            "#ffb7c1",
+            "#4801a5",
+            "#75eaa0"
         ],
         "minValue": 0,
         "maxValue": 12

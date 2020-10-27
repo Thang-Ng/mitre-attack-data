@@ -18,8 +18,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1135",
-            "techniqueName": "Network Share Discovery",
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "Sowbug (G0054)"
         },
         {
@@ -30,8 +30,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
+            "techniqueID": "T1135",
+            "techniqueName": "Network Share Discovery",
             "comment": "Sowbug (G0054)"
         },
         {
@@ -48,14 +48,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
             "comment": "Sowbug (G0054)"
         },
         {
             "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
             "comment": "Sowbug (G0054)"
         },
         {
@@ -79,8 +79,8 @@
     ],
     "gradient": {
         "colors": [
-            "#f28d57",
-            "#db181b"
+            "#b5363e",
+            "#9ba8e8"
         ],
         "minValue": 0,
         "maxValue": 1

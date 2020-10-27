@@ -299,6 +299,12 @@
             "comment": "APT32 (G0050)"
         },
         {
+            "score": 6,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "APT32 (G0050) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & Turla (G0010)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
@@ -323,12 +329,6 @@
             "comment": "APT32 (G0050) & Threat Group-3390 (G0027)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "APT32 (G0050) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1216.001",
             "techniqueName": "PubPrn",
@@ -342,15 +342,15 @@
         },
         {
             "score": 9,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "APT32 (G0050) & APT33 (G0064) & Threat Group-3390 (G0027) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 9,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
             "comment": "APT32 (G0050) & APT33 (G0064) & Threat Group-3390 (G0027) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 9,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "APT32 (G0050) & APT33 (G0064) & Threat Group-3390 (G0027) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -395,6 +395,12 @@
             "comment": "APT32 (G0050) & APT33 (G0064) & MuddyWater (G0069)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "APT32 (G0050) & MuddyWater (G0069) & Sandworm Team (G0034)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1078.003",
             "techniqueName": "Local Accounts",
@@ -405,12 +411,6 @@
             "techniqueID": "T1094",
             "techniqueName": "Custom Command and Control Protocol",
             "comment": "APT32 (G0050)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "APT32 (G0050) & MuddyWater (G0069) & Sandworm Team (G0034)"
         },
         {
             "score": 2,
@@ -461,10 +461,10 @@
             "comment": "APT33 (G0064) & MuddyWater (G0069)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1110.003",
             "techniqueName": "Password Spraying",
-            "comment": "APT33 (G0064)"
+            "comment": "APT33 (G0064) & APT28 (G0007)"
         },
         {
             "score": 2,
@@ -528,6 +528,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1055.012",
             "techniqueName": "Process Hollowing",
             "comment": "Threat Group-3390 (G0027)"
@@ -535,14 +541,8 @@
         {
             "score": 2,
             "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Access Control",
+            "techniqueName": "Bypass User Account Control",
             "comment": "Threat Group-3390 (G0027) & MuddyWater (G0069)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 6,
@@ -557,12 +557,6 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1070.005",
             "techniqueName": "Network Share Connection Removal",
@@ -573,6 +567,12 @@
             "techniqueID": "T1562.002",
             "techniqueName": "Disable Windows Event Logging",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -593,16 +593,16 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
             "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -726,15 +726,15 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & APT28 (G0007)"
-        },
-        {
-            "score": 3,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
             "comment": "Magic Hound (G0059) & Sandworm Team (G0034) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -834,6 +834,30 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1583.001",
+            "techniqueName": "Domains",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1498",
+            "techniqueName": "Network Denial of Service",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1190",
+            "techniqueName": "Exploit Public-Facing Application",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1110.001",
+            "techniqueName": "Password Guessing",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1528",
             "techniqueName": "Steal Application Access Token",
             "comment": "APT28 (G0007)"
@@ -881,16 +905,16 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
             "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -918,14 +942,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
@@ -939,6 +963,36 @@
             "techniqueID": "T1556.002",
             "techniqueName": "Password Filter DLL",
             "comment": "Strider (G0041)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1587.001",
+            "techniqueName": "Malware",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.004",
+            "techniqueName": "Server",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.006",
+            "techniqueName": "Web Services",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.003",
+            "techniqueName": "Virtual Private Server",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1588.001",
+            "techniqueName": "Malware",
+            "comment": "Turla (G0010)"
         },
         {
             "score": 1,
@@ -1021,17 +1075,17 @@
     ],
     "gradient": {
         "colors": [
-            "#eb74f2",
-            "#42f7e5",
-            "#aaffd0",
-            "#9194e0",
-            "#54e547",
-            "#6e7fef",
-            "#76d363",
-            "#83ed3d",
-            "#08a542",
-            "#128491",
-            "#bc362f"
+            "#d1804b",
+            "#d2fcab",
+            "#f7aac0",
+            "#c44a5a",
+            "#d8b763",
+            "#e7b3f9",
+            "#db81c9",
+            "#f9c4c0",
+            "#e86000",
+            "#23a5d1",
+            "#84d31d"
         ],
         "minValue": 0,
         "maxValue": 10

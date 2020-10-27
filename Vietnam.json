@@ -1,5 +1,5 @@
 {
-    "description": "Techniques of groups: APT3 (G0022) & APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Honeybee (G0072) & Lazarus Group (G0032) & Thrip (G0076) & Naikon (G0019) & PLATINUM (G0068) & Rancor (G0075) & APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010) & Winnti Group (G0044) & ",
+    "description": "Techniques of groups: APT3 (G0022) & APT30 (G0013) & APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Honeybee (G0072) & Lazarus Group (G0032) & Thrip (G0076) & Naikon (G0019) & PLATINUM (G0068) & PROMETHIUM (G0056) & Rancor (G0075) & APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010) & Winnti Group (G0044) & ",
     "name": "Vietnam",
     "domain": "mitre-enterprise",
     "version": "3.0",
@@ -29,16 +29,16 @@
             "comment": "APT3 (G0022) & Lazarus Group (G0032)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1027.002",
+            "techniqueName": "Software Packing",
+            "comment": "APT3 (G0022) & Dark Caracal (G0070) & Lazarus Group (G0032)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
             "comment": "APT3 (G0022) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1027.002",
-            "techniqueName": "Software Packing",
-            "comment": "APT3 (G0022) & Dark Caracal (G0070)"
         },
         {
             "score": 2,
@@ -90,14 +90,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1069",
-            "techniqueName": "Permission Groups Discovery",
+            "techniqueID": "T1078.002",
+            "techniqueName": "Domain Accounts",
             "comment": "APT3 (G0022)"
         },
         {
             "score": 1,
-            "techniqueID": "T1078.002",
-            "techniqueName": "Domain Accounts",
+            "techniqueID": "T1069",
+            "techniqueName": "Permission Groups Discovery",
             "comment": "APT3 (G0022)"
         },
         {
@@ -107,34 +107,10 @@
             "comment": "APT3 (G0022) & Darkhotel (G0012) & Honeybee (G0072) & Lazarus Group (G0032) & APT37 (G0067) & Tropic Trooper (G0081) & Turla (G0010) & Winnti Group (G0044)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1041",
-            "techniqueName": "Exfiltration Over C2 Channel",
-            "comment": "APT3 (G0022) & APT32 (G0050) & Lazarus Group (G0032)"
-        },
-        {
-            "score": 7,
+            "score": 8,
             "techniqueID": "T1543.003",
             "techniqueName": "Windows Service",
-            "comment": "APT3 (G0022) & APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Honeybee (G0072) & Lazarus Group (G0032) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1136.001",
-            "techniqueName": "Local Account",
-            "comment": "APT3 (G0022) & APT41 (G0096)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "APT3 (G0022) & APT32 (G0050) & Lazarus Group (G0032) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "APT3 (G0022) & APT41 (G0096) & Turla (G0010)"
+            "comment": "APT3 (G0022) & APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Honeybee (G0072) & Lazarus Group (G0032) & PROMETHIUM (G0056) & Tropic Trooper (G0081)"
         },
         {
             "score": 5,
@@ -143,16 +119,22 @@
             "comment": "APT3 (G0022) & APT32 (G0050) & APT41 (G0096) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "APT3 (G0022) & Lazarus Group (G0032) & APT37 (G0067)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1218.011",
             "techniqueName": "Rundll32",
             "comment": "APT3 (G0022) & APT32 (G0050)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1136.001",
+            "techniqueName": "Local Account",
+            "comment": "APT3 (G0022) & APT41 (G0096)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1041",
+            "techniqueName": "Exfiltration Over C2 Channel",
+            "comment": "APT3 (G0022) & APT32 (G0050) & Lazarus Group (G0032)"
         },
         {
             "score": 12,
@@ -161,22 +143,16 @@
             "comment": "APT3 (G0022) & APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Honeybee (G0072) & Lazarus Group (G0032) & APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
-            "score": 12,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "APT3 (G0022) & APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Honeybee (G0072) & Lazarus Group (G0032) & APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
+            "score": 3,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "APT3 (G0022) & APT41 (G0096) & Turla (G0010)"
         },
         {
-            "score": 8,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "APT3 (G0022) & APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Honeybee (G0072) & Lazarus Group (G0032) & Silence (G0091) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1552.001",
-            "techniqueName": "Credentials In Files",
-            "comment": "APT3 (G0022)"
+            "score": 3,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "APT3 (G0022) & Lazarus Group (G0032) & APT37 (G0067)"
         },
         {
             "score": 8,
@@ -185,10 +161,34 @@
             "comment": "APT3 (G0022) & APT32 (G0050) & Darkhotel (G0012) & Honeybee (G0072) & Lazarus Group (G0032) & APT37 (G0067) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "APT3 (G0022) & APT32 (G0050) & Lazarus Group (G0032) & Turla (G0010)"
+        },
+        {
             "score": 5,
             "techniqueID": "T1574.002",
             "techniqueName": "DLL Side-Loading",
             "comment": "APT3 (G0022) & APT32 (G0050) & APT41 (G0096) & Naikon (G0019) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 8,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "APT3 (G0022) & APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Honeybee (G0072) & Lazarus Group (G0032) & Silence (G0091) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 13,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "APT3 (G0022) & APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Honeybee (G0072) & Lazarus Group (G0032) & PROMETHIUM (G0056) & APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1552.001",
+            "techniqueName": "Credentials In Files",
+            "comment": "APT3 (G0022)"
         },
         {
             "score": 3,
@@ -221,10 +221,10 @@
             "comment": "APT3 (G0022) & APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Rancor (G0075) & Silence (G0091)"
         },
         {
-            "score": 7,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "APT3 (G0022) & APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Thrip (G0076) & Silence (G0091) & Turla (G0010)"
+            "score": 3,
+            "techniqueID": "T1065",
+            "techniqueName": "Uncommonly Used Port",
+            "comment": "APT3 (G0022) & APT32 (G0050) & Lazarus Group (G0032)"
         },
         {
             "score": 13,
@@ -233,10 +233,16 @@
             "comment": "APT3 (G0022) & APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Honeybee (G0072) & Lazarus Group (G0032) & Rancor (G0075) & APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1065",
-            "techniqueName": "Uncommonly Used Port",
-            "comment": "APT3 (G0022) & APT32 (G0050) & Lazarus Group (G0032)"
+            "score": 8,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "APT3 (G0022) & APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Lazarus Group (G0032) & Thrip (G0076) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "APT3 (G0022) & APT32 (G0050) & APT41 (G0096) & Lazarus Group (G0032) & APT37 (G0067) & Tropic Trooper (G0081)"
         },
         {
             "score": 2,
@@ -251,10 +257,16 @@
             "comment": "APT3 (G0022) & PLATINUM (G0068)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "APT3 (G0022) & APT32 (G0050) & APT41 (G0096) & Lazarus Group (G0032) & APT37 (G0067) & Tropic Trooper (G0081)"
+            "score": 13,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "APT30 (G0013) & APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Darkhotel (G0012) & Lazarus Group (G0032) & Naikon (G0019) & PLATINUM (G0068) & Rancor (G0075) & APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 13,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "APT30 (G0013) & APT32 (G0050) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Lazarus Group (G0032) & Naikon (G0019) & PLATINUM (G0068) & PROMETHIUM (G0056) & Rancor (G0075) & APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081)"
         },
         {
             "score": 3,
@@ -323,16 +335,16 @@
             "comment": "APT32 (G0050) & PLATINUM (G0068)"
         },
         {
-            "score": 1,
+            "score": 3,
             "techniqueID": "T1036.004",
             "techniqueName": "Masquerade Task or Service",
-            "comment": "APT32 (G0050)"
+            "comment": "APT32 (G0050) & Lazarus Group (G0032) & PROMETHIUM (G0056)"
         },
         {
-            "score": 7,
+            "score": 8,
             "techniqueID": "T1059.005",
             "techniqueName": "Visual Basic",
-            "comment": "APT32 (G0050) & Cobalt Group (G0080) & Honeybee (G0072) & Rancor (G0075) & APT37 (G0067) & Silence (G0091) & Turla (G0010)"
+            "comment": "APT32 (G0050) & Cobalt Group (G0080) & Honeybee (G0072) & Lazarus Group (G0032) & Rancor (G0075) & APT37 (G0067) & Silence (G0091) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -365,10 +377,10 @@
             "comment": "APT32 (G0050) & APT41 (G0096) & Honeybee (G0072) & Silence (G0091)"
         },
         {
-            "score": 5,
+            "score": 6,
             "techniqueID": "T1112",
             "techniqueName": "Modify Registry",
-            "comment": "APT32 (G0050) & APT41 (G0096) & Honeybee (G0072) & Silence (G0091) & Turla (G0010)"
+            "comment": "APT32 (G0050) & APT41 (G0096) & Honeybee (G0072) & Lazarus Group (G0032) & Silence (G0091) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -401,10 +413,10 @@
             "comment": "APT32 (G0050) & Cobalt Group (G0080) & Turla (G0010)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1218.005",
             "techniqueName": "Mshta",
-            "comment": "APT32 (G0050)"
+            "comment": "APT32 (G0050) & Lazarus Group (G0032)"
         },
         {
             "score": 1,
@@ -449,22 +461,10 @@
             "comment": "APT32 (G0050)"
         },
         {
-            "score": 7,
+            "score": 8,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
-            "comment": "APT32 (G0050) & Dark Caracal (G0070) & Darkhotel (G0012) & Lazarus Group (G0032) & PLATINUM (G0068) & APT37 (G0067) & Turla (G0010)"
-        },
-        {
-            "score": 12,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Darkhotel (G0012) & Lazarus Group (G0032) & Naikon (G0019) & PLATINUM (G0068) & Rancor (G0075) & APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
-            "score": 11,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "APT32 (G0050) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Lazarus Group (G0032) & Naikon (G0019) & PLATINUM (G0068) & Rancor (G0075) & APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081)"
+            "comment": "APT32 (G0050) & Dark Caracal (G0070) & Darkhotel (G0012) & Lazarus Group (G0032) & PLATINUM (G0068) & PROMETHIUM (G0056) & APT37 (G0067) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -509,22 +509,22 @@
             "comment": "APT32 (G0050) & Lazarus Group (G0032)"
         },
         {
-            "score": 2,
+            "score": 5,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "APT32 (G0050) & APT41 (G0096) & PROMETHIUM (G0056) & Silence (G0091) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 3,
             "techniqueID": "T1078.003",
             "techniqueName": "Local Accounts",
-            "comment": "APT32 (G0050) & Tropic Trooper (G0081)"
+            "comment": "APT32 (G0050) & PROMETHIUM (G0056) & Tropic Trooper (G0081)"
         },
         {
             "score": 3,
             "techniqueID": "T1094",
             "techniqueName": "Custom Command and Control Protocol",
             "comment": "APT32 (G0050) & PLATINUM (G0068) & APT37 (G0067)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "APT32 (G0050) & APT41 (G0096) & Silence (G0091) & Tropic Trooper (G0081)"
         },
         {
             "score": 1,
@@ -644,7 +644,7 @@
             "score": 6,
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
-            "comment": "APT41 (G0096) & Darkhotel (G0012) & Honeybee (G0072) & APT37 (G0067) & Silence (G0091) & Winnti Group (G0044)"
+            "comment": "APT41 (G0096) & Darkhotel (G0012) & Honeybee (G0072) & PROMETHIUM (G0056) & Silence (G0091) & Winnti Group (G0044)"
         },
         {
             "score": 1,
@@ -679,8 +679,14 @@
         {
             "score": 3,
             "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Access Control",
+            "techniqueName": "Bypass User Account Control",
             "comment": "Cobalt Group (G0080) & Honeybee (G0072) & APT37 (G0067)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1219",
+            "techniqueName": "Remote Access Software",
+            "comment": "Cobalt Group (G0080) & Thrip (G0076)"
         },
         {
             "score": 2,
@@ -690,9 +696,9 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1219",
-            "techniqueName": "Remote Access Software",
-            "comment": "Cobalt Group (G0080) & Thrip (G0076)"
+            "techniqueID": "T1573.002",
+            "techniqueName": "Asymmetric Cryptography",
+            "comment": "Cobalt Group (G0080) & Tropic Trooper (G0081)"
         },
         {
             "score": 1,
@@ -702,15 +708,9 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1573.002",
-            "techniqueName": "Asymmetric Cryptography",
-            "comment": "Cobalt Group (G0080) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1566.003",
             "techniqueName": "Spearphishing via Service",
-            "comment": "Dark Caracal (G0070)"
+            "comment": "Dark Caracal (G0070) & Lazarus Group (G0032)"
         },
         {
             "score": 2,
@@ -765,6 +765,12 @@
             "techniqueID": "T1020",
             "techniqueName": "Automated Exfiltration",
             "comment": "Honeybee (G0072) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1547.005",
+            "techniqueName": "Security Support Provider",
+            "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
@@ -894,6 +900,24 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1587.002",
+            "techniqueName": "Code Signing Certificates",
+            "comment": "PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1587.003",
+            "techniqueName": "Digital Certificates",
+            "comment": "PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1205.001",
+            "techniqueName": "Port Knocking",
+            "comment": "PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1218.007",
             "techniqueName": "Msiexec",
             "comment": "Rancor (G0075)"
@@ -927,6 +951,12 @@
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
             "comment": "APT37 (G0067) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1036.001",
+            "techniqueName": "Invalid Code Signature",
+            "comment": "APT37 (G0067)"
         },
         {
             "score": 1,
@@ -969,6 +999,36 @@
             "techniqueID": "T1547.004",
             "techniqueName": "Winlogon Helper DLL",
             "comment": "Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1587.001",
+            "techniqueName": "Malware",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.004",
+            "techniqueName": "Server",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.006",
+            "techniqueName": "Web Services",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.003",
+            "techniqueName": "Virtual Private Server",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1588.001",
+            "techniqueName": "Malware",
+            "comment": "Turla (G0010)"
         },
         {
             "score": 1,
@@ -1045,20 +1105,20 @@
     ],
     "gradient": {
         "colors": [
-            "#d28cf2",
-            "#3bc6b2",
-            "#cc2e9c",
-            "#f9759a",
-            "#3141f7",
-            "#94bbf7",
-            "#20ad2a",
-            "#e2a8f7",
-            "#ce169d",
-            "#e05e9d",
-            "#ed6f88",
-            "#792ca5",
-            "#aefcb4",
-            "#c98302"
+            "#f49d3f",
+            "#f4ccff",
+            "#d08be0",
+            "#72d328",
+            "#e3e554",
+            "#8ceab6",
+            "#59e088",
+            "#27ba33",
+            "#f96d93",
+            "#f2a99b",
+            "#1846ce",
+            "#d35f8b",
+            "#6df215",
+            "#ab04d1"
         ],
         "minValue": 0,
         "maxValue": 13

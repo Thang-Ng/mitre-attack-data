@@ -102,6 +102,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1568.001",
+            "techniqueName": "Fast Flux DNS",
+            "comment": "Machete (G0095)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1204.001",
             "techniqueName": "Malicious Link",
             "comment": "Machete (G0095)"
@@ -143,12 +149,6 @@
             "comment": "Machete (G0095)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "Machete (G0095) & TEMP.Veles (G0088)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1059.006",
             "techniqueName": "Python",
@@ -159,6 +159,12 @@
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
             "comment": "Machete (G0095)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1583.003",
+            "techniqueName": "Virtual Private Server",
+            "comment": "TEMP.Veles (G0088)"
         },
         {
             "score": 1,
@@ -176,6 +182,12 @@
             "score": 1,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
+            "comment": "TEMP.Veles (G0088)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
             "comment": "TEMP.Veles (G0088)"
         },
         {
@@ -259,9 +271,9 @@
     ],
     "gradient": {
         "colors": [
-            "#f4e950",
-            "#db55b0",
-            "#88dd3e"
+            "#58ddc1",
+            "#198184",
+            "#8fb8e0"
         ],
         "minValue": 0,
         "maxValue": 2

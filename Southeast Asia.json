@@ -24,6 +24,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1587.002",
+            "techniqueName": "Code Signing Certificates",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1204.001",
             "techniqueName": "Malicious Link",
             "comment": "Patchwork (G0040)"
@@ -72,12 +78,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1574.002",
             "techniqueName": "DLL Side-Loading",
             "comment": "Patchwork (G0040)"
@@ -86,6 +86,12 @@
             "score": 1,
             "techniqueID": "T1119",
             "techniqueName": "Automated Collection",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -119,16 +125,16 @@
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "Patchwork (G0040) & Rancor (G0075)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "Patchwork (G0040) & Rancor (G0075)"
         },
         {
             "score": 1,
@@ -192,14 +198,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
+            "techniqueID": "T1132.001",
+            "techniqueName": "Standard Encoding",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
-            "techniqueID": "T1132.001",
-            "techniqueName": "Standard Encoding",
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -211,7 +217,7 @@
         {
             "score": 1,
             "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Access Control",
+            "techniqueName": "Bypass User Account Control",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -241,9 +247,9 @@
     ],
     "gradient": {
         "colors": [
-            "#9088d8",
-            "#7b8de5",
-            "#0fc1be"
+            "#9b1b3e",
+            "#3de2d7",
+            "#0c7289"
         ],
         "minValue": 0,
         "maxValue": 2

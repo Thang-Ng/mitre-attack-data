@@ -6,6 +6,54 @@
     "techniques": [
         {
             "score": 1,
+            "techniqueID": "T1218.005",
+            "techniqueName": "Mshta",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.002",
+            "techniqueName": "Software Packing",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1036.004",
+            "techniqueName": "Masquerade Task or Service",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1112",
+            "techniqueName": "Modify Registry",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1547.005",
+            "techniqueName": "Security Support Provider",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1566.003",
+            "techniqueName": "Spearphishing via Service",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1571",
             "techniqueName": "Non-Standard Port",
             "comment": "Lazarus Group (G0032)"
@@ -132,12 +180,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1547.009",
-            "techniqueName": "Shortcut Modification",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1132.001",
             "techniqueName": "Standard Encoding",
             "comment": "Lazarus Group (G0032)"
@@ -146,6 +188,12 @@
             "score": 1,
             "techniqueID": "T1071.001",
             "techniqueName": "Web Protocols",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1547.009",
+            "techniqueName": "Shortcut Modification",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -198,14 +246,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1008",
-            "techniqueName": "Fallback Channels",
+            "techniqueID": "T1110.003",
+            "techniqueName": "Password Spraying",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1110.003",
-            "techniqueName": "Password Spraying",
+            "techniqueID": "T1008",
+            "techniqueName": "Fallback Channels",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -228,14 +276,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -246,14 +294,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -270,20 +318,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1010",
             "techniqueName": "Application Window Discovery",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1012",
-            "techniqueName": "Query Registry",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -294,8 +330,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1012",
+            "techniqueName": "Query Registry",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -318,14 +366,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.006",
-            "techniqueName": "Timestomp",
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
+            "techniqueID": "T1070.006",
+            "techniqueName": "Timestomp",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -355,8 +403,8 @@
     ],
     "gradient": {
         "colors": [
-            "#bba5e5",
-            "#3f0196"
+            "#833fbf",
+            "#fcc2cd"
         ],
         "minValue": 0,
         "maxValue": 1
