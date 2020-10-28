@@ -6,12 +6,6 @@
     "techniques": [
         {
             "score": 1,
-            "techniqueID": "T1003",
-            "techniqueName": "OS Credential Dumping",
-            "comment": "Sowbug (G0054)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
             "comment": "Sowbug (G0054)"
@@ -24,14 +18,26 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1135",
+            "techniqueName": "Network Share Discovery",
+            "comment": "Sowbug (G0054)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003",
+            "techniqueName": "OS Credential Dumping",
+            "comment": "Sowbug (G0054)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1560.001",
             "techniqueName": "Archive via Utility",
             "comment": "Sowbug (G0054)"
         },
         {
             "score": 1,
-            "techniqueID": "T1135",
-            "techniqueName": "Network Share Discovery",
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
             "comment": "Sowbug (G0054)"
         },
         {
@@ -50,12 +56,6 @@
             "score": 1,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
-            "comment": "Sowbug (G0054)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
             "comment": "Sowbug (G0054)"
         },
         {
@@ -79,8 +79,8 @@
     ],
     "gradient": {
         "colors": [
-            "#b5363e",
-            "#9ba8e8"
+            "#6ccc28",
+            "#ca08e0"
         ],
         "minValue": 0,
         "maxValue": 1

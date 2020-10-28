@@ -18,8 +18,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
             "comment": "TA459 (G0062)"
         },
         {
@@ -30,15 +30,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1059.005",
-            "techniqueName": "Visual Basic",
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
             "comment": "TA459 (G0062)"
         }
     ],
     "gradient": {
         "colors": [
-            "#ea48da",
-            "#977df2"
+            "#f9b48e",
+            "#a194e8"
         ],
         "minValue": 0,
         "maxValue": 1

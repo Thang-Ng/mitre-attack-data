@@ -288,14 +288,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1345",
-            "techniqueName": "Create custom payloads",
+            "techniqueID": "T1313",
+            "techniqueName": "Obfuscation or cryptography",
             "comment": "Cleaver (G0003)"
         },
         {
             "score": 1,
-            "techniqueID": "T1313",
-            "techniqueName": "Obfuscation or cryptography",
+            "techniqueID": "T1345",
+            "techniqueName": "Create custom payloads",
             "comment": "Cleaver (G0003)"
         },
         {
@@ -318,6 +318,12 @@
         },
         {
             "score": 3,
+            "techniqueID": "T1218.001",
+            "techniqueName": "Compiled HTML File",
+            "comment": "Dark Caracal (G0070) & OilRig (G0049) & Silence (G0091)"
+        },
+        {
+            "score": 3,
             "techniqueID": "T1566.003",
             "techniqueName": "Spearphishing via Service",
             "comment": "Dark Caracal (G0070) & Magic Hound (G0059) & OilRig (G0049)"
@@ -333,12 +339,6 @@
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1218.001",
-            "techniqueName": "Compiled HTML File",
-            "comment": "Dark Caracal (G0070) & OilRig (G0049) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -426,8 +426,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1558.001",
-            "techniqueName": "Golden Ticket",
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1213.002",
+            "techniqueName": "Sharepoint",
             "comment": "Ke3chang (G0004)"
         },
         {
@@ -438,14 +444,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
-            "comment": "Ke3chang (G0004)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1213.002",
-            "techniqueName": "Sharepoint",
+            "techniqueID": "T1558.001",
+            "techniqueName": "Golden Ticket",
             "comment": "Ke3chang (G0004)"
         },
         {
@@ -468,15 +468,15 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1041",
-            "techniqueName": "Exfiltration Over C2 Channel",
-            "comment": "Ke3chang (G0004) & MuddyWater (G0069) & Stealth Falcon (G0038)"
-        },
-        {
-            "score": 3,
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
             "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1041",
+            "techniqueName": "Exfiltration Over C2 Channel",
+            "comment": "Ke3chang (G0004) & MuddyWater (G0069) & Stealth Falcon (G0038)"
         },
         {
             "score": 1,
@@ -497,16 +497,22 @@
             "comment": "Leviathan (G0065)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1218.010",
-            "techniqueName": "Regsvr32",
-            "comment": "Leviathan (G0065)"
-        },
-        {
             "score": 6,
             "techniqueID": "T1059.005",
             "techniqueName": "Visual Basic",
             "comment": "Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "Leviathan (G0065) & TEMP.Veles (G0088)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.010",
+            "techniqueName": "Regsvr32",
+            "comment": "Leviathan (G0065)"
         },
         {
             "score": 2,
@@ -515,10 +521,10 @@
             "comment": "Leviathan (G0065) & MuddyWater (G0069)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "Leviathan (G0065) & TEMP.Veles (G0088)"
+            "score": 1,
+            "techniqueID": "T1102.003",
+            "techniqueName": "One-Way Communication",
+            "comment": "Leviathan (G0065)"
         },
         {
             "score": 4,
@@ -528,8 +534,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1102.003",
-            "techniqueName": "One-Way Communication",
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
             "comment": "Leviathan (G0065)"
         },
         {
@@ -537,12 +543,6 @@
             "techniqueID": "T1546.003",
             "techniqueName": "Windows Management Instrumentation Event Subscription",
             "comment": "Leviathan (G0065) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "Leviathan (G0065)"
         },
         {
             "score": 5,
@@ -695,22 +695,16 @@
             "comment": "OilRig (G0049)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1201",
-            "techniqueName": "Password Policy Discovery",
-            "comment": "OilRig (G0049) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1573.002",
             "techniqueName": "Asymmetric Cryptography",
             "comment": "OilRig (G0049)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
-            "comment": "OilRig (G0049)"
+            "score": 2,
+            "techniqueID": "T1201",
+            "techniqueName": "Password Policy Discovery",
+            "comment": "OilRig (G0049) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -729,6 +723,12 @@
             "techniqueID": "T1012",
             "techniqueName": "Query Registry",
             "comment": "OilRig (G0049) & Stealth Falcon (G0038) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
+            "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
@@ -907,18 +907,18 @@
     ],
     "gradient": {
         "colors": [
-            "#d19336",
-            "#884ed3",
-            "#12a850",
-            "#d33dba",
-            "#aa3a1e",
-            "#d2a7ef",
-            "#7c3cf2",
-            "#b8f986",
-            "#828cf2",
-            "#ffd7cc",
-            "#e569a7",
-            "#92f26d"
+            "#31f7a8",
+            "#201d7f",
+            "#1ca03d",
+            "#dba66d",
+            "#efe87c",
+            "#8ef9c5",
+            "#45d35b",
+            "#efc59b",
+            "#f9dab1",
+            "#fc1edb",
+            "#f77b9e",
+            "#0cafd3"
         ],
         "minValue": 0,
         "maxValue": 11
