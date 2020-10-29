@@ -6,14 +6,20 @@
     "techniques": [
         {
             "score": 1,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "Sowbug (G0054)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
             "comment": "Sowbug (G0054)"
         },
         {
             "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
             "comment": "Sowbug (G0054)"
         },
         {
@@ -24,14 +30,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1003",
-            "techniqueName": "OS Credential Dumping",
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "Sowbug (G0054)"
         },
         {
             "score": 1,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
+            "techniqueID": "T1003",
+            "techniqueName": "OS Credential Dumping",
             "comment": "Sowbug (G0054)"
         },
         {
@@ -44,12 +50,6 @@
             "score": 1,
             "techniqueID": "T1059.003",
             "techniqueName": "Windows Command Shell",
-            "comment": "Sowbug (G0054)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1039",
-            "techniqueName": "Data from Network Shared Drive",
             "comment": "Sowbug (G0054)"
         },
         {
@@ -79,8 +79,8 @@
     ],
     "gradient": {
         "colors": [
-            "#6ccc28",
-            "#ca08e0"
+            "#0ad625",
+            "#3d209b"
         ],
         "minValue": 0,
         "maxValue": 1

@@ -42,14 +42,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
+            "techniqueID": "T1125",
+            "techniqueName": "Video Capture",
             "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
-            "techniqueID": "T1125",
-            "techniqueName": "Video Capture",
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -60,14 +60,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
+            "techniqueID": "T1059",
+            "techniqueName": "Command and Scripting Interpreter",
             "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
-            "techniqueID": "T1071.004",
-            "techniqueName": "DNS",
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -78,20 +84,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1059",
-            "techniqueName": "Command and Scripting Interpreter",
+            "techniqueID": "T1071.004",
+            "techniqueName": "DNS",
             "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -120,14 +120,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
+            "techniqueID": "T1036.004",
+            "techniqueName": "Masquerade Task or Service",
             "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
-            "techniqueID": "T1036.004",
-            "techniqueName": "Masquerade Task or Service",
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -157,8 +157,8 @@
     ],
     "gradient": {
         "colors": [
-            "#d27af4",
-            "#d8ca2f"
+            "#ce542f",
+            "#71b3ed"
         ],
         "minValue": 0,
         "maxValue": 1

@@ -251,10 +251,10 @@
             "comment": "CopyKittens (G0052) & Magic Hound (G0059)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1218.011",
-            "techniqueName": "Rundll32",
-            "comment": "CopyKittens (G0052) & MuddyWater (G0069)"
+            "score": 5,
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
+            "comment": "CopyKittens (G0052) & Darkhotel (G0012) & Leviathan (G0065) & Molerats (G0021) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -263,10 +263,10 @@
             "comment": "CopyKittens (G0052)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
-            "comment": "CopyKittens (G0052) & Darkhotel (G0012) & Leviathan (G0065) & Molerats (G0021) & Silence (G0091)"
+            "score": 2,
+            "techniqueID": "T1218.011",
+            "techniqueName": "Rundll32",
+            "comment": "CopyKittens (G0052) & MuddyWater (G0069)"
         },
         {
             "score": 1,
@@ -318,15 +318,15 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1218.001",
-            "techniqueName": "Compiled HTML File",
-            "comment": "Dark Caracal (G0070) & OilRig (G0049) & Silence (G0091)"
-        },
-        {
-            "score": 3,
             "techniqueID": "T1566.003",
             "techniqueName": "Spearphishing via Service",
             "comment": "Dark Caracal (G0070) & Magic Hound (G0059) & OilRig (G0049)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1218.001",
+            "techniqueName": "Compiled HTML File",
+            "comment": "Dark Caracal (G0070) & OilRig (G0049) & Silence (G0091)"
         },
         {
             "score": 5,
@@ -425,18 +425,6 @@
             "comment": "Ke3chang (G0004)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
-            "comment": "Ke3chang (G0004)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1213.002",
-            "techniqueName": "Sharepoint",
-            "comment": "Ke3chang (G0004)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1133",
             "techniqueName": "External Remote Services",
@@ -446,6 +434,18 @@
             "score": 1,
             "techniqueID": "T1558.001",
             "techniqueName": "Golden Ticket",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1213.002",
+            "techniqueName": "Sharepoint",
             "comment": "Ke3chang (G0004)"
         },
         {
@@ -468,15 +468,15 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
-            "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
-        },
-        {
-            "score": 3,
             "techniqueID": "T1041",
             "techniqueName": "Exfiltration Over C2 Channel",
             "comment": "Ke3chang (G0004) & MuddyWater (G0069) & Stealth Falcon (G0038)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -491,6 +491,12 @@
             "comment": "Leviathan (G0065) & Turla (G0010)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1047",
+            "techniqueName": "Windows Management Instrumentation",
+            "comment": "Leviathan (G0065) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1197",
             "techniqueName": "BITS Jobs",
@@ -503,16 +509,16 @@
             "comment": "Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "Leviathan (G0065) & TEMP.Veles (G0088)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1218.010",
             "techniqueName": "Regsvr32",
             "comment": "Leviathan (G0065)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "Leviathan (G0065) & TEMP.Veles (G0088)"
         },
         {
             "score": 2,
@@ -525,12 +531,6 @@
             "techniqueID": "T1102.003",
             "techniqueName": "One-Way Communication",
             "comment": "Leviathan (G0065)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1047",
-            "techniqueName": "Windows Management Instrumentation",
-            "comment": "Leviathan (G0065) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038)"
         },
         {
             "score": 1,
@@ -726,14 +726,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
+            "techniqueID": "T1048.003",
+            "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
             "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
-            "techniqueID": "T1048.003",
-            "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
             "comment": "OilRig (G0049)"
         },
         {
@@ -907,18 +907,18 @@
     ],
     "gradient": {
         "colors": [
-            "#31f7a8",
-            "#201d7f",
-            "#1ca03d",
-            "#dba66d",
-            "#efe87c",
-            "#8ef9c5",
-            "#45d35b",
-            "#efc59b",
-            "#f9dab1",
-            "#fc1edb",
-            "#f77b9e",
-            "#0cafd3"
+            "#fffda8",
+            "#cddb4c",
+            "#19aa58",
+            "#3a869e",
+            "#84e4f9",
+            "#faff77",
+            "#0fd852",
+            "#a1a6e0",
+            "#e88ddf",
+            "#47bacc",
+            "#09e251",
+            "#cc4f83"
         ],
         "minValue": 0,
         "maxValue": 11

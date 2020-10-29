@@ -60,6 +60,12 @@
         },
         {
             "score": 4,
+            "techniqueID": "T1106",
+            "techniqueName": "Native API",
+            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 4,
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
             "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
@@ -71,16 +77,16 @@
             "comment": "APT37 (G0067) & Tropic Trooper (G0081)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1106",
-            "techniqueName": "Native API",
-            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1055",
             "techniqueName": "Process Injection",
             "comment": "APT37 (G0067) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081)"
         },
         {
             "score": 3,
@@ -96,27 +102,21 @@
         },
         {
             "score": 4,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 4,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 5,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
             "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1555.003",
-            "techniqueName": "Credentials from Web Browsers",
-            "comment": "APT37 (G0067)"
+            "score": 2,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "APT37 (G0067) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -132,15 +132,27 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "APT37 (G0067)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1561.002",
             "techniqueName": "Disk Structure Wipe",
             "comment": "APT37 (G0067)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "APT37 (G0067) & Turla (G0010)"
+            "score": 5,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1555.003",
+            "techniqueName": "Credentials from Web Browsers",
+            "comment": "APT37 (G0067)"
         },
         {
             "score": 4,
@@ -153,18 +165,6 @@
             "techniqueID": "T1123",
             "techniqueName": "Audio Capture",
             "comment": "APT37 (G0067)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "APT37 (G0067)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -288,12 +288,6 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1069.001",
-            "techniqueName": "Local Groups",
-            "comment": "admin@338 (G0018) & Turla (G0010)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1087.001",
             "techniqueName": "Local Account",
             "comment": "admin@338 (G0018) & Turla (G0010)"
@@ -303,6 +297,12 @@
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
             "comment": "admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1069.001",
+            "techniqueName": "Local Groups",
+            "comment": "admin@338 (G0018) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -601,12 +601,12 @@
     ],
     "gradient": {
         "colors": [
-            "#efe08d",
-            "#8e0ef7",
-            "#7afc4b",
-            "#5c7203",
-            "#f285cd",
-            "#d856cd"
+            "#fc854e",
+            "#f92cef",
+            "#fcdb58",
+            "#fce344",
+            "#ebf7a0",
+            "#60dee0"
         ],
         "minValue": 0,
         "maxValue": 5

@@ -12,14 +12,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1334",
-            "techniqueName": "Compromise 3rd party infrastructure to support delivery",
+            "techniqueID": "T1272",
+            "techniqueName": "Identify business relationships",
             "comment": "APT16 (G0023)"
         },
         {
             "score": 1,
-            "techniqueID": "T1272",
-            "techniqueName": "Identify business relationships",
+            "techniqueID": "T1334",
+            "techniqueName": "Compromise 3rd party infrastructure to support delivery",
             "comment": "APT16 (G0023)"
         },
         {
@@ -318,9 +318,9 @@
         },
         {
             "score": 5,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "APT32 (G0050) & APT41 (G0096) & Lazarus Group (G0032) & Stealth Falcon (G0038) & Soft Cell (G0093)"
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "APT32 (G0050) & Darkhotel (G0012) & Lazarus Group (G0032) & Stealth Falcon (G0038) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -330,9 +330,9 @@
         },
         {
             "score": 5,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "APT32 (G0050) & Darkhotel (G0012) & Lazarus Group (G0032) & Stealth Falcon (G0038) & Turla (G0010)"
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "APT32 (G0050) & APT41 (G0096) & Lazarus Group (G0032) & Stealth Falcon (G0038) & Soft Cell (G0093)"
         },
         {
             "score": 6,
@@ -371,6 +371,12 @@
             "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Dark Caracal (G0070) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT28 (G0007) & Stealth Falcon (G0038) & Turla (G0010)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1070.006",
+            "techniqueName": "Timestomp",
+            "comment": "APT32 (G0050) & Lazarus Group (G0032) & APT28 (G0007)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1218.010",
             "techniqueName": "Regsvr32",
@@ -389,10 +395,16 @@
             "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Thrip (G0076) & Silence (G0091) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1072",
-            "techniqueName": "Software Deployment Tools",
-            "comment": "APT32 (G0050) & Silence (G0091)"
+            "score": 7,
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
+            "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Silence (G0091) & Stealth Falcon (G0038) & menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "APT32 (G0050) & APT41 (G0096) & Silence (G0091) & menuPass (G0045)"
         },
         {
             "score": 12,
@@ -401,10 +413,10 @@
             "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1070.006",
-            "techniqueName": "Timestomp",
-            "comment": "APT32 (G0050) & Lazarus Group (G0032) & APT28 (G0007)"
+            "score": 2,
+            "techniqueID": "T1072",
+            "techniqueName": "Software Deployment Tools",
+            "comment": "APT32 (G0050) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -417,18 +429,6 @@
             "techniqueID": "T1094",
             "techniqueName": "Custom Command and Control Protocol",
             "comment": "APT32 (G0050) & PLATINUM (G0068)"
-        },
-        {
-            "score": 7,
-            "techniqueID": "T1053.005",
-            "techniqueName": "Scheduled Task",
-            "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Silence (G0091) & Stealth Falcon (G0038) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "APT32 (G0050) & APT41 (G0096) & Silence (G0091) & menuPass (G0045)"
         },
         {
             "score": 1,
@@ -617,6 +617,12 @@
             "comment": "Cobalt Group (G0080)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1573.002",
+            "techniqueName": "Asymmetric Cryptography",
+            "comment": "Cobalt Group (G0080)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1548.002",
             "techniqueName": "Bypass User Account Control",
@@ -632,12 +638,6 @@
             "score": 1,
             "techniqueID": "T1220",
             "techniqueName": "XSL Script Processing",
-            "comment": "Cobalt Group (G0080)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1573.002",
-            "techniqueName": "Asymmetric Cryptography",
             "comment": "Cobalt Group (G0080)"
         },
         {
@@ -773,16 +773,16 @@
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1030",
             "techniqueName": "Data Transfer Size Limits",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 3,
@@ -917,16 +917,16 @@
             "comment": "Lazarus Group (G0032)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1098",
-            "techniqueName": "Account Manipulation",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1573.001",
             "techniqueName": "Symmetric Cryptography",
             "comment": "Lazarus Group (G0032) & APT28 (G0007) & Stealth Falcon (G0038)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1098",
+            "techniqueName": "Account Manipulation",
+            "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
@@ -1008,14 +1008,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1213.002",
-            "techniqueName": "Sharepoint",
+            "techniqueID": "T1211",
+            "techniqueName": "Exploitation for Defense Evasion",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1211",
-            "techniqueName": "Exploitation for Defense Evasion",
+            "techniqueID": "T1213.002",
+            "techniqueName": "Sharepoint",
             "comment": "APT28 (G0007)"
         },
         {
@@ -1026,14 +1026,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1134.001",
-            "techniqueName": "Token Impersonation/Theft",
+            "techniqueID": "T1137.002",
+            "techniqueName": "Office Test",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1137.002",
-            "techniqueName": "Office Test",
+            "techniqueID": "T1134.001",
+            "techniqueName": "Token Impersonation/Theft",
             "comment": "APT28 (G0007)"
         },
         {
@@ -1068,14 +1068,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
@@ -1104,14 +1104,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1039",
-            "techniqueName": "Data from Network Shared Drive",
+            "techniqueID": "T1021.004",
+            "techniqueName": "SSH",
             "comment": "menuPass (G0045)"
         },
         {
             "score": 1,
-            "techniqueID": "T1021.004",
-            "techniqueName": "SSH",
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
             "comment": "menuPass (G0045)"
         },
         {
@@ -1219,19 +1219,19 @@
     ],
     "gradient": {
         "colors": [
-            "#90dff9",
-            "#0ea021",
-            "#e057c0",
-            "#f76a88",
-            "#f91ba8",
-            "#e164ef",
-            "#c49b3c",
-            "#46a9dd",
-            "#bf1a33",
-            "#b6c119",
-            "#dfccff",
-            "#e0ffb2",
-            "#3f9e04"
+            "#fc0036",
+            "#ff7cd1",
+            "#a5224c",
+            "#b95ce8",
+            "#4a7eba",
+            "#a5f489",
+            "#94f7cc",
+            "#f45033",
+            "#1052ed",
+            "#67bee0",
+            "#e354ea",
+            "#b2f98e",
+            "#530584"
         ],
         "minValue": 0,
         "maxValue": 12

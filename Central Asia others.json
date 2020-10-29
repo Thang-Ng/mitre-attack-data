@@ -6,6 +6,12 @@
     "techniques": [
         {
             "score": 1,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "TA459 (G0062)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
             "comment": "TA459 (G0062)"
@@ -24,12 +30,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "TA459 (G0062)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
             "comment": "TA459 (G0062)"
@@ -37,8 +37,8 @@
     ],
     "gradient": {
         "colors": [
-            "#f9b48e",
-            "#a194e8"
+            "#f4f7a8",
+            "#f79eb6"
         ],
         "minValue": 0,
         "maxValue": 1

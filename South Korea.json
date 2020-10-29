@@ -233,12 +233,6 @@
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
-        },
-        {
             "score": 5,
             "techniqueID": "T1112",
             "techniqueName": "Modify Registry",
@@ -249,6 +243,12 @@
             "techniqueID": "T1012",
             "techniqueName": "Query Registry",
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
         },
         {
             "score": 4,
@@ -263,16 +263,22 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
+            "score": 9,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Threat Group-3390 (G0027) & Kimsuky (G0094) & Lazarus Group (G0032) & Molerats (G0021) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1021.006",
             "techniqueName": "Windows Remote Management",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 9,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Threat Group-3390 (G0027) & Kimsuky (G0094) & Lazarus Group (G0032) & Molerats (G0021) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+            "score": 1,
+            "techniqueID": "T1562.002",
+            "techniqueName": "Disable Windows Event Logging",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 3,
@@ -291,12 +297,6 @@
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Kimsuky (G0094) & Lazarus Group (G0032) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1562.002",
-            "techniqueName": "Disable Windows Event Logging",
-            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
@@ -383,12 +383,6 @@
             "comment": "Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1546.009",
-            "techniqueName": "AppCert DLLs",
-            "comment": "Honeybee (G0072)"
-        },
-        {
             "score": 4,
             "techniqueID": "T1055",
             "techniqueName": "Process Injection",
@@ -399,6 +393,12 @@
             "techniqueID": "T1569.002",
             "techniqueName": "Service Execution",
             "comment": "Honeybee (G0072) & Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1546.009",
+            "techniqueName": "AppCert DLLs",
+            "comment": "Honeybee (G0072)"
         },
         {
             "score": 1,
@@ -665,16 +665,16 @@
             "comment": "Lazarus Group (G0032) & APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1098",
-            "techniqueName": "Account Manipulation",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1573.001",
             "techniqueName": "Symmetric Cryptography",
             "comment": "Lazarus Group (G0032) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1098",
+            "techniqueName": "Account Manipulation",
+            "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
@@ -713,16 +713,16 @@
             "comment": "Patchwork (G0040) & APT37 (G0067) & APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "Patchwork (G0040)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
             "comment": "Patchwork (G0040) & Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
+            "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -756,14 +756,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
             "comment": "APT37 (G0067)"
         },
         {
             "score": 1,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
             "comment": "APT37 (G0067)"
         },
         {
@@ -870,6 +870,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1211",
+            "techniqueName": "Exploitation for Defense Evasion",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1037.001",
             "techniqueName": "Logon Script (Windows)",
             "comment": "APT28 (G0007)"
@@ -882,20 +888,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1211",
-            "techniqueName": "Exploitation for Defense Evasion",
+            "techniqueID": "T1137.002",
+            "techniqueName": "Office Test",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1134.001",
             "techniqueName": "Token Impersonation/Theft",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1137.002",
-            "techniqueName": "Office Test",
             "comment": "APT28 (G0007)"
         },
         {
@@ -924,8 +924,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1001.001",
-            "techniqueName": "Junk Data",
+            "techniqueID": "T1218.011",
+            "techniqueName": "Rundll32",
             "comment": "APT28 (G0007)"
         },
         {
@@ -936,20 +936,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1218.011",
-            "techniqueName": "Rundll32",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1001.001",
+            "techniqueName": "Junk Data",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1346",
             "techniqueName": "Obtain/re-use payloads",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
@@ -978,14 +978,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1039",
-            "techniqueName": "Data from Network Shared Drive",
+            "techniqueID": "T1021.004",
+            "techniqueName": "SSH",
             "comment": "menuPass (G0045)"
         },
         {
             "score": 1,
-            "techniqueID": "T1021.004",
-            "techniqueName": "SSH",
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
             "comment": "menuPass (G0045)"
         },
         {
@@ -1003,20 +1003,20 @@
     ],
     "gradient": {
         "colors": [
-            "#f733ea",
-            "#aca3e2",
-            "#a0c6e8",
-            "#2467bf",
-            "#6d35ba",
-            "#bf6e3f",
-            "#28bf11",
-            "#60c5ff",
-            "#ac85e2",
-            "#c3e55b",
-            "#f7978c",
-            "#bc3a54",
-            "#abfce1",
-            "#34a4f9"
+            "#dcf293",
+            "#5b1a91",
+            "#aaffeb",
+            "#85f2de",
+            "#ffccd8",
+            "#5dd873",
+            "#cafca6",
+            "#e2686c",
+            "#1f5782",
+            "#69f727",
+            "#96dbe8",
+            "#f7c5b4",
+            "#db1547",
+            "#e28184"
         ],
         "minValue": 0,
         "maxValue": 13

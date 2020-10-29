@@ -72,14 +72,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
             "comment": "Leafminer (G0077)"
         },
         {
             "score": 1,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -96,12 +96,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1136.001",
             "techniqueName": "Local Account",
             "comment": "Leafminer (G0077)"
@@ -114,8 +108,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1114.002",
-            "techniqueName": "Remote Email Collection",
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -133,8 +133,8 @@
     ],
     "gradient": {
         "colors": [
-            "#e8a69d",
-            "#8edd6e"
+            "#9ef7b1",
+            "#d849d3"
         ],
         "minValue": 0,
         "maxValue": 1

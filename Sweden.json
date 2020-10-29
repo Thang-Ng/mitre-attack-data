@@ -222,14 +222,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1566.002",
-            "techniqueName": "Spearphishing Link",
+            "techniqueID": "T1055",
+            "techniqueName": "Process Injection",
             "comment": "Turla (G0010)"
         },
         {
@@ -240,20 +246,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1547.004",
             "techniqueName": "Winlogon Helper DLL",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1055",
-            "techniqueName": "Process Injection",
             "comment": "Turla (G0010)"
         },
         {
@@ -266,6 +260,12 @@
             "score": 1,
             "techniqueID": "T1071.001",
             "techniqueName": "Web Protocols",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
             "comment": "Turla (G0010)"
         },
         {
@@ -294,14 +294,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -312,8 +312,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -330,14 +330,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
+            "techniqueID": "T1007",
+            "techniqueName": "System Service Discovery",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1007",
-            "techniqueName": "System Service Discovery",
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -349,8 +349,8 @@
     ],
     "gradient": {
         "colors": [
-            "#ff8eae",
-            "#edad9e"
+            "#1089f2",
+            "#518fc1"
         ],
         "minValue": 0,
         "maxValue": 1

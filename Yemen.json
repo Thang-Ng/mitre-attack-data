@@ -131,10 +131,10 @@
             "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
+            "score": 1,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 2,
@@ -143,15 +143,9 @@
             "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
-        },
-        {
             "score": 2,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
             "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
@@ -168,26 +162,32 @@
         },
         {
             "score": 3,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 3,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "Magic Hound (G0059)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
             "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
             "comment": "Magic Hound (G0059)"
         },
         {
@@ -197,10 +197,10 @@
             "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "Magic Hound (G0059)"
+            "score": 2,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -402,14 +402,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1547.004",
-            "techniqueName": "Winlogon Helper DLL",
+            "techniqueID": "T1055",
+            "techniqueName": "Process Injection",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1055",
-            "techniqueName": "Process Injection",
+            "techniqueID": "T1547.004",
+            "techniqueName": "Winlogon Helper DLL",
             "comment": "Turla (G0010)"
         },
         {
@@ -432,14 +432,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -463,10 +463,10 @@
     ],
     "gradient": {
         "colors": [
-            "#28e2c3",
-            "#f4ab6b",
-            "#4672ea",
-            "#f9d245"
+            "#1f4ec4",
+            "#ed80de",
+            "#e0771a",
+            "#6220ad"
         ],
         "minValue": 0,
         "maxValue": 3
