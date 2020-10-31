@@ -601,12 +601,12 @@
     ],
     "gradient": {
         "colors": [
-            "#f9c295",
-            "#5bd365",
-            "#e55776",
-            "#8450c9",
-            "#f42787",
-            "#2fade2"
+            "#8eff9a",
+            "#efb17a",
+            "#ccfeff",
+            "#12baae",
+            "#e8af35",
+            "#ccb014"
         ],
         "minValue": 0,
         "maxValue": 5
