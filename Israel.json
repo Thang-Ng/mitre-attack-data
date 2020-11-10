@@ -41,16 +41,10 @@
             "comment": "Leafminer (G0077)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "Leafminer (G0077) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Sandworm Team (G0034) & Silence (G0091)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1114.002",
-            "techniqueName": "Remote Email Collection",
-            "comment": "Leafminer (G0077)"
+            "score": 2,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Leafminer (G0077) & Patchwork (G0040)"
         },
         {
             "score": 2,
@@ -65,6 +59,12 @@
             "comment": "Leafminer (G0077)"
         },
         {
+            "score": 8,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Leafminer (G0077) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1136.001",
             "techniqueName": "Local Account",
@@ -77,28 +77,28 @@
             "comment": "Leafminer (G0077) & Magic Hound (G0059) & MuddyWater (G0069) & Patchwork (G0040)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Leafminer (G0077) & Patchwork (G0040)"
-        },
-        {
-            "score": 8,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Leafminer (G0077) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
-            "comment": "Leafminer (G0077) & Sandworm Team (G0034) & Silence (G0091)"
+            "score": 6,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "Leafminer (G0077) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Sandworm Team (G0034) & Silence (G0091)"
         },
         {
             "score": 3,
             "techniqueID": "T1059.007",
             "techniqueName": "JavaScript/JScript",
             "comment": "Leafminer (G0077) & Molerats (G0021) & Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
+            "comment": "Leafminer (G0077) & Sandworm Team (G0034) & Silence (G0091)"
         },
         {
             "score": 2,
@@ -167,28 +167,22 @@
             "comment": "Magic Hound (G0059) & OilRig (G0049)"
         },
         {
-            "score": 7,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
-        },
-        {
-            "score": 6,
-            "techniqueID": "T1059.005",
-            "techniqueName": "Visual Basic",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040)"
-        },
-        {
             "score": 5,
             "techniqueID": "T1059.003",
             "techniqueName": "Windows Command Shell",
             "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Patchwork (G0040) & Silence (G0091)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
             "score": 4,
@@ -209,40 +203,28 @@
             "comment": "Magic Hound (G0059) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Patchwork (G0040) & Silence (G0091)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1056.001",
             "techniqueName": "Keylogging",
             "comment": "Magic Hound (G0059) & OilRig (G0049) & Sandworm Team (G0034)"
         },
         {
+            "score": 7,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
+        },
+        {
             "score": 4,
             "techniqueID": "T1113",
             "techniqueName": "Screen Capture",
             "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "Magic Hound (G0059) & Sandworm Team (G0034)"
         },
         {
             "score": 6,
@@ -255,6 +237,24 @@
             "techniqueID": "T1071.001",
             "techniqueName": "Web Protocols",
             "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Sandworm Team (G0034)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "Magic Hound (G0059) & Sandworm Team (G0034)"
         },
         {
             "score": 2,
@@ -371,16 +371,16 @@
             "comment": "MuddyWater (G0069) & Patchwork (G0040)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "MuddyWater (G0069) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1218.003",
             "techniqueName": "CMSTP",
             "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "MuddyWater (G0069) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -426,12 +426,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1573.002",
-            "techniqueName": "Asymmetric Cryptography",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1110",
             "techniqueName": "Brute Force",
             "comment": "OilRig (G0049)"
@@ -449,28 +443,16 @@
             "comment": "OilRig (G0049) & Silence (G0091)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1573.002",
+            "techniqueName": "Asymmetric Cryptography",
+            "comment": "OilRig (G0049)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1119",
             "techniqueName": "Automated Collection",
             "comment": "OilRig (G0049) & Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1069.001",
-            "techniqueName": "Local Groups",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1021.001",
-            "techniqueName": "Remote Desktop Protocol",
-            "comment": "OilRig (G0049) & Patchwork (G0040) & Silence (G0091)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1021.004",
-            "techniqueName": "SSH",
-            "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
@@ -491,10 +473,10 @@
             "comment": "OilRig (G0049)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
-            "comment": "OilRig (G0049) & Sandworm Team (G0034)"
+            "score": 1,
+            "techniqueID": "T1021.004",
+            "techniqueName": "SSH",
+            "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
@@ -516,6 +498,18 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1069.001",
+            "techniqueName": "Local Groups",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1021.001",
+            "techniqueName": "Remote Desktop Protocol",
+            "comment": "OilRig (G0049) & Patchwork (G0040) & Silence (G0091)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1008",
             "techniqueName": "Fallback Channels",
             "comment": "OilRig (G0049)"
@@ -525,6 +519,12 @@
             "techniqueID": "T1078",
             "techniqueName": "Valid Accounts",
             "comment": "OilRig (G0049) & Sandworm Team (G0034) & Silence (G0091)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
+            "comment": "OilRig (G0049) & Sandworm Team (G0034)"
         },
         {
             "score": 2,
@@ -546,20 +546,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1027.001",
             "techniqueName": "Binary Padding",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
-            "techniqueID": "T1574.002",
-            "techniqueName": "DLL Side-Loading",
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -576,8 +570,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1102.001",
-            "techniqueName": "Dead Drop Resolver",
+            "techniqueID": "T1574.002",
+            "techniqueName": "DLL Side-Loading",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -590,6 +584,12 @@
             "score": 1,
             "techniqueID": "T1055.012",
             "techniqueName": "Process Hollowing",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102.001",
+            "techniqueName": "Dead Drop Resolver",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -673,15 +673,15 @@
     ],
     "gradient": {
         "colors": [
-            "#270a72",
-            "#ad47e8",
-            "#d0f989",
-            "#eac54b",
-            "#d6dd6e",
-            "#fcabb2",
-            "#2f7efc",
-            "#fff72b",
-            "#1277ba"
+            "#bf0791",
+            "#0c8c43",
+            "#112e8e",
+            "#35eadb",
+            "#99bf13",
+            "#7bfca4",
+            "#4144db",
+            "#d6ef92",
+            "#56ffc1"
         ],
         "minValue": 0,
         "maxValue": 8

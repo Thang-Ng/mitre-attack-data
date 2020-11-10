@@ -11,16 +11,10 @@
             "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1566.003",
-            "techniqueName": "Spearphishing via Service",
-            "comment": "Dark Caracal (G0070) & OilRig (G0049)"
+            "score": 3,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
             "score": 2,
@@ -29,28 +23,10 @@
             "comment": "Dark Caracal (G0070) & OilRig (G0049)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & OilRig (G0049)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "Dark Caracal (G0070) & Leafminer (G0077) & MuddyWater (G0069)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Leafminer (G0077)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & OilRig (G0049)"
+            "score": 5,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
             "score": 6,
@@ -75,6 +51,30 @@
             "techniqueID": "T1027.002",
             "techniqueName": "Software Packing",
             "comment": "Dark Caracal (G0070)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1566.003",
+            "techniqueName": "Spearphishing via Service",
+            "comment": "Dark Caracal (G0070) & OilRig (G0049)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "Dark Caracal (G0070) & Leafminer (G0077) & MuddyWater (G0069)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Leafminer (G0077)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
             "score": 1,
@@ -131,6 +131,12 @@
             "comment": "Darkhotel (G0012)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "Darkhotel (G0012) & OilRig (G0049)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1091",
             "techniqueName": "Replication Through Removable Media",
@@ -147,12 +153,6 @@
             "techniqueID": "T1080",
             "techniqueName": "Taint Shared Content",
             "comment": "Darkhotel (G0012)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "Darkhotel (G0012) & OilRig (G0049)"
         },
         {
             "score": 1,
@@ -221,18 +221,6 @@
             "comment": "Leafminer (G0077)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "Leafminer (G0077) & MuddyWater (G0069) & OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1114.002",
-            "techniqueName": "Remote Email Collection",
-            "comment": "Leafminer (G0077)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1046",
             "techniqueName": "Network Service Scanning",
@@ -251,16 +239,28 @@
             "comment": "Leafminer (G0077)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
-            "comment": "Leafminer (G0077)"
+            "score": 3,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "Leafminer (G0077) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
             "score": 2,
             "techniqueID": "T1059.007",
             "techniqueName": "JavaScript/JScript",
             "comment": "Leafminer (G0077) & Molerats (G0021)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
+            "comment": "Leafminer (G0077)"
         },
         {
             "score": 2,
@@ -396,14 +396,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
+            "techniqueID": "T1218.003",
+            "techniqueName": "CMSTP",
             "comment": "MuddyWater (G0069)"
         },
         {
             "score": 1,
-            "techniqueID": "T1218.003",
-            "techniqueName": "CMSTP",
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
             "comment": "MuddyWater (G0069)"
         },
         {
@@ -456,12 +456,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1573.002",
-            "techniqueName": "Asymmetric Cryptography",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1110",
             "techniqueName": "Brute Force",
             "comment": "OilRig (G0049)"
@@ -474,6 +468,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1573.002",
+            "techniqueName": "Asymmetric Cryptography",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1119",
             "techniqueName": "Automated Collection",
             "comment": "OilRig (G0049)"
@@ -482,24 +482,6 @@
             "score": 1,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1069.001",
-            "techniqueName": "Local Groups",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1021.001",
-            "techniqueName": "Remote Desktop Protocol",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1021.004",
-            "techniqueName": "SSH",
             "comment": "OilRig (G0049)"
         },
         {
@@ -522,8 +504,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
+            "techniqueID": "T1021.004",
+            "techniqueName": "SSH",
             "comment": "OilRig (G0049)"
         },
         {
@@ -546,6 +528,18 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1069.001",
+            "techniqueName": "Local Groups",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1021.001",
+            "techniqueName": "Remote Desktop Protocol",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1008",
             "techniqueName": "Fallback Channels",
             "comment": "OilRig (G0049)"
@@ -558,6 +552,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
             "comment": "OilRig (G0049)"
@@ -565,13 +565,13 @@
     ],
     "gradient": {
         "colors": [
-            "#9effff",
-            "#3e38ea",
-            "#7b4eb2",
-            "#f9c0cf",
-            "#ead088",
-            "#cc63f2",
-            "#6a92dd"
+            "#5add9c",
+            "#73f24d",
+            "#ea9d8c",
+            "#0c5cf2",
+            "#876add",
+            "#0205d1",
+            "#274d99"
         ],
         "minValue": 0,
         "maxValue": 6

@@ -17,10 +17,10 @@
             "comment": "Carbanak (G0008)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1218.011",
-            "techniqueName": "Rundll32",
-            "comment": "Carbanak (G0008) & APT28 (G0007)"
+            "score": 1,
+            "techniqueID": "T1562.004",
+            "techniqueName": "Disable or Modify System Firewall",
+            "comment": "Carbanak (G0008)"
         },
         {
             "score": 2,
@@ -35,16 +35,16 @@
             "comment": "Carbanak (G0008) & Ke3chang (G0004)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1562.004",
-            "techniqueName": "Disable or Modify System Firewall",
-            "comment": "Carbanak (G0008)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
             "comment": "Carbanak (G0008) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1218.011",
+            "techniqueName": "Rundll32",
+            "comment": "Carbanak (G0008) & APT28 (G0007)"
         },
         {
             "score": 3,
@@ -83,6 +83,24 @@
             "comment": "Ke3chang (G0004)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Ke3chang (G0004) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1213.002",
+            "techniqueName": "Sharepoint",
+            "comment": "Ke3chang (G0004) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1558.001",
+            "techniqueName": "Golden Ticket",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1114.002",
             "techniqueName": "Remote Email Collection",
@@ -95,34 +113,22 @@
             "comment": "Ke3chang (G0004) & Silence (G0091) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "Ke3chang (G0004)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1558.001",
-            "techniqueName": "Golden Ticket",
-            "comment": "Ke3chang (G0004)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1213.002",
-            "techniqueName": "Sharepoint",
-            "comment": "Ke3chang (G0004) & APT28 (G0007)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Ke3chang (G0004) & Silence (G0091) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1056.001",
             "techniqueName": "Keylogging",
             "comment": "Ke3chang (G0004) & APT28 (G0007)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Ke3chang (G0004) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "Ke3chang (G0004)"
         },
         {
             "score": 3,
@@ -137,15 +143,9 @@
             "comment": "Ke3chang (G0004) & Silence (G0091)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "Ke3chang (G0004) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 2,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
             "comment": "Ke3chang (G0004) & Turla (G0010)"
         },
         {
@@ -156,8 +156,26 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "Ke3chang (G0004) & Silence (G0091) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
             "comment": "Ke3chang (G0004) & Turla (G0010)"
         },
         {
@@ -168,15 +186,33 @@
         },
         {
             "score": 2,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "Ke3chang (G0004) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1069.002",
             "techniqueName": "Domain Groups",
             "comment": "Ke3chang (G0004) & Turla (G0010)"
         },
         {
             "score": 2,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Ke3chang (G0004) & APT28 (G0007)"
         },
         {
             "score": 3,
@@ -189,42 +225,6 @@
             "techniqueID": "T1041",
             "techniqueName": "Exfiltration Over C2 Channel",
             "comment": "Ke3chang (G0004)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "Ke3chang (G0004) & Silence (G0091) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "Ke3chang (G0004) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Ke3chang (G0004) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -437,6 +437,12 @@
             "comment": "APT28 (G0007)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "APT28 (G0007)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
@@ -450,20 +456,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1564.001",
             "techniqueName": "Hidden Files and Directories",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1211",
-            "techniqueName": "Exploitation for Defense Evasion",
             "comment": "APT28 (G0007)"
         },
         {
@@ -473,16 +467,22 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1210",
-            "techniqueName": "Exploitation of Remote Services",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1140",
             "techniqueName": "Deobfuscate/Decode Files or Information",
             "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1211",
+            "techniqueName": "Exploitation for Defense Evasion",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1210",
+            "techniqueName": "Exploitation of Remote Services",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -498,26 +498,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1134.001",
+            "techniqueName": "Token Impersonation/Theft",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1137.002",
             "techniqueName": "Office Test",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1134.001",
-            "techniqueName": "Token Impersonation/Theft",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1120",
-            "techniqueName": "Peripheral Device Discovery",
-            "comment": "APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -527,15 +521,21 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
-            "comment": "APT28 (G0007)"
+            "score": 2,
+            "techniqueID": "T1120",
+            "techniqueName": "Peripheral Device Discovery",
+            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
             "comment": "APT28 (G0007)"
         },
         {
@@ -714,14 +714,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1547.004",
-            "techniqueName": "Winlogon Helper DLL",
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1204.001",
-            "techniqueName": "Malicious Link",
+            "techniqueID": "T1547.004",
+            "techniqueName": "Winlogon Helper DLL",
             "comment": "Turla (G0010)"
         },
         {
@@ -751,11 +751,11 @@
     ],
     "gradient": {
         "colors": [
-            "#6e83ef",
-            "#07486b",
-            "#cce047",
-            "#f7b4d0",
-            "#98f2d7"
+            "#a89ae2",
+            "#36e2a9",
+            "#f959a7",
+            "#e07d82",
+            "#f4d133"
         ],
         "minValue": 0,
         "maxValue": 4

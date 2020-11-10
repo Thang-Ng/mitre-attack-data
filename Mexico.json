@@ -263,6 +263,12 @@
             "comment": "APT28 (G0007)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "APT28 (G0007)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
@@ -272,12 +278,6 @@
             "score": 1,
             "techniqueID": "T1199",
             "techniqueName": "Trusted Relationship",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
             "comment": "APT28 (G0007)"
         },
         {
@@ -294,14 +294,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1211",
-            "techniqueName": "Exploitation for Defense Evasion",
+            "techniqueID": "T1037.001",
+            "techniqueName": "Logon Script (Windows)",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1037.001",
-            "techniqueName": "Logon Script (Windows)",
+            "techniqueID": "T1213.002",
+            "techniqueName": "Sharepoint",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1211",
+            "techniqueName": "Exploitation for Defense Evasion",
             "comment": "APT28 (G0007)"
         },
         {
@@ -312,21 +324,9 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1213.002",
-            "techniqueName": "Sharepoint",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1210",
             "techniqueName": "Exploitation of Remote Services",
             "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -347,12 +347,6 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1137.002",
-            "techniqueName": "Office Test",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1057",
             "techniqueName": "Process Discovery",
@@ -365,15 +359,15 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1120",
-            "techniqueName": "Peripheral Device Discovery",
-            "comment": "APT28 (G0007) & Turla (G0010)"
+            "score": 1,
+            "techniqueID": "T1137.002",
+            "techniqueName": "Office Test",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -383,10 +377,10 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
-            "comment": "APT28 (G0007)"
+            "score": 2,
+            "techniqueID": "T1120",
+            "techniqueName": "Peripheral Device Discovery",
+            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -396,14 +390,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
@@ -426,14 +420,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1218.011",
-            "techniqueName": "Rundll32",
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
             "comment": "APT28 (G0007)"
         },
         {
@@ -452,6 +446,12 @@
             "score": 1,
             "techniqueID": "T1070.006",
             "techniqueName": "Timestomp",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.011",
+            "techniqueName": "Rundll32",
             "comment": "APT28 (G0007)"
         },
         {
@@ -606,8 +606,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
             "comment": "Turla (G0010)"
         },
         {
@@ -618,14 +618,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1204.001",
-            "techniqueName": "Malicious Link",
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -642,18 +648,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1021.002",
             "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Turla (G0010)"
@@ -662,6 +656,12 @@
             "score": 1,
             "techniqueID": "T1124",
             "techniqueName": "System Time Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -679,10 +679,10 @@
     ],
     "gradient": {
         "colors": [
-            "#52cebe",
-            "#c44455",
-            "#e285e2",
-            "#2be237"
+            "#bcdff4",
+            "#a6ed8e",
+            "#3493e5",
+            "#c67401"
         ],
         "minValue": 0,
         "maxValue": 3

@@ -59,34 +59,10 @@
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1027.005",
-            "techniqueName": "Indicator Removal from Tools",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "Patchwork (G0040)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1053.005",
             "techniqueName": "Scheduled Task",
             "comment": "Patchwork (G0040) & Rancor (G0075)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -96,15 +72,21 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1574.002",
-            "techniqueName": "DLL Side-Loading",
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "Patchwork (G0040) & Rancor (G0075)"
+            "score": 1,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -120,20 +102,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
+            "techniqueID": "T1574.002",
+            "techniqueName": "DLL Side-Loading",
             "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.005",
+            "techniqueName": "Indicator Removal from Tools",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "Patchwork (G0040) & Rancor (G0075)"
         },
         {
             "score": 1,
             "techniqueID": "T1203",
             "techniqueName": "Exploitation for Client Execution",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1566.002",
-            "techniqueName": "Spearphishing Link",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -144,8 +132,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1102.001",
-            "techniqueName": "Dead Drop Resolver",
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -168,8 +162,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
+            "techniqueID": "T1102.001",
+            "techniqueName": "Dead Drop Resolver",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -180,14 +174,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1132.001",
-            "techniqueName": "Standard Encoding",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -216,8 +204,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
+            "techniqueID": "T1132.001",
+            "techniqueName": "Standard Encoding",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -234,6 +228,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1218.007",
             "techniqueName": "Msiexec",
             "comment": "Rancor (G0075)"
@@ -247,9 +247,9 @@
     ],
     "gradient": {
         "colors": [
-            "#93083e",
-            "#ccea91",
-            "#f2e69b"
+            "#fc9541",
+            "#cec810",
+            "#3d1adb"
         ],
         "minValue": 0,
         "maxValue": 2

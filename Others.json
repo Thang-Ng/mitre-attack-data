@@ -72,6 +72,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "Darkhotel (G0012)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1091",
             "techniqueName": "Replication Through Removable Media",
             "comment": "Darkhotel (G0012)"
@@ -86,12 +92,6 @@
             "score": 1,
             "techniqueID": "T1080",
             "techniqueName": "Taint Shared Content",
-            "comment": "Darkhotel (G0012)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
             "comment": "Darkhotel (G0012)"
         },
         {
@@ -271,9 +271,9 @@
     ],
     "gradient": {
         "colors": [
-            "#d64af9",
-            "#d6934d",
-            "#c69339"
+            "#f25c00",
+            "#c258ef",
+            "#c1f43f"
         ],
         "minValue": 0,
         "maxValue": 2

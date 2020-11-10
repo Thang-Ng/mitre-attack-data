@@ -132,14 +132,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
+            "techniqueID": "T1124",
+            "techniqueName": "System Time Discovery",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -156,14 +156,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1124",
-            "techniqueName": "System Time Discovery",
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -216,24 +216,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1047",
-            "techniqueName": "Windows Management Instrumentation",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1110.003",
             "techniqueName": "Password Spraying",
             "comment": "Lazarus Group (G0032)"
@@ -248,6 +230,12 @@
             "score": 1,
             "techniqueID": "T1033",
             "techniqueName": "System Owner/User Discovery",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -270,14 +258,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1041",
-            "techniqueName": "Exfiltration Over C2 Channel",
+            "techniqueID": "T1047",
+            "techniqueName": "Windows Management Instrumentation",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -300,14 +288,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1026",
-            "techniqueName": "Multiband Communication",
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
             "techniqueID": "T1021.002",
             "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1041",
+            "techniqueName": "Exfiltration Over C2 Channel",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1026",
+            "techniqueName": "Multiband Communication",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -320,12 +320,6 @@
             "score": 1,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1560.002",
-            "techniqueName": "Archive via Library",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -354,8 +348,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1560.002",
+            "techniqueName": "Archive via Library",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -366,20 +372,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1573.001",
-            "techniqueName": "Symmetric Cryptography",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1543.003",
             "techniqueName": "Windows Service",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -390,8 +384,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1573.001",
+            "techniqueName": "Symmetric Cryptography",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -403,8 +403,8 @@
     ],
     "gradient": {
         "colors": [
-            "#d86567",
-            "#270082"
+            "#efee92",
+            "#6f34aa"
         ],
         "minValue": 0,
         "maxValue": 1
