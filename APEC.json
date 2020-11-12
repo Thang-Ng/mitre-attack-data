@@ -102,24 +102,6 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Leviathan (G0065) & APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1546.003",
-            "techniqueName": "Windows Management Instrumentation Event Subscription",
-            "comment": "Leviathan (G0065)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
-            "comment": "Leviathan (G0065)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1078",
             "techniqueName": "Valid Accounts",
             "comment": "Leviathan (G0065) & APT28 (G0007)"
@@ -131,15 +113,15 @@
             "comment": "Leviathan (G0065) & APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1547.009",
-            "techniqueName": "Shortcut Modification",
-            "comment": "Leviathan (G0065)"
+            "score": 2,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Leviathan (G0065) & APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1102.003",
-            "techniqueName": "One-Way Communication",
+            "techniqueID": "T1546.003",
+            "techniqueName": "Windows Management Instrumentation Event Subscription",
             "comment": "Leviathan (G0065)"
         },
         {
@@ -161,6 +143,18 @@
             "comment": "Leviathan (G0065) & APT28 (G0007)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1547.009",
+            "techniqueName": "Shortcut Modification",
+            "comment": "Leviathan (G0065)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102.003",
+            "techniqueName": "One-Way Communication",
+            "comment": "Leviathan (G0065)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
@@ -170,6 +164,12 @@
             "score": 1,
             "techniqueID": "T1027.001",
             "techniqueName": "Binary Padding",
+            "comment": "Leviathan (G0065)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
             "comment": "Leviathan (G0065)"
         },
         {
@@ -354,12 +354,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
             "comment": "APT28 (G0007)"
@@ -368,6 +362,12 @@
             "score": 1,
             "techniqueID": "T1120",
             "techniqueName": "Peripheral Device Discovery",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -384,8 +384,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1091",
             "techniqueName": "Replication Through Removable Media",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "APT28 (G0007)"
         },
         {
@@ -402,26 +414,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1070.001",
             "techniqueName": "Clear Windows Event Logs",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1090.002",
-            "techniqueName": "External Proxy",
             "comment": "APT28 (G0007)"
         },
         {
@@ -450,6 +444,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1090.002",
+            "techniqueName": "External Proxy",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1346",
             "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
@@ -463,9 +463,9 @@
     ],
     "gradient": {
         "colors": [
-            "#15dbb0",
-            "#000359",
-            "#ee92f4"
+            "#a15dc1",
+            "#fcb8c4",
+            "#efa7b7"
         ],
         "minValue": 0,
         "maxValue": 2

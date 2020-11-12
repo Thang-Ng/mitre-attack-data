@@ -29,28 +29,22 @@
             "comment": "APT3 (G0022) & Dragonfly 2.0 (G0074) & Lazarus Group (G0032)"
         },
         {
-            "score": 7,
-            "techniqueID": "T1027.005",
-            "techniqueName": "Indicator Removal from Tools",
-            "comment": "APT3 (G0022) & Deep Panda (G0009) & OilRig (G0049) & Patchwork (G0040) & Soft Cell (G0093) & TEMP.Veles (G0088) & Turla (G0010)"
-        },
-        {
             "score": 9,
             "techniqueID": "T1027.002",
             "techniqueName": "Software Packing",
             "comment": "APT3 (G0022) & Elderwood (G0066) & APT29 (G0016) & APT39 (G0087) & Dark Caracal (G0070) & Lazarus Group (G0032) & Night Dragon (G0014) & Patchwork (G0040) & Soft Cell (G0093)"
         },
         {
+            "score": 7,
+            "techniqueID": "T1027.005",
+            "techniqueName": "Indicator Removal from Tools",
+            "comment": "APT3 (G0022) & Deep Panda (G0009) & OilRig (G0049) & Patchwork (G0040) & Soft Cell (G0093) & TEMP.Veles (G0088) & Turla (G0010)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1110.002",
             "techniqueName": "Password Cracking",
             "comment": "APT3 (G0022) & APT41 (G0096) & Dragonfly 2.0 (G0074)"
-        },
-        {
-            "score": 26,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
-            "comment": "APT3 (G0022) & Elderwood (G0066) & APT18 (G0026) & APT32 (G0050) & APT33 (G0064) & APT41 (G0096) & Dragonfly 2.0 (G0074) & BRONZE BUTLER (G0060) & APT39 (G0087) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & FIN7 (G0046) & FIN8 (G0061) & Gorgon Group (G0078) & Lazarus Group (G0032) & Leviathan (G0065) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
             "score": 11,
@@ -65,28 +59,10 @@
             "comment": "APT3 (G0022) & Deep Panda (G0009) & APT32 (G0050) & Dragonfly 2.0 (G0074) & BRONZE BUTLER (G0060) & APT39 (G0087) & Threat Group-3390 (G0027) & FIN8 (G0061) & Leafminer (G0077) & Silence (G0091) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
-            "score": 12,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "APT3 (G0022) & APT33 (G0064) & APT41 (G0096) & BRONZE BUTLER (G0060) & APT39 (G0087) & APT1 (G0006) & CopyKittens (G0052) & FIN8 (G0061) & MuddyWater (G0069) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
-        },
-        {
-            "score": 13,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "APT3 (G0022) & APT18 (G0026) & APT19 (G0073) & APT32 (G0050) & Darkhotel (G0012) & Kimsuky (G0094) & Lazarus Group (G0032) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & APT37 (G0067) & admin@338 (G0018) & Turla (G0010)"
-        },
-        {
-            "score": 29,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "APT3 (G0022) & APT18 (G0026) & APT19 (G0073) & APT29 (G0016) & APT32 (G0050) & APT33 (G0064) & APT41 (G0096) & Dragonfly 2.0 (G0074) & BRONZE BUTLER (G0060) & APT39 (G0087) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Machete (G0095) & Threat Group-3390 (G0027) & FIN7 (G0046) & FIN10 (G0051) & Gorgon Group (G0078) & Kimsuky (G0094) & Lazarus Group (G0032) & Leviathan (G0065) & Molerats (G0021) & MuddyWater (G0069) & Patchwork (G0040) & PROMETHIUM (G0056) & Putter Panda (G0024) & APT37 (G0067) & Silence (G0091) & Turla (G0010)"
-        },
-        {
-            "score": 6,
-            "techniqueID": "T1552.001",
-            "techniqueName": "Credentials In Files",
-            "comment": "APT3 (G0022) & APT33 (G0064) & Stolen Pencil (G0086) & Leafminer (G0077) & MuddyWater (G0069) & OilRig (G0049)"
+            "score": 26,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
+            "comment": "APT3 (G0022) & Elderwood (G0066) & APT18 (G0026) & APT32 (G0050) & APT33 (G0064) & APT41 (G0096) & Dragonfly 2.0 (G0074) & BRONZE BUTLER (G0060) & APT39 (G0087) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & FIN7 (G0046) & FIN8 (G0061) & Gorgon Group (G0078) & Lazarus Group (G0032) & Leviathan (G0065) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -107,22 +83,28 @@
             "comment": "APT3 (G0022) & Dragonfly 2.0 (G0074) & BRONZE BUTLER (G0060) & APT39 (G0087) & APT1 (G0006) & Dark Caracal (G0070) & Dust Storm (G0031) & Threat Group-3390 (G0027) & Kimsuky (G0094) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
-            "score": 8,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "APT3 (G0022) & Deep Panda (G0009) & APT32 (G0050) & APT39 (G0087) & FIN8 (G0061) & Lazarus Group (G0032) & Orangeworm (G0071) & Turla (G0010)"
-        },
-        {
             "score": 5,
             "techniqueID": "T1546.008",
             "techniqueName": "Accessibility Features",
             "comment": "APT3 (G0022) & Deep Panda (G0009) & APT29 (G0016) & APT41 (G0096) & Axiom (G0001)"
         },
         {
+            "score": 8,
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "APT3 (G0022) & Deep Panda (G0009) & APT32 (G0050) & APT39 (G0087) & FIN8 (G0061) & Lazarus Group (G0032) & Orangeworm (G0071) & Turla (G0010)"
+        },
+        {
             "score": 16,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
             "comment": "APT3 (G0022) & APT18 (G0026) & APT32 (G0050) & APT41 (G0096) & Dragonfly 2.0 (G0074) & BRONZE BUTLER (G0060) & Dark Caracal (G0070) & Dust Storm (G0031) & Kimsuky (G0094) & Lazarus Group (G0032) & Leafminer (G0077) & MuddyWater (G0069) & Patchwork (G0040) & APT28 (G0007) & admin@338 (G0018) & Turla (G0010)"
+        },
+        {
+            "score": 12,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "APT3 (G0022) & APT33 (G0064) & APT41 (G0096) & BRONZE BUTLER (G0060) & APT39 (G0087) & APT1 (G0006) & CopyKittens (G0052) & FIN8 (G0061) & MuddyWater (G0069) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -143,34 +125,40 @@
             "comment": "APT3 (G0022) & APT32 (G0050) & Kimsuky (G0094) & Lazarus Group (G0032) & MuddyWater (G0069) & Soft Cell (G0093)"
         },
         {
-            "score": 14,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "APT3 (G0022) & APT18 (G0026) & APT19 (G0073) & APT29 (G0016) & Dragonfly 2.0 (G0074) & Threat Group-3390 (G0027) & FIN7 (G0046) & FIN8 (G0061) & Lazarus Group (G0032) & Night Dragon (G0014) & OilRig (G0049) & APT37 (G0067) & APT28 (G0007) & TEMP.Veles (G0088)"
-        },
-        {
-            "score": 10,
-            "techniqueID": "T1574.002",
-            "techniqueName": "DLL Side-Loading",
-            "comment": "APT3 (G0022) & APT19 (G0073) & APT32 (G0050) & APT41 (G0096) & BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Naikon (G0019) & Patchwork (G0040) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 11,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
-            "comment": "APT3 (G0022) & APT19 (G0073) & APT32 (G0050) & APT41 (G0096) & Carbanak (G0008) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & FIN7 (G0046) & Kimsuky (G0094) & Lazarus Group (G0032) & PROMETHIUM (G0056)"
-        },
-        {
             "score": 11,
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
             "comment": "APT3 (G0022) & APT32 (G0050) & APT41 (G0096) & APT1 (G0006) & Threat Group-3390 (G0027) & OilRig (G0049) & Poseidon Group (G0033) & menuPass (G0045) & Soft Cell (G0093) & admin@338 (G0018) & Turla (G0010)"
         },
         {
+            "score": 13,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "APT3 (G0022) & APT18 (G0026) & APT19 (G0073) & APT32 (G0050) & Darkhotel (G0012) & Kimsuky (G0094) & Lazarus Group (G0032) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & APT37 (G0067) & admin@338 (G0018) & Turla (G0010)"
+        },
+        {
+            "score": 29,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "APT3 (G0022) & APT18 (G0026) & APT19 (G0073) & APT29 (G0016) & APT32 (G0050) & APT33 (G0064) & APT41 (G0096) & Dragonfly 2.0 (G0074) & BRONZE BUTLER (G0060) & APT39 (G0087) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Machete (G0095) & Threat Group-3390 (G0027) & FIN7 (G0046) & FIN10 (G0051) & Gorgon Group (G0078) & Kimsuky (G0094) & Lazarus Group (G0032) & Leviathan (G0065) & Molerats (G0021) & MuddyWater (G0069) & Patchwork (G0040) & PROMETHIUM (G0056) & Putter Panda (G0024) & APT37 (G0067) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1552.001",
+            "techniqueName": "Credentials In Files",
+            "comment": "APT3 (G0022) & APT33 (G0064) & Stolen Pencil (G0086) & Leafminer (G0077) & MuddyWater (G0069) & OilRig (G0049)"
+        },
+        {
             "score": 31,
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
             "comment": "APT3 (G0022) & Elderwood (G0066) & APT18 (G0026) & APT19 (G0073) & APT29 (G0016) & APT32 (G0050) & APT33 (G0064) & APT41 (G0096) & Cobalt Group (G0080) & Dark Caracal (G0070) & Darkhotel (G0012) & Dust Storm (G0031) & Machete (G0095) & Threat Group-3390 (G0027) & FIN7 (G0046) & FIN8 (G0061) & Lazarus Group (G0032) & Leafminer (G0077) & Leviathan (G0065) & Molerats (G0021) & MuddyWater (G0069) & Night Dragon (G0014) & OilRig (G0049) & Patchwork (G0040) & Putter Panda (G0024) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
+        },
+        {
+            "score": 11,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "APT3 (G0022) & APT19 (G0073) & APT32 (G0050) & APT41 (G0096) & Carbanak (G0008) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & FIN7 (G0046) & Kimsuky (G0094) & Lazarus Group (G0032) & PROMETHIUM (G0056)"
         },
         {
             "score": 8,
@@ -183,6 +171,18 @@
             "techniqueID": "T1136.001",
             "techniqueName": "Local Account",
             "comment": "APT3 (G0022) & APT41 (G0096) & Dragonfly 2.0 (G0074) & APT39 (G0087) & Leafminer (G0077)"
+        },
+        {
+            "score": 14,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "APT3 (G0022) & APT18 (G0026) & APT19 (G0073) & APT29 (G0016) & Dragonfly 2.0 (G0074) & Threat Group-3390 (G0027) & FIN7 (G0046) & FIN8 (G0061) & Lazarus Group (G0032) & Night Dragon (G0014) & OilRig (G0049) & APT37 (G0067) & APT28 (G0007) & TEMP.Veles (G0088)"
+        },
+        {
+            "score": 10,
+            "techniqueID": "T1574.002",
+            "techniqueName": "DLL Side-Loading",
+            "comment": "APT3 (G0022) & APT19 (G0073) & APT32 (G0050) & APT41 (G0096) & BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Naikon (G0019) & Patchwork (G0040) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 19,
@@ -221,16 +221,16 @@
             "comment": "APT3 (G0022) & APT18 (G0026) & APT32 (G0050) & APT41 (G0096) & Dragonfly 2.0 (G0074) & BRONZE BUTLER (G0060) & Cobalt Group (G0080) & APT1 (G0006) & Dark Caracal (G0070) & Darkhotel (G0012) & Threat Group-3390 (G0027) & FIN7 (G0046) & FIN8 (G0061) & FIN10 (G0051) & Gorgon Group (G0078) & Lazarus Group (G0032) & Leviathan (G0065) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & admin@338 (G0018) & Turla (G0010)"
         },
         {
+            "score": 20,
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
+            "comment": "APT3 (G0022) & APT29 (G0016) & APT32 (G0050) & APT33 (G0064) & APT41 (G0096) & Dragonfly 2.0 (G0074) & BRONZE BUTLER (G0060) & APT39 (G0087) & Cobalt Group (G0080) & Machete (G0095) & FIN7 (G0046) & FIN8 (G0061) & FIN10 (G0051) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & menuPass (G0045) & Soft Cell (G0093) & TEMP.Veles (G0088)"
+        },
+        {
             "score": 32,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
             "comment": "APT3 (G0022) & Deep Panda (G0009) & APT19 (G0073) & APT29 (G0016) & APT32 (G0050) & APT33 (G0064) & APT41 (G0096) & Dragonfly 2.0 (G0074) & BRONZE BUTLER (G0060) & APT39 (G0087) & Cobalt Group (G0080) & CopyKittens (G0052) & Threat Group-3390 (G0027) & FIN7 (G0046) & FIN8 (G0061) & FIN10 (G0051) & Gorgon Group (G0078) & Kimsuky (G0094) & Lazarus Group (G0032) & Leviathan (G0065) & Thrip (G0076) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Poseidon Group (G0033) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & TEMP.Veles (G0088) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1095",
-            "techniqueName": "Non-Application Layer Protocol",
-            "comment": "APT3 (G0022) & APT29 (G0016)"
         },
         {
             "score": 6,
@@ -239,10 +239,10 @@
             "comment": "APT3 (G0022) & APT32 (G0050) & APT33 (G0064) & Gorgon Group (G0078) & Lazarus Group (G0032) & TEMP.Veles (G0088)"
         },
         {
-            "score": 20,
-            "techniqueID": "T1053.005",
-            "techniqueName": "Scheduled Task",
-            "comment": "APT3 (G0022) & APT29 (G0016) & APT32 (G0050) & APT33 (G0064) & APT41 (G0096) & Dragonfly 2.0 (G0074) & BRONZE BUTLER (G0060) & APT39 (G0087) & Cobalt Group (G0080) & Machete (G0095) & FIN7 (G0046) & FIN8 (G0061) & FIN10 (G0051) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & menuPass (G0045) & Soft Cell (G0093) & TEMP.Veles (G0088)"
+            "score": 2,
+            "techniqueID": "T1095",
+            "techniqueName": "Non-Application Layer Protocol",
+            "comment": "APT3 (G0022) & APT29 (G0016)"
         },
         {
             "score": 3,
@@ -323,12 +323,6 @@
             "comment": "Elderwood (G0066) & APT32 (G0050) & APT33 (G0064) & Dragonfly 2.0 (G0074) & APT39 (G0087) & Cobalt Group (G0080) & Machete (G0095) & FIN8 (G0061) & Leviathan (G0065) & Molerats (G0021) & Night Dragon (G0014) & OilRig (G0049) & Patchwork (G0040) & Turla (G0010)"
         },
         {
-            "score": 15,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Elderwood (G0066) & APT19 (G0073) & APT32 (G0050) & Dragonfly 2.0 (G0074) & BRONZE BUTLER (G0060) & Dark Caracal (G0070) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Dragonfly (G0035) & Lazarus Group (G0032) & Leafminer (G0077) & Patchwork (G0040) & PROMETHIUM (G0056) & APT37 (G0067) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1195",
             "techniqueName": "Supply Chain Compromise",
@@ -339,6 +333,12 @@
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
             "comment": "Elderwood (G0066) & APT29 (G0016) & APT32 (G0050) & APT33 (G0064) & Dragonfly 2.0 (G0074) & APT39 (G0087) & Cobalt Group (G0080) & APT1 (G0006) & Machete (G0095) & FIN8 (G0061) & Kimsuky (G0094) & Stolen Pencil (G0086) & Leviathan (G0065) & Molerats (G0021) & Night Dragon (G0014) & OilRig (G0049) & Patchwork (G0040) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 15,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Elderwood (G0066) & APT19 (G0073) & APT32 (G0050) & Dragonfly 2.0 (G0074) & BRONZE BUTLER (G0060) & Dark Caracal (G0070) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Dragonfly (G0035) & Lazarus Group (G0032) & Leafminer (G0077) & Patchwork (G0040) & PROMETHIUM (G0056) & APT37 (G0067) & Turla (G0010)"
         },
         {
             "score": 6,
@@ -371,12 +371,6 @@
             "comment": "APT18 (G0026) & BRONZE BUTLER (G0060) & Threat Group-3390 (G0027)"
         },
         {
-            "score": 9,
-            "techniqueID": "T1505.003",
-            "techniqueName": "Web Shell",
-            "comment": "Deep Panda (G0009) & APT32 (G0050) & Dragonfly 2.0 (G0074) & APT39 (G0087) & Threat Group-3390 (G0027) & Leviathan (G0065) & OilRig (G0049) & Soft Cell (G0093) & TEMP.Veles (G0088)"
-        },
-        {
             "score": 12,
             "techniqueID": "T1047",
             "techniqueName": "Windows Management Instrumentation",
@@ -387,6 +381,12 @@
             "techniqueID": "T1218.010",
             "techniqueName": "Regsvr32",
             "comment": "Deep Panda (G0009) & APT19 (G0073) & APT32 (G0050) & Cobalt Group (G0080) & Leviathan (G0065)"
+        },
+        {
+            "score": 9,
+            "techniqueID": "T1505.003",
+            "techniqueName": "Web Shell",
+            "comment": "Deep Panda (G0009) & APT32 (G0050) & Dragonfly 2.0 (G0074) & APT39 (G0087) & Threat Group-3390 (G0027) & Leviathan (G0065) & OilRig (G0049) & Soft Cell (G0093) & TEMP.Veles (G0088)"
         },
         {
             "score": 6,
@@ -455,16 +455,16 @@
             "comment": "APT29 (G0016)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1546.003",
-            "techniqueName": "Windows Management Instrumentation Event Subscription",
-            "comment": "APT29 (G0016) & APT33 (G0064) & Leviathan (G0065) & Turla (G0010)"
-        },
-        {
             "score": 7,
             "techniqueID": "T1548.002",
             "techniqueName": "Bypass User Account Control",
             "comment": "APT29 (G0016) & BRONZE BUTLER (G0060) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & MuddyWater (G0069) & Patchwork (G0040) & APT37 (G0067)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1546.003",
+            "techniqueName": "Windows Management Instrumentation Event Subscription",
+            "comment": "APT29 (G0016) & APT33 (G0064) & Leviathan (G0065) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -629,18 +629,6 @@
             "comment": "APT32 (G0050)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1078.003",
-            "techniqueName": "Local Accounts",
-            "comment": "APT32 (G0050) & FIN10 (G0051) & Stolen Pencil (G0086) & PROMETHIUM (G0056)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
-            "comment": "APT32 (G0050) & OilRig (G0049) & APT37 (G0067)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1072",
             "techniqueName": "Software Deployment Tools",
@@ -657,6 +645,18 @@
             "techniqueID": "T1070.006",
             "techniqueName": "Timestomp",
             "comment": "APT32 (G0050) & Lazarus Group (G0032) & APT28 (G0007) & TEMP.Veles (G0088)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1078.003",
+            "techniqueName": "Local Accounts",
+            "comment": "APT32 (G0050) & FIN10 (G0051) & Stolen Pencil (G0086) & PROMETHIUM (G0056)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
+            "comment": "APT32 (G0050) & OilRig (G0049) & APT37 (G0067)"
         },
         {
             "score": 14,
@@ -821,6 +821,12 @@
             "comment": "Dragonfly 2.0 (G0074)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
+            "comment": "Dragonfly 2.0 (G0074) & APT1 (G0006) & Leafminer (G0077) & APT28 (G0007)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1069.002",
             "techniqueName": "Domain Groups",
@@ -828,21 +834,15 @@
         },
         {
             "score": 4,
-            "techniqueID": "T1114.002",
-            "techniqueName": "Remote Email Collection",
-            "comment": "Dragonfly 2.0 (G0074) & APT1 (G0006) & Leafminer (G0077) & APT28 (G0007)"
+            "techniqueID": "T1562.004",
+            "techniqueName": "Disable or Modify System Firewall",
+            "comment": "Dragonfly 2.0 (G0074) & Carbanak (G0008) & Kimsuky (G0094) & Lazarus Group (G0032)"
         },
         {
             "score": 1,
             "techniqueID": "T1071",
             "techniqueName": "Application Layer Protocol",
             "comment": "Dragonfly 2.0 (G0074)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1562.004",
-            "techniqueName": "Disable or Modify System Firewall",
-            "comment": "Dragonfly 2.0 (G0074) & Carbanak (G0008) & Kimsuky (G0094) & Lazarus Group (G0032)"
         },
         {
             "score": 2,
@@ -983,16 +983,16 @@
             "comment": "Cobalt Group (G0080) & MuddyWater (G0069)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1559.002",
-            "techniqueName": "Dynamic Data Exchange",
-            "comment": "Cobalt Group (G0080) & FIN7 (G0046) & MuddyWater (G0069) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1573.002",
             "techniqueName": "Asymmetric Cryptography",
             "comment": "Cobalt Group (G0080) & FIN8 (G0061) & OilRig (G0049)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1559.002",
+            "techniqueName": "Dynamic Data Exchange",
+            "comment": "Cobalt Group (G0080) & FIN7 (G0046) & MuddyWater (G0069) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -1043,10 +1043,10 @@
             "comment": "APT1 (G0006)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1330",
-            "techniqueName": "Acquire and/or use 3rd party software services",
-            "comment": "APT1 (G0006) & Night Dragon (G0014)"
+            "score": 1,
+            "techniqueID": "T1333",
+            "techniqueName": "Dynamic DNS",
+            "comment": "APT1 (G0006)"
         },
         {
             "score": 1,
@@ -1055,16 +1055,16 @@
             "comment": "APT1 (G0006)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1333",
-            "techniqueName": "Dynamic DNS",
-            "comment": "APT1 (G0006)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1346",
             "techniqueName": "Obtain/re-use payloads",
             "comment": "APT1 (G0006) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1330",
+            "techniqueName": "Acquire and/or use 3rd party software services",
+            "comment": "APT1 (G0006) & Night Dragon (G0014)"
         },
         {
             "score": 3,
@@ -1386,14 +1386,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1307",
-            "techniqueName": "Acquire and/or use 3rd party infrastructure services",
+            "techniqueID": "T1351",
+            "techniqueName": "Remote access tool development",
             "comment": "Night Dragon (G0014)"
         },
         {
             "score": 1,
-            "techniqueID": "T1351",
-            "techniqueName": "Remote access tool development",
+            "techniqueID": "T1307",
+            "techniqueName": "Acquire and/or use 3rd party infrastructure services",
             "comment": "Night Dragon (G0014)"
         },
         {
@@ -1591,39 +1591,39 @@
     ],
     "gradient": {
         "colors": [
-            "#1dc44f",
-            "#92f4ba",
-            "#b0e5f4",
-            "#5e88d6",
-            "#2377b2",
-            "#c3d64a",
-            "#c47544",
-            "#11bf59",
-            "#e9b9f7",
-            "#89f4c0",
-            "#eabf6e",
-            "#e212a4",
-            "#be69db",
-            "#ed1c88",
-            "#480ef4",
-            "#01c473",
-            "#81e87f",
-            "#fcbffa",
-            "#ffd7c4",
-            "#24af3c",
-            "#f9d0a4",
-            "#1fe022",
-            "#f29fc7",
-            "#557205",
-            "#3cfc79",
-            "#8737b2",
-            "#5cbf11",
-            "#91c4d8",
-            "#6bb6e5",
-            "#d0fc62",
-            "#d8dd40",
-            "#cbed65",
-            "#e2269a"
+            "#9361d8",
+            "#101fa3",
+            "#3dd306",
+            "#85f2d8",
+            "#ea36f7",
+            "#f2c487",
+            "#c19007",
+            "#fc5f8c",
+            "#6cdbe2",
+            "#4091dd",
+            "#efd270",
+            "#5204d8",
+            "#d9fc5d",
+            "#5ecfd1",
+            "#ffdfcc",
+            "#8a9bf2",
+            "#91dd61",
+            "#50fc0c",
+            "#d34e90",
+            "#e58b32",
+            "#b5e1fc",
+            "#f370f9",
+            "#553ab7",
+            "#ff19aa",
+            "#039e79",
+            "#dd4050",
+            "#f7ccbe",
+            "#e595d4",
+            "#b27d2e",
+            "#edc990",
+            "#34ba5e",
+            "#65d82f",
+            "#f954c2"
         ],
         "minValue": 0,
         "maxValue": 32

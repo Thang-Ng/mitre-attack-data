@@ -234,12 +234,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1204.001",
-            "techniqueName": "Malicious Link",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
             "comment": "Turla (G0010)"
@@ -254,6 +248,12 @@
             "score": 1,
             "techniqueID": "T1071.001",
             "techniqueName": "Web Protocols",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
             "comment": "Turla (G0010)"
         },
         {
@@ -306,18 +306,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1124",
-            "techniqueName": "System Time Discovery",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1018",
             "techniqueName": "Remote System Discovery",
             "comment": "Turla (G0010)"
@@ -326,6 +314,18 @@
             "score": 1,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1124",
+            "techniqueName": "System Time Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -349,8 +349,8 @@
     ],
     "gradient": {
         "colors": [
-            "#72bf0d",
-            "#06279e"
+            "#a749f4",
+            "#f47c04"
         ],
         "minValue": 0,
         "maxValue": 1
