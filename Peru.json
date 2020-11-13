@@ -6,6 +6,18 @@
     "techniques": [
         {
             "score": 1,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "Sowbug (G0054)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
+            "comment": "Sowbug (G0054)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
             "comment": "Sowbug (G0054)"
@@ -24,26 +36,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "Sowbug (G0054)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "Sowbug (G0054)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1036.005",
             "techniqueName": "Match Legitimate Name or Location",
             "comment": "Sowbug (G0054)"
         },
         {
             "score": 1,
-            "techniqueID": "T1039",
-            "techniqueName": "Data from Network Shared Drive",
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Sowbug (G0054)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
             "comment": "Sowbug (G0054)"
         },
         {
@@ -54,9 +60,9 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "Sowbug (G0054)"
+            "techniqueID": "T1014",
+            "techniqueName": "Rootkit",
+            "comment": "Winnti Group (G0044)"
         },
         {
             "score": 1,
@@ -69,18 +75,12 @@
             "techniqueID": "T1057",
             "techniqueName": "Process Discovery",
             "comment": "Winnti Group (G0044)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1014",
-            "techniqueName": "Rootkit",
-            "comment": "Winnti Group (G0044)"
         }
     ],
     "gradient": {
         "colors": [
-            "#37fce5",
-            "#796bef"
+            "#8bf4df",
+            "#fc4bd6"
         ],
         "minValue": 0,
         "maxValue": 1

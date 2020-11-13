@@ -11,22 +11,28 @@
             "comment": "Dark Caracal (G0070) & Magic Hound (G0059) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1218.001",
-            "techniqueName": "Compiled HTML File",
-            "comment": "Dark Caracal (G0070)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
             "comment": "Dark Caracal (G0070) & Machete (G0095) & Magic Hound (G0059)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1566.003",
+            "techniqueName": "Spearphishing via Service",
+            "comment": "Dark Caracal (G0070) & Magic Hound (G0059)"
+        },
+        {
             "score": 4,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
             "comment": "Dark Caracal (G0070) & Machete (G0095) & Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.001",
+            "techniqueName": "Compiled HTML File",
+            "comment": "Dark Caracal (G0070)"
         },
         {
             "score": 2,
@@ -38,24 +44,6 @@
             "score": 2,
             "techniqueID": "T1005",
             "techniqueName": "Data from Local System",
-            "comment": "Dark Caracal (G0070) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1566.003",
-            "techniqueName": "Spearphishing via Service",
-            "comment": "Dark Caracal (G0070) & Magic Hound (G0059)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "Dark Caracal (G0070) & Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
             "comment": "Dark Caracal (G0070) & Turla (G0010)"
         },
         {
@@ -72,9 +60,21 @@
         },
         {
             "score": 4,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
             "comment": "Dark Caracal (G0070) & Machete (G0095) & Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "Dark Caracal (G0070) & Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Dark Caracal (G0070) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -185,12 +185,6 @@
             "comment": "Magic Hound (G0059)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "Magic Hound (G0059)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1560.001",
             "techniqueName": "Archive via Utility",
@@ -198,8 +192,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1043",
             "techniqueName": "Commonly Used Port",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
             "comment": "Magic Hound (G0059)"
         },
         {
@@ -222,6 +228,12 @@
         },
         {
             "score": 2,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
             "comment": "Magic Hound (G0059) & Turla (G0010)"
@@ -233,33 +245,21 @@
             "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1056.001",
             "techniqueName": "Keylogging",
             "comment": "Magic Hound (G0059)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "Magic Hound (G0059)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
             "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
@@ -438,6 +438,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
             "comment": "Turla (G0010)"
@@ -452,12 +458,6 @@
             "score": 1,
             "techniqueID": "T1012",
             "techniqueName": "Query Registry",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -481,11 +481,11 @@
     ],
     "gradient": {
         "colors": [
-            "#dfc2f9",
-            "#eaea38",
-            "#dd7ca0",
-            "#d4f4a1",
-            "#e5ce92"
+            "#5db21c",
+            "#96f79a",
+            "#e27aff",
+            "#25f941",
+            "#c0d361"
         ],
         "minValue": 0,
         "maxValue": 4

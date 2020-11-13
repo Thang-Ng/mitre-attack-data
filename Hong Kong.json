@@ -47,10 +47,10 @@
             "comment": "APT37 (G0067) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
-            "comment": "APT37 (G0067) & Tropic Trooper (G0081) & Turla (G0010)"
+            "score": 4,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "APT37 (G0067) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 4,
@@ -60,15 +60,15 @@
         },
         {
             "score": 4,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "APT37 (G0067) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
-            "score": 4,
             "techniqueID": "T1106",
             "techniqueName": "Native API",
             "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "APT37 (G0067) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -83,12 +83,6 @@
             "comment": "APT37 (G0067) & Silence (G0091) & Turla (G0010)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1203",
             "techniqueName": "Exploitation for Client Execution",
@@ -101,16 +95,22 @@
             "comment": "APT37 (G0067) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "APT37 (G0067) & Turla (G0010)"
-        },
-        {
             "score": 4,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081)"
         },
         {
             "score": 5,
@@ -122,6 +122,18 @@
             "score": 1,
             "techniqueID": "T1555.003",
             "techniqueName": "Credentials from Web Browsers",
+            "comment": "APT37 (G0067)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "APT37 (G0067) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
             "comment": "APT37 (G0067)"
         },
         {
@@ -138,26 +150,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
+            "techniqueID": "T1559.002",
+            "techniqueName": "Dynamic Data Exchange",
+            "comment": "APT37 (G0067)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1036.001",
+            "techniqueName": "Invalid Code Signature",
             "comment": "APT37 (G0067)"
         },
         {
             "score": 1,
             "techniqueID": "T1094",
             "techniqueName": "Custom Command and Control Protocol",
-            "comment": "APT37 (G0067)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1559.002",
-            "techniqueName": "Dynamic Data Exchange",
             "comment": "APT37 (G0067)"
         },
         {
@@ -170,12 +176,6 @@
             "score": 1,
             "techniqueID": "T1561.002",
             "techniqueName": "Disk Structure Wipe",
-            "comment": "APT37 (G0067)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1036.001",
-            "techniqueName": "Invalid Code Signature",
             "comment": "APT37 (G0067)"
         },
         {
@@ -288,12 +288,6 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1069.001",
-            "techniqueName": "Local Groups",
-            "comment": "admin@338 (G0018) & Turla (G0010)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1087.001",
             "techniqueName": "Local Account",
             "comment": "admin@338 (G0018) & Turla (G0010)"
@@ -303,6 +297,12 @@
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
             "comment": "admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1069.001",
+            "techniqueName": "Local Groups",
+            "comment": "admin@338 (G0018) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -601,12 +601,12 @@
     ],
     "gradient": {
         "colors": [
-            "#f9e0b6",
-            "#52ea61",
-            "#d80dce",
-            "#81e894",
-            "#a3f291",
-            "#39db41"
+            "#db253a",
+            "#1d76a3",
+            "#48f2de",
+            "#efbef7",
+            "#9b0f16",
+            "#6ef4ee"
         ],
         "minValue": 0,
         "maxValue": 5

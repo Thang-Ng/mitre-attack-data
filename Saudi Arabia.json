@@ -251,6 +251,12 @@
             "comment": "CopyKittens (G0052) & Magic Hound (G0059)"
         },
         {
+            "score": 5,
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
+            "comment": "CopyKittens (G0052) & Darkhotel (G0012) & Leviathan (G0065) & Molerats (G0021) & Silence (G0091)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1560.003",
             "techniqueName": "Archive via Custom Method",
@@ -261,12 +267,6 @@
             "techniqueID": "T1218.011",
             "techniqueName": "Rundll32",
             "comment": "CopyKittens (G0052) & MuddyWater (G0069)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
-            "comment": "CopyKittens (G0052) & Darkhotel (G0012) & Leviathan (G0065) & Molerats (G0021) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -288,18 +288,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1341",
-            "techniqueName": "Build social network persona",
-            "comment": "Cleaver (G0003)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1342",
-            "techniqueName": "Develop social network persona digital footprint",
-            "comment": "Cleaver (G0003)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1313",
             "techniqueName": "Obfuscation or cryptography",
             "comment": "Cleaver (G0003)"
@@ -311,6 +299,18 @@
             "comment": "Cleaver (G0003)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1341",
+            "techniqueName": "Build social network persona",
+            "comment": "Cleaver (G0003)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1342",
+            "techniqueName": "Develop social network persona digital footprint",
+            "comment": "Cleaver (G0003)"
+        },
+        {
             "score": 9,
             "techniqueID": "T1059.003",
             "techniqueName": "Windows Command Shell",
@@ -318,15 +318,15 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1218.001",
-            "techniqueName": "Compiled HTML File",
-            "comment": "Dark Caracal (G0070) & OilRig (G0049) & Silence (G0091)"
-        },
-        {
-            "score": 3,
             "techniqueID": "T1566.003",
             "techniqueName": "Spearphishing via Service",
             "comment": "Dark Caracal (G0070) & Magic Hound (G0059) & OilRig (G0049)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1218.001",
+            "techniqueName": "Compiled HTML File",
+            "comment": "Dark Caracal (G0070) & OilRig (G0049) & Silence (G0091)"
         },
         {
             "score": 5,
@@ -426,20 +426,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1213.002",
-            "techniqueName": "Sharepoint",
-            "comment": "Ke3chang (G0004)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1114.002",
             "techniqueName": "Remote Email Collection",
-            "comment": "Ke3chang (G0004)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1558.001",
-            "techniqueName": "Golden Ticket",
             "comment": "Ke3chang (G0004)"
         },
         {
@@ -447,6 +435,18 @@
             "techniqueID": "T1133",
             "techniqueName": "External Remote Services",
             "comment": "Ke3chang (G0004) & OilRig (G0049) & TEMP.Veles (G0088)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1213.002",
+            "techniqueName": "Sharepoint",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1558.001",
+            "techniqueName": "Golden Ticket",
+            "comment": "Ke3chang (G0004)"
         },
         {
             "score": 3,
@@ -468,6 +468,12 @@
         },
         {
             "score": 3,
+            "techniqueID": "T1041",
+            "techniqueName": "Exfiltration Over C2 Channel",
+            "comment": "Ke3chang (G0004) & MuddyWater (G0069) & Stealth Falcon (G0038)"
+        },
+        {
+            "score": 3,
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
             "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
@@ -479,16 +485,22 @@
             "comment": "Ke3chang (G0004)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1041",
-            "techniqueName": "Exfiltration Over C2 Channel",
-            "comment": "Ke3chang (G0004) & MuddyWater (G0069) & Stealth Falcon (G0038)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1567.002",
             "techniqueName": "Exfiltration to Cloud Storage",
             "comment": "Leviathan (G0065) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "Leviathan (G0065) & TEMP.Veles (G0088)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1047",
+            "techniqueName": "Windows Management Instrumentation",
+            "comment": "Leviathan (G0065) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038)"
         },
         {
             "score": 1,
@@ -504,9 +516,9 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "Leviathan (G0065) & TEMP.Veles (G0088)"
+            "techniqueID": "T1546.003",
+            "techniqueName": "Windows Management Instrumentation Event Subscription",
+            "comment": "Leviathan (G0065) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -519,18 +531,6 @@
             "techniqueID": "T1059.005",
             "techniqueName": "Visual Basic",
             "comment": "Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1546.003",
-            "techniqueName": "Windows Management Instrumentation Event Subscription",
-            "comment": "Leviathan (G0065) & Turla (G0010)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1047",
-            "techniqueName": "Windows Management Instrumentation",
-            "comment": "Leviathan (G0065) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038)"
         },
         {
             "score": 1,
@@ -695,6 +695,12 @@
             "comment": "OilRig (G0049)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1573.002",
+            "techniqueName": "Asymmetric Cryptography",
+            "comment": "OilRig (G0049)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1201",
             "techniqueName": "Password Policy Discovery",
@@ -702,15 +708,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1573.002",
-            "techniqueName": "Asymmetric Cryptography",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1119",
             "techniqueName": "Automated Collection",
             "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1069.001",
+            "techniqueName": "Local Groups",
+            "comment": "OilRig (G0049) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -723,12 +729,6 @@
             "techniqueID": "T1048.003",
             "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
             "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1069.001",
-            "techniqueName": "Local Groups",
-            "comment": "OilRig (G0049) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -907,18 +907,18 @@
     ],
     "gradient": {
         "colors": [
-            "#f4b5c4",
-            "#2b918f",
-            "#e2bf6c",
-            "#2d6c89",
-            "#cdffb2",
-            "#1caf32",
-            "#54d352",
-            "#9b54bc",
-            "#ed385f",
-            "#5ee59b",
-            "#efda1a",
-            "#019136"
+            "#f22183",
+            "#fff7a8",
+            "#fc79a4",
+            "#ad142b",
+            "#ddf49f",
+            "#14007c",
+            "#fcf4b8",
+            "#8141ba",
+            "#db343c",
+            "#e8f293",
+            "#9dc2e8",
+            "#7d08d6"
         ],
         "minValue": 0,
         "maxValue": 11

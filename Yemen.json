@@ -89,28 +89,22 @@
             "comment": "Magic Hound (G0059)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "Magic Hound (G0059)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1560.001",
             "techniqueName": "Archive via Utility",
             "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
             "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -122,6 +116,18 @@
             "score": 2,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
             "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
@@ -137,10 +143,22 @@
             "comment": "Magic Hound (G0059)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -153,6 +171,18 @@
             "techniqueID": "T1059.005",
             "techniqueName": "Visual Basic",
             "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -168,24 +198,6 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "Magic Hound (G0059)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
-        },
-        {
-            "score": 3,
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
             "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
@@ -194,18 +206,6 @@
             "score": 2,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
             "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
@@ -420,6 +420,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
             "comment": "Turla (G0010)"
@@ -434,12 +440,6 @@
             "score": 1,
             "techniqueID": "T1012",
             "techniqueName": "Query Registry",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -463,10 +463,10 @@
     ],
     "gradient": {
         "colors": [
-            "#e0800b",
-            "#b441d3",
-            "#0f2c96",
-            "#cc5004"
+            "#9e5cbc",
+            "#ffbffb",
+            "#b2ce33",
+            "#a0ffb5"
         ],
         "minValue": 0,
         "maxValue": 3
