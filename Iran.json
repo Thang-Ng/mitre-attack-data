@@ -287,10 +287,22 @@
             "comment": "APT32 (G0050) & APT28 (G0007)"
         },
         {
+            "score": 6,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "APT32 (G0050) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & Turla (G0010)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1033",
             "techniqueName": "System Owner/User Discovery",
             "comment": "APT32 (G0050) & Magic Hound (G0059) & MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
+            "comment": "APT32 (G0050)"
         },
         {
             "score": 2,
@@ -317,28 +329,10 @@
             "comment": "APT32 (G0050) & APT33 (G0064) & DarkHydrus (G0079) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "APT32 (G0050) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "APT32 (G0050)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1216.001",
             "techniqueName": "PubPrn",
             "comment": "APT32 (G0050)"
-        },
-        {
-            "score": 9,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "APT32 (G0050) & APT33 (G0064) & Threat Group-3390 (G0027) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -351,6 +345,12 @@
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
             "comment": "APT32 (G0050) & APT33 (G0064) & Threat Group-3390 (G0027) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 9,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "APT32 (G0050) & APT33 (G0064) & Threat Group-3390 (G0027) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -384,18 +384,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1078.003",
-            "techniqueName": "Local Accounts",
-            "comment": "APT32 (G0050)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
-            "comment": "APT32 (G0050)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1218.010",
             "techniqueName": "Regsvr32",
             "comment": "APT32 (G0050)"
@@ -411,6 +399,18 @@
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
             "comment": "APT32 (G0050) & APT33 (G0064) & DarkHydrus (G0079) & Threat Group-3390 (G0027) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078.003",
+            "techniqueName": "Local Accounts",
+            "comment": "APT32 (G0050)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
+            "comment": "APT32 (G0050)"
         },
         {
             "score": 2,
@@ -533,16 +533,16 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Account Control",
-            "comment": "Threat Group-3390 (G0027) & MuddyWater (G0069)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1574.001",
             "techniqueName": "DLL Search Order Hijacking",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1548.002",
+            "techniqueName": "Bypass User Account Control",
+            "comment": "Threat Group-3390 (G0027) & MuddyWater (G0069)"
         },
         {
             "score": 6,
@@ -552,14 +552,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.006",
-            "techniqueName": "Windows Remote Management",
+            "techniqueID": "T1562.002",
+            "techniqueName": "Disable Windows Event Logging",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
-            "techniqueID": "T1562.002",
-            "techniqueName": "Disable Windows Event Logging",
+            "techniqueID": "T1021.006",
+            "techniqueName": "Windows Remote Management",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -587,16 +587,16 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
             "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -905,12 +905,6 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
@@ -918,8 +912,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -932,6 +926,12 @@
             "score": 1,
             "techniqueID": "T1546.015",
             "techniqueName": "Component Object Model Hijacking",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
@@ -1075,17 +1075,17 @@
     ],
     "gradient": {
         "colors": [
-            "#fcc0bf",
-            "#5091af",
-            "#9980ed",
-            "#65edc9",
-            "#041872",
-            "#bbd6f9",
-            "#fc5dbc",
-            "#4042dd",
-            "#fc1961",
-            "#37fcd8",
-            "#0a3a6d"
+            "#58c932",
+            "#70f496",
+            "#25c455",
+            "#ef7aa5",
+            "#1bc918",
+            "#23bc75",
+            "#ccccff",
+            "#eabd9f",
+            "#e0434d",
+            "#4edb4e",
+            "#baa9e8"
         ],
         "minValue": 0,
         "maxValue": 10

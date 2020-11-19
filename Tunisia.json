@@ -239,16 +239,16 @@
             "comment": "MuddyWater (G0069) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1218.005",
-            "techniqueName": "Mshta",
-            "comment": "MuddyWater (G0069)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1140",
             "techniqueName": "Deobfuscate/Decode Files or Information",
             "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.005",
+            "techniqueName": "Mshta",
+            "comment": "MuddyWater (G0069)"
         },
         {
             "score": 1,
@@ -444,6 +444,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1547.004",
+            "techniqueName": "Winlogon Helper DLL",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
             "comment": "Turla (G0010)"
@@ -458,12 +464,6 @@
             "score": 1,
             "techniqueID": "T1204.001",
             "techniqueName": "Malicious Link",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1547.004",
-            "techniqueName": "Winlogon Helper DLL",
             "comment": "Turla (G0010)"
         },
         {
@@ -523,10 +523,10 @@
     ],
     "gradient": {
         "colors": [
-            "#dd5882",
-            "#cc555d",
-            "#3cfc23",
-            "#dfe585"
+            "#2c9997",
+            "#b3db30",
+            "#c42940",
+            "#4828d6"
         ],
         "minValue": 0,
         "maxValue": 3

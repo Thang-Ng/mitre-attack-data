@@ -287,6 +287,12 @@
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1548.002",
             "techniqueName": "Bypass User Account Control",
@@ -311,18 +317,6 @@
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
@@ -342,14 +336,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1087.001",
-            "techniqueName": "Local Account",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1021.006",
-            "techniqueName": "Windows Remote Management",
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -365,21 +353,21 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
+            "score": 1,
+            "techniqueID": "T1087.001",
+            "techniqueName": "Local Account",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
-            "techniqueID": "T1070.005",
-            "techniqueName": "Network Share Connection Removal",
+            "techniqueID": "T1021.006",
+            "techniqueName": "Windows Remote Management",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 2,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
@@ -398,6 +386,18 @@
             "score": 2,
             "techniqueID": "T1059.003",
             "techniqueName": "Windows Command Shell",
+            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.005",
+            "techniqueName": "Network Share Connection Removal",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
@@ -486,14 +486,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -541,13 +541,13 @@
     ],
     "gradient": {
         "colors": [
-            "#f581f9",
-            "#a7a8f2",
-            "#e55bd3",
-            "#59b221",
-            "#ff91cd",
-            "#4df2cb",
-            "#177b7c"
+            "#896afc",
+            "#f3b9f7",
+            "#65f0f7",
+            "#dc8ef2",
+            "#9878cc",
+            "#f3fc8d",
+            "#98a9e2"
         ],
         "minValue": 0,
         "maxValue": 6

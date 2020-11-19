@@ -54,14 +54,14 @@
         },
         {
             "score": 4,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
+            "techniqueID": "T1106",
+            "techniqueName": "Native API",
             "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 4,
-            "techniqueID": "T1106",
-            "techniqueName": "Native API",
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
             "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
@@ -83,6 +83,18 @@
             "comment": "APT37 (G0067) & Silence (G0091) & Turla (G0010)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1203",
             "techniqueName": "Exploitation for Client Execution",
@@ -95,16 +107,10 @@
             "comment": "APT37 (G0067) & Turla (G0010)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+            "score": 2,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "APT37 (G0067) & Turla (G0010)"
         },
         {
             "score": 4,
@@ -125,18 +131,6 @@
             "comment": "APT37 (G0067)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "APT37 (G0067) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "APT37 (G0067)"
-        },
-        {
             "score": 4,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
@@ -150,20 +144,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1559.002",
-            "techniqueName": "Dynamic Data Exchange",
-            "comment": "APT37 (G0067)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1036.001",
-            "techniqueName": "Invalid Code Signature",
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
             "comment": "APT37 (G0067)"
         },
         {
             "score": 1,
             "techniqueID": "T1094",
             "techniqueName": "Custom Command and Control Protocol",
+            "comment": "APT37 (G0067)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1559.002",
+            "techniqueName": "Dynamic Data Exchange",
             "comment": "APT37 (G0067)"
         },
         {
@@ -176,6 +170,12 @@
             "score": 1,
             "techniqueID": "T1561.002",
             "techniqueName": "Disk Structure Wipe",
+            "comment": "APT37 (G0067)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1036.001",
+            "techniqueName": "Invalid Code Signature",
             "comment": "APT37 (G0067)"
         },
         {
@@ -601,12 +601,12 @@
     ],
     "gradient": {
         "colors": [
-            "#f271e9",
-            "#ef8fe2",
-            "#c0aef9",
-            "#84ff68",
-            "#ef89ff",
-            "#1e04e5"
+            "#c44a7b",
+            "#32bc77",
+            "#bf4d44",
+            "#e56c1b",
+            "#e69de8",
+            "#8ef9db"
         ],
         "minValue": 0,
         "maxValue": 5

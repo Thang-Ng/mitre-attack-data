@@ -228,6 +228,18 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1547.004",
+            "techniqueName": "Winlogon Helper DLL",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
             "comment": "Turla (G0010)"
@@ -242,18 +254,6 @@
             "score": 1,
             "techniqueID": "T1204.001",
             "techniqueName": "Malicious Link",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1547.004",
-            "techniqueName": "Winlogon Helper DLL",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
             "comment": "Turla (G0010)"
         },
         {
@@ -306,18 +306,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1124",
-            "techniqueName": "System Time Discovery",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
             "comment": "Turla (G0010)"
@@ -330,14 +318,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1007",
-            "techniqueName": "System Service Discovery",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1124",
+            "techniqueName": "System Time Discovery",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
             "techniqueID": "T1016",
             "techniqueName": "System Network Configuration Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1007",
+            "techniqueName": "System Service Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -349,8 +349,8 @@
     ],
     "gradient": {
         "colors": [
-            "#ea3fa0",
-            "#4b20d8"
+            "#f7bec9",
+            "#c4f7a0"
         ],
         "minValue": 0,
         "maxValue": 1

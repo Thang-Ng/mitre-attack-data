@@ -47,10 +47,28 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1055.012",
             "techniqueName": "Process Hollowing",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
             "score": 1,
@@ -77,30 +95,6 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
-            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
@@ -119,21 +113,15 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1087.001",
-            "techniqueName": "Local Account",
-            "comment": "Threat Group-3390 (G0027)"
+            "score": 2,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
             "score": 1,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1021.006",
-            "techniqueName": "Windows Remote Management",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -149,21 +137,21 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
+            "score": 1,
+            "techniqueID": "T1087.001",
+            "techniqueName": "Local Account",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
-            "techniqueID": "T1070.005",
-            "techniqueName": "Network Share Connection Removal",
+            "techniqueID": "T1021.006",
+            "techniqueName": "Windows Remote Management",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 2,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
             "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
@@ -182,6 +170,18 @@
             "score": 2,
             "techniqueID": "T1059.003",
             "techniqueName": "Windows Command Shell",
+            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.005",
+            "techniqueName": "Network Share Connection Removal",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
             "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
@@ -210,14 +210,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -409,9 +409,9 @@
     ],
     "gradient": {
         "colors": [
-            "#b3ffaf",
-            "#9be1e8",
-            "#9e2a16"
+            "#cb46e2",
+            "#082d8c",
+            "#f79bdd"
         ],
         "minValue": 0,
         "maxValue": 2

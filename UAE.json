@@ -335,10 +335,10 @@
             "comment": "APT1 (G0006)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
-            "comment": "APT1 (G0006) & APT28 (G0007)"
+            "score": 1,
+            "techniqueID": "T1326",
+            "techniqueName": "Domain registration hijacking",
+            "comment": "APT1 (G0006)"
         },
         {
             "score": 1,
@@ -347,10 +347,10 @@
             "comment": "APT1 (G0006)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1326",
-            "techniqueName": "Domain registration hijacking",
-            "comment": "APT1 (G0006)"
+            "score": 2,
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
+            "comment": "APT1 (G0006) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -378,12 +378,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1345",
-            "techniqueName": "Create custom payloads",
-            "comment": "Cleaver (G0003)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1341",
             "techniqueName": "Build social network persona",
             "comment": "Cleaver (G0003)"
@@ -392,6 +386,12 @@
             "score": 1,
             "techniqueID": "T1342",
             "techniqueName": "Develop social network persona digital footprint",
+            "comment": "Cleaver (G0003)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1345",
+            "techniqueName": "Create custom payloads",
             "comment": "Cleaver (G0003)"
         },
         {
@@ -713,16 +713,16 @@
             "comment": "OilRig (G0049)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1008",
-            "techniqueName": "Fallback Channels",
-            "comment": "OilRig (G0049)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1087.002",
             "techniqueName": "Domain Account",
             "comment": "OilRig (G0049) & Poseidon Group (G0033) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1008",
+            "techniqueName": "Fallback Channels",
+            "comment": "OilRig (G0049)"
         },
         {
             "score": 2,
@@ -876,26 +876,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1546.015",
             "techniqueName": "Component Object Model Hijacking",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
@@ -966,14 +966,14 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1003.002",
-            "techniqueName": "Security Account Manager",
+            "techniqueID": "T1574.002",
+            "techniqueName": "DLL Side-Loading",
             "comment": "menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 2,
-            "techniqueID": "T1574.002",
-            "techniqueName": "DLL Side-Loading",
+            "techniqueID": "T1003.002",
+            "techniqueName": "Security Account Manager",
             "comment": "menuPass (G0045) & Soft Cell (G0093)"
         },
         {
@@ -997,18 +997,18 @@
     ],
     "gradient": {
         "colors": [
-            "#8248c9",
-            "#c5d323",
-            "#c8c4ff",
-            "#b9d352",
-            "#c6f49a",
-            "#d0f9a4",
-            "#43efbb",
-            "#9e20cc",
-            "#b20c30",
-            "#e09572",
-            "#fdc9ff",
-            "#b8ffa0"
+            "#d0bafc",
+            "#e57bda",
+            "#037745",
+            "#7d21a5",
+            "#6095e5",
+            "#d0e25a",
+            "#8f74fc",
+            "#ae9eef",
+            "#4dc11f",
+            "#8b74cc",
+            "#05ff1e",
+            "#c95348"
         ],
         "minValue": 0,
         "maxValue": 11

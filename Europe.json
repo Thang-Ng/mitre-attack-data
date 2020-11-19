@@ -60,12 +60,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
             "comment": "Leafminer (G0077)"
@@ -74,6 +68,12 @@
             "score": 1,
             "techniqueID": "T1114.002",
             "techniqueName": "Remote Email Collection",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -90,14 +90,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
+            "techniqueID": "T1136.001",
+            "techniqueName": "Local Account",
             "comment": "Leafminer (G0077)"
         },
         {
             "score": 1,
-            "techniqueID": "T1136.001",
-            "techniqueName": "Local Account",
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript/JScript",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -115,9 +115,9 @@
     ],
     "gradient": {
         "colors": [
-            "#086aa3",
-            "#282e9b",
-            "#6175e8"
+            "#f94ae5",
+            "#8ba0ed",
+            "#d36810"
         ],
         "minValue": 0,
         "maxValue": 2

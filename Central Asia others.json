@@ -12,20 +12,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1203",
-            "techniqueName": "Exploitation for Client Execution",
-            "comment": "TA459 (G0062)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1059.005",
             "techniqueName": "Visual Basic",
             "comment": "TA459 (G0062)"
         },
         {
             "score": 1,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
+            "techniqueID": "T1203",
+            "techniqueName": "Exploitation for Client Execution",
             "comment": "TA459 (G0062)"
         },
         {
@@ -33,12 +27,18 @@
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
             "comment": "TA459 (G0062)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "TA459 (G0062)"
         }
     ],
     "gradient": {
         "colors": [
-            "#d6d845",
-            "#b2ed74"
+            "#adf9a9",
+            "#939ae2"
         ],
         "minValue": 0,
         "maxValue": 1

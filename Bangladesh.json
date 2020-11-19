@@ -36,6 +36,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1027.005",
+            "techniqueName": "Indicator Removal from Tools",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1559.002",
             "techniqueName": "Dynamic Data Exchange",
             "comment": "Patchwork (G0040)"
@@ -48,8 +54,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027.005",
-            "techniqueName": "Indicator Removal from Tools",
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -60,32 +66,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1560",
             "techniqueName": "Archive Collected Data",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 2,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
-            "comment": "Patchwork (G0040) & Silence (G0091)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1112",
-            "techniqueName": "Modify Registry",
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
@@ -104,6 +98,12 @@
             "score": 2,
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
+            "comment": "Patchwork (G0040) & Silence (G0091)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1112",
+            "techniqueName": "Modify Registry",
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
@@ -144,12 +144,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027.002",
-            "techniqueName": "Software Packing",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1055.012",
             "techniqueName": "Process Hollowing",
             "comment": "Patchwork (G0040)"
@@ -162,14 +156,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
+            "techniqueID": "T1027.002",
+            "techniqueName": "Software Packing",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -185,15 +179,15 @@
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Patchwork (G0040) & Silence (G0091)"
+            "score": 1,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "Patchwork (G0040)"
         },
         {
             "score": 2,
-            "techniqueID": "T1021.001",
-            "techniqueName": "Remote Desktop Protocol",
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
@@ -206,6 +200,12 @@
             "score": 2,
             "techniqueID": "T1036.005",
             "techniqueName": "Match Legitimate Name or Location",
+            "comment": "Patchwork (G0040) & Silence (G0091)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1021.001",
+            "techniqueName": "Remote Desktop Protocol",
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
@@ -313,9 +313,9 @@
     ],
     "gradient": {
         "colors": [
-            "#c9fc5a",
-            "#7bed86",
-            "#a328d3"
+            "#f9b1d8",
+            "#f7b9d1",
+            "#b4e88b"
         ],
         "minValue": 0,
         "maxValue": 2

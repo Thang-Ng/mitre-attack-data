@@ -24,14 +24,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1003",
+            "techniqueName": "OS Credential Dumping",
+            "comment": "Sowbug (G0054)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1135",
             "techniqueName": "Network Share Discovery",
             "comment": "Sowbug (G0054)"
         },
         {
             "score": 1,
-            "techniqueID": "T1003",
-            "techniqueName": "OS Credential Dumping",
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "Sowbug (G0054)"
         },
         {
@@ -50,12 +56,6 @@
             "score": 1,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
-            "comment": "Sowbug (G0054)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
             "comment": "Sowbug (G0054)"
         },
         {
@@ -79,8 +79,8 @@
     ],
     "gradient": {
         "colors": [
-            "#d315c3",
-            "#198396"
+            "#6969e0",
+            "#89c62d"
         ],
         "minValue": 0,
         "maxValue": 1

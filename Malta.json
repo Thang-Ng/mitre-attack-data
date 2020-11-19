@@ -72,6 +72,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1071.004",
+            "techniqueName": "DNS",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
             "comment": "FIN7 (G0046)"
@@ -80,12 +86,6 @@
             "score": 1,
             "techniqueID": "T1543.003",
             "techniqueName": "Windows Service",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1071.004",
-            "techniqueName": "DNS",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -126,14 +126,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1546.011",
-            "techniqueName": "Application Shimming",
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
             "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
+            "techniqueID": "T1546.011",
+            "techniqueName": "Application Shimming",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -157,8 +157,8 @@
     ],
     "gradient": {
         "colors": [
-            "#265cef",
-            "#c7f1fc"
+            "#d8e24a",
+            "#e006dc"
         ],
         "minValue": 0,
         "maxValue": 1
