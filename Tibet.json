@@ -42,33 +42,9 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1055.012",
             "techniqueName": "Process Hollowing",
             "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
             "score": 1,
@@ -95,6 +71,30 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
@@ -119,22 +119,10 @@
             "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
             "score": 2,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
             "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1562.002",
-            "techniqueName": "Disable Windows Event Logging",
-            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
@@ -149,9 +137,15 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
             "score": 2,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
             "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
@@ -164,6 +158,12 @@
             "score": 1,
             "techniqueID": "T1068",
             "techniqueName": "Exploitation for Privilege Escalation",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1562.002",
+            "techniqueName": "Disable Windows Event Logging",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -185,6 +185,12 @@
             "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
@@ -194,6 +200,18 @@
             "score": 1,
             "techniqueID": "T1560.002",
             "techniqueName": "Archive via Library",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -210,30 +228,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1574.002",
-            "techniqueName": "DLL Side-Loading",
-            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1043",
             "techniqueName": "Commonly Used Port",
             "comment": "Threat Group-3390 (G0027)"
@@ -243,6 +237,12 @@
             "techniqueID": "T1053.002",
             "techniqueName": "At (Windows)",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1574.002",
+            "techniqueName": "DLL Side-Loading",
+            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
             "score": 1,
@@ -409,9 +409,9 @@
     ],
     "gradient": {
         "colors": [
-            "#cb46e2",
-            "#082d8c",
-            "#f79bdd"
+            "#5bf1ff",
+            "#b4ff82",
+            "#0dd85e"
         ],
         "minValue": 0,
         "maxValue": 2

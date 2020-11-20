@@ -12,14 +12,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1556.002",
-            "techniqueName": "Password Filter DLL",
+            "techniqueID": "T1090.001",
+            "techniqueName": "Internal Proxy",
             "comment": "Strider (G0041)"
         },
         {
             "score": 1,
-            "techniqueID": "T1090.001",
-            "techniqueName": "Internal Proxy",
+            "techniqueID": "T1556.002",
+            "techniqueName": "Password Filter DLL",
             "comment": "Strider (G0041)"
         },
         {
@@ -222,24 +222,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1547.004",
-            "techniqueName": "Winlogon Helper DLL",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
             "comment": "Turla (G0010)"
@@ -270,26 +252,32 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1547.004",
+            "techniqueName": "Winlogon Helper DLL",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -312,6 +300,18 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
             "comment": "Turla (G0010)"
@@ -330,14 +330,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
+            "techniqueID": "T1007",
+            "techniqueName": "System Service Discovery",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1007",
-            "techniqueName": "System Service Discovery",
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -349,8 +349,8 @@
     ],
     "gradient": {
         "colors": [
-            "#f7bec9",
-            "#c4f7a0"
+            "#0a991d",
+            "#efa7e4"
         ],
         "minValue": 0,
         "maxValue": 1

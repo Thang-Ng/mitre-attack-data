@@ -72,14 +72,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
+            "techniqueID": "T1046",
+            "techniqueName": "Network Service Scanning",
             "comment": "Leafminer (G0077)"
         },
         {
             "score": 1,
-            "techniqueID": "T1114.002",
-            "techniqueName": "Remote Email Collection",
+            "techniqueID": "T1110.003",
+            "techniqueName": "Password Spraying",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -96,14 +96,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1046",
-            "techniqueName": "Network Service Scanning",
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
             "comment": "Leafminer (G0077)"
         },
         {
             "score": 1,
-            "techniqueID": "T1110.003",
-            "techniqueName": "Password Spraying",
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -120,21 +120,21 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
             "comment": "Leafminer (G0077)"
         },
         {
             "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript/JScript",
             "comment": "Leafminer (G0077)"
         }
     ],
     "gradient": {
         "colors": [
-            "#7639a8",
-            "#f913d7"
+            "#88bc18",
+            "#ad00cc"
         ],
         "minValue": 0,
         "maxValue": 1

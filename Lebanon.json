@@ -5,21 +5,9 @@
     "version": "3.0",
     "techniques": [
         {
-            "score": 5,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1566.003",
-            "techniqueName": "Spearphishing via Service",
-            "comment": "Dark Caracal (G0070) & OilRig (G0049)"
-        },
-        {
             "score": 3,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
             "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
@@ -29,9 +17,21 @@
             "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
+            "score": 5,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1218.001",
             "techniqueName": "Compiled HTML File",
+            "comment": "Dark Caracal (G0070) & OilRig (G0049)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1566.003",
+            "techniqueName": "Spearphishing via Service",
             "comment": "Dark Caracal (G0070) & OilRig (G0049)"
         },
         {
@@ -41,9 +41,15 @@
             "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Leafminer (G0077) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "Dark Caracal (G0070)"
+        },
+        {
             "score": 3,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
             "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
@@ -57,12 +63,6 @@
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "Dark Caracal (G0070)"
         },
         {
             "score": 4,
@@ -131,16 +131,16 @@
             "comment": "Darkhotel (G0012)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "Darkhotel (G0012) & OilRig (G0049)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1091",
             "techniqueName": "Replication Through Removable Media",
             "comment": "Darkhotel (G0012)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "Darkhotel (G0012) & OilRig (G0049)"
         },
         {
             "score": 2,
@@ -221,18 +221,6 @@
             "comment": "Leafminer (G0077)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "Leafminer (G0077) & MuddyWater (G0069) & OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1114.002",
-            "techniqueName": "Remote Email Collection",
-            "comment": "Leafminer (G0077)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1046",
             "techniqueName": "Network Service Scanning",
@@ -245,9 +233,27 @@
             "comment": "Leafminer (G0077)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "Leafminer (G0077) & MuddyWater (G0069) & OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
+            "comment": "Leafminer (G0077)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1136.001",
             "techniqueName": "Local Account",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -255,12 +261,6 @@
             "techniqueID": "T1059.007",
             "techniqueName": "JavaScript/JScript",
             "comment": "Leafminer (G0077) & Molerats (G0021)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
-            "comment": "Leafminer (G0077)"
         },
         {
             "score": 2,
@@ -450,14 +450,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1573.002",
-            "techniqueName": "Asymmetric Cryptography",
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
             "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
+            "techniqueID": "T1573.002",
+            "techniqueName": "Asymmetric Cryptography",
             "comment": "OilRig (G0049)"
         },
         {
@@ -474,6 +474,18 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1069.001",
             "techniqueName": "Local Groups",
             "comment": "OilRig (G0049)"
@@ -486,14 +498,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
             "comment": "OilRig (G0049)"
         },
         {
@@ -510,14 +516,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1505.003",
-            "techniqueName": "Web Shell",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
+            "techniqueID": "T1021.004",
+            "techniqueName": "SSH",
             "comment": "OilRig (G0049)"
         },
         {
@@ -528,14 +528,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.004",
-            "techniqueName": "SSH",
+            "techniqueID": "T1007",
+            "techniqueName": "System Service Discovery",
             "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
-            "techniqueID": "T1007",
-            "techniqueName": "System Service Discovery",
+            "techniqueID": "T1505.003",
+            "techniqueName": "Web Shell",
             "comment": "OilRig (G0049)"
         },
         {
@@ -565,13 +565,13 @@
     ],
     "gradient": {
         "colors": [
-            "#fce762",
-            "#d083ea",
-            "#129e3c",
-            "#99af28",
-            "#8d5bc6",
-            "#4dea9c",
-            "#f7b267"
+            "#c6075a",
+            "#a284e8",
+            "#62d1cf",
+            "#18a0c9",
+            "#160666",
+            "#d4ef94",
+            "#b1b9ed"
         ],
         "minValue": 0,
         "maxValue": 6

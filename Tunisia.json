@@ -215,18 +215,6 @@
             "comment": "MuddyWater (G0069) & PROMETHIUM (G0056) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "MuddyWater (G0069) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1218.003",
-            "techniqueName": "CMSTP",
-            "comment": "MuddyWater (G0069)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
@@ -239,9 +227,21 @@
             "comment": "MuddyWater (G0069) & Turla (G0010)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1218.003",
+            "techniqueName": "CMSTP",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1140",
             "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
             "comment": "MuddyWater (G0069) & Turla (G0010)"
         },
         {
@@ -444,12 +444,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1547.004",
-            "techniqueName": "Winlogon Helper DLL",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
             "comment": "Turla (G0010)"
@@ -468,6 +462,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1547.004",
+            "techniqueName": "Winlogon Helper DLL",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
             "comment": "Turla (G0010)"
@@ -480,8 +480,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
+            "techniqueID": "T1110",
+            "techniqueName": "Brute Force",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1012",
+            "techniqueName": "Query Registry",
             "comment": "Turla (G0010)"
         },
         {
@@ -492,14 +498,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1110",
-            "techniqueName": "Brute Force",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1012",
-            "techniqueName": "Query Registry",
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -523,10 +523,10 @@
     ],
     "gradient": {
         "colors": [
-            "#2c9997",
-            "#b3db30",
-            "#c42940",
-            "#4828d6"
+            "#2abfb0",
+            "#ab95ed",
+            "#ccf298",
+            "#ccdaff"
         ],
         "minValue": 0,
         "maxValue": 3

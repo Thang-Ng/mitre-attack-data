@@ -17,10 +17,10 @@
             "comment": "Carbanak (G0008)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1218.011",
-            "techniqueName": "Rundll32",
-            "comment": "Carbanak (G0008) & APT28 (G0007)"
+            "score": 1,
+            "techniqueID": "T1562.004",
+            "techniqueName": "Disable or Modify System Firewall",
+            "comment": "Carbanak (G0008)"
         },
         {
             "score": 2,
@@ -35,16 +35,16 @@
             "comment": "Carbanak (G0008) & Ke3chang (G0004)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1562.004",
-            "techniqueName": "Disable or Modify System Firewall",
-            "comment": "Carbanak (G0008)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
             "comment": "Carbanak (G0008) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1218.011",
+            "techniqueName": "Rundll32",
+            "comment": "Carbanak (G0008) & APT28 (G0007)"
         },
         {
             "score": 3,
@@ -83,6 +83,12 @@
             "comment": "Ke3chang (G0004)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Ke3chang (G0004) & Silence (G0091) & Turla (G0010)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1114.002",
             "techniqueName": "Remote Email Collection",
@@ -95,16 +101,22 @@
             "comment": "Ke3chang (G0004) & Silence (G0091) & Turla (G0010)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1213.002",
+            "techniqueName": "Sharepoint",
+            "comment": "Ke3chang (G0004) & APT28 (G0007)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1133",
             "techniqueName": "External Remote Services",
             "comment": "Ke3chang (G0004)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1213.002",
-            "techniqueName": "Sharepoint",
-            "comment": "Ke3chang (G0004) & APT28 (G0007)"
+            "score": 1,
+            "techniqueID": "T1558.001",
+            "techniqueName": "Golden Ticket",
+            "comment": "Ke3chang (G0004)"
         },
         {
             "score": 2,
@@ -114,27 +126,9 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Ke3chang (G0004) & Silence (G0091) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1558.001",
-            "techniqueName": "Golden Ticket",
-            "comment": "Ke3chang (G0004)"
-        },
-        {
-            "score": 3,
             "techniqueID": "T1071.001",
             "techniqueName": "Web Protocols",
             "comment": "Ke3chang (G0004) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "Ke3chang (G0004) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -143,10 +137,10 @@
             "comment": "Ke3chang (G0004) & Silence (G0091)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
+            "score": 4,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Ke3chang (G0004) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -162,6 +156,24 @@
         },
         {
             "score": 2,
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "Ke3chang (G0004) & Silence (G0091) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1007",
             "techniqueName": "System Service Discovery",
             "comment": "Ke3chang (G0004) & Turla (G0010)"
@@ -171,6 +183,36 @@
             "techniqueID": "T1069.002",
             "techniqueName": "Domain Groups",
             "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "Ke3chang (G0004) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Ke3chang (G0004) & APT28 (G0007)"
         },
         {
             "score": 3,
@@ -183,48 +225,6 @@
             "techniqueID": "T1041",
             "techniqueName": "Exfiltration Over C2 Channel",
             "comment": "Ke3chang (G0004)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "Ke3chang (G0004) & Silence (G0091) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Ke3chang (G0004) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "Ke3chang (G0004) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -444,26 +444,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1199",
-            "techniqueName": "Trusted Relationship",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1119",
             "techniqueName": "Automated Collection",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1211",
-            "techniqueName": "Exploitation for Defense Evasion",
+            "techniqueID": "T1199",
+            "techniqueName": "Trusted Relationship",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1564.001",
             "techniqueName": "Hidden Files and Directories",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1211",
+            "techniqueName": "Exploitation for Defense Evasion",
             "comment": "APT28 (G0007)"
         },
         {
@@ -498,14 +498,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1134.001",
+            "techniqueName": "Token Impersonation/Theft",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1137.002",
             "techniqueName": "Office Test",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1134.001",
-            "techniqueName": "Token Impersonation/Theft",
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -515,12 +521,6 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
@@ -528,14 +528,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
@@ -552,12 +558,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1068",
             "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "APT28 (G0007)"
@@ -570,12 +570,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1071.003",
-            "techniqueName": "Mail Protocols",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1001.001",
             "techniqueName": "Junk Data",
             "comment": "APT28 (G0007)"
@@ -584,6 +578,12 @@
             "score": 1,
             "techniqueID": "T1070.006",
             "techniqueName": "Timestomp",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1071.003",
+            "techniqueName": "Mail Protocols",
             "comment": "APT28 (G0007)"
         },
         {
@@ -714,14 +714,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1547.004",
-            "techniqueName": "Winlogon Helper DLL",
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1204.001",
-            "techniqueName": "Malicious Link",
+            "techniqueID": "T1547.004",
+            "techniqueName": "Winlogon Helper DLL",
             "comment": "Turla (G0010)"
         },
         {
@@ -751,11 +751,11 @@
     ],
     "gradient": {
         "colors": [
-            "#f2977d",
-            "#abd63e",
-            "#9bafef",
-            "#e24aa1",
-            "#2c868e"
+            "#8b71c6",
+            "#e7f7a0",
+            "#478cc1",
+            "#9cb0e5",
+            "#72ffe5"
         ],
         "minValue": 0,
         "maxValue": 4

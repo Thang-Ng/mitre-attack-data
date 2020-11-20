@@ -72,14 +72,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
+            "techniqueID": "T1091",
+            "techniqueName": "Replication Through Removable Media",
             "comment": "Darkhotel (G0012)"
         },
         {
             "score": 1,
-            "techniqueID": "T1091",
-            "techniqueName": "Replication Through Removable Media",
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "Darkhotel (G0012)"
         },
         {
@@ -103,8 +103,8 @@
     ],
     "gradient": {
         "colors": [
-            "#fca4e6",
-            "#31bf55"
+            "#45008e",
+            "#e519b2"
         ],
         "minValue": 0,
         "maxValue": 1

@@ -35,15 +35,27 @@
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
+            "comment": "Patchwork (G0040) & Silence (G0091)"
+        },
+        {
             "score": 1,
-            "techniqueID": "T1027.005",
-            "techniqueName": "Indicator Removal from Tools",
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
             "techniqueID": "T1559.002",
             "techniqueName": "Dynamic Data Exchange",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -60,27 +72,15 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1053.005",
-            "techniqueName": "Scheduled Task",
-            "comment": "Patchwork (G0040) & Silence (G0091)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "Patchwork (G0040) & Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.005",
+            "techniqueName": "Indicator Removal from Tools",
+            "comment": "Patchwork (G0040)"
         },
         {
             "score": 2,
@@ -108,18 +108,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1566.002",
-            "techniqueName": "Spearphishing Link",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1203",
             "techniqueName": "Exploitation for Client Execution",
             "comment": "Patchwork (G0040)"
@@ -132,14 +120,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
-            "techniqueID": "T1102.001",
-            "techniqueName": "Dead Drop Resolver",
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.002",
+            "techniqueName": "Software Packing",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -156,8 +156,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027.002",
-            "techniqueName": "Software Packing",
+            "techniqueID": "T1102.001",
+            "techniqueName": "Dead Drop Resolver",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -176,12 +182,6 @@
             "score": 1,
             "techniqueID": "T1555.003",
             "techniqueName": "Credentials from Web Browsers",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -209,16 +209,16 @@
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Patchwork (G0040) & Silence (G0091)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1548.002",
             "techniqueName": "Bypass User Account Control",
             "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -313,9 +313,9 @@
     ],
     "gradient": {
         "colors": [
-            "#f9b1d8",
-            "#f7b9d1",
-            "#b4e88b"
+            "#db3b4b",
+            "#dd4685",
+            "#5dd321"
         ],
         "minValue": 0,
         "maxValue": 2

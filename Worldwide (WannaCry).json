@@ -126,6 +126,24 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1124",
+            "techniqueName": "System Time Discovery",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.001",
+            "techniqueName": "Compiled HTML File",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "Lazarus Group (G0032)"
@@ -134,12 +152,6 @@
             "score": 1,
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1218.001",
-            "techniqueName": "Compiled HTML File",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -156,14 +168,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1124",
-            "techniqueName": "System Time Discovery",
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
+            "techniqueID": "T1547.009",
+            "techniqueName": "Shortcut Modification",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -174,20 +186,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1132.001",
             "techniqueName": "Standard Encoding",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1547.009",
-            "techniqueName": "Shortcut Modification",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -210,8 +210,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
+            "techniqueID": "T1110.003",
+            "techniqueName": "Password Spraying",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -222,26 +222,26 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1043",
             "techniqueName": "Commonly Used Port",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1110.003",
-            "techniqueName": "Password Spraying",
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
             "techniqueID": "T1005",
             "techniqueName": "Data from Local System",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -270,8 +270,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -282,20 +294,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1560",
             "techniqueName": "Archive Collected Data",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -354,14 +354,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1573.001",
-            "techniqueName": "Symmetric Cryptography",
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1098",
+            "techniqueName": "Account Manipulation",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -378,20 +384,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1098",
-            "techniqueName": "Account Manipulation",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
+            "techniqueID": "T1573.001",
+            "techniqueName": "Symmetric Cryptography",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -403,8 +403,8 @@
     ],
     "gradient": {
         "colors": [
-            "#fc1b23",
-            "#ef6be6"
+            "#7ceaac",
+            "#bc346f"
         ],
         "minValue": 0,
         "maxValue": 1

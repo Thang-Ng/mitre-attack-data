@@ -287,12 +287,6 @@
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1548.002",
             "techniqueName": "Bypass User Account Control",
@@ -315,6 +309,12 @@
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 3,
@@ -341,16 +341,10 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1562.002",
-            "techniqueName": "Disable Windows Event Logging",
-            "comment": "Threat Group-3390 (G0027)"
+            "score": 2,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -365,10 +359,10 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
+            "score": 1,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
@@ -380,6 +374,12 @@
             "score": 1,
             "techniqueID": "T1068",
             "techniqueName": "Exploitation for Privilege Escalation",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1562.002",
+            "techniqueName": "Disable Windows Event Logging",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -408,8 +408,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1030",
-            "techniqueName": "Data Transfer Size Limits",
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -420,15 +420,9 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
+            "techniqueID": "T1030",
+            "techniqueName": "Data Transfer Size Limits",
             "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1574.002",
-            "techniqueName": "DLL Side-Loading",
-            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -441,6 +435,12 @@
             "techniqueID": "T1053.002",
             "techniqueName": "At (Windows)",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1574.002",
+            "techniqueName": "DLL Side-Loading",
+            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -480,8 +480,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027.005",
-            "techniqueName": "Indicator Removal from Tools",
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -492,8 +492,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
+            "techniqueID": "T1027.005",
+            "techniqueName": "Indicator Removal from Tools",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -541,13 +541,13 @@
     ],
     "gradient": {
         "colors": [
-            "#896afc",
-            "#f3b9f7",
-            "#65f0f7",
-            "#dc8ef2",
-            "#9878cc",
-            "#f3fc8d",
-            "#98a9e2"
+            "#b1e22b",
+            "#a7def2",
+            "#eb84ed",
+            "#fcd0bf",
+            "#f458e2",
+            "#72f466",
+            "#60f7b3"
         ],
         "minValue": 0,
         "maxValue": 6
