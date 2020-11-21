@@ -42,8 +42,44 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1071.004",
+            "techniqueName": "DNS",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1125",
+            "techniqueName": "Video Capture",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059",
+            "techniqueName": "Command and Scripting Interpreter",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -60,44 +96,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1125",
-            "techniqueName": "Video Capture",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1071.004",
-            "techniqueName": "DNS",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059",
-            "techniqueName": "Command and Scripting Interpreter",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1113",
             "techniqueName": "Screen Capture",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -120,12 +120,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1546.011",
-            "techniqueName": "Application Shimming",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1036.004",
             "techniqueName": "Masquerade Task or Service",
             "comment": "FIN7 (G0046)"
@@ -134,6 +128,12 @@
             "score": 1,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1546.011",
+            "techniqueName": "Application Shimming",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -157,8 +157,8 @@
     ],
     "gradient": {
         "colors": [
-            "#cc2816",
-            "#f9b8d5"
+            "#1c357a",
+            "#fcb5d4"
         ],
         "minValue": 0,
         "maxValue": 1

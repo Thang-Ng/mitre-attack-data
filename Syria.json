@@ -12,27 +12,27 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "Group5 (G0043) & Magic Hound (G0059)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "Group5 (G0043) & Magic Hound (G0059)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "Group5 (G0043) & Ke3chang (G0004) & Magic Hound (G0059)"
+            "score": 2,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "Group5 (G0043) & Magic Hound (G0059)"
         },
         {
             "score": 4,
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
             "comment": "Group5 (G0043) & Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "Group5 (G0043) & Ke3chang (G0004) & Magic Hound (G0059)"
         },
         {
             "score": 1,
@@ -65,10 +65,22 @@
             "comment": "Ke3chang (G0004)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Molerats (G0021) & PROMETHIUM (G0056) & Turla (G0010)"
+            "score": 2,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "Ke3chang (G0004) & PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1558.001",
+            "techniqueName": "Golden Ticket",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1213.002",
+            "techniqueName": "Sharepoint",
+            "comment": "Ke3chang (G0004)"
         },
         {
             "score": 1,
@@ -83,28 +95,22 @@
             "comment": "Ke3chang (G0004) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
-            "comment": "Ke3chang (G0004) & PROMETHIUM (G0056)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1213.002",
-            "techniqueName": "Sharepoint",
-            "comment": "Ke3chang (G0004)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1133",
             "techniqueName": "External Remote Services",
             "comment": "Ke3chang (G0004)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1558.001",
-            "techniqueName": "Golden Ticket",
-            "comment": "Ke3chang (G0004)"
+            "score": 3,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Molerats (G0021) & PROMETHIUM (G0056) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -119,10 +125,10 @@
             "comment": "Ke3chang (G0004)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
+            "score": 2,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -132,39 +138,15 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1021.002",
             "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 2,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
             "comment": "Ke3chang (G0004) & Magic Hound (G0059)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1007",
-            "techniqueName": "System Service Discovery",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1069.002",
-            "techniqueName": "Domain Groups",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -180,8 +162,20 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
+            "techniqueID": "T1007",
+            "techniqueName": "System Service Discovery",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1069.002",
+            "techniqueName": "Domain Groups",
             "comment": "Ke3chang (G0004) & Turla (G0010)"
         },
         {
@@ -191,10 +185,10 @@
             "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Ke3chang (G0004)"
+            "score": 2,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
         },
         {
             "score": 4,
@@ -206,6 +200,12 @@
             "score": 1,
             "techniqueID": "T1041",
             "techniqueName": "Exfiltration Over C2 Channel",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
             "comment": "Ke3chang (G0004)"
         },
         {
@@ -510,14 +510,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1055",
-            "techniqueName": "Process Injection",
+            "techniqueID": "T1547.004",
+            "techniqueName": "Winlogon Helper DLL",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1547.004",
-            "techniqueName": "Winlogon Helper DLL",
+            "techniqueID": "T1055",
+            "techniqueName": "Process Injection",
             "comment": "Turla (G0010)"
         },
         {
@@ -547,12 +547,12 @@
     ],
     "gradient": {
         "colors": [
-            "#e9fca9",
-            "#e87727",
-            "#ef8e07",
-            "#2af7bd",
-            "#5588b5",
-            "#464eaa"
+            "#daf927",
+            "#f49d55",
+            "#e27379",
+            "#ef75ed",
+            "#81a31b",
+            "#8f5df4"
         ],
         "minValue": 0,
         "maxValue": 5

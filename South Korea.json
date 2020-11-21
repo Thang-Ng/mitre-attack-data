@@ -77,12 +77,6 @@
             "comment": "Darkhotel (G0012) & APT28 (G0007)"
         },
         {
-            "score": 7,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "Darkhotel (G0012) & Threat Group-3390 (G0027) & Kimsuky (G0094) & Stolen Pencil (G0086) & Lazarus Group (G0032) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
             "score": 6,
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
@@ -93,6 +87,12 @@
             "techniqueID": "T1080",
             "techniqueName": "Taint Shared Content",
             "comment": "Darkhotel (G0012)"
+        },
+        {
+            "score": 7,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "Darkhotel (G0012) & Threat Group-3390 (G0027) & Kimsuky (G0094) & Stolen Pencil (G0086) & Lazarus Group (G0032) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 10,
@@ -209,6 +209,18 @@
             "comment": "Threat Group-3390 (G0027) & Soft Cell (G0093)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
+            "comment": "Threat Group-3390 (G0027) & Silence (G0091) & menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1055.012",
             "techniqueName": "Process Hollowing",
@@ -219,6 +231,12 @@
             "techniqueID": "T1548.002",
             "techniqueName": "Bypass User Account Control",
             "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Patchwork (G0040) & APT37 (G0067)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Kimsuky (G0094) & Lazarus Group (G0032)"
         },
         {
             "score": 4,
@@ -233,34 +251,10 @@
             "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & Silence (G0091)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
-            "comment": "Threat Group-3390 (G0027) & Silence (G0091) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1012",
             "techniqueName": "Query Registry",
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
-            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Kimsuky (G0094) & Lazarus Group (G0032)"
-        },
-        {
-            "score": 8,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Kimsuky (G0094) & Lazarus Group (G0032) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 1,
@@ -275,12 +269,6 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 9,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Threat Group-3390 (G0027) & Kimsuky (G0094) & Lazarus Group (G0032) & Molerats (G0021) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
@@ -293,10 +281,10 @@
             "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1562.002",
-            "techniqueName": "Disable Windows Event Logging",
-            "comment": "Threat Group-3390 (G0027)"
+            "score": 9,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Threat Group-3390 (G0027) & Kimsuky (G0094) & Lazarus Group (G0032) & Molerats (G0021) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 1,
@@ -309,6 +297,18 @@
             "techniqueID": "T1119",
             "techniqueName": "Automated Collection",
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040) & APT28 (G0007)"
+        },
+        {
+            "score": 8,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Kimsuky (G0094) & Lazarus Group (G0032) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1562.002",
+            "techniqueName": "Disable Windows Event Logging",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 9,
@@ -341,18 +341,6 @@
             "comment": "Threat Group-3390 (G0027) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT37 (G0067) & APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1053.002",
-            "techniqueName": "At (Windows)",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
             "score": 5,
             "techniqueID": "T1574.002",
             "techniqueName": "DLL Side-Loading",
@@ -363,6 +351,18 @@
             "techniqueID": "T1003.004",
             "techniqueName": "LSA Secrets",
             "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT37 (G0067) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1053.002",
+            "techniqueName": "At (Windows)",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 2,
@@ -563,22 +563,16 @@
             "comment": "Lazarus Group (G0032)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1124",
-            "techniqueName": "System Time Discovery",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1218.001",
             "techniqueName": "Compiled HTML File",
             "comment": "Lazarus Group (G0032) & Silence (G0091)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
-            "comment": "Lazarus Group (G0032) & APT28 (G0007)"
+            "score": 1,
+            "techniqueID": "T1124",
+            "techniqueName": "System Time Discovery",
+            "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
@@ -593,6 +587,12 @@
             "comment": "Lazarus Group (G0032) & Patchwork (G0040)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
+            "comment": "Lazarus Group (G0032) & APT28 (G0007)"
+        },
+        {
             "score": 5,
             "techniqueID": "T1090.002",
             "techniqueName": "External Proxy",
@@ -603,12 +603,6 @@
             "techniqueID": "T1134.002",
             "techniqueName": "Create Process with Token",
             "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1110.003",
-            "techniqueName": "Password Spraying",
-            "comment": "Lazarus Group (G0032) & APT28 (G0007)"
         },
         {
             "score": 2,
@@ -641,10 +635,10 @@
             "comment": "Lazarus Group (G0032)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1026",
-            "techniqueName": "Multiband Communication",
-            "comment": "Lazarus Group (G0032)"
+            "score": 2,
+            "techniqueID": "T1110.003",
+            "techniqueName": "Password Spraying",
+            "comment": "Lazarus Group (G0032) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -654,14 +648,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1010",
-            "techniqueName": "Application Window Discovery",
+            "techniqueID": "T1026",
+            "techniqueName": "Multiband Communication",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1098",
-            "techniqueName": "Account Manipulation",
+            "techniqueID": "T1010",
+            "techniqueName": "Application Window Discovery",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -669,6 +663,12 @@
             "techniqueID": "T1070.006",
             "techniqueName": "Timestomp",
             "comment": "Lazarus Group (G0032) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1098",
+            "techniqueName": "Account Manipulation",
+            "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 2,
@@ -707,12 +707,6 @@
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "Patchwork (G0040)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1559.002",
             "techniqueName": "Dynamic Data Exchange",
@@ -723,6 +717,12 @@
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
             "comment": "Patchwork (G0040) & Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
+            "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -762,14 +762,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
             "comment": "APT37 (G0067)"
         },
         {
             "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
             "comment": "APT37 (G0067)"
         },
         {
@@ -876,14 +876,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1211",
-            "techniqueName": "Exploitation for Defense Evasion",
+            "techniqueID": "T1037.001",
+            "techniqueName": "Logon Script (Windows)",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1037.001",
-            "techniqueName": "Logon Script (Windows)",
+            "techniqueID": "T1211",
+            "techniqueName": "Exploitation for Defense Evasion",
             "comment": "APT28 (G0007)"
         },
         {
@@ -899,16 +899,16 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
             "comment": "APT28 (G0007) & Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -942,14 +942,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
@@ -1003,20 +1003,20 @@
     ],
     "gradient": {
         "colors": [
-            "#015472",
-            "#8e320e",
-            "#f7ba59",
-            "#9bd2f7",
-            "#ffc8af",
-            "#e07cff",
-            "#558706",
-            "#f9ff60",
-            "#91f7d3",
-            "#db1c7b",
-            "#9c93ff",
-            "#daed84",
-            "#974df2",
-            "#e04ad3"
+            "#db3aff",
+            "#b587d3",
+            "#c2e3f9",
+            "#bf0186",
+            "#490b75",
+            "#c787ff",
+            "#7bf2ca",
+            "#21ff51",
+            "#f0aaff",
+            "#96f79e",
+            "#efb1a7",
+            "#e82548",
+            "#e5be20",
+            "#8979ce"
         ],
         "minValue": 0,
         "maxValue": 13

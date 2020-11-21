@@ -60,6 +60,18 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1136.001",
+            "techniqueName": "Local Account",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1046",
             "techniqueName": "Network Service Scanning",
             "comment": "Leafminer (G0077)"
@@ -72,14 +84,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
             "comment": "Leafminer (G0077)"
         },
         {
             "score": 1,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript/JScript",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -90,20 +102,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1136.001",
-            "techniqueName": "Local Account",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1018",
             "techniqueName": "Remote System Discovery",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -115,9 +115,9 @@
     ],
     "gradient": {
         "colors": [
-            "#ad220f",
-            "#efa9a2",
-            "#6add89"
+            "#1fc65f",
+            "#5806a0",
+            "#7fe08b"
         ],
         "minValue": 0,
         "maxValue": 2

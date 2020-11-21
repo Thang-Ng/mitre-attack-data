@@ -5,16 +5,16 @@
     "version": "3.0",
     "techniques": [
         {
-            "score": 4,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Orangeworm (G0071) & APT37 (G0067) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1021.002",
             "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Orangeworm (G0071) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Orangeworm (G0071) & APT37 (G0067) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -47,6 +47,18 @@
             "comment": "APT37 (G0067) & Turla (G0010)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "APT37 (G0067) & Tropic Trooper (G0081)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1057",
             "techniqueName": "Process Discovery",
@@ -65,40 +77,10 @@
             "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "APT37 (G0067) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1055",
             "techniqueName": "Process Injection",
             "comment": "APT37 (G0067) & Silence (G0091) & Turla (G0010)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "APT37 (G0067)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1559.002",
-            "techniqueName": "Dynamic Data Exchange",
-            "comment": "APT37 (G0067)"
         },
         {
             "score": 3,
@@ -111,12 +93,6 @@
             "techniqueID": "T1005",
             "techniqueName": "Data from Local System",
             "comment": "APT37 (G0067) & Turla (G0010)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 5,
@@ -143,6 +119,24 @@
             "comment": "APT37 (G0067)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
+            "comment": "APT37 (G0067)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
@@ -155,16 +149,16 @@
             "comment": "APT37 (G0067) & Silence (G0091) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
-            "comment": "APT37 (G0067)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "APT37 (G0067) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1036.001",
+            "techniqueName": "Invalid Code Signature",
+            "comment": "APT37 (G0067)"
         },
         {
             "score": 1,
@@ -174,8 +168,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1036.001",
-            "techniqueName": "Invalid Code Signature",
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "APT37 (G0067)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1559.002",
+            "techniqueName": "Dynamic Data Exchange",
             "comment": "APT37 (G0067)"
         },
         {
@@ -288,21 +288,15 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1069.001",
-            "techniqueName": "Local Groups",
-            "comment": "admin@338 (G0018) & Turla (G0010)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1087.001",
             "techniqueName": "Local Account",
             "comment": "admin@338 (G0018) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+            "score": 2,
+            "techniqueID": "T1069.001",
+            "techniqueName": "Local Groups",
+            "comment": "admin@338 (G0018) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -314,6 +308,12 @@
             "score": 3,
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
+            "comment": "admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
             "comment": "admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
@@ -601,12 +601,12 @@
     ],
     "gradient": {
         "colors": [
-            "#ceed95",
-            "#f29b8c",
-            "#9ffce1",
-            "#9202e0",
-            "#1aa863",
-            "#f4dab7"
+            "#90ed98",
+            "#c9f5ff",
+            "#b25c2e",
+            "#065770",
+            "#f9793e",
+            "#79dd52"
         ],
         "minValue": 0,
         "maxValue": 5

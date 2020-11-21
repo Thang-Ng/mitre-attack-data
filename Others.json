@@ -78,12 +78,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "Darkhotel (G0012)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
             "comment": "Darkhotel (G0012)"
@@ -92,6 +86,12 @@
             "score": 1,
             "techniqueID": "T1080",
             "techniqueName": "Taint Shared Content",
+            "comment": "Darkhotel (G0012)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "Darkhotel (G0012)"
         },
         {
@@ -271,9 +271,9 @@
     ],
     "gradient": {
         "colors": [
-            "#50d86d",
-            "#dbd818",
-            "#ed4496"
+            "#adff60",
+            "#98d13c",
+            "#fc4bd0"
         ],
         "minValue": 0,
         "maxValue": 2

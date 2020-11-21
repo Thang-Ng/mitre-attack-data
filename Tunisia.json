@@ -204,15 +204,9 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "MuddyWater (G0069) & PROMETHIUM (G0056)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "MuddyWater (G0069) & PROMETHIUM (G0056) & Turla (G0010)"
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -222,9 +216,15 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "MuddyWater (G0069) & Turla (G0010)"
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "MuddyWater (G0069) & PROMETHIUM (G0056)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "MuddyWater (G0069) & PROMETHIUM (G0056) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -239,16 +239,16 @@
             "comment": "MuddyWater (G0069) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "MuddyWater (G0069) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1218.005",
             "techniqueName": "Mshta",
             "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -444,6 +444,18 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1547.004",
+            "techniqueName": "Winlogon Helper DLL",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
             "comment": "Turla (G0010)"
@@ -458,18 +470,6 @@
             "score": 1,
             "techniqueID": "T1204.001",
             "techniqueName": "Malicious Link",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1547.004",
-            "techniqueName": "Winlogon Helper DLL",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
             "comment": "Turla (G0010)"
         },
         {
@@ -523,10 +523,10 @@
     ],
     "gradient": {
         "colors": [
-            "#2abfb0",
-            "#ab95ed",
-            "#ccf298",
-            "#ccdaff"
+            "#ceac14",
+            "#30ff94",
+            "#f7f9b1",
+            "#41c674"
         ],
         "minValue": 0,
         "maxValue": 3

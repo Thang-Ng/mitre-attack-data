@@ -78,12 +78,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "Darkhotel (G0012)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
             "comment": "Darkhotel (G0012)"
@@ -96,6 +90,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "Darkhotel (G0012)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Darkhotel (G0012)"
@@ -103,8 +103,8 @@
     ],
     "gradient": {
         "colors": [
-            "#45008e",
-            "#e519b2"
+            "#ef6c58",
+            "#56ea20"
         ],
         "minValue": 0,
         "maxValue": 1
