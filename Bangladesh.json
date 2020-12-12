@@ -36,6 +36,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1559.002",
             "techniqueName": "Dynamic Data Exchange",
             "comment": "Patchwork (G0040)"
@@ -48,8 +54,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -66,26 +72,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1574.002",
             "techniqueName": "DLL Side-Loading",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1053.005",
-            "techniqueName": "Scheduled Task",
-            "comment": "Patchwork (G0040) & Silence (G0091)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1027.005",
-            "techniqueName": "Indicator Removal from Tools",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -95,9 +83,21 @@
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
+            "comment": "Patchwork (G0040) & Silence (G0091)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1027.001",
             "techniqueName": "Binary Padding",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.005",
+            "techniqueName": "Indicator Removal from Tools",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -113,16 +113,16 @@
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Patchwork (G0040)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
             "comment": "Patchwork (G0040) & Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -173,12 +173,6 @@
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "Patchwork (G0040)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
@@ -189,6 +183,18 @@
             "techniqueID": "T1021.001",
             "techniqueName": "Remote Desktop Protocol",
             "comment": "Patchwork (G0040) & Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -204,21 +210,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 2,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
             "comment": "Patchwork (G0040) & Silence (G0091)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -228,8 +228,8 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
@@ -313,9 +313,9 @@
     ],
     "gradient": {
         "colors": [
-            "#5782e0",
-            "#abfcd2",
-            "#7cc1cc"
+            "#e079e0",
+            "#1ace9b",
+            "#a726d6"
         ],
         "minValue": 0,
         "maxValue": 2

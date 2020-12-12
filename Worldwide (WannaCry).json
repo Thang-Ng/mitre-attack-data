@@ -132,12 +132,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
             "comment": "Lazarus Group (G0032)"
@@ -146,6 +140,12 @@
             "score": 1,
             "techniqueID": "T1203",
             "techniqueName": "Exploitation for Client Execution",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -168,26 +168,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1055.001",
-            "techniqueName": "Dynamic-link Library Injection",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1132.001",
             "techniqueName": "Standard Encoding",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
+            "techniqueID": "T1055.001",
+            "techniqueName": "Dynamic-link Library Injection",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -210,18 +210,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.001",
-            "techniqueName": "Remote Desktop Protocol",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1043",
             "techniqueName": "Commonly Used Port",
             "comment": "Lazarus Group (G0032)"
@@ -234,8 +222,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
+            "techniqueID": "T1021.001",
+            "techniqueName": "Remote Desktop Protocol",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -252,14 +240,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1047",
-            "techniqueName": "Windows Management Instrumentation",
+            "techniqueID": "T1048.003",
+            "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1048.003",
-            "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -270,8 +264,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
+            "techniqueID": "T1047",
+            "techniqueName": "Windows Management Instrumentation",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -282,8 +276,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -294,14 +288,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1041",
-            "techniqueName": "Exfiltration Over C2 Channel",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1041",
+            "techniqueName": "Exfiltration Over C2 Channel",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -354,6 +354,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1098",
+            "techniqueName": "Account Manipulation",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "Lazarus Group (G0032)"
@@ -362,12 +368,6 @@
             "score": 1,
             "techniqueID": "T1070.006",
             "techniqueName": "Timestomp",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1098",
-            "techniqueName": "Account Manipulation",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -403,8 +403,8 @@
     ],
     "gradient": {
         "colors": [
-            "#c2ed55",
-            "#c9e204"
+            "#2dfc5a",
+            "#5391b5"
         ],
         "minValue": 0,
         "maxValue": 1

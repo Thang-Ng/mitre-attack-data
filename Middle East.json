@@ -246,14 +246,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1187",
-            "techniqueName": "Forced Authentication",
+            "techniqueID": "T1221",
+            "techniqueName": "Template Injection",
             "comment": "DarkHydrus (G0079)"
         },
         {
             "score": 1,
-            "techniqueID": "T1221",
-            "techniqueName": "Template Injection",
+            "techniqueID": "T1187",
+            "techniqueName": "Forced Authentication",
             "comment": "DarkHydrus (G0079)"
         },
         {
@@ -293,6 +293,12 @@
             "comment": "Threat Group-3390 (G0027) & Gallmaker (G0084) & Patchwork (G0040)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1055.012",
             "techniqueName": "Process Hollowing",
@@ -303,12 +309,6 @@
             "techniqueID": "T1548.002",
             "techniqueName": "Bypass User Account Control",
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
-            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
@@ -342,6 +342,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1070.005",
+            "techniqueName": "Network Share Connection Removal",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1087.001",
             "techniqueName": "Local Account",
             "comment": "Threat Group-3390 (G0027)"
@@ -365,18 +371,6 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1070.005",
-            "techniqueName": "Network Share Connection Removal",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1119",
             "techniqueName": "Automated Collection",
@@ -387,6 +381,12 @@
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
@@ -402,12 +402,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1560.002",
-            "techniqueName": "Archive via Library",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1133",
             "techniqueName": "External Remote Services",
             "comment": "Threat Group-3390 (G0027)"
@@ -420,8 +414,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1560.002",
+            "techniqueName": "Archive via Library",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1030",
             "techniqueName": "Data Transfer Size Limits",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.004",
+            "techniqueName": "LSA Secrets",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -429,12 +435,6 @@
             "techniqueID": "T1574.002",
             "techniqueName": "DLL Side-Loading",
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1003.004",
-            "techniqueName": "LSA Secrets",
-            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
@@ -486,14 +486,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027.005",
-            "techniqueName": "Indicator Removal from Tools",
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
+            "techniqueID": "T1027.005",
+            "techniqueName": "Indicator Removal from Tools",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -541,13 +541,13 @@
     ],
     "gradient": {
         "colors": [
-            "#d15745",
-            "#521a9b",
-            "#e68dfc",
-            "#1f317a",
-            "#702499",
-            "#bbd7f9",
-            "#a9f9bf"
+            "#f2b424",
+            "#ccfeff",
+            "#adffcb",
+            "#2e76d3",
+            "#d8c443",
+            "#f6c9ff",
+            "#c650d8"
         ],
         "minValue": 0,
         "maxValue": 6

@@ -311,6 +311,12 @@
             "comment": "APT32 (G0050) & Lazarus Group (G0032) & Turla (G0010)"
         },
         {
+            "score": 5,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "APT32 (G0050) & APT41 (G0096) & Lazarus Group (G0032) & Stealth Falcon (G0038) & Soft Cell (G0093)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1070.001",
             "techniqueName": "Clear Windows Event Logs",
@@ -318,21 +324,15 @@
         },
         {
             "score": 5,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "APT32 (G0050) & APT41 (G0096) & Lazarus Group (G0032) & Stealth Falcon (G0038) & Soft Cell (G0093)"
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "APT32 (G0050) & Darkhotel (G0012) & Lazarus Group (G0032) & Stealth Falcon (G0038) & Turla (G0010)"
         },
         {
             "score": 1,
             "techniqueID": "T1027.001",
             "techniqueName": "Binary Padding",
             "comment": "APT32 (G0050)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "APT32 (G0050) & Darkhotel (G0012) & Lazarus Group (G0032) & Stealth Falcon (G0038) & Turla (G0010)"
         },
         {
             "score": 7,
@@ -353,22 +353,28 @@
             "comment": "APT32 (G0050)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1505.003",
-            "techniqueName": "Web Shell",
-            "comment": "APT32 (G0050) & Threat Group-3390 (G0027) & Soft Cell (G0093)"
-        },
-        {
             "score": 9,
             "techniqueID": "T1071.001",
             "techniqueName": "Web Protocols",
             "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Dark Caracal (G0070) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT28 (G0007) & Stealth Falcon (G0038) & Turla (G0010)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1505.003",
+            "techniqueName": "Web Shell",
+            "comment": "APT32 (G0050) & Threat Group-3390 (G0027) & Soft Cell (G0093)"
+        },
+        {
             "score": 11,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
             "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & PLATINUM (G0068) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1072",
+            "techniqueName": "Software Deployment Tools",
+            "comment": "APT32 (G0050) & Silence (G0091)"
         },
         {
             "score": 2,
@@ -387,12 +393,6 @@
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
             "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Thrip (G0076) & Silence (G0091) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1072",
-            "techniqueName": "Software Deployment Tools",
-            "comment": "APT32 (G0050) & Silence (G0091)"
         },
         {
             "score": 12,
@@ -618,27 +618,27 @@
         },
         {
             "score": 2,
+            "techniqueID": "T1559.002",
+            "techniqueName": "Dynamic Data Exchange",
+            "comment": "Cobalt Group (G0080) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1548.002",
             "techniqueName": "Bypass User Account Control",
             "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027)"
         },
         {
             "score": 2,
-            "techniqueID": "T1559.002",
-            "techniqueName": "Dynamic Data Exchange",
-            "comment": "Cobalt Group (G0080) & APT28 (G0007)"
+            "techniqueID": "T1219",
+            "techniqueName": "Remote Access Software",
+            "comment": "Cobalt Group (G0080) & Thrip (G0076)"
         },
         {
             "score": 1,
             "techniqueID": "T1573.002",
             "techniqueName": "Asymmetric Cryptography",
             "comment": "Cobalt Group (G0080)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1219",
-            "techniqueName": "Remote Access Software",
-            "comment": "Cobalt Group (G0080) & Thrip (G0076)"
         },
         {
             "score": 1,
@@ -653,16 +653,16 @@
             "comment": "Dark Caracal (G0070) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1566.003",
-            "techniqueName": "Spearphishing via Service",
-            "comment": "Dark Caracal (G0070) & Lazarus Group (G0032)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1027.002",
             "techniqueName": "Software Packing",
             "comment": "Dark Caracal (G0070) & Lazarus Group (G0032) & Soft Cell (G0093)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1566.003",
+            "techniqueName": "Spearphishing via Service",
+            "comment": "Dark Caracal (G0070) & Lazarus Group (G0032)"
         },
         {
             "score": 3,
@@ -744,14 +744,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.006",
-            "techniqueName": "Windows Remote Management",
+            "techniqueID": "T1070.005",
+            "techniqueName": "Network Share Connection Removal",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
-            "techniqueID": "T1070.005",
-            "techniqueName": "Network Share Connection Removal",
+            "techniqueID": "T1021.006",
+            "techniqueName": "Windows Remote Management",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -767,16 +767,16 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1560.002",
-            "techniqueName": "Archive via Library",
-            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
-        },
-        {
             "score": 5,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1560.002",
+            "techniqueName": "Archive via Library",
+            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
         },
         {
             "score": 1,
@@ -869,16 +869,16 @@
             "comment": "Lazarus Group (G0032) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1055.001",
-            "techniqueName": "Dynamic-link Library Injection",
-            "comment": "Lazarus Group (G0032) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1132.001",
             "techniqueName": "Standard Encoding",
             "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1055.001",
+            "techniqueName": "Dynamic-link Library Injection",
+            "comment": "Lazarus Group (G0032) & Turla (G0010)"
         },
         {
             "score": 5,
@@ -1068,14 +1068,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
@@ -1097,16 +1097,16 @@
             "comment": "menuPass (G0045)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
-            "comment": "menuPass (G0045) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1039",
             "techniqueName": "Data from Network Shared Drive",
             "comment": "menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
+            "comment": "menuPass (G0045) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -1194,14 +1194,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
+            "techniqueID": "T1547.004",
+            "techniqueName": "Winlogon Helper DLL",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1547.004",
-            "techniqueName": "Winlogon Helper DLL",
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
             "comment": "Turla (G0010)"
         },
         {
@@ -1219,19 +1219,19 @@
     ],
     "gradient": {
         "colors": [
-            "#ddff49",
-            "#f7e7b2",
-            "#f7d394",
-            "#804fbc",
-            "#97d622",
-            "#54ff7c",
-            "#7fdd6c",
-            "#6e2793",
-            "#a9f9b4",
-            "#66ddb3",
-            "#8cf7da",
-            "#c8db5e",
-            "#1a2cf2"
+            "#14fc59",
+            "#d3f49a",
+            "#f47abd",
+            "#d626b5",
+            "#f3ffaf",
+            "#f934dc",
+            "#6ddb6f",
+            "#6a1bc4",
+            "#f7b2dc",
+            "#92fcc5",
+            "#4d3499",
+            "#af34d8",
+            "#6bb4d6"
         ],
         "minValue": 0,
         "maxValue": 12

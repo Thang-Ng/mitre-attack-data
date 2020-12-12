@@ -48,8 +48,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1125",
-            "techniqueName": "Video Capture",
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -60,26 +60,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059",
-            "techniqueName": "Command and Scripting Interpreter",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1043",
             "techniqueName": "Commonly Used Port",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1125",
+            "techniqueName": "Video Capture",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -92,6 +86,12 @@
             "score": 1,
             "techniqueID": "T1543.003",
             "techniqueName": "Windows Service",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059",
+            "techniqueName": "Command and Scripting Interpreter",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -120,8 +120,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1036.004",
-            "techniqueName": "Masquerade Task or Service",
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -138,8 +138,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
+            "techniqueID": "T1036.004",
+            "techniqueName": "Masquerade Task or Service",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -157,8 +157,8 @@
     ],
     "gradient": {
         "colors": [
-            "#63a001",
-            "#cda8f4"
+            "#a2a5ef",
+            "#0529ba"
         ],
         "minValue": 0,
         "maxValue": 1

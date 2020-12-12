@@ -60,6 +60,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript/JScript",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "Leafminer (G0077)"
@@ -90,12 +96,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1114.002",
             "techniqueName": "Remote Email Collection",
             "comment": "Leafminer (G0077)"
@@ -115,9 +115,9 @@
     ],
     "gradient": {
         "colors": [
-            "#31d834",
-            "#e820a8",
-            "#a373d6"
+            "#f79067",
+            "#ba4ae0",
+            "#c2f2f9"
         ],
         "minValue": 0,
         "maxValue": 2

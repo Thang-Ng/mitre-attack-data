@@ -6,8 +6,8 @@
     "techniques": [
         {
             "score": 1,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
             "comment": "TA459 (G0062)"
         },
         {
@@ -18,8 +18,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
             "comment": "TA459 (G0062)"
         },
         {
@@ -37,8 +37,8 @@
     ],
     "gradient": {
         "colors": [
-            "#d8962b",
-            "#d8f7a5"
+            "#ea1737",
+            "#edc693"
         ],
         "minValue": 0,
         "maxValue": 1

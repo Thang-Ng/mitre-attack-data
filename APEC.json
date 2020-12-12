@@ -48,6 +48,24 @@
         },
         {
             "score": 2,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "Leviathan (G0065) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Leviathan (G0065) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1546.003",
+            "techniqueName": "Windows Management Instrumentation Event Subscription",
+            "comment": "Leviathan (G0065)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
             "comment": "Leviathan (G0065) & APT28 (G0007)"
@@ -84,18 +102,6 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1203",
-            "techniqueName": "Exploitation for Client Execution",
-            "comment": "Leviathan (G0065) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "Leviathan (G0065) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1078",
             "techniqueName": "Valid Accounts",
             "comment": "Leviathan (G0065) & APT28 (G0007)"
@@ -114,14 +120,14 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
+            "techniqueID": "T1203",
+            "techniqueName": "Exploitation for Client Execution",
             "comment": "Leviathan (G0065) & APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1546.003",
-            "techniqueName": "Windows Management Instrumentation Event Subscription",
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
             "comment": "Leviathan (G0065)"
         },
         {
@@ -147,12 +153,6 @@
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
             "comment": "Leviathan (G0065) & APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
-            "comment": "Leviathan (G0065)"
         },
         {
             "score": 2,
@@ -324,12 +324,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1134.001",
             "techniqueName": "Token Impersonation/Theft",
             "comment": "APT28 (G0007)"
@@ -342,14 +336,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1137.002",
             "techniqueName": "Office Test",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1550.002",
+            "techniqueName": "Pass the Hash",
             "comment": "APT28 (G0007)"
         },
         {
@@ -362,12 +368,6 @@
             "score": 1,
             "techniqueID": "T1120",
             "techniqueName": "Peripheral Device Discovery",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1550.002",
-            "techniqueName": "Pass the Hash",
             "comment": "APT28 (G0007)"
         },
         {
@@ -390,20 +390,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1068",
             "techniqueName": "Exploitation for Privilege Escalation",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
@@ -414,8 +402,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
@@ -428,6 +422,12 @@
             "score": 1,
             "techniqueID": "T1070.006",
             "techniqueName": "Timestomp",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
             "comment": "APT28 (G0007)"
         },
         {
@@ -450,22 +450,22 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         }
     ],
     "gradient": {
         "colors": [
-            "#efc98b",
-            "#c96f16",
-            "#f7b6a8"
+            "#6ab2f2",
+            "#f2aebb",
+            "#8cd15c"
         ],
         "minValue": 0,
         "maxValue": 2

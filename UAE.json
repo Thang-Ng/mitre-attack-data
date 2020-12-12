@@ -311,27 +311,21 @@
             "comment": "APT1 (G0006) & Darkhotel (G0012) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1114.001",
-            "techniqueName": "Local Email Collection",
-            "comment": "APT1 (G0006) & Magic Hound (G0059)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
             "comment": "APT1 (G0006) & APT28 (G0007) & Soft Cell (G0093)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1312",
-            "techniqueName": "Compromise 3rd party infrastructure to support delivery",
-            "comment": "APT1 (G0006)"
+            "score": 2,
+            "techniqueID": "T1114.001",
+            "techniqueName": "Local Email Collection",
+            "comment": "APT1 (G0006) & Magic Hound (G0059)"
         },
         {
             "score": 1,
-            "techniqueID": "T1326",
-            "techniqueName": "Domain registration hijacking",
+            "techniqueID": "T1312",
+            "techniqueName": "Compromise 3rd party infrastructure to support delivery",
             "comment": "APT1 (G0006)"
         },
         {
@@ -354,6 +348,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1326",
+            "techniqueName": "Domain registration hijacking",
+            "comment": "APT1 (G0006)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1557.002",
             "techniqueName": "ARP Cache Poisoning",
             "comment": "Cleaver (G0003)"
@@ -372,14 +372,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1341",
-            "techniqueName": "Build social network persona",
-            "comment": "Cleaver (G0003)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1342",
-            "techniqueName": "Develop social network persona digital footprint",
+            "techniqueID": "T1345",
+            "techniqueName": "Create custom payloads",
             "comment": "Cleaver (G0003)"
         },
         {
@@ -390,8 +384,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1345",
-            "techniqueName": "Create custom payloads",
+            "techniqueID": "T1341",
+            "techniqueName": "Build social network persona",
+            "comment": "Cleaver (G0003)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1342",
+            "techniqueName": "Develop social network persona digital footprint",
             "comment": "Cleaver (G0003)"
         },
         {
@@ -521,12 +521,6 @@
             "comment": "Magic Hound (G0059) & MuddyWater (G0069) & APT28 (G0007)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1059.005",
-            "techniqueName": "Visual Basic",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1065",
             "techniqueName": "Uncommonly Used Port",
@@ -537,6 +531,12 @@
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "Magic Hound (G0059) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091)"
         },
         {
             "score": 2,
@@ -689,16 +689,16 @@
             "comment": "OilRig (G0049)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1012",
-            "techniqueName": "Query Registry",
-            "comment": "OilRig (G0049) & Stealth Falcon (G0038)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1094",
             "techniqueName": "Custom Command and Control Protocol",
             "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1012",
+            "techniqueName": "Query Registry",
+            "comment": "OilRig (G0049) & Stealth Falcon (G0038)"
         },
         {
             "score": 1,
@@ -708,14 +708,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1069.001",
-            "techniqueName": "Local Groups",
+            "techniqueID": "T1008",
+            "techniqueName": "Fallback Channels",
             "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
-            "techniqueID": "T1008",
-            "techniqueName": "Fallback Channels",
+            "techniqueID": "T1069.001",
+            "techniqueName": "Local Groups",
             "comment": "OilRig (G0049)"
         },
         {
@@ -875,16 +875,16 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1092",
             "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 1,
@@ -906,12 +906,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1001.001",
             "techniqueName": "Junk Data",
             "comment": "APT28 (G0007)"
@@ -920,6 +914,12 @@
             "score": 1,
             "techniqueID": "T1070.006",
             "techniqueName": "Timestomp",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
             "comment": "APT28 (G0007)"
         },
         {
@@ -965,16 +965,16 @@
             "comment": "menuPass (G0045)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1003.002",
-            "techniqueName": "Security Account Manager",
-            "comment": "menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1039",
             "techniqueName": "Data from Network Shared Drive",
             "comment": "menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1003.002",
+            "techniqueName": "Security Account Manager",
+            "comment": "menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 1,
@@ -997,18 +997,18 @@
     ],
     "gradient": {
         "colors": [
-            "#92fcda",
-            "#7687f7",
-            "#98f2b5",
-            "#29bc1c",
-            "#96c928",
-            "#ffed30",
-            "#c0ff38",
-            "#d0ff4f",
-            "#6e58b7",
-            "#a7ba1a",
-            "#8a3dba",
-            "#c668e2"
+            "#0f9cd8",
+            "#eaa82c",
+            "#9aa0ea",
+            "#05a9b2",
+            "#c192e8",
+            "#aab8ef",
+            "#f4dab2",
+            "#fcdd44",
+            "#92d7dd",
+            "#38f7ce",
+            "#ffdbcc",
+            "#43e9ef"
         ],
         "minValue": 0,
         "maxValue": 11

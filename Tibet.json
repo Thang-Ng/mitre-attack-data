@@ -53,10 +53,10 @@
             "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
-            "comment": "Threat Group-3390 (G0027)"
+            "score": 2,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
             "score": 2,
@@ -66,9 +66,15 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
             "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
@@ -81,12 +87,6 @@
             "techniqueID": "T1548.002",
             "techniqueName": "Bypass User Account Control",
             "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
-            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
             "score": 1,
@@ -120,6 +120,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1070.005",
+            "techniqueName": "Network Share Connection Removal",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1087.001",
             "techniqueName": "Local Account",
             "comment": "Threat Group-3390 (G0027)"
@@ -143,24 +149,6 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1070.005",
-            "techniqueName": "Network Share Connection Removal",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1119",
             "techniqueName": "Automated Collection",
@@ -170,6 +158,18 @@
             "score": 2,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
+            "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
             "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
@@ -185,6 +185,18 @@
             "comment": "Threat Group-3390 (G0027) & Tropic Trooper (G0081)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
@@ -198,14 +210,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -222,8 +228,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
+            "techniqueID": "T1003.004",
+            "techniqueName": "LSA Secrets",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -234,26 +240,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1003.004",
-            "techniqueName": "LSA Secrets",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1043",
             "techniqueName": "Commonly Used Port",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
+            "techniqueID": "T1053.002",
+            "techniqueName": "At (Windows)",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
-            "techniqueID": "T1053.002",
-            "techniqueName": "At (Windows)",
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -409,9 +409,9 @@
     ],
     "gradient": {
         "colors": [
-            "#2bffe6",
-            "#217dff",
-            "#ffcce6"
+            "#eebffc",
+            "#bf0da1",
+            "#a6fcc6"
         ],
         "minValue": 0,
         "maxValue": 2

@@ -281,28 +281,28 @@
             "comment": "APT32 (G0050) & Ke3chang (G0004) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
-            "comment": "APT32 (G0050) & APT28 (G0007)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1033",
             "techniqueName": "System Owner/User Discovery",
             "comment": "APT32 (G0050) & Magic Hound (G0059) & MuddyWater (G0069)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "APT32 (G0050)"
+            "score": 2,
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
+            "comment": "APT32 (G0050) & APT28 (G0007)"
         },
         {
             "score": 6,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
             "comment": "APT32 (G0050) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
+            "comment": "APT32 (G0050)"
         },
         {
             "score": 3,
@@ -335,6 +335,12 @@
             "comment": "APT32 (G0050)"
         },
         {
+            "score": 9,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "APT32 (G0050) & APT33 (G0064) & Threat Group-3390 (G0027) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1505.003",
             "techniqueName": "Web Shell",
@@ -342,15 +348,15 @@
         },
         {
             "score": 9,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "APT32 (G0050) & APT33 (G0064) & Threat Group-3390 (G0027) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 9,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
             "comment": "APT32 (G0050) & APT33 (G0064) & Threat Group-3390 (G0027) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1072",
+            "techniqueName": "Software Deployment Tools",
+            "comment": "APT32 (G0050)"
         },
         {
             "score": 1,
@@ -369,12 +375,6 @@
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
             "comment": "APT32 (G0050) & APT33 (G0064) & DarkHydrus (G0079) & Threat Group-3390 (G0027) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1072",
-            "techniqueName": "Software Deployment Tools",
-            "comment": "APT32 (G0050)"
         },
         {
             "score": 10,
@@ -497,16 +497,16 @@
             "comment": "APT33 (G0064) & Threat Group-3390 (G0027) & Sandworm Team (G0034) & APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1187",
-            "techniqueName": "Forced Authentication",
-            "comment": "DarkHydrus (G0079)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1221",
             "techniqueName": "Template Injection",
             "comment": "DarkHydrus (G0079) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1187",
+            "techniqueName": "Forced Authentication",
+            "comment": "DarkHydrus (G0079)"
         },
         {
             "score": 2,
@@ -552,14 +552,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.006",
-            "techniqueName": "Windows Remote Management",
+            "techniqueID": "T1070.005",
+            "techniqueName": "Network Share Connection Removal",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
-            "techniqueID": "T1070.005",
-            "techniqueName": "Network Share Connection Removal",
+            "techniqueID": "T1021.006",
+            "techniqueName": "Windows Remote Management",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -572,12 +572,6 @@
             "score": 1,
             "techniqueID": "T1562.002",
             "techniqueName": "Disable Windows Event Logging",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1560.002",
-            "techniqueName": "Archive via Library",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -594,8 +588,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1030",
-            "techniqueName": "Data Transfer Size Limits",
+            "techniqueID": "T1560.002",
+            "techniqueName": "Archive via Library",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -603,6 +597,12 @@
             "techniqueID": "T1005",
             "techniqueName": "Data from Local System",
             "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1030",
+            "techniqueName": "Data Transfer Size Limits",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 3,
@@ -659,16 +659,16 @@
             "comment": "Ke3chang (G0004)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1558.001",
-            "techniqueName": "Golden Ticket",
-            "comment": "Ke3chang (G0004)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1213.002",
             "techniqueName": "Sharepoint",
             "comment": "Ke3chang (G0004) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1558.001",
+            "techniqueName": "Golden Ticket",
+            "comment": "Ke3chang (G0004)"
         },
         {
             "score": 2,
@@ -942,14 +942,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
@@ -1075,17 +1075,17 @@
     ],
     "gradient": {
         "colors": [
-            "#f7b4bc",
-            "#f97ad7",
-            "#a02c14",
-            "#872308",
-            "#6b31ce",
-            "#eaac88",
-            "#d19be8",
-            "#d11f8a",
-            "#99cc35",
-            "#6338ff",
-            "#ccf453"
+            "#bdd86a",
+            "#bfe557",
+            "#e46bf4",
+            "#82ea41",
+            "#4dce0c",
+            "#ffeb7f",
+            "#e52d95",
+            "#293a9e",
+            "#ce310e",
+            "#e57be3",
+            "#173982"
         ],
         "minValue": 0,
         "maxValue": 10

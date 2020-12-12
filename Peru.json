@@ -12,26 +12,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "Sowbug (G0054)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1059.003",
             "techniqueName": "Windows Command Shell",
             "comment": "Sowbug (G0054)"
         },
         {
             "score": 1,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "Sowbug (G0054)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
             "comment": "Sowbug (G0054)"
         },
         {
@@ -44,6 +32,18 @@
             "score": 1,
             "techniqueID": "T1135",
             "techniqueName": "Network Share Discovery",
+            "comment": "Sowbug (G0054)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "Sowbug (G0054)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
             "comment": "Sowbug (G0054)"
         },
         {
@@ -79,8 +79,8 @@
     ],
     "gradient": {
         "colors": [
-            "#4565c6",
-            "#9ef2ff"
+            "#f49fc5",
+            "#81e562"
         ],
         "minValue": 0,
         "maxValue": 1
