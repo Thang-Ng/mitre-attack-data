@@ -1,13 +1,13 @@
 {
     "description": "Techniques of groups: ",
-    "name": "Unknown",
+    "name": "Indonesia",
     "domain": "mitre-enterprise",
     "version": "3.0",
     "techniques": [],
     "gradient": {
         "colors": [
-            "#6374dd",
-            "#d65ebe"
+            "#40e5d2",
+            "#f93bd7"
         ],
         "minValue": 0,
         "maxValue": 1

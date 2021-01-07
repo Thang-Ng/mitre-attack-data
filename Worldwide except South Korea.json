@@ -1,13 +1,13 @@
 {
     "description": "Techniques of groups: ",
-    "name": "Unknown",
+    "name": "Worldwide except South Korea",
     "domain": "mitre-enterprise",
     "version": "3.0",
     "techniques": [],
     "gradient": {
         "colors": [
-            "#6374dd",
-            "#d65ebe"
+            "#6300b5",
+            "#5ef2d2"
         ],
         "minValue": 0,
         "maxValue": 1
