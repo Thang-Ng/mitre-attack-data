@@ -1,13 +1,13 @@
 {
     "description": "Techniques of groups: ",
-    "name": "Kuwait",
+    "name": "Different geographical areas",
     "domain": "mitre-enterprise",
     "version": "3.0",
     "techniques": [],
     "gradient": {
         "colors": [
-            "#1cbc57",
-            "#f2dfae"
+            "#d6bdfc",
+            "#3dbdf4"
         ],
         "minValue": 0,
         "maxValue": 1
