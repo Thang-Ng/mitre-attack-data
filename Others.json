@@ -72,12 +72,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "Darkhotel (G0012)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1091",
             "techniqueName": "Replication Through Removable Media",
             "comment": "Darkhotel (G0012)"
@@ -99,6 +93,12 @@
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Darkhotel (G0012) & Machete (G0095)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "Darkhotel (G0012)"
         },
         {
             "score": 1,
@@ -271,9 +271,9 @@
     ],
     "gradient": {
         "colors": [
-            "#bef7f7",
-            "#6dd34e",
-            "#2a3d99"
+            "#43169e",
+            "#ace253",
+            "#d33477"
         ],
         "minValue": 0,
         "maxValue": 2

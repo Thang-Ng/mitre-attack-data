@@ -41,22 +41,10 @@
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1559.002",
-            "techniqueName": "Dynamic Data Exchange",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "Patchwork (G0040)"
+            "score": 2,
+            "techniqueID": "T1112",
+            "techniqueName": "Modify Registry",
+            "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
             "score": 2,
@@ -78,21 +66,9 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1112",
-            "techniqueName": "Modify Registry",
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
             "comment": "Patchwork (G0040) & Silence (G0091)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1053.005",
-            "techniqueName": "Scheduled Task",
-            "comment": "Patchwork (G0040) & Silence (G0091)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -102,21 +78,33 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
             "score": 1,
-            "techniqueID": "T1203",
-            "techniqueName": "Exploitation for Client Execution",
+            "techniqueID": "T1559.002",
+            "techniqueName": "Dynamic Data Exchange",
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "Patchwork (G0040) & Silence (G0091)"
+            "score": 1,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -132,8 +120,26 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1203",
+            "techniqueName": "Exploitation for Client Execution",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "Patchwork (G0040) & Silence (G0091)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1055.012",
             "techniqueName": "Process Hollowing",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -144,8 +150,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
+            "techniqueID": "T1102.001",
+            "techniqueName": "Dead Drop Resolver",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -156,8 +162,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1102.001",
-            "techniqueName": "Dead Drop Resolver",
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -186,18 +192,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1132.001",
             "techniqueName": "Standard Encoding",
             "comment": "Patchwork (G0040)"
@@ -210,9 +204,21 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1005",
             "techniqueName": "Data from Local System",
             "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
             "score": 2,
@@ -225,12 +231,6 @@
             "techniqueID": "T1548.002",
             "techniqueName": "Bypass User Account Control",
             "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -313,9 +313,9 @@
     ],
     "gradient": {
         "colors": [
-            "#c394dd",
-            "#cc2ab9",
-            "#e592b2"
+            "#d83c20",
+            "#7fb2f4",
+            "#0f9611"
         ],
         "minValue": 0,
         "maxValue": 2

@@ -53,24 +53,6 @@
             "comment": "APT37 (G0067) & Soft Cell (G0093) & Tropic Trooper (G0081)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1055",
-            "techniqueName": "Process Injection",
-            "comment": "APT37 (G0067) & Silence (G0091) & Turla (G0010)"
-        },
-        {
-            "score": 6,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "APT37 (G0067) & Silence (G0091) & menuPass (G0045) & Soft Cell (G0093) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
-            "comment": "APT37 (G0067) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
             "score": 4,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
@@ -81,6 +63,24 @@
             "techniqueID": "T1106",
             "techniqueName": "Native API",
             "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1055",
+            "techniqueName": "Process Injection",
+            "comment": "APT37 (G0067) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "APT37 (G0067) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "APT37 (G0067) & Silence (G0091) & menuPass (G0045) & Soft Cell (G0093) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 7,
@@ -107,34 +107,10 @@
             "comment": "APT37 (G0067)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1203",
-            "techniqueName": "Exploitation for Client Execution",
-            "comment": "APT37 (G0067) & admin@338 (G0018) & Tropic Trooper (G0081)"
-        },
-        {
             "score": 4,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "APT37 (G0067) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "APT37 (G0067) & Turla (G0010)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "APT37 (G0067) & Silence (G0091) & menuPass (G0045) & admin@338 (G0018) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
-            "comment": "APT37 (G0067)"
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -143,10 +119,10 @@
             "comment": "APT37 (G0067)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
+            "score": 1,
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
+            "comment": "APT37 (G0067)"
         },
         {
             "score": 2,
@@ -167,10 +143,34 @@
             "comment": "APT37 (G0067) & Silence (G0091) & menuPass (G0045) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
+            "score": 5,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "APT37 (G0067) & Silence (G0091) & menuPass (G0045) & admin@338 (G0018) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1203",
+            "techniqueName": "Exploitation for Client Execution",
+            "comment": "APT37 (G0067) & admin@338 (G0018) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "APT37 (G0067) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1043",
             "techniqueName": "Commonly Used Port",
             "comment": "APT37 (G0067)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "APT37 (G0067) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -347,10 +347,52 @@
             "comment": "menuPass (G0045)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1047",
+            "techniqueName": "Windows Management Instrumentation",
+            "comment": "menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1039",
             "techniqueName": "Data from Network Shared Drive",
             "comment": "menuPass (G0045)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "menuPass (G0045) & Soft Cell (G0093) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "menuPass (G0045)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1046",
+            "techniqueName": "Network Service Scanning",
+            "comment": "menuPass (G0045) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1574.002",
+            "techniqueName": "DLL Side-Loading",
+            "comment": "menuPass (G0045) & Soft Cell (G0093) & Tropic Trooper (G0081)"
         },
         {
             "score": 2,
@@ -375,48 +417,6 @@
             "techniqueID": "T1021.004",
             "techniqueName": "SSH",
             "comment": "menuPass (G0045)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "menuPass (G0045) & Soft Cell (G0093) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1047",
-            "techniqueName": "Windows Management Instrumentation",
-            "comment": "menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "menuPass (G0045)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1574.002",
-            "techniqueName": "DLL Side-Loading",
-            "comment": "menuPass (G0045) & Soft Cell (G0093) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1046",
-            "techniqueName": "Network Service Scanning",
-            "comment": "menuPass (G0045) & Tropic Trooper (G0081)"
         },
         {
             "score": 1,
@@ -468,8 +468,8 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1069.001",
-            "techniqueName": "Local Groups",
+            "techniqueID": "T1087.001",
+            "techniqueName": "Local Account",
             "comment": "admin@338 (G0018) & Turla (G0010)"
         },
         {
@@ -479,16 +479,16 @@
             "comment": "admin@338 (G0018) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1087.001",
-            "techniqueName": "Local Account",
-            "comment": "admin@338 (G0018) & Turla (G0010)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
             "comment": "admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1069.001",
+            "techniqueName": "Local Groups",
+            "comment": "admin@338 (G0018) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -727,14 +727,14 @@
     ],
     "gradient": {
         "colors": [
-            "#d60678",
-            "#95edda",
-            "#f9dd04",
-            "#e5ae92",
-            "#6a81dd",
-            "#8b9ad3",
-            "#d0d32c",
-            "#4447a3"
+            "#e05ed9",
+            "#e0997f",
+            "#f7dbb7",
+            "#b2ffd3",
+            "#248593",
+            "#21b741",
+            "#302a93",
+            "#d6406d"
         ],
         "minValue": 0,
         "maxValue": 7

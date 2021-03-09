@@ -12,14 +12,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1059.005",
-            "techniqueName": "Visual Basic",
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
             "comment": "TA459 (G0062)"
         },
         {
             "score": 1,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
             "comment": "TA459 (G0062)"
         },
         {
@@ -30,15 +30,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
             "comment": "TA459 (G0062)"
         }
     ],
     "gradient": {
         "colors": [
-            "#70a817",
-            "#67fc49"
+            "#6eddb8",
+            "#54d4ff"
         ],
         "minValue": 0,
         "maxValue": 1

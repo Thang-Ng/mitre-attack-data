@@ -11,24 +11,6 @@
             "comment": "Poseidon Group (G0033) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "Poseidon Group (G0033) & Sandworm Team (G0034) & Silence (G0091)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Poseidon Group (G0033) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
-            "comment": "Poseidon Group (G0033) & Sandworm Team (G0034) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
@@ -41,6 +23,24 @@
             "comment": "Poseidon Group (G0033) & Turla (G0010)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "Poseidon Group (G0033) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "Poseidon Group (G0033) & Sandworm Team (G0034) & Silence (G0091)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Poseidon Group (G0033) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1003",
             "techniqueName": "OS Credential Dumping",
@@ -48,9 +48,9 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
-            "comment": "Poseidon Group (G0033) & APT28 (G0007) & Turla (G0010)"
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
+            "comment": "Poseidon Group (G0033) & Sandworm Team (G0034) & Turla (G0010)"
         },
         {
             "score": 4,
@@ -407,18 +407,6 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1114.002",
-            "techniqueName": "Remote Email Collection",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
@@ -438,6 +426,18 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1213.002",
             "techniqueName": "Sharepoint",
             "comment": "APT28 (G0007)"
@@ -446,12 +446,6 @@
             "score": 1,
             "techniqueID": "T1037.001",
             "techniqueName": "Logon Script (Windows)",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
             "comment": "APT28 (G0007)"
         },
         {
@@ -474,6 +468,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1559.002",
             "techniqueName": "Dynamic Data Exchange",
             "comment": "APT28 (G0007)"
@@ -485,27 +485,15 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1137.002",
             "techniqueName": "Office Test",
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1550.002",
-            "techniqueName": "Pass the Hash",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 2,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
@@ -516,8 +504,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
+            "techniqueID": "T1550.002",
+            "techniqueName": "Pass the Hash",
             "comment": "APT28 (G0007)"
         },
         {
@@ -525,6 +513,18 @@
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -702,20 +702,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1547.004",
-            "techniqueName": "Winlogon Helper DLL",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1204.001",
             "techniqueName": "Malicious Link",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
+            "techniqueID": "T1547.004",
+            "techniqueName": "Winlogon Helper DLL",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Turla (G0010)"
         },
         {
@@ -732,12 +738,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1124",
             "techniqueName": "System Time Discovery",
             "comment": "Turla (G0010)"
@@ -745,12 +745,12 @@
     ],
     "gradient": {
         "colors": [
-            "#c61193",
-            "#cc4965",
-            "#a7abef",
-            "#06d837",
-            "#ef43d8",
-            "#b77409"
+            "#c7a4ea",
+            "#6b7edb",
+            "#f49c92",
+            "#95f9f3",
+            "#b5f28c",
+            "#0e845f"
         ],
         "minValue": 0,
         "maxValue": 5

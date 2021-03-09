@@ -305,12 +305,6 @@
             "comment": "APT1 (G0006) & OilRig (G0049) & Poseidon Group (G0033)"
         },
         {
-            "score": 9,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "APT1 (G0006) & Darkhotel (G0012) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
@@ -323,15 +317,15 @@
             "comment": "APT1 (G0006) & Magic Hound (G0059)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1312",
-            "techniqueName": "Compromise 3rd party infrastructure to support delivery",
-            "comment": "APT1 (G0006)"
+            "score": 9,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "APT1 (G0006) & Darkhotel (G0012) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 1,
-            "techniqueID": "T1333",
-            "techniqueName": "Dynamic DNS",
+            "techniqueID": "T1312",
+            "techniqueName": "Compromise 3rd party infrastructure to support delivery",
             "comment": "APT1 (G0006)"
         },
         {
@@ -342,14 +336,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1330",
-            "techniqueName": "Acquire and/or use 3rd party software services",
+            "techniqueID": "T1333",
+            "techniqueName": "Dynamic DNS",
             "comment": "APT1 (G0006)"
         },
         {
             "score": 1,
             "techniqueID": "T1326",
             "techniqueName": "Domain registration hijacking",
+            "comment": "APT1 (G0006)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1330",
+            "techniqueName": "Acquire and/or use 3rd party software services",
             "comment": "APT1 (G0006)"
         },
         {
@@ -378,12 +378,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1313",
-            "techniqueName": "Obfuscation or cryptography",
-            "comment": "Cleaver (G0003)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1341",
             "techniqueName": "Build social network persona",
             "comment": "Cleaver (G0003)"
@@ -392,6 +386,12 @@
             "score": 1,
             "techniqueID": "T1342",
             "techniqueName": "Develop social network persona digital footprint",
+            "comment": "Cleaver (G0003)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1313",
+            "techniqueName": "Obfuscation or cryptography",
             "comment": "Cleaver (G0003)"
         },
         {
@@ -461,16 +461,16 @@
             "comment": "Equation (G0020)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1109",
-            "techniqueName": "Component Firmware",
-            "comment": "Equation (G0020)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1120",
             "techniqueName": "Peripheral Device Discovery",
             "comment": "Equation (G0020) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1109",
+            "techniqueName": "Component Firmware",
+            "comment": "Equation (G0020)"
         },
         {
             "score": 2,
@@ -509,6 +509,12 @@
             "comment": "Magic Hound (G0059) & APT28 (G0007)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1043",
             "techniqueName": "Commonly Used Port",
@@ -531,12 +537,6 @@
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "Magic Hound (G0059) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1059.005",
-            "techniqueName": "Visual Basic",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091)"
         },
         {
             "score": 2,
@@ -636,14 +636,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1218.003",
-            "techniqueName": "CMSTP",
+            "techniqueID": "T1218.005",
+            "techniqueName": "Mshta",
             "comment": "MuddyWater (G0069)"
         },
         {
             "score": 1,
-            "techniqueID": "T1218.005",
-            "techniqueName": "Mshta",
+            "techniqueID": "T1218.003",
+            "techniqueName": "CMSTP",
             "comment": "MuddyWater (G0069)"
         },
         {
@@ -665,12 +665,6 @@
             "comment": "OilRig (G0049)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "OilRig (G0049) & Soft Cell (G0093)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1201",
             "techniqueName": "Password Policy Discovery",
@@ -689,10 +683,34 @@
             "comment": "OilRig (G0049)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "OilRig (G0049) & Soft Cell (G0093)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1094",
             "techniqueName": "Custom Command and Control Protocol",
             "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1069.001",
+            "techniqueName": "Local Groups",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1008",
+            "techniqueName": "Fallback Channels",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
+            "comment": "OilRig (G0049) & Poseidon Group (G0033) & menuPass (G0045)"
         },
         {
             "score": 2,
@@ -705,24 +723,6 @@
             "techniqueID": "T1048.003",
             "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
             "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1008",
-            "techniqueName": "Fallback Channels",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1069.001",
-            "techniqueName": "Local Groups",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
-            "comment": "OilRig (G0049) & Poseidon Group (G0033) & menuPass (G0045)"
         },
         {
             "score": 2,
@@ -834,12 +834,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1211",
             "techniqueName": "Exploitation for Defense Evasion",
             "comment": "APT28 (G0007)"
@@ -848,6 +842,12 @@
             "score": 1,
             "techniqueID": "T1210",
             "techniqueName": "Exploitation of Remote Services",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
             "comment": "APT28 (G0007)"
         },
         {
@@ -869,10 +869,10 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007)"
+            "score": 3,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 1,
@@ -881,10 +881,10 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+            "score": 1,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -971,12 +971,6 @@
             "comment": "menuPass (G0045)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1003.002",
-            "techniqueName": "Security Account Manager",
-            "comment": "menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1574.001",
             "techniqueName": "DLL Search Order Hijacking",
@@ -989,6 +983,12 @@
             "comment": "menuPass (G0045) & Soft Cell (G0093)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1003.002",
+            "techniqueName": "Security Account Manager",
+            "comment": "menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1136.002",
             "techniqueName": "Domain Account",
@@ -997,18 +997,18 @@
     ],
     "gradient": {
         "colors": [
-            "#0d64bc",
-            "#afdbff",
-            "#57f2bb",
-            "#f481f0",
-            "#ea1e6c",
-            "#a2a2e8",
-            "#db396f",
-            "#caef8b",
-            "#ea6bb7",
-            "#c415af",
-            "#2b1616",
-            "#8d2bd8"
+            "#12aa89",
+            "#e86b5a",
+            "#b25313",
+            "#068449",
+            "#afe886",
+            "#f2bf96",
+            "#efacc0",
+            "#f93943",
+            "#53e2ba",
+            "#ad68e2",
+            "#e8a0a2",
+            "#8398ea"
         ],
         "minValue": 0,
         "maxValue": 11

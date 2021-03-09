@@ -42,32 +42,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1071.004",
-            "techniqueName": "DNS",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1125",
             "techniqueName": "Video Capture",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1071.004",
+            "techniqueName": "DNS",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -78,14 +60,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
             "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -98,6 +80,24 @@
             "score": 1,
             "techniqueID": "T1113",
             "techniqueName": "Screen Capture",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -120,26 +120,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
+            "techniqueID": "T1036.004",
+            "techniqueName": "Masquerade Task or Service",
             "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1546.011",
-            "techniqueName": "Application Shimming",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1036.004",
-            "techniqueName": "Masquerade Task or Service",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -153,12 +141,24 @@
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1546.011",
+            "techniqueName": "Application Shimming",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
+            "comment": "FIN7 (G0046)"
         }
     ],
     "gradient": {
         "colors": [
-            "#b0f771",
-            "#ffc7c4"
+            "#541f89",
+            "#b2b1ed"
         ],
         "minValue": 0,
         "maxValue": 1
