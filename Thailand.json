@@ -1219,19 +1219,19 @@
     ],
     "gradient": {
         "colors": [
-            "#f9bdd2",
-            "#ce8a14",
-            "#ffe8cc",
-            "#a7f9d6",
-            "#ed15de",
-            "#d32e65",
-            "#9af9f1",
-            "#acd4ef",
-            "#e096d7",
-            "#fcda9f",
-            "#9df909",
-            "#ffc6ed",
-            "#dbdd66"
+            "#b5eef4",
+            "#d18a3e",
+            "#d63550",
+            "#ce4839",
+            "#b5f990",
+            "#ffcd77",
+            "#ffbfec",
+            "#0ef7e7",
+            "#ed34bb",
+            "#9ecbed",
+            "#f4e090",
+            "#58b0e8",
+            "#e064b7"
         ],
         "minValue": 0,
         "maxValue": 12
