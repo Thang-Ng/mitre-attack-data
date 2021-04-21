@@ -1,13 +1,13 @@
 {
     "description": "Techniques of groups: ",
-    "name": "Latin America",
+    "name": "Palestinian Authority",
     "domain": "mitre-enterprise",
     "version": "3.0",
     "techniques": [],
     "gradient": {
         "colors": [
-            "#af2662",
-            "#43ff19"
+            "#c60ad3",
+            "#f4b2cd"
         ],
         "minValue": 0,
         "maxValue": 1

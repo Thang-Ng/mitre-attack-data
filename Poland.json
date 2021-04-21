@@ -1,9 +1,87 @@
 {
-    "description": "Techniques of groups: Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & TA459 (G0062) & Turla (G0010) & Winnti Group (G0044) & ",
-    "name": "Belarus",
+    "description": "Techniques of groups: Orangeworm (G0071) & PROMETHIUM (G0056) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & Turla (G0010) & ",
+    "name": "Poland",
     "domain": "mitre-enterprise",
     "version": "3.0",
     "techniques": [
+        {
+            "score": 2,
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "Orangeworm (G0071) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Orangeworm (G0071) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1587.002",
+            "techniqueName": "Code Signing Certificates",
+            "comment": "PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1587.003",
+            "techniqueName": "Digital Certificates",
+            "comment": "PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1036.004",
+            "techniqueName": "Masquerade Task or Service",
+            "comment": "PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078.003",
+            "techniqueName": "Local Accounts",
+            "comment": "PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1205.001",
+            "techniqueName": "Port Knocking",
+            "comment": "PROMETHIUM (G0056)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "PROMETHIUM (G0056) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "PROMETHIUM (G0056) & Sandworm Team (G0034) & Silence (G0091)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
+            "comment": "PROMETHIUM (G0056) & Silence (G0091)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "PROMETHIUM (G0056) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "PROMETHIUM (G0056) & Turla (G0010)"
+        },
         {
             "score": 3,
             "techniqueID": "T1018",
@@ -59,10 +137,10 @@
             "comment": "Sandworm Team (G0034)"
         },
         {
-            "score": 4,
+            "score": 3,
             "techniqueID": "T1059.005",
             "techniqueName": "Visual Basic",
-            "comment": "Sandworm Team (G0034) & Silence (G0091) & TA459 (G0062) & Turla (G0010)"
+            "comment": "Sandworm Team (G0034) & Silence (G0091) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -81,18 +159,6 @@
             "techniqueID": "T1485",
             "techniqueName": "Data Destruction",
             "comment": "Sandworm Team (G0034)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & TA459 (G0062)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "Sandworm Team (G0034) & Silence (G0091)"
         },
         {
             "score": 2,
@@ -155,12 +221,6 @@
             "comment": "Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1090",
             "techniqueName": "Proxy",
@@ -173,16 +233,16 @@
             "comment": "Sandworm Team (G0034)"
         },
         {
-            "score": 3,
+            "score": 2,
             "techniqueID": "T1203",
             "techniqueName": "Exploitation for Client Execution",
-            "comment": "Sandworm Team (G0034) & APT28 (G0007) & TA459 (G0062)"
+            "comment": "Sandworm Team (G0034) & APT28 (G0007)"
         },
         {
-            "score": 5,
+            "score": 4,
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
-            "comment": "Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & TA459 (G0062) & Turla (G0010)"
+            "comment": "Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 4,
@@ -209,12 +269,6 @@
             "comment": "Silence (G0091) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Silence (G0091) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1021.001",
             "techniqueName": "Remote Desktop Protocol",
@@ -227,16 +281,10 @@
             "comment": "Silence (G0091) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
-            "comment": "Silence (G0091) & Winnti Group (G0044)"
-        },
-        {
-            "score": 4,
+            "score": 3,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
-            "comment": "Silence (G0091) & APT28 (G0007) & TA459 (G0062) & Turla (G0010)"
+            "comment": "Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -359,10 +407,10 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
+            "score": 1,
             "techniqueID": "T1014",
             "techniqueName": "Rootkit",
-            "comment": "APT28 (G0007) & Winnti Group (G0044)"
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 2,
@@ -455,10 +503,10 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 3,
+            "score": 2,
             "techniqueID": "T1057",
             "techniqueName": "Process Discovery",
-            "comment": "APT28 (G0007) & Turla (G0010) & Winnti Group (G0044)"
+            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -588,12 +636,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1213",
             "techniqueName": "Data from Information Repositories",
             "comment": "Turla (G0010)"
@@ -696,12 +738,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1110",
             "techniqueName": "Brute Force",
             "comment": "Turla (G0010)"
@@ -733,14 +769,13 @@
     ],
     "gradient": {
         "colors": [
-            "#f79d4f",
-            "#c181ef",
-            "#6956b5",
-            "#cc3d50",
-            "#93c94c",
-            "#5dcef7"
+            "#4d22a3",
+            "#e5c55e",
+            "#de1bfc",
+            "#e084b0",
+            "#e5c282"
         ],
         "minValue": 0,
-        "maxValue": 5
+        "maxValue": 4
     }
 }

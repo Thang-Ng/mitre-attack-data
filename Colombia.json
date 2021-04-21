@@ -1,5 +1,5 @@
 {
-    "description": "Techniques of groups: Machete (G0095) & PROMETHIUM (G0056) & ",
+    "description": "Techniques of groups: Machete (G0095) & Gamaredon Group (G0047) & PROMETHIUM (G0056) & ",
     "name": "Colombia",
     "domain": "mitre-enterprise",
     "version": "3.0",
@@ -17,16 +17,16 @@
             "comment": "Machete (G0095)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1071.001",
             "techniqueName": "Web Protocols",
-            "comment": "Machete (G0095)"
+            "comment": "Machete (G0095) & Gamaredon Group (G0047)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
-            "comment": "Machete (G0095) & PROMETHIUM (G0056)"
+            "comment": "Machete (G0095) & Gamaredon Group (G0047) & PROMETHIUM (G0056)"
         },
         {
             "score": 1,
@@ -35,10 +35,10 @@
             "comment": "Machete (G0095)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
-            "comment": "Machete (G0095)"
+            "comment": "Machete (G0095) & Gamaredon Group (G0047)"
         },
         {
             "score": 1,
@@ -47,16 +47,16 @@
             "comment": "Machete (G0095)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Machete (G0095) & PROMETHIUM (G0056)"
+            "comment": "Machete (G0095) & Gamaredon Group (G0047) & PROMETHIUM (G0056)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1053.005",
             "techniqueName": "Scheduled Task",
-            "comment": "Machete (G0095)"
+            "comment": "Machete (G0095) & Gamaredon Group (G0047)"
         },
         {
             "score": 1,
@@ -65,10 +65,10 @@
             "comment": "Machete (G0095)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
-            "comment": "Machete (G0095)"
+            "comment": "Machete (G0095) & Gamaredon Group (G0047)"
         },
         {
             "score": 1,
@@ -83,10 +83,172 @@
             "comment": "Machete (G0095)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
-            "comment": "Machete (G0095)"
+            "comment": "Machete (G0095) & Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.011",
+            "techniqueName": "Rundll32",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1080",
+            "techniqueName": "Taint Shared Content",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1020",
+            "techniqueName": "Automated Exfiltration",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1106",
+            "techniqueName": "Native API",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1137",
+            "techniqueName": "Office Application Startup",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1112",
+            "techniqueName": "Modify Registry",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1534",
+            "techniqueName": "Internal Spearphishing",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1562.001",
+            "techniqueName": "Disable or Modify Tools",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.004",
+            "techniqueName": "Compile After Delivery",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102",
+            "techniqueName": "Web Service",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1559.001",
+            "techniqueName": "Component Object Model",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1221",
+            "techniqueName": "Template Injection",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1120",
+            "techniqueName": "Peripheral Device Discovery",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1041",
+            "techniqueName": "Exfiltration Over C2 Channel",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "Gamaredon Group (G0047)"
         },
         {
             "score": 1,
@@ -145,11 +307,12 @@
     ],
     "gradient": {
         "colors": [
-            "#6af794",
-            "#dd4ce0",
-            "#f48277"
+            "#11c195",
+            "#f9c9a2",
+            "#cfe587",
+            "#e24d7c"
         ],
         "minValue": 0,
-        "maxValue": 2
+        "maxValue": 3
     }
 }

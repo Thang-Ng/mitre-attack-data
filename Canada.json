@@ -1,326 +1,218 @@
 {
-    "description": "Techniques of groups: OilRig (G0049) & Orangeworm (G0071) & PROMETHIUM (G0056) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & ",
-    "name": "Turkey",
+    "description": "Techniques of groups: Magic Hound (G0059) & Molerats (G0021) & Orangeworm (G0071) & PROMETHIUM (G0056) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & ",
+    "name": "Canada",
     "domain": "mitre-enterprise",
     "version": "3.0",
     "techniques": [
         {
             "score": 1,
-            "techniqueID": "T1137.004",
-            "techniqueName": "Outlook Home Page",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1555.003",
-            "techniqueName": "Credentials from Web Browsers",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1555",
-            "techniqueName": "Credentials from Password Stores",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1003.005",
-            "techniqueName": "Cached Domain Credentials",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1003.004",
-            "techniqueName": "LSA Secrets",
-            "comment": "OilRig (G0049) & menuPass (G0045)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1069.002",
-            "techniqueName": "Domain Groups",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1087.001",
-            "techniqueName": "Local Account",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1204.001",
-            "techniqueName": "Malicious Link",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1071.004",
-            "techniqueName": "DNS",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1572",
-            "techniqueName": "Protocol Tunneling",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1566.003",
             "techniqueName": "Spearphishing via Service",
-            "comment": "OilRig (G0049)"
+            "comment": "Magic Hound (G0059)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "OilRig (G0049) & APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1552.001",
-            "techniqueName": "Credentials In Files",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1047",
-            "techniqueName": "Windows Management Instrumentation",
-            "comment": "OilRig (G0049) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1053.005",
-            "techniqueName": "Scheduled Task",
-            "comment": "OilRig (G0049) & Silence (G0091) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1110",
-            "techniqueName": "Brute Force",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1201",
-            "techniqueName": "Password Policy Discovery",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1218.001",
-            "techniqueName": "Compiled HTML File",
-            "comment": "OilRig (G0049) & Silence (G0091)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "OilRig (G0049) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
-            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1573.002",
-            "techniqueName": "Asymmetric Cryptography",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1046",
-            "techniqueName": "Network Service Scanning",
-            "comment": "OilRig (G0049) & menuPass (G0045)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "OilRig (G0049) & Soft Cell (G0093)"
-        },
-        {
-            "score": 5,
+            "score": 6,
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
-            "comment": "OilRig (G0049) & PROMETHIUM (G0056) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & PROMETHIUM (G0056) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 2,
-            "techniqueID": "T1566.002",
-            "techniqueName": "Spearphishing Link",
-            "comment": "OilRig (G0049) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
-            "comment": "OilRig (G0049) & APT28 (G0007)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "OilRig (G0049) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
-            "comment": "OilRig (G0049) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1069.001",
-            "techniqueName": "Local Groups",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1021.001",
-            "techniqueName": "Remote Desktop Protocol",
-            "comment": "OilRig (G0049) & Silence (G0091) & menuPass (G0045)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1007",
-            "techniqueName": "System Service Discovery",
-            "comment": "OilRig (G0049)"
+            "techniqueID": "T1555.003",
+            "techniqueName": "Credentials from Web Browsers",
+            "comment": "Magic Hound (G0059) & Molerats (G0021)"
         },
         {
             "score": 5,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 2,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "OilRig (G0049) & Soft Cell (G0093)"
+            "techniqueID": "T1571",
+            "techniqueName": "Non-Standard Port",
+            "comment": "Magic Hound (G0059) & Silence (G0091)"
         },
         {
             "score": 1,
-            "techniqueID": "T1008",
-            "techniqueName": "Fallback Channels",
-            "comment": "OilRig (G0049)"
+            "techniqueID": "T1098.002",
+            "techniqueName": "Exchange Email Delegate Permissions",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1071",
+            "techniqueName": "Application Layer Protocol",
+            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 2,
-            "techniqueID": "T1021.004",
-            "techniqueName": "SSH",
-            "comment": "OilRig (G0049) & menuPass (G0045)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059",
-            "techniqueName": "Command and Scripting Interpreter",
-            "comment": "OilRig (G0049)"
+            "techniqueID": "T1564.003",
+            "techniqueName": "Hidden Window",
+            "comment": "Magic Hound (G0059) & APT28 (G0007)"
         },
         {
             "score": 3,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "OilRig (G0049) & menuPass (G0045) & Soft Cell (G0093)"
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "Magic Hound (G0059) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
-            "comment": "OilRig (G0049) & menuPass (G0045)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1078",
-            "techniqueName": "Valid Accounts",
-            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+            "score": 1,
+            "techniqueID": "T1114.001",
+            "techniqueName": "Local Email Collection",
+            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 4,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
-            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & Soft Cell (G0093)"
+            "comment": "Magic Hound (G0059) & Silence (G0091) & APT28 (G0007) & Soft Cell (G0093)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "OilRig (G0049) & APT28 (G0007)"
+            "score": 3,
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & APT28 (G0007)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1012",
-            "techniqueName": "Query Registry",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1048.003",
-            "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
-            "comment": "OilRig (G0049)"
+            "score": 6,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 3,
             "techniqueID": "T1071.001",
             "techniqueName": "Web Protocols",
-            "comment": "OilRig (G0049) & Orangeworm (G0071) & APT28 (G0007)"
+            "comment": "Magic Hound (G0059) & Orangeworm (G0071) & APT28 (G0007)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & Silence (G0091)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 2,
-            "techniqueID": "T1505.003",
-            "techniqueName": "Web Shell",
-            "comment": "OilRig (G0049) & Soft Cell (G0093)"
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "Magic Hound (G0059) & Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Magic Hound (G0059) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 2,
-            "techniqueID": "T1027.005",
-            "techniqueName": "Indicator Removal from Tools",
-            "comment": "OilRig (G0049) & Soft Cell (G0093)"
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "Magic Hound (G0059) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "Magic Hound (G0059) & APT28 (G0007)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & PROMETHIUM (G0056) & Silence (G0091)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "Magic Hound (G0059) & menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1065",
+            "techniqueName": "Uncommonly Used Port",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & APT28 (G0007)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "Magic Hound (G0059) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "Magic Hound (G0059) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "Magic Hound (G0059) & Silence (G0091) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059",
+            "techniqueName": "Command and Scripting Interpreter",
+            "comment": "Molerats (G0021)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "Molerats (G0021) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript/JScript",
+            "comment": "Molerats (G0021) & Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
+            "comment": "Molerats (G0021)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
+            "comment": "Molerats (G0021) & PROMETHIUM (G0056) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -371,28 +263,10 @@
             "comment": "PROMETHIUM (G0056) & Silence (G0091) & menuPass (G0045)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
-            "comment": "PROMETHIUM (G0056) & Silence (G0091)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "PROMETHIUM (G0056) & Silence (G0091)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "PROMETHIUM (G0056)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1571",
-            "techniqueName": "Non-Standard Port",
-            "comment": "Silence (G0091)"
         },
         {
             "score": 4,
@@ -413,6 +287,12 @@
             "comment": "Silence (G0091)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1021.001",
+            "techniqueName": "Remote Desktop Protocol",
+            "comment": "Silence (G0091) & menuPass (G0045)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1018",
             "techniqueName": "Remote System Discovery",
@@ -425,21 +305,27 @@
             "comment": "Silence (G0091)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
-            "comment": "Silence (G0091)"
+            "score": 4,
+            "techniqueID": "T1078",
+            "techniqueName": "Valid Accounts",
+            "comment": "Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1059.005",
-            "techniqueName": "Visual Basic",
-            "comment": "Silence (G0091)"
+            "score": 3,
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
+            "comment": "Silence (G0091) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 1,
             "techniqueID": "T1569.002",
             "techniqueName": "Service Execution",
+            "comment": "Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.001",
+            "techniqueName": "Compiled HTML File",
             "comment": "Silence (G0091)"
         },
         {
@@ -488,12 +374,6 @@
             "score": 1,
             "techniqueID": "T1003",
             "techniqueName": "OS Credential Dumping",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1564.003",
-            "techniqueName": "Hidden Window",
             "comment": "APT28 (G0007)"
         },
         {
@@ -548,6 +428,12 @@
             "score": 1,
             "techniqueID": "T1114.002",
             "techniqueName": "Remote Email Collection",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
             "comment": "APT28 (G0007)"
         },
         {
@@ -608,12 +494,6 @@
             "score": 1,
             "techniqueID": "T1137.002",
             "techniqueName": "Office Test",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
             "comment": "APT28 (G0007)"
         },
         {
@@ -719,6 +599,12 @@
             "comment": "menuPass (G0045)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1003.004",
+            "techniqueName": "LSA Secrets",
+            "comment": "menuPass (G0045)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1036.003",
             "techniqueName": "Rename System Utilities",
@@ -743,6 +629,12 @@
             "comment": "menuPass (G0045)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1047",
+            "techniqueName": "Windows Management Instrumentation",
+            "comment": "menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1039",
             "techniqueName": "Data from Network Shared Drive",
@@ -755,10 +647,10 @@
             "comment": "menuPass (G0045)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "menuPass (G0045) & Soft Cell (G0093)"
+            "score": 1,
+            "techniqueID": "T1046",
+            "techniqueName": "Network Service Scanning",
+            "comment": "menuPass (G0045)"
         },
         {
             "score": 2,
@@ -774,14 +666,50 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
+            "comment": "menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "menuPass (G0045) & Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1021.004",
+            "techniqueName": "SSH",
+            "comment": "menuPass (G0045)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1041",
             "techniqueName": "Exfiltration Over C2 Channel",
             "comment": "Soft Cell (G0093)"
         },
         {
             "score": 1,
+            "techniqueID": "T1027.005",
+            "techniqueName": "Indicator Removal from Tools",
+            "comment": "Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1027.002",
             "techniqueName": "Software Packing",
+            "comment": "Soft Cell (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1505.003",
+            "techniqueName": "Web Shell",
             "comment": "Soft Cell (G0093)"
         },
         {
@@ -793,14 +721,15 @@
     ],
     "gradient": {
         "colors": [
-            "#7f26d3",
-            "#d1b906",
-            "#edd27b",
-            "#96ce0a",
-            "#dba469",
-            "#c7f4fc"
+            "#beb7f7",
+            "#a1e3ed",
+            "#f9e6a7",
+            "#c99d00",
+            "#f2a9d6",
+            "#5a41bf",
+            "#9797db"
         ],
         "minValue": 0,
-        "maxValue": 5
+        "maxValue": 6
     }
 }

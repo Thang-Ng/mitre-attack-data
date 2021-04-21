@@ -1,14 +1,212 @@
 {
-    "description": "Techniques of groups: APT37 (G0067) & Silence (G0091) & APT28 (G0007) & Turla (G0010) & ",
+    "description": "Techniques of groups: Gamaredon Group (G0047) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & Turla (G0010) & ",
     "name": "Romania",
     "domain": "mitre-enterprise",
     "version": "3.0",
     "techniques": [
         {
+            "score": 2,
+            "techniqueID": "T1218.011",
+            "techniqueName": "Rundll32",
+            "comment": "Gamaredon Group (G0047) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1080",
+            "techniqueName": "Taint Shared Content",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "Gamaredon Group (G0047) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1020",
+            "techniqueName": "Automated Exfiltration",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1106",
+            "techniqueName": "Native API",
+            "comment": "Gamaredon Group (G0047) & APT37 (G0067) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1137",
+            "techniqueName": "Office Application Startup",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Gamaredon Group (G0047) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
             "score": 3,
+            "techniqueID": "T1112",
+            "techniqueName": "Modify Registry",
+            "comment": "Gamaredon Group (G0047) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1534",
+            "techniqueName": "Internal Spearphishing",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1562.001",
+            "techniqueName": "Disable or Modify Tools",
+            "comment": "Gamaredon Group (G0047) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "Gamaredon Group (G0047) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.004",
+            "techniqueName": "Compile After Delivery",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
+            "comment": "Gamaredon Group (G0047) & Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102",
+            "techniqueName": "Web Service",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1559.001",
+            "techniqueName": "Component Object Model",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "Gamaredon Group (G0047) & APT37 (G0067) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "Gamaredon Group (G0047) & Silence (G0091) & APT28 (G0007)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "Gamaredon Group (G0047) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "Gamaredon Group (G0047) & APT37 (G0067) & Silence (G0091) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1221",
+            "techniqueName": "Template Injection",
+            "comment": "Gamaredon Group (G0047) & APT28 (G0007)"
+        },
+        {
+            "score": 4,
             "techniqueID": "T1059.005",
             "techniqueName": "Visual Basic",
-            "comment": "APT37 (G0067) & Silence (G0091) & Turla (G0010)"
+            "comment": "Gamaredon Group (G0047) & APT37 (G0067) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "Gamaredon Group (G0047) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Gamaredon Group (G0047) & APT37 (G0067) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "Gamaredon Group (G0047) & Silence (G0091) & APT28 (G0007)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "Gamaredon Group (G0047) & APT37 (G0067) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "Gamaredon Group (G0047) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1120",
+            "techniqueName": "Peripheral Device Discovery",
+            "comment": "Gamaredon Group (G0047) & APT37 (G0067) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Gamaredon Group (G0047) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1041",
+            "techniqueName": "Exfiltration Over C2 Channel",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Gamaredon Group (G0047) & APT37 (G0067) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
+            "comment": "Gamaredon Group (G0047) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "Gamaredon Group (G0047) & APT37 (G0067)"
         },
         {
             "score": 1,
@@ -30,30 +228,6 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1120",
-            "techniqueName": "Peripheral Device Discovery",
-            "comment": "APT37 (G0067) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "APT37 (G0067)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "APT37 (G0067) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1106",
-            "techniqueName": "Native API",
-            "comment": "APT37 (G0067) & Silence (G0091) & Turla (G0010)"
-        },
-        {
-            "score": 3,
             "techniqueID": "T1055",
             "techniqueName": "Process Injection",
             "comment": "APT37 (G0067) & Silence (G0091) & Turla (G0010)"
@@ -65,46 +239,16 @@
             "comment": "APT37 (G0067) & APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "APT37 (G0067) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "APT37 (G0067) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "APT37 (G0067) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1555.003",
             "techniqueName": "Credentials from Web Browsers",
             "comment": "APT37 (G0067)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
-            "comment": "APT37 (G0067) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1123",
             "techniqueName": "Audio Capture",
             "comment": "APT37 (G0067)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "APT37 (G0067) & Silence (G0091) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -131,28 +275,10 @@
             "comment": "APT37 (G0067)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "APT37 (G0067) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "APT37 (G0067) & Silence (G0091) & APT28 (G0007)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1203",
             "techniqueName": "Exploitation for Client Execution",
             "comment": "APT37 (G0067) & APT28 (G0007)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "APT37 (G0067) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -209,12 +335,6 @@
             "comment": "Silence (G0091) & APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1112",
-            "techniqueName": "Modify Registry",
-            "comment": "Silence (G0091) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1036.005",
             "techniqueName": "Match Legitimate Name or Location",
@@ -246,12 +366,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1053.005",
-            "techniqueName": "Scheduled Task",
-            "comment": "Silence (G0091)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1569.002",
             "techniqueName": "Service Execution",
             "comment": "Silence (G0091)"
@@ -261,18 +375,6 @@
             "techniqueID": "T1218.001",
             "techniqueName": "Compiled HTML File",
             "comment": "Silence (G0091)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Silence (G0091) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "Silence (G0091) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -342,12 +444,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1221",
-            "techniqueName": "Template Injection",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1014",
             "techniqueName": "Rootkit",
             "comment": "APT28 (G0007)"
@@ -378,12 +474,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1213.002",
             "techniqueName": "Sharepoint",
             "comment": "APT28 (G0007)"
@@ -399,12 +489,6 @@
             "techniqueID": "T1211",
             "techniqueName": "Exploitation for Defense Evasion",
             "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -437,12 +521,6 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
@@ -459,12 +537,6 @@
             "techniqueID": "T1092",
             "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -506,12 +578,6 @@
             "score": 1,
             "techniqueID": "T1070.006",
             "techniqueName": "Timestomp",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1218.011",
-            "techniqueName": "Rundll32",
             "comment": "APT28 (G0007)"
         },
         {
@@ -654,12 +720,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1562.001",
-            "techniqueName": "Disable or Modify Tools",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1546.003",
             "techniqueName": "Windows Management Instrumentation Event Subscription",
             "comment": "Turla (G0010)"
@@ -733,13 +793,14 @@
     ],
     "gradient": {
         "colors": [
-            "#e0116e",
-            "#7ad2dd",
-            "#dcffb2",
-            "#e560bf",
-            "#78e8ce"
+            "#f4beab",
+            "#7c31ed",
+            "#a3ffd4",
+            "#89e5dd",
+            "#314a8e",
+            "#99cedb"
         ],
         "minValue": 0,
-        "maxValue": 4
+        "maxValue": 5
     }
 }
