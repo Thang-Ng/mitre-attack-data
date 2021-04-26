@@ -6,12 +6,6 @@
     "techniques": [
         {
             "score": 1,
-            "techniqueID": "T1587.001",
-            "techniqueName": "Malware",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1059.007",
             "techniqueName": "JavaScript/JScript",
             "comment": "FIN7 (G0046)"
@@ -42,50 +36,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1125",
             "techniqueName": "Video Capture",
             "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
-            "techniqueID": "T1071.004",
-            "techniqueName": "DNS",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059",
-            "techniqueName": "Command and Scripting Interpreter",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -98,6 +62,36 @@
             "score": 1,
             "techniqueID": "T1543.003",
             "techniqueName": "Windows Service",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1071.004",
+            "techniqueName": "DNS",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059",
+            "techniqueName": "Command and Scripting Interpreter",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -126,8 +120,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1546.011",
+            "techniqueName": "Application Shimming",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
             "comment": "FIN7 (G0046)"
         },
         {
@@ -141,24 +147,12 @@
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1546.011",
-            "techniqueName": "Application Shimming",
-            "comment": "FIN7 (G0046)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
-            "comment": "FIN7 (G0046)"
         }
     ],
     "gradient": {
         "colors": [
-            "#28ba56",
-            "#e5ad97"
+            "#bafc9c",
+            "#59d330"
         ],
         "minValue": 0,
         "maxValue": 1
