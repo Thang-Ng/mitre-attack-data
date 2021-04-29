@@ -6,21 +6,21 @@
     "techniques": [
         {
             "score": 1,
+            "techniqueID": "T1008",
+            "techniqueName": "Fallback Channels",
+            "comment": "Carbanak (G0008)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1036.004",
             "techniqueName": "Masquerade Task or Service",
             "comment": "Carbanak (G0008)"
         },
         {
-            "score": 4,
+            "score": 5,
             "techniqueID": "T1219",
             "techniqueName": "Remote Access Software",
-            "comment": "Carbanak (G0008) & Cobalt Group (G0080) & RTM (G0048) & Sandworm Team (G0034)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "Carbanak (G0008) & MuddyWater (G0069) & Sandworm Team (G0034) & Silence (G0091)"
+            "comment": "Carbanak (G0008) & Cobalt Group (G0080) & MuddyWater (G0069) & RTM (G0048) & Sandworm Team (G0034)"
         },
         {
             "score": 2,
@@ -29,16 +29,16 @@
             "comment": "Carbanak (G0008) & Cobalt Group (G0080)"
         },
         {
-            "score": 3,
+            "score": 5,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
-            "comment": "Carbanak (G0008) & Sandworm Team (G0034) & Turla (G0010)"
+            "comment": "Carbanak (G0008) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 5,
-            "techniqueID": "T1218.011",
-            "techniqueName": "Rundll32",
-            "comment": "Carbanak (G0008) & Gamaredon Group (G0047) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007)"
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "Carbanak (G0008) & Machete (G0095) & MuddyWater (G0069) & Sandworm Team (G0034) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -47,28 +47,40 @@
             "comment": "Carbanak (G0008)"
         },
         {
+            "score": 5,
+            "techniqueID": "T1218.011",
+            "techniqueName": "Rundll32",
+            "comment": "Carbanak (G0008) & Gamaredon Group (G0047) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007)"
+        },
+        {
             "score": 4,
             "techniqueID": "T1078",
             "techniqueName": "Valid Accounts",
             "comment": "Carbanak (G0008) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007)"
         },
         {
-            "score": 2,
+            "score": 3,
+            "techniqueID": "T1195.002",
+            "techniqueName": "Compromise Software Supply Chain",
+            "comment": "Cobalt Group (G0080) & Dragonfly (G0035) & Sandworm Team (G0034)"
+        },
+        {
+            "score": 4,
             "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
-            "comment": "Cobalt Group (G0080) & Silence (G0091)"
+            "techniqueName": "JavaScript",
+            "comment": "Cobalt Group (G0080) & MuddyWater (G0069) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 7,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 6,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "Cobalt Group (G0080) & Gamaredon Group (G0047) & MuddyWater (G0069) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 3,
             "techniqueID": "T1204.001",
             "techniqueName": "Malicious Link",
-            "comment": "Cobalt Group (G0080) & Machete (G0095) & Turla (G0010)"
+            "comment": "Cobalt Group (G0080) & Machete (G0095) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -101,34 +113,22 @@
             "comment": "Cobalt Group (G0080) & APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1021.001",
-            "techniqueName": "Remote Desktop Protocol",
-            "comment": "Cobalt Group (G0080) & Silence (G0091)"
+            "score": 8,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & RTM (G0048) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1053.005",
-            "techniqueName": "Scheduled Task",
-            "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & Silence (G0091)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1566.002",
-            "techniqueName": "Spearphishing Link",
-            "comment": "Cobalt Group (G0080) & Machete (G0095) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1068",
             "techniqueName": "Exploitation for Privilege Escalation",
-            "comment": "Cobalt Group (G0080) & APT28 (G0007)"
+            "comment": "Cobalt Group (G0080) & APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 9,
+            "score": 8,
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
-            "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & RTM (G0048) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
+            "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & RTM (G0048) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007)"
         },
         {
             "score": 3,
@@ -137,22 +137,22 @@
             "comment": "Cobalt Group (G0080) & Silence (G0091) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1559.002",
-            "techniqueName": "Dynamic Data Exchange",
-            "comment": "Cobalt Group (G0080) & MuddyWater (G0069) & APT28 (G0007)"
+            "score": 1,
+            "techniqueID": "T1218.010",
+            "techniqueName": "Regsvr32",
+            "comment": "Cobalt Group (G0080)"
         },
         {
-            "score": 7,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & RTM (G0048) & Silence (G0091) & Turla (G0010)"
+            "score": 2,
+            "techniqueID": "T1218.003",
+            "techniqueName": "CMSTP",
+            "comment": "Cobalt Group (G0080) & MuddyWater (G0069)"
         },
         {
-            "score": 8,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & RTM (G0048) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007)"
+            "score": 5,
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
+            "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -167,10 +167,40 @@
             "comment": "Cobalt Group (G0080) & MuddyWater (G0069)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Cobalt Group (G0080) & Gamaredon Group (G0047) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007)"
+            "score": 7,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Cobalt Group (G0080) & Gamaredon Group (G0047) & MuddyWater (G0069) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1021.001",
+            "techniqueName": "Remote Desktop Protocol",
+            "comment": "Cobalt Group (G0080) & Silence (G0091)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
+            "comment": "Cobalt Group (G0080) & Machete (G0095) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Cobalt Group (G0080) & Gamaredon Group (G0047) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1559.002",
+            "techniqueName": "Dynamic Data Exchange",
+            "comment": "Cobalt Group (G0080) & MuddyWater (G0069) & APT28 (G0007)"
+        },
+        {
+            "score": 7,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
+            "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & Sandworm Team (G0034) & Silence (G0091) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -179,40 +209,10 @@
             "comment": "Cobalt Group (G0080)"
         },
         {
-            "score": 5,
+            "score": 6,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
-            "comment": "Cobalt Group (G0080) & MuddyWater (G0069) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1573.002",
-            "techniqueName": "Asymmetric Cryptography",
-            "comment": "Cobalt Group (G0080)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1218.003",
-            "techniqueName": "CMSTP",
-            "comment": "Cobalt Group (G0080) & MuddyWater (G0069)"
-        },
-        {
-            "score": 7,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 8,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Cobalt Group (G0080) & Machete (G0095) & Gamaredon Group (G0047) & MuddyWater (G0069) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1218.010",
-            "techniqueName": "Regsvr32",
-            "comment": "Cobalt Group (G0080)"
+            "comment": "Cobalt Group (G0080) & MuddyWater (G0069) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 7,
@@ -221,21 +221,39 @@
             "comment": "Cobalt Group (G0080) & Gamaredon Group (G0047) & MuddyWater (G0069) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
+            "score": 7,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Cobalt Group (G0080) & Gamaredon Group (G0047) & MuddyWater (G0069) & RTM (G0048) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
             "score": 4,
             "techniqueID": "T1203",
             "techniqueName": "Exploitation for Client Execution",
             "comment": "Cobalt Group (G0080) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1059.005",
-            "techniqueName": "Visual Basic",
-            "comment": "Cobalt Group (G0080) & Gamaredon Group (G0047) & MuddyWater (G0069) & Sandworm Team (G0034) & Silence (G0091) & Turla (G0010)"
+            "score": 5,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "Cobalt Group (G0080) & Gamaredon Group (G0047) & Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1568.001",
-            "techniqueName": "Fast Flux DNS",
+            "techniqueID": "T1573.002",
+            "techniqueName": "Asymmetric Cryptography",
+            "comment": "Cobalt Group (G0080)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Machete (G0095) & Dragonfly (G0035) & RTM (G0048) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.007",
+            "techniqueName": "Msiexec",
             "comment": "Machete (G0095)"
         },
         {
@@ -245,40 +263,10 @@
             "comment": "Machete (G0095)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "Machete (G0095) & Gamaredon Group (G0047) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "Machete (G0095) & APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1071.002",
-            "techniqueName": "File Transfer Protocols",
-            "comment": "Machete (G0095)"
-        },
-        {
-            "score": 1,
+            "score": 3,
             "techniqueID": "T1059.006",
             "techniqueName": "Python",
-            "comment": "Machete (G0095)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1195.002",
-            "techniqueName": "Compromise Software Supply Chain",
-            "comment": "Dragonfly (G0035) & Sandworm Team (G0034)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Dragonfly (G0035) & RTM (G0048) & Turla (G0010)"
+            "comment": "Machete (G0095) & MuddyWater (G0069) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -335,16 +323,16 @@
             "comment": "Gamaredon Group (G0047)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1562.001",
             "techniqueName": "Disable or Modify Tools",
-            "comment": "Gamaredon Group (G0047) & Turla (G0010)"
+            "comment": "Gamaredon Group (G0047) & MuddyWater (G0069) & Turla (G0010)"
         },
         {
-            "score": 4,
+            "score": 5,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
-            "comment": "Gamaredon Group (G0047) & MuddyWater (G0069) & APT28 (G0007) & Turla (G0010)"
+            "comment": "Gamaredon Group (G0047) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -359,10 +347,10 @@
             "comment": "Gamaredon Group (G0047) & MuddyWater (G0069)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1102",
             "techniqueName": "Web Service",
-            "comment": "Gamaredon Group (G0047)"
+            "comment": "Gamaredon Group (G0047) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -371,10 +359,10 @@
             "comment": "Gamaredon Group (G0047) & MuddyWater (G0069)"
         },
         {
-            "score": 3,
+            "score": 4,
             "techniqueID": "T1005",
             "techniqueName": "Data from Local System",
-            "comment": "Gamaredon Group (G0047) & APT28 (G0007) & Turla (G0010)"
+            "comment": "Gamaredon Group (G0047) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 4,
@@ -395,6 +383,18 @@
             "comment": "Gamaredon Group (G0047) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1041",
+            "techniqueName": "Exfiltration Over C2 Channel",
+            "comment": "Gamaredon Group (G0047) & MuddyWater (G0069) & Sandworm Team (G0034)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "Gamaredon Group (G0047) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
             "score": 4,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
@@ -408,15 +408,45 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1041",
-            "techniqueName": "Exfiltration Over C2 Channel",
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
             "comment": "Gamaredon Group (G0047) & MuddyWater (G0069) & Sandworm Team (G0034)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1518",
+            "techniqueName": "Software Discovery",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "MuddyWater (G0069) & Sandworm Team (G0034) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
+            "comment": "MuddyWater (G0069) & Sandworm Team (G0034) & Turla (G0010)"
+        },
+        {
             "score": 2,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "Gamaredon Group (G0047) & MuddyWater (G0069)"
+            "techniqueID": "T1589.002",
+            "techniqueName": "Email Addresses",
+            "comment": "MuddyWater (G0069) & Sandworm Team (G0034)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "MuddyWater (G0069) & Sandworm Team (G0034)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1583.006",
+            "techniqueName": "Web Services",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -431,10 +461,10 @@
             "comment": "MuddyWater (G0069) & Sandworm Team (G0034)"
         },
         {
-            "score": 2,
+            "score": 1,
             "techniqueID": "T1555",
             "techniqueName": "Credentials from Password Stores",
-            "comment": "MuddyWater (G0069) & Turla (G0010)"
+            "comment": "MuddyWater (G0069)"
         },
         {
             "score": 1,
@@ -527,6 +557,120 @@
             "comment": "RTM (G0048)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1505.003",
+            "techniqueName": "Web Shell",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1589.003",
+            "techniqueName": "Employee Names",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1598.003",
+            "techniqueName": "Spearphishing Link",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1592.002",
+            "techniqueName": "Software",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1593",
+            "techniqueName": "Search Open Websites/Domains",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1591.002",
+            "techniqueName": "Business Relationships",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1595.002",
+            "techniqueName": "Vulnerability Scanning",
+            "comment": "Sandworm Team (G0034) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1588.006",
+            "techniqueName": "Vulnerabilities",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078.002",
+            "techniqueName": "Domain Accounts",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1594",
+            "techniqueName": "Search Victim-Owned Websites",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1491.002",
+            "techniqueName": "External Defacement",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1590.001",
+            "techniqueName": "Domain Properties",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1499",
+            "techniqueName": "Endpoint Denial of Service",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1583.004",
+            "techniqueName": "Server",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1583.001",
+            "techniqueName": "Domains",
+            "comment": "Sandworm Team (G0034) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1199",
+            "techniqueName": "Trusted Relationship",
+            "comment": "Sandworm Team (G0034) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1585.002",
+            "techniqueName": "Email Accounts",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1585.001",
+            "techniqueName": "Social Media Accounts",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1587.001",
+            "techniqueName": "Malware",
+            "comment": "Sandworm Team (G0034) & Turla (G0010)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1018",
             "techniqueName": "Remote System Discovery",
@@ -576,12 +720,6 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
-            "comment": "Sandworm Team (G0034) & Turla (G0010)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1090",
             "techniqueName": "Proxy",
             "comment": "Sandworm Team (G0034) & Turla (G0010)"
@@ -618,9 +756,33 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1583.001",
-            "techniqueName": "Domains",
+            "techniqueID": "T1589.001",
+            "techniqueName": "Credentials",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1598",
+            "techniqueName": "Phishing for Information",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1567",
+            "techniqueName": "Exfiltration Over Web Service",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1090.003",
+            "techniqueName": "Multi-hop Proxy",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1110",
+            "techniqueName": "Brute Force",
+            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -690,8 +852,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1199",
-            "techniqueName": "Trusted Relationship",
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
             "comment": "APT28 (G0007)"
         },
         {
@@ -702,8 +864,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1114.002",
-            "techniqueName": "Remote Email Collection",
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
             "comment": "APT28 (G0007)"
         },
         {
@@ -726,12 +888,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1134.001",
             "techniqueName": "Token Impersonation/Theft",
             "comment": "APT28 (G0007)"
@@ -744,14 +900,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1550.002",
-            "techniqueName": "Pass the Hash",
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1092",
             "techniqueName": "Communication Through Removable Media",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1550.002",
+            "techniqueName": "Pass the Hash",
             "comment": "APT28 (G0007)"
         },
         {
@@ -791,9 +953,15 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1071.003",
             "techniqueName": "Mail Protocols",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
@@ -804,14 +972,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
-            "comment": "APT28 (G0007)"
+            "techniqueID": "T1553.006",
+            "techniqueName": "Code Signing Policy Modification",
+            "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1587.001",
-            "techniqueName": "Malware",
+            "techniqueID": "T1016.001",
+            "techniqueName": "Internet Connection Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078.003",
+            "techniqueName": "Local Accounts",
             "comment": "Turla (G0010)"
         },
         {
@@ -888,6 +1062,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1555.004",
+            "techniqueName": "Windows Credential Manager",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1134.002",
             "techniqueName": "Create Process with Token",
             "comment": "Turla (G0010)"
@@ -918,18 +1098,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1110",
-            "techniqueName": "Brute Force",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1012",
             "techniqueName": "Query Registry",
             "comment": "Turla (G0010)"
@@ -942,8 +1110,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Turla (G0010)"
         },
         {
@@ -955,18 +1123,17 @@
     ],
     "gradient": {
         "colors": [
-            "#272596",
-            "#aa164c",
-            "#46a5a8",
-            "#f4f277",
-            "#a4f9b1",
-            "#cefc71",
-            "#a9f98b",
-            "#385bf7",
-            "#bd51e8",
-            "#eaaca1"
+            "#2c1d84",
+            "#db6074",
+            "#f7b2ba",
+            "#778ece",
+            "#74e0ae",
+            "#eaab96",
+            "#068ee8",
+            "#e2187a",
+            "#b7100b"
         ],
         "minValue": 0,
-        "maxValue": 9
+        "maxValue": 8
     }
 }

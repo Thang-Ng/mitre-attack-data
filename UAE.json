@@ -1,20 +1,92 @@
 {
-    "description": "Techniques of groups: APT39 (G0087) & APT1 (G0006) & Cleaver (G0003) & Darkhotel (G0012) & Equation (G0020) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Poseidon Group (G0033) & Silence (G0091) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & Soft Cell (G0093) & ",
+    "description": "Techniques of groups: APT39 (G0087) & APT1 (G0006) & Cleaver (G0003) & Darkhotel (G0012) & Equation (G0020) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Poseidon Group (G0033) & Silence (G0091) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & GALLIUM (G0093) & ",
     "name": "UAE",
     "domain": "mitre-enterprise",
     "version": "3.0",
     "techniques": [
         {
+            "score": 1,
+            "techniqueID": "T1546.010",
+            "techniqueName": "AppInit DLLs",
+            "comment": "APT39 (G0087)"
+        },
+        {
+            "score": 7,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "APT39 (G0087) & Darkhotel (G0012) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1553.006",
+            "techniqueName": "Code Signing Policy Modification",
+            "comment": "APT39 (G0087)"
+        },
+        {
             "score": 6,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "APT39 (G0087) & Magic Hound (G0059) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 10,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "APT39 (G0087) & Darkhotel (G0012) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1041",
+            "techniqueName": "Exfiltration Over C2 Channel",
+            "comment": "APT39 (G0087) & MuddyWater (G0069) & Stealth Falcon (G0038) & GALLIUM (G0093)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "APT39 (G0087) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1197",
+            "techniqueName": "BITS Jobs",
+            "comment": "APT39 (G0087)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "APT39 (G0087) & Darkhotel (G0012) & Magic Hound (G0059) & MuddyWater (G0069) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1012",
+            "techniqueName": "Query Registry",
+            "comment": "APT39 (G0087) & OilRig (G0049) & Stealth Falcon (G0038)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1056",
+            "techniqueName": "Input Capture",
+            "comment": "APT39 (G0087)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
+            "comment": "APT39 (G0087) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091)"
+        },
+        {
+            "score": 7,
             "techniqueID": "T1036.005",
             "techniqueName": "Match Legitimate Name or Location",
-            "comment": "APT39 (G0087) & APT1 (G0006) & MuddyWater (G0069) & Poseidon Group (G0033) & Silence (G0091) & menuPass (G0045)"
+            "comment": "APT39 (G0087) & APT1 (G0006) & Darkhotel (G0012) & MuddyWater (G0069) & Poseidon Group (G0033) & Silence (G0091) & menuPass (G0045)"
         },
         {
             "score": 3,
             "techniqueID": "T1190",
             "techniqueName": "Exploit Public-Facing Application",
-            "comment": "APT39 (G0087) & APT28 (G0007) & Soft Cell (G0093)"
+            "comment": "APT39 (G0087) & APT28 (G0007) & GALLIUM (G0093)"
         },
         {
             "score": 6,
@@ -32,7 +104,7 @@
             "score": 6,
             "techniqueID": "T1005",
             "techniqueName": "Data from Local System",
-            "comment": "APT39 (G0087) & APT1 (G0006) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "APT39 (G0087) & APT1 (G0006) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -41,10 +113,10 @@
             "comment": "APT39 (G0087)"
         },
         {
-            "score": 9,
+            "score": 10,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
-            "comment": "APT39 (G0087) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "APT39 (G0087) & Darkhotel (G0012) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -65,10 +137,10 @@
             "comment": "APT39 (G0087) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & APT28 (G0007) & Stealth Falcon (G0038)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1059.006",
             "techniqueName": "Python",
-            "comment": "APT39 (G0087)"
+            "comment": "APT39 (G0087) & MuddyWater (G0069)"
         },
         {
             "score": 2,
@@ -77,16 +149,16 @@
             "comment": "APT39 (G0087) & OilRig (G0049)"
         },
         {
-            "score": 2,
+            "score": 4,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
-            "comment": "APT39 (G0087) & Magic Hound (G0059)"
+            "comment": "APT39 (G0087) & Magic Hound (G0059) & MuddyWater (G0069) & APT28 (G0007)"
         },
         {
             "score": 11,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
-            "comment": "APT39 (G0087) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Poseidon Group (G0033) & Silence (G0091) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "APT39 (G0087) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Poseidon Group (G0033) & Silence (G0091) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 2,
@@ -110,7 +182,7 @@
             "score": 6,
             "techniqueID": "T1090.002",
             "techniqueName": "External Proxy",
-            "comment": "APT39 (G0087) & MuddyWater (G0069) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "APT39 (G0087) & MuddyWater (G0069) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 4,
@@ -119,40 +191,40 @@
             "comment": "APT39 (G0087) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1110",
             "techniqueName": "Brute Force",
-            "comment": "APT39 (G0087) & OilRig (G0049)"
+            "comment": "APT39 (G0087) & OilRig (G0049) & APT28 (G0007)"
         },
         {
-            "score": 3,
+            "score": 5,
             "techniqueID": "T1204.001",
             "techniqueName": "Malicious Link",
-            "comment": "APT39 (G0087) & Molerats (G0021) & OilRig (G0049)"
+            "comment": "APT39 (G0087) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & APT28 (G0007)"
         },
         {
             "score": 6,
             "techniqueID": "T1033",
             "techniqueName": "System Owner/User Discovery",
-            "comment": "APT39 (G0087) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038) & Soft Cell (G0093)"
+            "comment": "APT39 (G0087) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038) & GALLIUM (G0093)"
         },
         {
             "score": 2,
             "techniqueID": "T1027.002",
             "techniqueName": "Software Packing",
-            "comment": "APT39 (G0087) & Soft Cell (G0093)"
+            "comment": "APT39 (G0087) & GALLIUM (G0093)"
         },
         {
-            "score": 9,
+            "score": 8,
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
-            "comment": "APT39 (G0087) & Darkhotel (G0012) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+            "comment": "APT39 (G0087) & Darkhotel (G0012) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 3,
             "techniqueID": "T1505.003",
             "techniqueName": "Web Shell",
-            "comment": "APT39 (G0087) & OilRig (G0049) & Soft Cell (G0093)"
+            "comment": "APT39 (G0087) & OilRig (G0049) & GALLIUM (G0093)"
         },
         {
             "score": 3,
@@ -164,13 +236,13 @@
             "score": 6,
             "techniqueID": "T1078",
             "techniqueName": "Valid Accounts",
-            "comment": "APT39 (G0087) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "APT39 (G0087) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
-            "score": 4,
+            "score": 3,
             "techniqueID": "T1059",
             "techniqueName": "Command and Scripting Interpreter",
-            "comment": "APT39 (G0087) & Molerats (G0021) & OilRig (G0049) & Stealth Falcon (G0038)"
+            "comment": "APT39 (G0087) & OilRig (G0049) & Stealth Falcon (G0038)"
         },
         {
             "score": 3,
@@ -182,7 +254,7 @@
             "score": 9,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
-            "comment": "APT39 (G0087) & APT1 (G0006) & Cleaver (G0003) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & Soft Cell (G0093)"
+            "comment": "APT39 (G0087) & APT1 (G0006) & Cleaver (G0003) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -194,13 +266,13 @@
             "score": 6,
             "techniqueID": "T1560.001",
             "techniqueName": "Archive via Utility",
-            "comment": "APT39 (G0087) & APT1 (G0006) & Magic Hound (G0059) & MuddyWater (G0069) & menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "APT39 (G0087) & APT1 (G0006) & Magic Hound (G0059) & MuddyWater (G0069) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 4,
             "techniqueID": "T1018",
             "techniqueName": "Remote System Discovery",
-            "comment": "APT39 (G0087) & Silence (G0091) & menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "APT39 (G0087) & Silence (G0091) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 2,
@@ -209,10 +281,10 @@
             "comment": "APT39 (G0087) & Darkhotel (G0012)"
         },
         {
-            "score": 7,
+            "score": 8,
             "techniqueID": "T1053.005",
             "techniqueName": "Scheduled Task",
-            "comment": "APT39 (G0087) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & Stealth Falcon (G0038) & menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "APT39 (G0087) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & Stealth Falcon (G0038) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 5,
@@ -221,22 +293,22 @@
             "comment": "APT39 (G0087) & APT1 (G0006) & OilRig (G0049) & Silence (G0091) & menuPass (G0045)"
         },
         {
-            "score": 6,
+            "score": 7,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "APT39 (G0087) & Darkhotel (G0012) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091)"
+            "comment": "APT39 (G0087) & Darkhotel (G0012) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091) & APT28 (G0007)"
         },
         {
-            "score": 6,
+            "score": 7,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
-            "comment": "APT39 (G0087) & APT1 (G0006) & Magic Hound (G0059) & Molerats (G0021) & OilRig (G0049) & APT28 (G0007)"
+            "comment": "APT39 (G0087) & APT1 (G0006) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & APT28 (G0007)"
         },
         {
-            "score": 10,
+            "score": 9,
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
-            "comment": "APT39 (G0087) & APT1 (G0006) & Darkhotel (G0012) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+            "comment": "APT39 (G0087) & APT1 (G0006) & Darkhotel (G0012) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 1,
@@ -245,10 +317,10 @@
             "comment": "APT1 (G0006)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1585.002",
             "techniqueName": "Email Accounts",
-            "comment": "APT1 (G0006)"
+            "comment": "APT1 (G0006) & Magic Hound (G0059)"
         },
         {
             "score": 1,
@@ -257,10 +329,10 @@
             "comment": "APT1 (G0006)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1583.001",
             "techniqueName": "Domains",
-            "comment": "APT1 (G0006) & APT28 (G0007)"
+            "comment": "APT1 (G0006) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 2,
@@ -278,13 +350,13 @@
             "score": 8,
             "techniqueID": "T1016",
             "techniqueName": "System Network Configuration Discovery",
-            "comment": "APT1 (G0006) & Darkhotel (G0012) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038) & menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "APT1 (G0006) & Darkhotel (G0012) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
-            "score": 3,
+            "score": 4,
             "techniqueID": "T1119",
             "techniqueName": "Automated Collection",
-            "comment": "APT1 (G0006) & OilRig (G0049) & APT28 (G0007)"
+            "comment": "APT1 (G0006) & OilRig (G0049) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 3,
@@ -293,10 +365,10 @@
             "comment": "APT1 (G0006) & OilRig (G0049) & Poseidon Group (G0033)"
         },
         {
-            "score": 5,
+            "score": 6,
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
-            "comment": "APT1 (G0006) & OilRig (G0049) & Poseidon Group (G0033) & menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "APT1 (G0006) & MuddyWater (G0069) & OilRig (G0049) & Poseidon Group (G0033) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 3,
@@ -308,19 +380,19 @@
             "score": 3,
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
-            "comment": "APT1 (G0006) & APT28 (G0007) & Soft Cell (G0093)"
+            "comment": "APT1 (G0006) & APT28 (G0007) & GALLIUM (G0093)"
+        },
+        {
+            "score": 9,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "APT1 (G0006) & Darkhotel (G0012) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 2,
             "techniqueID": "T1114.001",
             "techniqueName": "Local Email Collection",
             "comment": "APT1 (G0006) & Magic Hound (G0059)"
-        },
-        {
-            "score": 9,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "APT1 (G0006) & Darkhotel (G0012) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 1,
@@ -342,14 +414,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1326",
-            "techniqueName": "Domain registration hijacking",
+            "techniqueID": "T1330",
+            "techniqueName": "Acquire and/or use 3rd party software services",
             "comment": "APT1 (G0006)"
         },
         {
             "score": 1,
-            "techniqueID": "T1330",
-            "techniqueName": "Acquire and/or use 3rd party software services",
+            "techniqueID": "T1326",
+            "techniqueName": "Domain registration hijacking",
             "comment": "APT1 (G0006)"
         },
         {
@@ -378,6 +450,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1313",
+            "techniqueName": "Obfuscation or cryptography",
+            "comment": "Cleaver (G0003)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1341",
             "techniqueName": "Build social network persona",
             "comment": "Cleaver (G0003)"
@@ -390,9 +468,39 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1313",
-            "techniqueName": "Obfuscation or cryptography",
-            "comment": "Cleaver (G0003)"
+            "techniqueID": "T1497.002",
+            "techniqueName": "User Activity Based Checks",
+            "comment": "Darkhotel (G0012)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1124",
+            "techniqueName": "System Time Discovery",
+            "comment": "Darkhotel (G0012)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1497",
+            "techniqueName": "Virtualization/Sandbox Evasion",
+            "comment": "Darkhotel (G0012)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1497.001",
+            "techniqueName": "System Checks",
+            "comment": "Darkhotel (G0012)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1203",
+            "techniqueName": "Exploitation for Client Execution",
+            "comment": "Darkhotel (G0012) & MuddyWater (G0069) & APT28 (G0007)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1573.001",
+            "techniqueName": "Symmetric Cryptography",
+            "comment": "Darkhotel (G0012) & APT28 (G0007) & Stealth Falcon (G0038)"
         },
         {
             "score": 5,
@@ -401,22 +509,10 @@
             "comment": "Darkhotel (G0012) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "Darkhotel (G0012) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "Darkhotel (G0012)"
-        },
-        {
-            "score": 9,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Darkhotel (G0012) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
         },
         {
             "score": 2,
@@ -425,22 +521,22 @@
             "comment": "Darkhotel (G0012) & MuddyWater (G0069)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1091",
-            "techniqueName": "Replication Through Removable Media",
-            "comment": "Darkhotel (G0012) & APT28 (G0007)"
-        },
-        {
-            "score": 3,
+            "score": 4,
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
-            "comment": "Darkhotel (G0012) & Molerats (G0021) & Silence (G0091)"
+            "comment": "Darkhotel (G0012) & Molerats (G0021) & Silence (G0091) & GALLIUM (G0093)"
         },
         {
             "score": 1,
             "techniqueID": "T1080",
             "techniqueName": "Taint Shared Content",
             "comment": "Darkhotel (G0012)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1091",
+            "techniqueName": "Replication Through Removable Media",
+            "comment": "Darkhotel (G0012) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -461,12 +557,6 @@
             "comment": "Equation (G0020)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1120",
-            "techniqueName": "Peripheral Device Discovery",
-            "comment": "Equation (G0020) & APT28 (G0007)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1109",
             "techniqueName": "Component Firmware",
@@ -474,15 +564,27 @@
         },
         {
             "score": 2,
+            "techniqueID": "T1120",
+            "techniqueName": "Peripheral Device Discovery",
+            "comment": "Equation (G0020) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1586.002",
+            "techniqueName": "Email Accounts",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1589.001",
+            "techniqueName": "Credentials",
+            "comment": "Magic Hound (G0059) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1566.003",
             "techniqueName": "Spearphishing via Service",
             "comment": "Magic Hound (G0059) & OilRig (G0049)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1555.003",
-            "techniqueName": "Credentials from Web Browsers",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038)"
         },
         {
             "score": 2,
@@ -509,22 +611,10 @@
             "comment": "Magic Hound (G0059) & APT28 (G0007)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1059.005",
-            "techniqueName": "Visual Basic",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1043",
             "techniqueName": "Commonly Used Port",
             "comment": "Magic Hound (G0059) & OilRig (G0049) & APT28 (G0007)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -533,22 +623,64 @@
             "comment": "Magic Hound (G0059)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Magic Hound (G0059) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
-            "comment": "Molerats (G0021) & Silence (G0091)"
+            "score": 1,
+            "techniqueID": "T1218.007",
+            "techniqueName": "Msiexec",
+            "comment": "Molerats (G0021)"
         },
         {
             "score": 3,
-            "techniqueID": "T1041",
-            "techniqueName": "Exfiltration Over C2 Channel",
-            "comment": "MuddyWater (G0069) & Stealth Falcon (G0038) & Soft Cell (G0093)"
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript",
+            "comment": "Molerats (G0021) & MuddyWater (G0069) & Silence (G0091)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1555.003",
+            "techniqueName": "Credentials from Web Browsers",
+            "comment": "Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1562.001",
+            "techniqueName": "Disable or Modify Tools",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1219",
+            "techniqueName": "Remote Access Software",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1518",
+            "techniqueName": "Software Discovery",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
+            "comment": "MuddyWater (G0069) & OilRig (G0049) & Poseidon Group (G0033) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1589.002",
+            "techniqueName": "Email Addresses",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "MuddyWater (G0069) & GALLIUM (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1583.006",
+            "techniqueName": "Web Services",
+            "comment": "MuddyWater (G0069)"
         },
         {
             "score": 1,
@@ -561,12 +693,6 @@
             "techniqueID": "T1132.001",
             "techniqueName": "Standard Encoding",
             "comment": "MuddyWater (G0069)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1203",
-            "techniqueName": "Exploitation for Client Execution",
-            "comment": "MuddyWater (G0069) & APT28 (G0007)"
         },
         {
             "score": 2,
@@ -620,7 +746,7 @@
             "score": 5,
             "techniqueID": "T1047",
             "techniqueName": "Windows Management Instrumentation",
-            "comment": "MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038) & menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 2,
@@ -636,15 +762,21 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1218.003",
+            "techniqueName": "CMSTP",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1218.005",
             "techniqueName": "Mshta",
             "comment": "MuddyWater (G0069)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1218.003",
-            "techniqueName": "CMSTP",
-            "comment": "MuddyWater (G0069)"
+            "score": 2,
+            "techniqueID": "T1555.004",
+            "techniqueName": "Windows Credential Manager",
+            "comment": "OilRig (G0049) & Stealth Falcon (G0038)"
         },
         {
             "score": 1,
@@ -677,16 +809,16 @@
             "comment": "OilRig (G0049) & Silence (G0091)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "OilRig (G0049) & GALLIUM (G0093)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1573.002",
             "techniqueName": "Asymmetric Cryptography",
             "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "OilRig (G0049) & Soft Cell (G0093)"
         },
         {
             "score": 1,
@@ -696,27 +828,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1069.001",
-            "techniqueName": "Local Groups",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1008",
             "techniqueName": "Fallback Channels",
             "comment": "OilRig (G0049)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
-            "comment": "OilRig (G0049) & Poseidon Group (G0033) & menuPass (G0045)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1012",
-            "techniqueName": "Query Registry",
-            "comment": "OilRig (G0049) & Stealth Falcon (G0038)"
+            "score": 1,
+            "techniqueID": "T1069.001",
+            "techniqueName": "Local Groups",
+            "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
@@ -728,7 +848,7 @@
             "score": 2,
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
-            "comment": "OilRig (G0049) & Soft Cell (G0093)"
+            "comment": "OilRig (G0049) & GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -749,16 +869,40 @@
             "comment": "Silence (G0091)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1106",
             "techniqueName": "Native API",
-            "comment": "Silence (G0091)"
+            "comment": "Silence (G0091) & menuPass (G0045)"
         },
         {
             "score": 1,
             "techniqueID": "T1125",
             "techniqueName": "Video Capture",
             "comment": "Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1598",
+            "techniqueName": "Phishing for Information",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1567",
+            "techniqueName": "Exfiltration Over Web Service",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1595.002",
+            "techniqueName": "Vulnerability Scanning",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1090.003",
+            "techniqueName": "Multi-hop Proxy",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -791,12 +935,6 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1573.001",
-            "techniqueName": "Symmetric Cryptography",
-            "comment": "APT28 (G0007) & Stealth Falcon (G0038)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1221",
             "techniqueName": "Template Injection",
@@ -822,6 +960,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1213.002",
             "techniqueName": "Sharepoint",
             "comment": "APT28 (G0007)"
@@ -839,16 +983,10 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1210",
             "techniqueName": "Exploitation of Remote Services",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
-            "comment": "APT28 (G0007)"
+            "comment": "APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 1,
@@ -869,21 +1007,15 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+            "score": 1,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1092",
             "techniqueName": "Communication Through Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -894,14 +1026,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "APT28 (G0007)"
         },
         {
@@ -936,6 +1068,18 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1568.001",
+            "techniqueName": "Fast Flux DNS",
+            "comment": "menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.003",
+            "techniqueName": "NTDS",
+            "comment": "menuPass (G0045)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1218.004",
             "techniqueName": "InstallUtil",
             "comment": "menuPass (G0045)"
@@ -944,7 +1088,7 @@
             "score": 2,
             "techniqueID": "T1036.003",
             "techniqueName": "Rename System Utilities",
-            "comment": "menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -965,6 +1109,12 @@
             "comment": "menuPass (G0045)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1003.002",
+            "techniqueName": "Security Account Manager",
+            "comment": "menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1039",
             "techniqueName": "Data from Network Shared Drive",
@@ -980,35 +1130,41 @@
             "score": 2,
             "techniqueID": "T1574.002",
             "techniqueName": "DLL Side-Loading",
-            "comment": "menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "menuPass (G0045) & GALLIUM (G0093)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1003.002",
-            "techniqueName": "Security Account Manager",
-            "comment": "menuPass (G0045) & Soft Cell (G0093)"
+            "score": 1,
+            "techniqueID": "T1583.004",
+            "techniqueName": "Server",
+            "comment": "GALLIUM (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1570",
+            "techniqueName": "Lateral Tool Transfer",
+            "comment": "GALLIUM (G0093)"
         },
         {
             "score": 1,
             "techniqueID": "T1136.002",
             "techniqueName": "Domain Account",
-            "comment": "Soft Cell (G0093)"
+            "comment": "GALLIUM (G0093)"
         }
     ],
     "gradient": {
         "colors": [
-            "#80ed9d",
-            "#ea6edc",
-            "#79c13a",
-            "#d65c8c",
-            "#ef9eb5",
-            "#e072b2",
-            "#988ef2",
-            "#c9952c",
-            "#e09374",
-            "#8a18cc",
-            "#a03823",
-            "#b1e7ef"
+            "#e4fca4",
+            "#d34ec8",
+            "#68d153",
+            "#2f84d8",
+            "#adbdea",
+            "#e5a177",
+            "#805cc9",
+            "#1ca05a",
+            "#e24609",
+            "#f9ba9f",
+            "#45d3a6",
+            "#e08bed"
         ],
         "minValue": 0,
         "maxValue": 11

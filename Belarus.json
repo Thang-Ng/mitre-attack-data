@@ -5,6 +5,174 @@
     "version": "3.0",
     "techniques": [
         {
+            "score": 1,
+            "techniqueID": "T1505.003",
+            "techniqueName": "Web Shell",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1589.002",
+            "techniqueName": "Email Addresses",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1589.003",
+            "techniqueName": "Employee Names",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1598.003",
+            "techniqueName": "Spearphishing Link",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1592.002",
+            "techniqueName": "Software",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1593",
+            "techniqueName": "Search Open Websites/Domains",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1591.002",
+            "techniqueName": "Business Relationships",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1595.002",
+            "techniqueName": "Vulnerability Scanning",
+            "comment": "Sandworm Team (G0034) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1588.006",
+            "techniqueName": "Vulnerabilities",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & TA459 (G0062) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "Sandworm Team (G0034) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078.002",
+            "techniqueName": "Domain Accounts",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1594",
+            "techniqueName": "Search Victim-Owned Websites",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1491.002",
+            "techniqueName": "External Defacement",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1590.001",
+            "techniqueName": "Domain Properties",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1499",
+            "techniqueName": "Endpoint Denial of Service",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1583.004",
+            "techniqueName": "Server",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1583.001",
+            "techniqueName": "Domains",
+            "comment": "Sandworm Team (G0034) & APT28 (G0007)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
+            "comment": "Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
+            "comment": "Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1199",
+            "techniqueName": "Trusted Relationship",
+            "comment": "Sandworm Team (G0034) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1585.002",
+            "techniqueName": "Email Accounts",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1585.001",
+            "techniqueName": "Social Media Accounts",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1587.001",
+            "techniqueName": "Malware",
+            "comment": "Sandworm Team (G0034) & Turla (G0010)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1018",
             "techniqueName": "Remote System Discovery",
@@ -95,10 +263,10 @@
             "comment": "Sandworm Team (G0034) & Silence (G0091)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
-            "comment": "Sandworm Team (G0034) & Turla (G0010)"
+            "comment": "Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 4,
@@ -179,10 +347,10 @@
             "comment": "Sandworm Team (G0034) & APT28 (G0007) & TA459 (G0062)"
         },
         {
-            "score": 5,
+            "score": 4,
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
-            "comment": "Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & TA459 (G0062) & Turla (G0010)"
+            "comment": "Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & TA459 (G0062)"
         },
         {
             "score": 4,
@@ -209,10 +377,10 @@
             "comment": "Silence (G0091) & Turla (G0010)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Silence (G0091) & Turla (G0010)"
+            "comment": "Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -233,16 +401,10 @@
             "comment": "Silence (G0091) & Winnti Group (G0044)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Silence (G0091) & APT28 (G0007) & TA459 (G0062) & Turla (G0010)"
-        },
-        {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
-            "comment": "Silence (G0091)"
+            "techniqueName": "JavaScript",
+            "comment": "Silence (G0091) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -288,9 +450,33 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1583.001",
-            "techniqueName": "Domains",
+            "techniqueID": "T1589.001",
+            "techniqueName": "Credentials",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1598",
+            "techniqueName": "Phishing for Information",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1567",
+            "techniqueName": "Exfiltration Over Web Service",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1090.003",
+            "techniqueName": "Multi-hop Proxy",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1110",
+            "techniqueName": "Brute Force",
+            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -365,15 +551,15 @@
             "comment": "APT28 (G0007) & Winnti Group (G0044)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1566.002",
-            "techniqueName": "Spearphishing Link",
-            "comment": "APT28 (G0007) & Turla (G0010)"
+            "score": 1,
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1199",
-            "techniqueName": "Trusted Relationship",
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
             "comment": "APT28 (G0007)"
         },
         {
@@ -384,14 +570,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1114.002",
-            "techniqueName": "Remote Email Collection",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
             "comment": "APT28 (G0007)"
         },
         {
@@ -413,21 +593,9 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1210",
             "techniqueName": "Exploitation of Remote Services",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
             "comment": "APT28 (G0007)"
         },
         {
@@ -449,12 +617,6 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1057",
             "techniqueName": "Process Discovery",
@@ -468,15 +630,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1550.002",
-            "techniqueName": "Pass the Hash",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -485,10 +647,10 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007) & Turla (G0010)"
+            "score": 1,
+            "techniqueID": "T1550.002",
+            "techniqueName": "Pass the Hash",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -504,15 +666,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1542.003",
             "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
+            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -533,9 +695,15 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1071.003",
             "techniqueName": "Mail Protocols",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
@@ -546,14 +714,38 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
-            "comment": "APT28 (G0007)"
+            "techniqueID": "T1553.006",
+            "techniqueName": "Code Signing Policy Modification",
+            "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1587.001",
-            "techniqueName": "Malware",
+            "techniqueID": "T1016.001",
+            "techniqueName": "Internet Connection Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.006",
+            "techniqueName": "Python",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078.003",
+            "techniqueName": "Local Accounts",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1583.006",
+            "techniqueName": "Web Services",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102",
+            "techniqueName": "Web Service",
             "comment": "Turla (G0010)"
         },
         {
@@ -648,8 +840,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1555",
-            "techniqueName": "Credentials from Password Stores",
+            "techniqueID": "T1555.004",
+            "techniqueName": "Windows Credential Manager",
             "comment": "Turla (G0010)"
         },
         {
@@ -678,12 +870,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1204.001",
-            "techniqueName": "Malicious Link",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1547.004",
             "techniqueName": "Winlogon Helper DLL",
             "comment": "Turla (G0010)"
@@ -692,18 +878,6 @@
             "score": 1,
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1110",
-            "techniqueName": "Brute Force",
             "comment": "Turla (G0010)"
         },
         {
@@ -720,8 +894,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Turla (G0010)"
         },
         {
@@ -733,12 +907,12 @@
     ],
     "gradient": {
         "colors": [
-            "#ef81e8",
-            "#87f959",
-            "#ed0092",
-            "#e5736b",
-            "#99164a",
-            "#5ec63b"
+            "#4595a5",
+            "#eb97ed",
+            "#96ed87",
+            "#e5dcdc",
+            "#f4e3ab",
+            "#25b273"
         ],
         "minValue": 0,
         "maxValue": 5

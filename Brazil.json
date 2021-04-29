@@ -1,5 +1,5 @@
 {
-    "description": "Techniques of groups: Orangeworm (G0071) & Poseidon Group (G0033) & APT28 (G0007) & Sowbug (G0054) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010) & Winnti Group (G0044) & ",
+    "description": "Techniques of groups: Orangeworm (G0071) & Poseidon Group (G0033) & APT28 (G0007) & Sowbug (G0054) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010) & Winnti Group (G0044) & ",
     "name": "Brazil",
     "domain": "mitre-enterprise",
     "version": "3.0",
@@ -23,10 +23,34 @@
             "comment": "Poseidon Group (G0033) & Turla (G0010)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "Poseidon Group (G0033) & Sowbug (G0054) & menuPass (G0045)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
+            "comment": "Poseidon Group (G0033) & menuPass (G0045) & Turla (G0010)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Poseidon Group (G0033) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
+        },
+        {
             "score": 4,
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
-            "comment": "Poseidon Group (G0033) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
+            "comment": "Poseidon Group (G0033) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1003",
+            "techniqueName": "OS Credential Dumping",
+            "comment": "Poseidon Group (G0033) & APT28 (G0007) & Sowbug (G0054)"
         },
         {
             "score": 2,
@@ -41,34 +65,64 @@
             "comment": "Poseidon Group (G0033) & APT28 (G0007) & Turla (G0010) & Winnti Group (G0044)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "Poseidon Group (G0033) & Sowbug (G0054) & menuPass (G0045)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Poseidon Group (G0033) & APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1003",
-            "techniqueName": "OS Credential Dumping",
-            "comment": "Poseidon Group (G0033) & APT28 (G0007) & Sowbug (G0054)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
-            "comment": "Poseidon Group (G0033) & menuPass (G0045) & Turla (G0010)"
+            "score": 2,
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
+            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
+            "techniqueID": "T1589.001",
+            "techniqueName": "Credentials",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1598",
+            "techniqueName": "Phishing for Information",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1567",
+            "techniqueName": "Exfiltration Over Web Service",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1595.002",
+            "techniqueName": "Vulnerability Scanning",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1090.003",
+            "techniqueName": "Multi-hop Proxy",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1110",
+            "techniqueName": "Brute Force",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1583.001",
             "techniqueName": "Domains",
-            "comment": "APT28 (G0007)"
+            "comment": "APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 1,
@@ -80,7 +134,7 @@
             "score": 2,
             "techniqueID": "T1190",
             "techniqueName": "Exploit Public-Facing Application",
-            "comment": "APT28 (G0007) & Soft Cell (G0093)"
+            "comment": "APT28 (G0007) & GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -144,14 +198,26 @@
         },
         {
             "score": 2,
+            "techniqueID": "T1199",
+            "techniqueName": "Trusted Relationship",
+            "comment": "APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 2,
-            "techniqueID": "T1199",
-            "techniqueName": "Trusted Relationship",
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
             "comment": "APT28 (G0007) & menuPass (G0045)"
         },
         {
@@ -162,15 +228,21 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1114.002",
-            "techniqueName": "Remote Email Collection",
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "APT28 (G0007)"
+            "score": 2,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "APT28 (G0007) & Sowbug (G0054) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -179,16 +251,22 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "APT28 (G0007) & Sowbug (G0054) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1037.001",
             "techniqueName": "Logon Script (Windows)",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -203,33 +281,9 @@
             "comment": "APT28 (G0007) & menuPass (G0045) & Turla (G0010)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
-        },
-        {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1210",
             "techniqueName": "Exploitation of Remote Services",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "APT28 (G0007) & menuPass (G0045) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
             "comment": "APT28 (G0007) & menuPass (G0045)"
         },
         {
@@ -251,10 +305,10 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1078",
-            "techniqueName": "Valid Accounts",
-            "comment": "APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+            "score": 4,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "APT28 (G0007) & Sowbug (G0054) & menuPass (G0045) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -270,9 +324,9 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "APT28 (G0007) & Sowbug (G0054) & Turla (G0010)"
+            "techniqueID": "T1078",
+            "techniqueName": "Valid Accounts",
+            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 2,
@@ -281,16 +335,16 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1550.002",
-            "techniqueName": "Pass the Hash",
-            "comment": "APT28 (G0007) & Soft Cell (G0093)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
-            "comment": "APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -300,9 +354,9 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007) & Turla (G0010)"
+            "techniqueID": "T1550.002",
+            "techniqueName": "Pass the Hash",
+            "comment": "APT28 (G0007) & GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -317,22 +371,16 @@
             "comment": "APT28 (G0007)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1113",
             "techniqueName": "Screen Capture",
             "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -341,22 +389,34 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "APT28 (G0007) & Soft Cell (G0093)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1056.001",
             "techniqueName": "Keylogging",
             "comment": "APT28 (G0007) & Sowbug (G0054) & menuPass (G0045)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "APT28 (G0007) & GALLIUM (G0093)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1001.001",
             "techniqueName": "Junk Data",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
+            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -366,38 +426,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1218.011",
-            "techniqueName": "Rundll32",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
-            "comment": "APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1070.001",
             "techniqueName": "Clear Windows Event Logs",
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1071.003",
             "techniqueName": "Mail Protocols",
-            "comment": "APT28 (G0007)"
+            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 3,
             "techniqueID": "T1090.002",
             "techniqueName": "External Proxy",
-            "comment": "APT28 (G0007) & menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1218.011",
+            "techniqueName": "Rundll32",
             "comment": "APT28 (G0007)"
         },
         {
@@ -407,16 +455,28 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "Sowbug (G0054) & menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
+            "score": 1,
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1135",
+            "techniqueName": "Network Share Discovery",
+            "comment": "Sowbug (G0054)"
         },
         {
             "score": 2,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
             "comment": "Sowbug (G0054) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "Sowbug (G0054) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -426,9 +486,21 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1135",
-            "techniqueName": "Network Share Discovery",
-            "comment": "Sowbug (G0054)"
+            "techniqueID": "T1568.001",
+            "techniqueName": "Fast Flux DNS",
+            "comment": "menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1106",
+            "techniqueName": "Native API",
+            "comment": "menuPass (G0045) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.003",
+            "techniqueName": "NTDS",
+            "comment": "menuPass (G0045)"
         },
         {
             "score": 1,
@@ -446,7 +518,7 @@
             "score": 2,
             "techniqueID": "T1036.003",
             "techniqueName": "Rename System Utilities",
-            "comment": "menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -468,21 +540,9 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1047",
-            "techniqueName": "Windows Management Instrumentation",
-            "comment": "menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "menuPass (G0045)"
+            "techniqueID": "T1003.002",
+            "techniqueName": "Security Account Manager",
+            "comment": "menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -492,21 +552,21 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1574.002",
-            "techniqueName": "DLL Side-Loading",
-            "comment": "menuPass (G0045) & Soft Cell (G0093)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1053.005",
             "techniqueName": "Scheduled Task",
-            "comment": "menuPass (G0045) & Soft Cell (G0093)"
+            "comment": "menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 2,
-            "techniqueID": "T1003.002",
-            "techniqueName": "Security Account Manager",
-            "comment": "menuPass (G0045) & Soft Cell (G0093)"
+            "techniqueID": "T1047",
+            "techniqueName": "Windows Management Instrumentation",
+            "comment": "menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -518,7 +578,13 @@
             "score": 3,
             "techniqueID": "T1018",
             "techniqueName": "Remote System Discovery",
-            "comment": "menuPass (G0045) & Soft Cell (G0093) & Turla (G0010)"
+            "comment": "menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "menuPass (G0045)"
         },
         {
             "score": 1,
@@ -527,46 +593,118 @@
             "comment": "menuPass (G0045)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1574.002",
+            "techniqueName": "DLL Side-Loading",
+            "comment": "menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1583.004",
+            "techniqueName": "Server",
+            "comment": "GALLIUM (G0093)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1570",
+            "techniqueName": "Lateral Tool Transfer",
+            "comment": "GALLIUM (G0093) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "GALLIUM (G0093)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
+            "comment": "GALLIUM (G0093) & Winnti Group (G0044)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1041",
             "techniqueName": "Exfiltration Over C2 Channel",
-            "comment": "Soft Cell (G0093)"
+            "comment": "GALLIUM (G0093)"
         },
         {
             "score": 2,
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
-            "comment": "Soft Cell (G0093) & Turla (G0010)"
+            "comment": "GALLIUM (G0093) & Turla (G0010)"
         },
         {
             "score": 1,
             "techniqueID": "T1133",
             "techniqueName": "External Remote Services",
-            "comment": "Soft Cell (G0093)"
+            "comment": "GALLIUM (G0093)"
         },
         {
             "score": 1,
             "techniqueID": "T1027.002",
             "techniqueName": "Software Packing",
-            "comment": "Soft Cell (G0093)"
+            "comment": "GALLIUM (G0093)"
         },
         {
             "score": 1,
             "techniqueID": "T1033",
             "techniqueName": "System Owner/User Discovery",
-            "comment": "Soft Cell (G0093)"
+            "comment": "GALLIUM (G0093)"
         },
         {
             "score": 1,
             "techniqueID": "T1505.003",
             "techniqueName": "Web Shell",
-            "comment": "Soft Cell (G0093)"
+            "comment": "GALLIUM (G0093)"
         },
         {
             "score": 1,
             "techniqueID": "T1136.002",
             "techniqueName": "Domain Account",
-            "comment": "Soft Cell (G0093)"
+            "comment": "GALLIUM (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1553.006",
+            "techniqueName": "Code Signing Policy Modification",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1016.001",
+            "techniqueName": "Internet Connection Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.006",
+            "techniqueName": "Python",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078.003",
+            "techniqueName": "Local Accounts",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1583.006",
+            "techniqueName": "Web Services",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102",
+            "techniqueName": "Web Service",
+            "comment": "Turla (G0010)"
         },
         {
             "score": 1,
@@ -636,12 +774,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1570",
-            "techniqueName": "Lateral Tool Transfer",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1055.001",
             "techniqueName": "Dynamic-link Library Injection",
             "comment": "Turla (G0010)"
@@ -660,8 +792,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1555",
-            "techniqueName": "Credentials from Password Stores",
+            "techniqueID": "T1555.004",
+            "techniqueName": "Windows Credential Manager",
             "comment": "Turla (G0010)"
         },
         {
@@ -684,12 +816,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1106",
-            "techniqueName": "Native API",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1546.003",
             "techniqueName": "Windows Management Instrumentation Event Subscription",
             "comment": "Turla (G0010)"
@@ -708,38 +834,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1055",
-            "techniqueName": "Process Injection",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1204.001",
-            "techniqueName": "Malicious Link",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1547.004",
             "techniqueName": "Winlogon Helper DLL",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1110",
-            "techniqueName": "Brute Force",
+            "techniqueID": "T1055",
+            "techniqueName": "Process Injection",
             "comment": "Turla (G0010)"
         },
         {
@@ -753,22 +855,16 @@
             "techniqueID": "T1124",
             "techniqueName": "System Time Discovery",
             "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
-            "comment": "Winnti Group (G0044)"
         }
     ],
     "gradient": {
         "colors": [
-            "#b5381c",
-            "#ed6307",
-            "#f7a788",
-            "#abf7a5",
-            "#71d339",
-            "#fcc69c"
+            "#b94ff7",
+            "#9f9fe0",
+            "#62f76a",
+            "#62bac9",
+            "#63fc4b",
+            "#f4b82c"
         ],
         "minValue": 0,
         "maxValue": 5

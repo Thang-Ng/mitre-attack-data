@@ -35,6 +35,18 @@
             "comment": "Ke3chang (G0004)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1558.001",
+            "techniqueName": "Golden Ticket",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1114.002",
             "techniqueName": "Remote Email Collection",
@@ -45,18 +57,6 @@
             "techniqueID": "T1018",
             "techniqueName": "Remote System Discovery",
             "comment": "Ke3chang (G0004) & Silence (G0091) & Turla (G0010)"
-        },
-        {
-            "score": 8,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1558.001",
-            "techniqueName": "Golden Ticket",
-            "comment": "Ke3chang (G0004)"
         },
         {
             "score": 2,
@@ -72,27 +72,15 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1569.002",
-            "techniqueName": "Service Execution",
-            "comment": "Ke3chang (G0004) & Silence (G0091)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
-            "comment": "Ke3chang (G0004)"
-        },
-        {
-            "score": 6,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Patchwork (G0040) & Silence (G0091) & Turla (G0010)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1213.002",
             "techniqueName": "Sharepoint",
             "comment": "Ke3chang (G0004) & APT28 (G0007)"
+        },
+        {
+            "score": 7,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 4,
@@ -102,9 +90,15 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
+            "techniqueID": "T1569.002",
+            "techniqueName": "Service Execution",
+            "comment": "Ke3chang (G0004) & Silence (G0091)"
+        },
+        {
+            "score": 8,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 4,
@@ -113,28 +107,22 @@
             "comment": "Ke3chang (G0004) & Patchwork (G0040) & APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 3,
+            "score": 4,
             "techniqueID": "T1087.002",
             "techniqueName": "Domain Account",
-            "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
+            "comment": "Ke3chang (G0004) & MuddyWater (G0069) & OilRig (G0049) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
         },
         {
             "score": 3,
-            "techniqueID": "T1007",
-            "techniqueName": "System Service Discovery",
-            "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1069.002",
-            "techniqueName": "Domain Groups",
-            "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Ke3chang (G0004) & Patchwork (G0040) & APT28 (G0007)"
         },
         {
             "score": 4,
@@ -144,21 +132,15 @@
         },
         {
             "score": 6,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Patchwork (G0040) & APT28 (G0007) & Turla (G0010)"
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007)"
         },
         {
             "score": 6,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1041",
-            "techniqueName": "Exfiltration Over C2 Channel",
-            "comment": "Ke3chang (G0004) & MuddyWater (G0069)"
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Patchwork (G0040) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 6,
@@ -167,22 +149,40 @@
             "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Turla (G0010)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007)"
-        },
-        {
             "score": 3,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
+            "techniqueID": "T1007",
+            "techniqueName": "System Service Discovery",
             "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
         },
         {
             "score": 3,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Ke3chang (G0004) & Patchwork (G0040) & APT28 (G0007)"
+            "techniqueID": "T1069.002",
+            "techniqueName": "Domain Groups",
+            "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Turla (G0010)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "Ke3chang (G0004) & MuddyWater (G0069) & OilRig (G0049) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1041",
+            "techniqueName": "Exfiltration Over C2 Channel",
+            "comment": "Ke3chang (G0004) & MuddyWater (G0069)"
         },
         {
             "score": 2,
@@ -191,28 +191,28 @@
             "comment": "Ke3chang (G0004) & OilRig (G0049)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1586.002",
+            "techniqueName": "Email Accounts",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1585.002",
+            "techniqueName": "Email Accounts",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1589.001",
+            "techniqueName": "Credentials",
+            "comment": "Magic Hound (G0059) & APT28 (G0007)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1566.003",
             "techniqueName": "Spearphishing via Service",
             "comment": "Magic Hound (G0059) & OilRig (G0049)"
-        },
-        {
-            "score": 7,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & The White Company (G0089)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1555.003",
-            "techniqueName": "Credentials from Web Browsers",
-            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040)"
-        },
-        {
-            "score": 8,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & Turla (G0010) & The White Company (G0089)"
         },
         {
             "score": 2,
@@ -245,16 +245,10 @@
             "comment": "Magic Hound (G0059)"
         },
         {
-            "score": 5,
+            "score": 6,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
-            "comment": "Magic Hound (G0059) & OilRig (G0049) & Patchwork (G0040) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 7,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
+            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 7,
@@ -275,18 +269,6 @@
             "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1043",
             "techniqueName": "Commonly Used Port",
@@ -299,16 +281,88 @@
             "comment": "Magic Hound (G0059)"
         },
         {
+            "score": 7,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
             "score": 6,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "Magic Hound (G0059) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & The White Company (G0089)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040)"
+        },
+        {
             "score": 5,
             "techniqueID": "T1113",
             "techniqueName": "Screen Capture",
             "comment": "Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & APT28 (G0007)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript",
+            "comment": "MuddyWater (G0069) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1562.001",
+            "techniqueName": "Disable or Modify Tools",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1219",
+            "techniqueName": "Remote Access Software",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1518",
+            "techniqueName": "Software Discovery",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.006",
+            "techniqueName": "Python",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
+            "comment": "MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1589.002",
+            "techniqueName": "Email Addresses",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1583.006",
+            "techniqueName": "Web Services",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
         },
         {
             "score": 4,
@@ -335,10 +389,10 @@
             "comment": "MuddyWater (G0069) & Patchwork (G0040) & APT28 (G0007) & The White Company (G0089)"
         },
         {
-            "score": 3,
+            "score": 2,
             "techniqueID": "T1555",
             "techniqueName": "Credentials from Password Stores",
-            "comment": "MuddyWater (G0069) & OilRig (G0049) & Turla (G0010)"
+            "comment": "MuddyWater (G0069) & OilRig (G0049)"
         },
         {
             "score": 2,
@@ -351,6 +405,12 @@
             "techniqueID": "T1027.003",
             "techniqueName": "Steganography",
             "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1555.003",
+            "techniqueName": "Credentials from Web Browsers",
+            "comment": "MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -413,22 +473,16 @@
             "comment": "MuddyWater (G0069) & Patchwork (G0040)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "MuddyWater (G0069) & Patchwork (G0040) & Silence (G0091)"
+            "score": 6,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & The White Company (G0089)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "MuddyWater (G0069) & OilRig (G0049) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1218.005",
-            "techniqueName": "Mshta",
-            "comment": "MuddyWater (G0069)"
+            "score": 6,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & The White Company (G0089)"
         },
         {
             "score": 1,
@@ -437,16 +491,34 @@
             "comment": "MuddyWater (G0069)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "MuddyWater (G0069) & OilRig (G0049) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "MuddyWater (G0069) & Patchwork (G0040) & Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.005",
+            "techniqueName": "Mshta",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1555.004",
+            "techniqueName": "Windows Credential Manager",
+            "comment": "OilRig (G0049) & Turla (G0010)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1137.004",
             "techniqueName": "Outlook Home Page",
             "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1204.001",
-            "techniqueName": "Malicious Link",
-            "comment": "OilRig (G0049) & Patchwork (G0040) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -455,10 +527,16 @@
             "comment": "OilRig (G0049)"
         },
         {
-            "score": 2,
+            "score": 1,
+            "techniqueID": "T1046",
+            "techniqueName": "Network Service Scanning",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 3,
             "techniqueID": "T1110",
             "techniqueName": "Brute Force",
-            "comment": "OilRig (G0049) & Turla (G0010)"
+            "comment": "OilRig (G0049) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -479,16 +557,34 @@
             "comment": "OilRig (G0049)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1046",
-            "techniqueName": "Network Service Scanning",
-            "comment": "OilRig (G0049)"
+            "score": 3,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "OilRig (G0049) & Patchwork (G0040) & APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1094",
             "techniqueName": "Custom Command and Control Protocol",
             "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1021.004",
+            "techniqueName": "SSH",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1008",
+            "techniqueName": "Fallback Channels",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1078",
+            "techniqueName": "Valid Accounts",
+            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007)"
         },
         {
             "score": 2,
@@ -504,36 +600,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1008",
-            "techniqueName": "Fallback Channels",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1021.004",
-            "techniqueName": "SSH",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1078",
-            "techniqueName": "Valid Accounts",
-            "comment": "OilRig (G0049) & Silence (G0091) & APT28 (G0007)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "OilRig (G0049) & Patchwork (G0040) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1012",
-            "techniqueName": "Query Registry",
-            "comment": "OilRig (G0049) & Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1048.003",
             "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
             "comment": "OilRig (G0049)"
@@ -543,6 +609,12 @@
             "techniqueID": "T1505.003",
             "techniqueName": "Web Shell",
             "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1012",
+            "techniqueName": "Query Registry",
+            "comment": "OilRig (G0049) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -569,10 +641,10 @@
             "comment": "Patchwork (G0040) & Silence (G0091)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1112",
-            "techniqueName": "Modify Registry",
-            "comment": "Patchwork (G0040) & Silence (G0091) & Turla (G0010)"
+            "score": 1,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
+            "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -581,16 +653,16 @@
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "Patchwork (G0040)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
             "comment": "Patchwork (G0040) & APT28 (G0007)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1112",
+            "techniqueName": "Modify Registry",
+            "comment": "Patchwork (G0040) & Silence (G0091) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -605,16 +677,16 @@
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1102.001",
-            "techniqueName": "Dead Drop Resolver",
-            "comment": "Patchwork (G0040)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1027.002",
             "techniqueName": "Software Packing",
             "comment": "Patchwork (G0040) & The White Company (G0089)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102.001",
+            "techniqueName": "Dead Drop Resolver",
+            "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -629,12 +701,6 @@
             "comment": "Silence (G0091) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
-            "comment": "Silence (G0091)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1106",
             "techniqueName": "Native API",
@@ -645,6 +711,30 @@
             "techniqueID": "T1125",
             "techniqueName": "Video Capture",
             "comment": "Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1598",
+            "techniqueName": "Phishing for Information",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1567",
+            "techniqueName": "Exfiltration Over Web Service",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1595.002",
+            "techniqueName": "Vulnerability Scanning",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1090.003",
+            "techniqueName": "Multi-hop Proxy",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -720,6 +810,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1037.001",
             "techniqueName": "Logon Script (Windows)",
             "comment": "APT28 (G0007)"
@@ -734,12 +830,6 @@
             "score": 1,
             "techniqueID": "T1210",
             "techniqueName": "Exploitation of Remote Services",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
             "comment": "APT28 (G0007)"
         },
         {
@@ -767,10 +857,10 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1550.002",
-            "techniqueName": "Pass the Hash",
-            "comment": "APT28 (G0007)"
+            "score": 2,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -779,10 +869,10 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007) & Turla (G0010)"
+            "score": 1,
+            "techniqueID": "T1550.002",
+            "techniqueName": "Pass the Hash",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -798,15 +888,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1542.003",
             "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
+            "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -827,9 +917,15 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1071.003",
             "techniqueName": "Mail Protocols",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
@@ -840,9 +936,27 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
-            "comment": "APT28 (G0007)"
+            "techniqueID": "T1553.006",
+            "techniqueName": "Code Signing Policy Modification",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1016.001",
+            "techniqueName": "Internet Connection Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078.003",
+            "techniqueName": "Local Accounts",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102",
+            "techniqueName": "Web Service",
+            "comment": "Turla (G0010)"
         },
         {
             "score": 1,
@@ -912,12 +1026,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1562.001",
-            "techniqueName": "Disable or Modify Tools",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1546.003",
             "techniqueName": "Windows Management Instrumentation Event Subscription",
             "comment": "Turla (G0010)"
@@ -943,15 +1051,15 @@
     ],
     "gradient": {
         "colors": [
-            "#96aeff",
-            "#56f771",
-            "#0e7991",
-            "#f9275c",
-            "#95edb4",
-            "#d61371",
-            "#a4ccf4",
-            "#2823aa",
-            "#238405"
+            "#06235e",
+            "#e5446d",
+            "#e5c9ff",
+            "#3af4c0",
+            "#869ee0",
+            "#fce93f",
+            "#b6f4f9",
+            "#aa6fdb",
+            "#98f759"
         ],
         "minValue": 0,
         "maxValue": 8

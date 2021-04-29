@@ -11,6 +11,84 @@
             "comment": "BlackOasis (G0063) & MuddyWater (G0069) & Turla (G0010)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1562.001",
+            "techniqueName": "Disable or Modify Tools",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1219",
+            "techniqueName": "Remote Access Software",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1518",
+            "techniqueName": "Software Discovery",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.006",
+            "techniqueName": "Python",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1589.002",
+            "techniqueName": "Email Addresses",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1583.006",
+            "techniqueName": "Web Services",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1041",
             "techniqueName": "Exfiltration Over C2 Channel",
@@ -47,10 +125,10 @@
             "comment": "MuddyWater (G0069) & Turla (G0010)"
         },
         {
-            "score": 2,
+            "score": 1,
             "techniqueID": "T1555",
             "techniqueName": "Credentials from Password Stores",
-            "comment": "MuddyWater (G0069) & Turla (G0010)"
+            "comment": "MuddyWater (G0069)"
         },
         {
             "score": 1,
@@ -203,10 +281,16 @@
             "comment": "MuddyWater (G0069) & PROMETHIUM (G0056)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "MuddyWater (G0069) & PROMETHIUM (G0056)"
+            "score": 1,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.003",
+            "techniqueName": "CMSTP",
+            "comment": "MuddyWater (G0069)"
         },
         {
             "score": 3,
@@ -215,22 +299,22 @@
             "comment": "MuddyWater (G0069) & PROMETHIUM (G0056) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "MuddyWater (G0069)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "MuddyWater (G0069) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1140",
             "techniqueName": "Deobfuscate/Decode Files or Information",
             "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "MuddyWater (G0069) & PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "MuddyWater (G0069)"
         },
         {
             "score": 1,
@@ -243,12 +327,6 @@
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
             "comment": "MuddyWater (G0069) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1218.003",
-            "techniqueName": "CMSTP",
-            "comment": "MuddyWater (G0069)"
         },
         {
             "score": 1,
@@ -275,10 +353,10 @@
             "comment": "PROMETHIUM (G0056)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1078.003",
             "techniqueName": "Local Accounts",
-            "comment": "PROMETHIUM (G0056)"
+            "comment": "PROMETHIUM (G0056) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -297,6 +375,36 @@
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "PROMETHIUM (G0056) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1553.006",
+            "techniqueName": "Code Signing Policy Modification",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1016.001",
+            "techniqueName": "Internet Connection Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1071.003",
+            "techniqueName": "Mail Protocols",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102",
+            "techniqueName": "Web Service",
+            "comment": "Turla (G0010)"
         },
         {
             "score": 1,
@@ -354,12 +462,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1069.001",
             "techniqueName": "Local Groups",
             "comment": "Turla (G0010)"
@@ -390,6 +492,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1555.004",
+            "techniqueName": "Windows Credential Manager",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1005",
             "techniqueName": "Data from Local System",
             "comment": "Turla (G0010)"
@@ -410,12 +518,6 @@
             "score": 1,
             "techniqueID": "T1090",
             "techniqueName": "Proxy",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1562.001",
-            "techniqueName": "Disable or Modify Tools",
             "comment": "Turla (G0010)"
         },
         {
@@ -444,14 +546,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1566.002",
-            "techniqueName": "Spearphishing Link",
+            "techniqueID": "T1547.004",
+            "techniqueName": "Winlogon Helper DLL",
             "comment": "Turla (G0010)"
         },
         {
@@ -462,26 +558,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1204.001",
-            "techniqueName": "Malicious Link",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1547.004",
-            "techniqueName": "Winlogon Helper DLL",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Turla (G0010)"
         },
         {
@@ -510,8 +588,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Turla (G0010)"
         },
         {
@@ -523,10 +601,10 @@
     ],
     "gradient": {
         "colors": [
-            "#f9c2d5",
-            "#8cf486",
-            "#a7f9cf",
-            "#c13843"
+            "#33d317",
+            "#8bedbe",
+            "#2f0eb5",
+            "#a8e809"
         ],
         "minValue": 0,
         "maxValue": 3

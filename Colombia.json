@@ -5,22 +5,46 @@
     "version": "3.0",
     "techniques": [
         {
+            "score": 2,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Machete (G0095) & PROMETHIUM (G0056)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
+            "comment": "Machete (G0095) & Gamaredon Group (G0047)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Machete (G0095) & Gamaredon Group (G0047)"
+        },
+        {
             "score": 1,
-            "techniqueID": "T1568.001",
-            "techniqueName": "Fast Flux DNS",
+            "techniqueID": "T1218.007",
+            "techniqueName": "Msiexec",
             "comment": "Machete (G0095)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "Machete (G0095) & PROMETHIUM (G0056)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
+            "comment": "Machete (G0095) & Gamaredon Group (G0047)"
         },
         {
             "score": 1,
             "techniqueID": "T1204.001",
             "techniqueName": "Malicious Link",
             "comment": "Machete (G0095)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Machete (G0095) & Gamaredon Group (G0047)"
         },
         {
             "score": 3,
@@ -33,42 +57,6 @@
             "techniqueID": "T1032",
             "techniqueName": "Standard Cryptographic Protocol",
             "comment": "Machete (G0095)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "Machete (G0095) & Gamaredon Group (G0047)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "Machete (G0095)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Machete (G0095) & Gamaredon Group (G0047) & PROMETHIUM (G0056)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1053.005",
-            "techniqueName": "Scheduled Task",
-            "comment": "Machete (G0095) & Gamaredon Group (G0047)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1071.002",
-            "techniqueName": "File Transfer Protocols",
-            "comment": "Machete (G0095)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Machete (G0095) & Gamaredon Group (G0047)"
         },
         {
             "score": 1,
@@ -128,6 +116,12 @@
             "score": 1,
             "techniqueID": "T1137",
             "techniqueName": "Office Application Startup",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
             "comment": "Gamaredon Group (G0047)"
         },
         {
@@ -198,38 +192,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1059.005",
-            "techniqueName": "Visual Basic",
-            "comment": "Gamaredon Group (G0047)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1140",
             "techniqueName": "Deobfuscate/Decode Files or Information",
             "comment": "Gamaredon Group (G0047)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Gamaredon Group (G0047) & PROMETHIUM (G0056)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
-            "comment": "Gamaredon Group (G0047)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "Gamaredon Group (G0047)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1120",
-            "techniqueName": "Peripheral Device Discovery",
-            "comment": "Gamaredon Group (G0047)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
             "comment": "Gamaredon Group (G0047)"
         },
         {
@@ -242,6 +218,30 @@
             "score": 1,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1120",
+            "techniqueName": "Peripheral Device Discovery",
             "comment": "Gamaredon Group (G0047)"
         },
         {
@@ -288,29 +288,17 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "PROMETHIUM (G0056)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
-            "comment": "PROMETHIUM (G0056)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
             "comment": "PROMETHIUM (G0056)"
         }
     ],
     "gradient": {
         "colors": [
-            "#20609b",
-            "#e09f5e",
-            "#fce807",
-            "#027c37"
+            "#e8ac96",
+            "#2bd152",
+            "#e5c9ff",
+            "#40aaed"
         ],
         "minValue": 0,
         "maxValue": 3

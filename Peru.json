@@ -6,48 +6,6 @@
     "techniques": [
         {
             "score": 1,
-            "techniqueID": "T1003",
-            "techniqueName": "OS Credential Dumping",
-            "comment": "Sowbug (G0054)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "Sowbug (G0054)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "Sowbug (G0054)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "Sowbug (G0054)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "Sowbug (G0054)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1039",
-            "techniqueName": "Data from Network Shared Drive",
-            "comment": "Sowbug (G0054)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "Sowbug (G0054)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1135",
             "techniqueName": "Network Share Discovery",
             "comment": "Sowbug (G0054)"
@@ -60,14 +18,56 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1014",
-            "techniqueName": "Rootkit",
-            "comment": "Winnti Group (G0044)"
+            "techniqueID": "T1003",
+            "techniqueName": "OS Credential Dumping",
+            "comment": "Sowbug (G0054)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "Sowbug (G0054)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "Sowbug (G0054)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Sowbug (G0054)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "Sowbug (G0054)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "Sowbug (G0054)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
+            "comment": "Sowbug (G0054)"
         },
         {
             "score": 1,
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
+            "comment": "Winnti Group (G0044)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1014",
+            "techniqueName": "Rootkit",
             "comment": "Winnti Group (G0044)"
         },
         {
@@ -79,8 +79,8 @@
     ],
     "gradient": {
         "colors": [
-            "#d67a53",
-            "#bc42ed"
+            "#eac281",
+            "#63f97a"
         ],
         "minValue": 0,
         "maxValue": 1

@@ -12,14 +12,20 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
             "comment": "Group5 (G0043) & Magic Hound (G0059)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "Group5 (G0043) & Ke3chang (G0004) & Magic Hound (G0059)"
+        },
+        {
             "score": 2,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
             "comment": "Group5 (G0043) & Magic Hound (G0059)"
         },
         {
@@ -27,12 +33,6 @@
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
             "comment": "Group5 (G0043) & Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "Group5 (G0043) & Ke3chang (G0004) & Magic Hound (G0059)"
         },
         {
             "score": 1,
@@ -66,6 +66,18 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1558.001",
+            "techniqueName": "Golden Ticket",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "Ke3chang (G0004) & PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1114.002",
             "techniqueName": "Remote Email Collection",
             "comment": "Ke3chang (G0004)"
@@ -75,18 +87,6 @@
             "techniqueID": "T1018",
             "techniqueName": "Remote System Discovery",
             "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1558.001",
-            "techniqueName": "Golden Ticket",
-            "comment": "Ke3chang (G0004)"
         },
         {
             "score": 1,
@@ -102,15 +102,9 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1569.002",
-            "techniqueName": "Service Execution",
+            "techniqueID": "T1213.002",
+            "techniqueName": "Sharepoint",
             "comment": "Ke3chang (G0004)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
-            "comment": "Ke3chang (G0004) & PROMETHIUM (G0056)"
         },
         {
             "score": 5,
@@ -120,15 +114,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1213.002",
-            "techniqueName": "Sharepoint",
+            "techniqueID": "T1569.002",
+            "techniqueName": "Service Execution",
             "comment": "Ke3chang (G0004)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
+            "score": 3,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -144,62 +138,8 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1007",
-            "techniqueName": "System Service Discovery",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1069.002",
-            "techniqueName": "Domain Groups",
-            "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1041",
-            "techniqueName": "Exfiltration Over C2 Channel",
-            "comment": "Ke3chang (G0004)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Ke3chang (G0004) & Turla (G0010)"
         },
         {
@@ -209,34 +149,94 @@
             "comment": "Ke3chang (G0004)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
             "score": 2,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1007",
+            "techniqueName": "System Service Discovery",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1069.002",
+            "techniqueName": "Domain Groups",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1041",
+            "techniqueName": "Exfiltration Over C2 Channel",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1059",
             "techniqueName": "Command and Scripting Interpreter",
-            "comment": "Ke3chang (G0004) & Molerats (G0021)"
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1586.002",
+            "techniqueName": "Email Accounts",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1585.002",
+            "techniqueName": "Email Accounts",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1589.001",
+            "techniqueName": "Credentials",
+            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 1,
             "techniqueID": "T1566.003",
             "techniqueName": "Spearphishing via Service",
             "comment": "Magic Hound (G0059)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & PROMETHIUM (G0056)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1555.003",
-            "techniqueName": "Credentials from Web Browsers",
-            "comment": "Magic Hound (G0059) & Molerats (G0021)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -276,12 +276,6 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
-        },
-        {
-            "score": 3,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
             "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
@@ -294,9 +288,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
             "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -306,9 +306,21 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
             "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.007",
+            "techniqueName": "Msiexec",
+            "comment": "Molerats (G0021)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
+            "comment": "Molerats (G0021)"
         },
         {
             "score": 2,
@@ -317,10 +329,22 @@
             "comment": "Molerats (G0021) & Turla (G0010)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
+            "techniqueName": "JavaScript",
+            "comment": "Molerats (G0021) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
             "comment": "Molerats (G0021)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "Molerats (G0021) & PROMETHIUM (G0056)"
         },
         {
             "score": 2,
@@ -333,6 +357,12 @@
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
             "comment": "Molerats (G0021) & PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1555.003",
+            "techniqueName": "Credentials from Web Browsers",
+            "comment": "Molerats (G0021)"
         },
         {
             "score": 1,
@@ -353,10 +383,10 @@
             "comment": "PROMETHIUM (G0056)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1078.003",
             "techniqueName": "Local Accounts",
-            "comment": "PROMETHIUM (G0056)"
+            "comment": "PROMETHIUM (G0056) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -375,6 +405,48 @@
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "PROMETHIUM (G0056) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1553.006",
+            "techniqueName": "Code Signing Policy Modification",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1016.001",
+            "techniqueName": "Internet Connection Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.006",
+            "techniqueName": "Python",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1071.003",
+            "techniqueName": "Mail Protocols",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1583.006",
+            "techniqueName": "Web Services",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102",
+            "techniqueName": "Web Service",
+            "comment": "Turla (G0010)"
         },
         {
             "score": 1,
@@ -456,8 +528,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1555",
-            "techniqueName": "Credentials from Password Stores",
+            "techniqueID": "T1555.004",
+            "techniqueName": "Windows Credential Manager",
             "comment": "Turla (G0010)"
         },
         {
@@ -510,14 +582,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1055",
-            "techniqueName": "Process Injection",
+            "techniqueID": "T1547.004",
+            "techniqueName": "Winlogon Helper DLL",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1547.004",
-            "techniqueName": "Winlogon Helper DLL",
+            "techniqueID": "T1055",
+            "techniqueName": "Process Injection",
             "comment": "Turla (G0010)"
         },
         {
@@ -547,12 +619,12 @@
     ],
     "gradient": {
         "colors": [
-            "#3a4fb7",
-            "#d7aaed",
-            "#91f2e2",
-            "#e5ffa5",
-            "#f7822e",
-            "#db8c62"
+            "#d32a92",
+            "#e9f995",
+            "#efd36e",
+            "#efd78d",
+            "#115c75",
+            "#f49589"
         ],
         "minValue": 0,
         "maxValue": 5

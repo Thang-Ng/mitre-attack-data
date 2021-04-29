@@ -6,8 +6,14 @@
     "techniques": [
         {
             "score": 1,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
+            "techniqueID": "T1203",
+            "techniqueName": "Exploitation for Client Execution",
+            "comment": "TA459 (G0062)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
             "comment": "TA459 (G0062)"
         },
         {
@@ -18,27 +24,21 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "TA459 (G0062)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
-            "comment": "TA459 (G0062)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1203",
-            "techniqueName": "Exploitation for Client Execution",
-            "comment": "TA459 (G0062)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059.005",
-            "techniqueName": "Visual Basic",
             "comment": "TA459 (G0062)"
         }
     ],
     "gradient": {
         "colors": [
-            "#f2a4e7",
-            "#8befb3"
+            "#d8f91d",
+            "#baf75d"
         ],
         "minValue": 0,
         "maxValue": 1

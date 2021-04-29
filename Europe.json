@@ -5,10 +5,10 @@
     "version": "3.0",
     "techniques": [
         {
-            "score": 1,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "Dust Storm (G0031)"
+            "score": 2,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Dust Storm (G0031) & Leafminer (G0077)"
         },
         {
             "score": 2,
@@ -17,10 +17,10 @@
             "comment": "Dust Storm (G0031) & Leafminer (G0077)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Dust Storm (G0031) & Leafminer (G0077)"
+            "score": 1,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "Dust Storm (G0031)"
         },
         {
             "score": 1,
@@ -60,14 +60,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
+            "techniqueID": "T1110.003",
+            "techniqueName": "Password Spraying",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -78,14 +72,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1114.002",
-            "techniqueName": "Remote Email Collection",
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -96,14 +84,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1110.003",
-            "techniqueName": "Password Spraying",
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
             "comment": "Leafminer (G0077)"
         },
         {
             "score": 1,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -115,9 +115,9 @@
     ],
     "gradient": {
         "colors": [
-            "#197f02",
-            "#ea6348",
-            "#8c73d1"
+            "#7c7cf9",
+            "#d1ba29",
+            "#9bdd0d"
         ],
         "minValue": 0,
         "maxValue": 2

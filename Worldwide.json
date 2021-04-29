@@ -6,6 +6,12 @@
     "techniques": [
         {
             "score": 1,
+            "techniqueID": "T1553.005",
+            "techniqueName": "Mark-of-the-Web Bypass",
+            "comment": "TA505 (G0092)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1055.001",
             "techniqueName": "Dynamic-link Library Injection",
             "comment": "TA505 (G0092)"
@@ -55,7 +61,7 @@
         {
             "score": 1,
             "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
+            "techniqueName": "JavaScript",
             "comment": "TA505 (G0092)"
         },
         {
@@ -151,8 +157,8 @@
     ],
     "gradient": {
         "colors": [
-            "#cb23ce",
-            "#16149b"
+            "#abfcda",
+            "#070a9e"
         ],
         "minValue": 0,
         "maxValue": 1

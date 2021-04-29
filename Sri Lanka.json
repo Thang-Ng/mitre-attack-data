@@ -91,7 +91,7 @@
         {
             "score": 1,
             "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
+            "techniqueName": "JavaScript",
             "comment": "Silence (G0091)"
         },
         {
@@ -169,8 +169,8 @@
     ],
     "gradient": {
         "colors": [
-            "#6f77e8",
-            "#dda223"
+            "#9987ed",
+            "#6b48ea"
         ],
         "minValue": 0,
         "maxValue": 1

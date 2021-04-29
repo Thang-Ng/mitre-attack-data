@@ -5,16 +5,82 @@
     "version": "3.0",
     "techniques": [
         {
-            "score": 10,
+            "score": 11,
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
-            "comment": "BlackOasis (G0063) & Dark Caracal (G0070) & Darkhotel (G0012) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & Turla (G0010)"
+            "comment": "BlackOasis (G0063) & APT39 (G0087) & Dark Caracal (G0070) & Darkhotel (G0012) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1546.010",
+            "techniqueName": "AppInit DLLs",
+            "comment": "APT39 (G0087)"
+        },
+        {
+            "score": 7,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "APT39 (G0087) & Darkhotel (G0012) & Leviathan (G0065) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1553.006",
+            "techniqueName": "Code Signing Policy Modification",
+            "comment": "APT39 (G0087) & Turla (G0010)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "APT39 (G0087) & Magic Hound (G0059) & OilRig (G0049) & Silence (G0091) & TEMP.Veles (G0088)"
         },
         {
             "score": 4,
+            "techniqueID": "T1041",
+            "techniqueName": "Exfiltration Over C2 Channel",
+            "comment": "APT39 (G0087) & Ke3chang (G0004) & MuddyWater (G0069) & Stealth Falcon (G0038)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "APT39 (G0087) & Leviathan (G0065) & TEMP.Veles (G0088)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1197",
+            "techniqueName": "BITS Jobs",
+            "comment": "APT39 (G0087) & Leviathan (G0065)"
+        },
+        {
+            "score": 7,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "APT39 (G0087) & Dark Caracal (G0070) & Darkhotel (G0012) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1012",
+            "techniqueName": "Query Registry",
+            "comment": "APT39 (G0087) & OilRig (G0049) & Stealth Falcon (G0038) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1056",
+            "techniqueName": "Input Capture",
+            "comment": "APT39 (G0087)"
+        },
+        {
+            "score": 7,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
+            "comment": "APT39 (G0087) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 5,
             "techniqueID": "T1036.005",
             "techniqueName": "Match Legitimate Name or Location",
-            "comment": "APT39 (G0087) & MuddyWater (G0069) & Silence (G0091) & TEMP.Veles (G0088)"
+            "comment": "APT39 (G0087) & Darkhotel (G0012) & MuddyWater (G0069) & Silence (G0091) & TEMP.Veles (G0088)"
         },
         {
             "score": 1,
@@ -47,10 +113,10 @@
             "comment": "APT39 (G0087)"
         },
         {
-            "score": 8,
+            "score": 9,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
-            "comment": "APT39 (G0087) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & Turla (G0010)"
+            "comment": "APT39 (G0087) & Darkhotel (G0012) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & Turla (G0010)"
         },
         {
             "score": 4,
@@ -71,10 +137,10 @@
             "comment": "APT39 (G0087) & Dark Caracal (G0070) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Orangeworm (G0071) & Stealth Falcon (G0038) & Turla (G0010)"
         },
         {
-            "score": 1,
+            "score": 3,
             "techniqueID": "T1059.006",
             "techniqueName": "Python",
-            "comment": "APT39 (G0087)"
+            "comment": "APT39 (G0087) & MuddyWater (G0069) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -83,10 +149,10 @@
             "comment": "APT39 (G0087) & Ke3chang (G0004) & OilRig (G0049)"
         },
         {
-            "score": 3,
+            "score": 4,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
-            "comment": "APT39 (G0087) & Magic Hound (G0059) & Turla (G0010)"
+            "comment": "APT39 (G0087) & Magic Hound (G0059) & MuddyWater (G0069) & Turla (G0010)"
         },
         {
             "score": 11,
@@ -119,10 +185,10 @@
             "comment": "APT39 (G0087) & MuddyWater (G0069) & Silence (G0091)"
         },
         {
-            "score": 5,
+            "score": 4,
             "techniqueID": "T1555",
             "techniqueName": "Credentials from Password Stores",
-            "comment": "APT39 (G0087) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038) & Turla (G0010)"
+            "comment": "APT39 (G0087) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038)"
         },
         {
             "score": 3,
@@ -131,10 +197,10 @@
             "comment": "APT39 (G0087) & OilRig (G0049) & Turla (G0010)"
         },
         {
-            "score": 5,
+            "score": 6,
             "techniqueID": "T1204.001",
             "techniqueName": "Malicious Link",
-            "comment": "APT39 (G0087) & Leviathan (G0065) & Molerats (G0021) & OilRig (G0049) & Turla (G0010)"
+            "comment": "APT39 (G0087) & Leviathan (G0065) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Turla (G0010)"
         },
         {
             "score": 5,
@@ -149,10 +215,10 @@
             "comment": "APT39 (G0087) & Dark Caracal (G0070)"
         },
         {
-            "score": 10,
+            "score": 9,
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
-            "comment": "APT39 (G0087) & Dark Caracal (G0070) & Darkhotel (G0012) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Naikon (G0019) & OilRig (G0049) & Silence (G0091)"
+            "comment": "APT39 (G0087) & Dark Caracal (G0070) & Darkhotel (G0012) & Leviathan (G0065) & Molerats (G0021) & MuddyWater (G0069) & Naikon (G0019) & OilRig (G0049) & Silence (G0091)"
         },
         {
             "score": 4,
@@ -173,10 +239,10 @@
             "comment": "APT39 (G0087) & Leviathan (G0065) & OilRig (G0049) & Silence (G0091) & TEMP.Veles (G0088)"
         },
         {
-            "score": 5,
+            "score": 4,
             "techniqueID": "T1059",
             "techniqueName": "Command and Scripting Interpreter",
-            "comment": "APT39 (G0087) & Ke3chang (G0004) & Molerats (G0021) & OilRig (G0049) & Stealth Falcon (G0038)"
+            "comment": "APT39 (G0087) & Ke3chang (G0004) & OilRig (G0049) & Stealth Falcon (G0038)"
         },
         {
             "score": 2,
@@ -215,10 +281,10 @@
             "comment": "APT39 (G0087) & Darkhotel (G0012) & Leviathan (G0065)"
         },
         {
-            "score": 6,
+            "score": 7,
             "techniqueID": "T1053.005",
             "techniqueName": "Scheduled Task",
-            "comment": "APT39 (G0087) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & Stealth Falcon (G0038) & TEMP.Veles (G0088)"
+            "comment": "APT39 (G0087) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & Stealth Falcon (G0038) & TEMP.Veles (G0088)"
         },
         {
             "score": 5,
@@ -233,16 +299,16 @@
             "comment": "APT39 (G0087) & Dark Caracal (G0070) & Darkhotel (G0012) & Ke3chang (G0004) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091) & Turla (G0010)"
         },
         {
-            "score": 6,
+            "score": 7,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
-            "comment": "APT39 (G0087) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & OilRig (G0049) & Turla (G0010)"
+            "comment": "APT39 (G0087) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Turla (G0010)"
         },
         {
-            "score": 10,
+            "score": 8,
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
-            "comment": "APT39 (G0087) & Darkhotel (G0012) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Naikon (G0019) & OilRig (G0049) & Silence (G0091) & Turla (G0010)"
+            "comment": "APT39 (G0087) & Darkhotel (G0012) & Leviathan (G0065) & Molerats (G0021) & MuddyWater (G0069) & Naikon (G0019) & OilRig (G0049) & Silence (G0091)"
         },
         {
             "score": 2,
@@ -294,6 +360,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1313",
+            "techniqueName": "Obfuscation or cryptography",
+            "comment": "Cleaver (G0003)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1341",
             "techniqueName": "Build social network persona",
             "comment": "Cleaver (G0003)"
@@ -305,22 +377,10 @@
             "comment": "Cleaver (G0003)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1313",
-            "techniqueName": "Obfuscation or cryptography",
-            "comment": "Cleaver (G0003)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "Dark Caracal (G0070) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Turla (G0010)"
+            "score": 9,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Ke3chang (G0004) & Leviathan (G0065) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -329,10 +389,10 @@
             "comment": "Dark Caracal (G0070) & Magic Hound (G0059) & OilRig (G0049)"
         },
         {
-            "score": 9,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Ke3chang (G0004) & Leviathan (G0065) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & Turla (G0010)"
+            "score": 3,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -353,16 +413,46 @@
             "comment": "Dark Caracal (G0070)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1497.002",
+            "techniqueName": "User Activity Based Checks",
+            "comment": "Darkhotel (G0012)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1124",
+            "techniqueName": "System Time Discovery",
+            "comment": "Darkhotel (G0012) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1497",
+            "techniqueName": "Virtualization/Sandbox Evasion",
+            "comment": "Darkhotel (G0012)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1497.001",
+            "techniqueName": "System Checks",
+            "comment": "Darkhotel (G0012)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1203",
+            "techniqueName": "Exploitation for Client Execution",
+            "comment": "Darkhotel (G0012) & Leviathan (G0065) & MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1573.001",
+            "techniqueName": "Symmetric Cryptography",
+            "comment": "Darkhotel (G0012) & Stealth Falcon (G0038)"
+        },
+        {
             "score": 7,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
             "comment": "Darkhotel (G0012) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038) & Turla (G0010)"
-        },
-        {
-            "score": 6,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "Darkhotel (G0012) & Leviathan (G0065) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Turla (G0010)"
         },
         {
             "score": 8,
@@ -384,14 +474,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1091",
-            "techniqueName": "Replication Through Removable Media",
+            "techniqueID": "T1080",
+            "techniqueName": "Taint Shared Content",
             "comment": "Darkhotel (G0012)"
         },
         {
             "score": 1,
-            "techniqueID": "T1080",
-            "techniqueName": "Taint Shared Content",
+            "techniqueID": "T1091",
+            "techniqueName": "Replication Through Removable Media",
             "comment": "Darkhotel (G0012)"
         },
         {
@@ -420,14 +510,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1114.002",
-            "techniqueName": "Remote Email Collection",
+            "techniqueID": "T1558.001",
+            "techniqueName": "Golden Ticket",
             "comment": "Ke3chang (G0004)"
         },
         {
             "score": 1,
-            "techniqueID": "T1558.001",
-            "techniqueName": "Golden Ticket",
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
             "comment": "Ke3chang (G0004)"
         },
         {
@@ -438,21 +534,21 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
-            "comment": "Ke3chang (G0004)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1213.002",
             "techniqueName": "Sharepoint",
             "comment": "Ke3chang (G0004)"
         },
         {
-            "score": 3,
+            "score": 4,
             "techniqueID": "T1087.002",
             "techniqueName": "Domain Account",
-            "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
+            "comment": "Ke3chang (G0004) & MuddyWater (G0069) & OilRig (G0049) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Ke3chang (G0004)"
         },
         {
             "score": 3,
@@ -467,22 +563,10 @@
             "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1041",
-            "techniqueName": "Exfiltration Over C2 Channel",
-            "comment": "Ke3chang (G0004) & MuddyWater (G0069) & Stealth Falcon (G0038)"
-        },
-        {
-            "score": 3,
+            "score": 4,
             "techniqueID": "T1049",
             "techniqueName": "System Network Connections Discovery",
-            "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Ke3chang (G0004)"
+            "comment": "Ke3chang (G0004) & MuddyWater (G0069) & OilRig (G0049) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -491,28 +575,22 @@
             "comment": "Leviathan (G0065) & Turla (G0010)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1218.010",
+            "techniqueName": "Regsvr32",
+            "comment": "Leviathan (G0065)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
+            "comment": "Leviathan (G0065)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1546.003",
             "techniqueName": "Windows Management Instrumentation Event Subscription",
             "comment": "Leviathan (G0065) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1197",
-            "techniqueName": "BITS Jobs",
-            "comment": "Leviathan (G0065)"
-        },
-        {
-            "score": 6,
-            "techniqueID": "T1059.005",
-            "techniqueName": "Visual Basic",
-            "comment": "Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1102.003",
-            "techniqueName": "One-Way Communication",
-            "comment": "Leviathan (G0065)"
         },
         {
             "score": 4,
@@ -522,33 +600,27 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
+            "techniqueID": "T1102.003",
+            "techniqueName": "One-Way Communication",
             "comment": "Leviathan (G0065)"
         },
         {
             "score": 1,
-            "techniqueID": "T1218.010",
-            "techniqueName": "Regsvr32",
-            "comment": "Leviathan (G0065)"
+            "techniqueID": "T1586.002",
+            "techniqueName": "Email Accounts",
+            "comment": "Magic Hound (G0059)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1203",
-            "techniqueName": "Exploitation for Client Execution",
-            "comment": "Leviathan (G0065) & MuddyWater (G0069)"
+            "score": 1,
+            "techniqueID": "T1585.002",
+            "techniqueName": "Email Accounts",
+            "comment": "Magic Hound (G0059)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "Leviathan (G0065) & TEMP.Veles (G0088)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1555.003",
-            "techniqueName": "Credentials from Web Browsers",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038)"
+            "score": 1,
+            "techniqueID": "T1589.001",
+            "techniqueName": "Credentials",
+            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 3,
@@ -587,16 +659,58 @@
             "comment": "Magic Hound (G0059) & TEMP.Veles (G0088)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1218.007",
+            "techniqueName": "Msiexec",
+            "comment": "Molerats (G0021)"
+        },
+        {
             "score": 4,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Magic Hound (G0059) & OilRig (G0049) & Silence (G0091) & TEMP.Veles (G0088)"
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript",
+            "comment": "Molerats (G0021) & MuddyWater (G0069) & Silence (G0091) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1555.003",
+            "techniqueName": "Credentials from Web Browsers",
+            "comment": "Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Stealth Falcon (G0038)"
         },
         {
             "score": 2,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
-            "comment": "Molerats (G0021) & Silence (G0091)"
+            "techniqueID": "T1562.001",
+            "techniqueName": "Disable or Modify Tools",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1219",
+            "techniqueName": "Remote Access Software",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1518",
+            "techniqueName": "Software Discovery",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1589.002",
+            "techniqueName": "Email Addresses",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1583.006",
+            "techniqueName": "Web Services",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -660,14 +774,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1218.005",
-            "techniqueName": "Mshta",
+            "techniqueID": "T1218.003",
+            "techniqueName": "CMSTP",
             "comment": "MuddyWater (G0069)"
         },
         {
             "score": 1,
-            "techniqueID": "T1218.003",
-            "techniqueName": "CMSTP",
+            "techniqueID": "T1218.005",
+            "techniqueName": "Mshta",
             "comment": "MuddyWater (G0069)"
         },
         {
@@ -681,6 +795,12 @@
             "techniqueID": "T1574.002",
             "techniqueName": "DLL Side-Loading",
             "comment": "Naikon (G0019)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1555.004",
+            "techniqueName": "Windows Credential Manager",
+            "comment": "OilRig (G0049) & Stealth Falcon (G0038) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -708,15 +828,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
             "comment": "OilRig (G0049)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1069.001",
-            "techniqueName": "Local Groups",
-            "comment": "OilRig (G0049) & Turla (G0010)"
+            "score": 1,
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
+            "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
@@ -725,16 +845,10 @@
             "comment": "OilRig (G0049)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1012",
-            "techniqueName": "Query Registry",
-            "comment": "OilRig (G0049) & Stealth Falcon (G0038) & Turla (G0010)"
+            "score": 2,
+            "techniqueID": "T1069.001",
+            "techniqueName": "Local Groups",
+            "comment": "OilRig (G0049) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -780,12 +894,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1573.001",
-            "techniqueName": "Symmetric Cryptography",
-            "comment": "Stealth Falcon (G0038)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1583.003",
             "techniqueName": "Virtual Private Server",
             "comment": "TEMP.Veles (G0088)"
@@ -813,6 +921,36 @@
             "techniqueID": "T1329",
             "techniqueName": "Acquire and/or use 3rd party infrastructure services",
             "comment": "TEMP.Veles (G0088)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1016.001",
+            "techniqueName": "Internet Connection Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1071.003",
+            "techniqueName": "Mail Protocols",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078.003",
+            "techniqueName": "Local Accounts",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1102",
+            "techniqueName": "Web Service",
+            "comment": "Turla (G0010)"
         },
         {
             "score": 1,
@@ -882,12 +1020,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1562.001",
-            "techniqueName": "Disable or Modify Tools",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1546.013",
             "techniqueName": "PowerShell Profile",
             "comment": "Turla (G0010)"
@@ -897,28 +1029,22 @@
             "techniqueID": "T1547.004",
             "techniqueName": "Winlogon Helper DLL",
             "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1124",
-            "techniqueName": "System Time Discovery",
-            "comment": "Turla (G0010)"
         }
     ],
     "gradient": {
         "colors": [
-            "#b780f2",
-            "#7be06b",
-            "#103f75",
-            "#420cd6",
-            "#aaefff",
-            "#cce5ff",
-            "#41c691",
-            "#eaa1e2",
-            "#875f5e",
-            "#dd338e",
-            "#dfea15",
-            "#24518c"
+            "#d32eaf",
+            "#d64f22",
+            "#e587c1",
+            "#ffc942",
+            "#57dba8",
+            "#82e594",
+            "#0d597a",
+            "#51d157",
+            "#f4eb3f",
+            "#f9f0b1",
+            "#d87bbb",
+            "#dfccff"
         ],
         "minValue": 0,
         "maxValue": 11

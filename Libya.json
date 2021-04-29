@@ -6,8 +6,14 @@
     "techniques": [
         {
             "score": 1,
-            "techniqueID": "T1059",
-            "techniqueName": "Command and Scripting Interpreter",
+            "techniqueID": "T1218.007",
+            "techniqueName": "Msiexec",
+            "comment": "Molerats (G0021)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
             "comment": "Molerats (G0021)"
         },
         {
@@ -25,7 +31,7 @@
         {
             "score": 1,
             "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript/JScript",
+            "techniqueName": "JavaScript",
             "comment": "Molerats (G0021)"
         },
         {
@@ -78,12 +84,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1555.003",
-            "techniqueName": "Credentials from Web Browsers",
-            "comment": "Molerats (G0021)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1057",
             "techniqueName": "Process Discovery",
             "comment": "Molerats (G0021)"
@@ -93,12 +93,18 @@
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
             "comment": "Molerats (G0021)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1555.003",
+            "techniqueName": "Credentials from Web Browsers",
+            "comment": "Molerats (G0021)"
         }
     ],
     "gradient": {
         "colors": [
-            "#e8e058",
-            "#b0f78c"
+            "#61a50d",
+            "#f2ffb2"
         ],
         "minValue": 0,
         "maxValue": 1
