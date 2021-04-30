@@ -126,14 +126,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1080",
+            "techniqueName": "Taint Shared Content",
+            "comment": "Darkhotel (G0012)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
             "comment": "Darkhotel (G0012)"
         },
         {
             "score": 1,
-            "techniqueID": "T1080",
-            "techniqueName": "Taint Shared Content",
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Darkhotel (G0012)"
         },
         {
@@ -147,18 +153,12 @@
             "techniqueID": "T1056.001",
             "techniqueName": "Keylogging",
             "comment": "Darkhotel (G0012)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Darkhotel (G0012)"
         }
     ],
     "gradient": {
         "colors": [
-            "#a7a7e8",
-            "#dd7446"
+            "#20a382",
+            "#7deda8"
         ],
         "minValue": 0,
         "maxValue": 1

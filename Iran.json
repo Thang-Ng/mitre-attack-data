@@ -335,6 +335,24 @@
             "comment": "APT32 (G0050) & Ke3chang (G0004) & Turla (G0010)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
+            "comment": "APT32 (G0050) & Gamaredon Group (G0047)"
+        },
+        {
+            "score": 7,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "APT32 (G0050) & Gamaredon Group (G0047) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & Turla (G0010)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "APT32 (G0050) & Gamaredon Group (G0047) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
@@ -351,24 +369,6 @@
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
             "comment": "APT32 (G0050) & APT33 (G0064) & DarkHydrus (G0079) & Gamaredon Group (G0047) & Molerats (G0021) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "APT32 (G0050) & Gamaredon Group (G0047) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "APT32 (G0050) & Gamaredon Group (G0047)"
-        },
-        {
-            "score": 7,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "APT32 (G0050) & Gamaredon Group (G0047) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -425,10 +425,10 @@
             "comment": "APT32 (G0050) & APT33 (G0064) & DarkHydrus (G0079) & Threat Group-3390 (G0027) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
-            "comment": "APT32 (G0050)"
+            "score": 11,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "APT32 (G0050) & APT33 (G0064) & BlackOasis (G0063) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -437,16 +437,22 @@
             "comment": "APT32 (G0050)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
+            "comment": "APT32 (G0050)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "APT32 (G0050) & MuddyWater (G0069) & Sandworm Team (G0034)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1070.006",
             "techniqueName": "Timestomp",
             "comment": "APT32 (G0050) & APT28 (G0007)"
-        },
-        {
-            "score": 11,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "APT32 (G0050) & APT33 (G0064) & BlackOasis (G0063) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 5,
@@ -459,12 +465,6 @@
             "techniqueID": "T1078.003",
             "techniqueName": "Local Accounts",
             "comment": "APT32 (G0050) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "APT32 (G0050) & MuddyWater (G0069) & Sandworm Team (G0034)"
         },
         {
             "score": 2,
@@ -587,6 +587,12 @@
             "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
         },
         {
+            "score": 7,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Molerats (G0021) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1055.012",
             "techniqueName": "Process Hollowing",
@@ -599,28 +605,22 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 7,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Molerats (G0021) & MuddyWater (G0069) & Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1548.002",
             "techniqueName": "Bypass User Account Control",
             "comment": "Threat Group-3390 (G0027) & MuddyWater (G0069)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1070.005",
-            "techniqueName": "Network Share Connection Removal",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1119",
             "techniqueName": "Automated Collection",
             "comment": "Threat Group-3390 (G0027) & Gamaredon Group (G0047) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.005",
+            "techniqueName": "Network Share Connection Removal",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
@@ -641,6 +641,18 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1030",
+            "techniqueName": "Data Transfer Size Limits",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
             "score": 6,
             "techniqueID": "T1005",
             "techniqueName": "Data from Local System",
@@ -651,18 +663,6 @@
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
             "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1030",
-            "techniqueName": "Data Transfer Size Limits",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & Sandworm Team (G0034)"
         },
         {
             "score": 3,
@@ -786,14 +786,14 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1114.002",
-            "techniqueName": "Remote Email Collection",
+            "techniqueID": "T1213.002",
+            "techniqueName": "Sharepoint",
             "comment": "Ke3chang (G0004) & APT28 (G0007)"
         },
         {
             "score": 2,
-            "techniqueID": "T1213.002",
-            "techniqueName": "Sharepoint",
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
             "comment": "Ke3chang (G0004) & APT28 (G0007)"
         },
         {
@@ -801,6 +801,12 @@
             "techniqueID": "T1087.002",
             "techniqueName": "Domain Account",
             "comment": "Ke3chang (G0004) & MuddyWater (G0069) & Sandworm Team (G0034) & Turla (G0010)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -813,12 +819,6 @@
             "techniqueID": "T1069.002",
             "techniqueName": "Domain Groups",
             "comment": "Ke3chang (G0004) & Turla (G0010)"
-        },
-        {
-            "score": 6,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
-            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -1122,14 +1122,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1037.001",
-            "techniqueName": "Logon Script (Windows)",
+            "techniqueID": "T1211",
+            "techniqueName": "Exploitation for Defense Evasion",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1211",
-            "techniqueName": "Exploitation for Defense Evasion",
+            "techniqueID": "T1037.001",
+            "techniqueName": "Logon Script (Windows)",
             "comment": "APT28 (G0007)"
         },
         {
@@ -1158,14 +1158,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1546.015",
-            "techniqueName": "Component Object Model Hijacking",
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
+            "techniqueID": "T1546.015",
+            "techniqueName": "Component Object Model Hijacking",
             "comment": "APT28 (G0007)"
         },
         {
@@ -1303,18 +1303,18 @@
     ],
     "gradient": {
         "colors": [
-            "#028953",
-            "#3fc19a",
-            "#bffc8d",
-            "#8de20d",
-            "#b72c3c",
-            "#ea7785",
-            "#6b7ee5",
-            "#fc19b0",
-            "#66e85c",
-            "#59f287",
-            "#be29e8",
-            "#2bdd1f"
+            "#c9e4ff",
+            "#adffda",
+            "#fcc4de",
+            "#5f82bf",
+            "#b56815",
+            "#817edd",
+            "#a9f9bf",
+            "#90f469",
+            "#2b59a8",
+            "#75e866",
+            "#81d363",
+            "#224d93"
         ],
         "minValue": 0,
         "maxValue": 11

@@ -72,6 +72,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1110.003",
             "techniqueName": "Password Spraying",
             "comment": "Leafminer (G0077)"
@@ -86,12 +92,6 @@
             "score": 1,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -133,8 +133,8 @@
     ],
     "gradient": {
         "colors": [
-            "#a5ace5",
-            "#f47384"
+            "#eddb17",
+            "#44d337"
         ],
         "minValue": 0,
         "maxValue": 1

@@ -6,12 +6,6 @@
     "techniques": [
         {
             "score": 2,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Dust Storm (G0031) & Patchwork (G0040)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
             "comment": "Dust Storm (G0031) & Patchwork (G0040)"
@@ -20,6 +14,12 @@
             "score": 2,
             "techniqueID": "T1005",
             "techniqueName": "Data from Local System",
+            "comment": "Dust Storm (G0031) & Patchwork (G0040)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
             "comment": "Dust Storm (G0031) & Patchwork (G0040)"
         },
         {
@@ -54,6 +54,24 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1574.002",
+            "techniqueName": "DLL Side-Loading",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1112",
+            "techniqueName": "Modify Registry",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1559.002",
             "techniqueName": "Dynamic Data Exchange",
             "comment": "Patchwork (G0040)"
@@ -71,6 +89,12 @@
             "comment": "Patchwork (G0040)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "Patchwork (G0040)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
@@ -78,8 +102,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1574.002",
-            "techniqueName": "DLL Side-Loading",
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -90,32 +120,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1560",
-            "techniqueName": "Archive Collected Data",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1112",
-            "techniqueName": "Modify Registry",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -125,22 +131,16 @@
             "comment": "Patchwork (G0040)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "Patchwork (G0040) & Rancor (G0075)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Patchwork (G0040)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
             "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "Patchwork (G0040) & Rancor (G0075)"
         },
         {
             "score": 1,
@@ -168,14 +168,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
+            "techniqueID": "T1021.001",
+            "techniqueName": "Remote Desktop Protocol",
+            "comment": "Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -192,20 +198,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1021.001",
-            "techniqueName": "Remote Desktop Protocol",
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -216,14 +210,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Account Control",
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
             "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
+            "techniqueID": "T1548.002",
+            "techniqueName": "Bypass User Account Control",
             "comment": "Patchwork (G0040)"
         },
         {
@@ -231,6 +225,12 @@
             "techniqueID": "T1059.003",
             "techniqueName": "Windows Command Shell",
             "comment": "Patchwork (G0040) & Rancor (G0075)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -247,9 +247,9 @@
     ],
     "gradient": {
         "colors": [
-            "#3e4dbc",
-            "#c84af9",
-            "#e886a3"
+            "#c63b3d",
+            "#382a2a",
+            "#135899"
         ],
         "minValue": 0,
         "maxValue": 2

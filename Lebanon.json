@@ -12,9 +12,9 @@
         },
         {
             "score": 4,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & MuddyWater (G0069) & OilRig (G0049)"
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Molerats (G0021) & MuddyWater (G0069)"
         },
         {
             "score": 1,
@@ -27,6 +27,30 @@
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
             "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Leafminer (G0077) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1218.001",
+            "techniqueName": "Compiled HTML File",
+            "comment": "Dark Caracal (G0070) & OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "Dark Caracal (G0070)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & MuddyWater (G0069) & OilRig (G0049)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
             "score": 2,
@@ -47,33 +71,9 @@
             "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Leafminer (G0077)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Molerats (G0021) & MuddyWater (G0069)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1113",
             "techniqueName": "Screen Capture",
-            "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "Dark Caracal (G0070)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1218.001",
-            "techniqueName": "Compiled HTML File",
-            "comment": "Dark Caracal (G0070) & OilRig (G0049)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
             "comment": "Dark Caracal (G0070) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
@@ -179,16 +179,16 @@
             "comment": "Darkhotel (G0012)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
-            "comment": "Darkhotel (G0012) & Molerats (G0021)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1080",
             "techniqueName": "Taint Shared Content",
             "comment": "Darkhotel (G0012)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
+            "comment": "Darkhotel (G0012) & Molerats (G0021)"
         },
         {
             "score": 1,
@@ -269,6 +269,12 @@
             "comment": "Leafminer (G0077)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript",
+            "comment": "Leafminer (G0077) & Molerats (G0021) & MuddyWater (G0069)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1110.003",
             "techniqueName": "Password Spraying",
@@ -279,12 +285,6 @@
             "techniqueID": "T1136.001",
             "techniqueName": "Local Account",
             "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript",
-            "comment": "Leafminer (G0077) & Molerats (G0021) & MuddyWater (G0069)"
         },
         {
             "score": 2,
@@ -546,6 +546,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1110",
             "techniqueName": "Brute Force",
             "comment": "OilRig (G0049)"
@@ -558,26 +564,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1573.002",
             "techniqueName": "Asymmetric Cryptography",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
             "comment": "OilRig (G0049)"
         },
         {
@@ -594,6 +582,36 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1007",
+            "techniqueName": "System Service Discovery",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1069.001",
+            "techniqueName": "Local Groups",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059",
+            "techniqueName": "Command and Scripting Interpreter",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1008",
             "techniqueName": "Fallback Channels",
             "comment": "OilRig (G0049)"
@@ -606,26 +624,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1069.001",
-            "techniqueName": "Local Groups",
+            "techniqueID": "T1012",
+            "techniqueName": "Query Registry",
             "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
             "techniqueID": "T1021.001",
             "techniqueName": "Remote Desktop Protocol",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1007",
-            "techniqueName": "System Service Discovery",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059",
-            "techniqueName": "Command and Scripting Interpreter",
             "comment": "OilRig (G0049)"
         },
         {
@@ -642,12 +648,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1012",
-            "techniqueName": "Query Registry",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
             "comment": "OilRig (G0049)"
@@ -655,13 +655,13 @@
     ],
     "gradient": {
         "colors": [
-            "#3dcc44",
-            "#7a35c4",
-            "#dd3b2c",
-            "#f90014",
-            "#d896e0",
-            "#cdaff7",
-            "#b77019"
+            "#2db53f",
+            "#dd6376",
+            "#c6812d",
+            "#89d4ed",
+            "#7ef47c",
+            "#acff63",
+            "#398e96"
         ],
         "minValue": 0,
         "maxValue": 6

@@ -6,12 +6,6 @@
     "techniques": [
         {
             "score": 2,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Dust Storm (G0031) & Leafminer (G0077)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
             "comment": "Dust Storm (G0031) & Leafminer (G0077)"
@@ -21,6 +15,12 @@
             "techniqueID": "T1005",
             "techniqueName": "Data from Local System",
             "comment": "Dust Storm (G0031)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Dust Storm (G0031) & Leafminer (G0077)"
         },
         {
             "score": 1,
@@ -60,6 +60,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1110.003",
             "techniqueName": "Password Spraying",
             "comment": "Leafminer (G0077)"
@@ -68,12 +74,6 @@
             "score": 1,
             "techniqueID": "T1136.001",
             "techniqueName": "Local Account",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -115,9 +115,9 @@
     ],
     "gradient": {
         "colors": [
-            "#7c7cf9",
-            "#d1ba29",
-            "#9bdd0d"
+            "#edffb2",
+            "#f4b2ef",
+            "#166396"
         ],
         "minValue": 0,
         "maxValue": 2

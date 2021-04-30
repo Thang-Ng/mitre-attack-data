@@ -210,6 +210,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1041",
             "techniqueName": "Exfiltration Over C2 Channel",
             "comment": "Gamaredon Group (G0047)"
@@ -228,8 +234,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
             "comment": "Gamaredon Group (G0047)"
         },
         {
@@ -242,12 +248,6 @@
             "score": 1,
             "techniqueID": "T1120",
             "techniqueName": "Peripheral Device Discovery",
-            "comment": "Gamaredon Group (G0047)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
             "comment": "Gamaredon Group (G0047)"
         },
         {
@@ -295,10 +295,10 @@
     ],
     "gradient": {
         "colors": [
-            "#e8ac96",
-            "#2bd152",
-            "#e5c9ff",
-            "#40aaed"
+            "#e07bd7",
+            "#e5f287",
+            "#0603ad",
+            "#c46833"
         ],
         "minValue": 0,
         "maxValue": 3
