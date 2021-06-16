@@ -72,26 +72,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1110.003",
             "techniqueName": "Password Spraying",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1136.001",
-            "techniqueName": "Local Account",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -114,8 +96,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
+            "techniqueID": "T1136.001",
+            "techniqueName": "Local Account",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -129,12 +117,24 @@
             "techniqueID": "T1018",
             "techniqueName": "Remote System Discovery",
             "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript",
+            "comment": "Leafminer (G0077)"
         }
     ],
     "gradient": {
         "colors": [
-            "#fc50a0",
-            "#83eabc"
+            "#1d9907",
+            "#26ccff"
         ],
         "minValue": 0,
         "maxValue": 1

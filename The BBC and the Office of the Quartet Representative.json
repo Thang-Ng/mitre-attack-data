@@ -84,6 +84,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1555.003",
+            "techniqueName": "Credentials from Web Browsers",
+            "comment": "Molerats (G0021)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1057",
             "techniqueName": "Process Discovery",
             "comment": "Molerats (G0021)"
@@ -93,18 +99,12 @@
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
             "comment": "Molerats (G0021)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1555.003",
-            "techniqueName": "Credentials from Web Browsers",
-            "comment": "Molerats (G0021)"
         }
     ],
     "gradient": {
         "colors": [
-            "#32fc54",
-            "#e84371"
+            "#f7c36a",
+            "#b1abf2"
         ],
         "minValue": 0,
         "maxValue": 1

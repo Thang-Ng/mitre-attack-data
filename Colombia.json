@@ -210,14 +210,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
+            "techniqueID": "T1041",
+            "techniqueName": "Exfiltration Over C2 Channel",
             "comment": "Gamaredon Group (G0047)"
         },
         {
             "score": 1,
-            "techniqueID": "T1041",
-            "techniqueName": "Exfiltration Over C2 Channel",
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
             "comment": "Gamaredon Group (G0047)"
         },
         {
@@ -295,10 +295,10 @@
     ],
     "gradient": {
         "colors": [
-            "#e5d872",
-            "#f74291",
-            "#0a6377",
-            "#f444e6"
+            "#e8b563",
+            "#e587bc",
+            "#d1a932",
+            "#cbffaf"
         ],
         "minValue": 0,
         "maxValue": 3

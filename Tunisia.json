@@ -282,20 +282,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "MuddyWater (G0069)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
             "comment": "MuddyWater (G0069)"
         },
         {
             "score": 1,
-            "techniqueID": "T1218.003",
-            "techniqueName": "CMSTP",
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
             "comment": "MuddyWater (G0069)"
         },
         {
@@ -303,6 +297,18 @@
             "techniqueID": "T1036.005",
             "techniqueName": "Match Legitimate Name or Location",
             "comment": "MuddyWater (G0069) & PROMETHIUM (G0056)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "MuddyWater (G0069) & PROMETHIUM (G0056) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.003",
+            "techniqueName": "CMSTP",
+            "comment": "MuddyWater (G0069)"
         },
         {
             "score": 1,
@@ -315,12 +321,6 @@
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
             "comment": "MuddyWater (G0069) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "MuddyWater (G0069) & PROMETHIUM (G0056) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -564,20 +564,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1012",
-            "techniqueName": "Query Registry",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1110",
             "techniqueName": "Brute Force",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
+            "techniqueID": "T1012",
+            "techniqueName": "Query Registry",
             "comment": "Turla (G0010)"
         },
         {
@@ -594,6 +588,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1007",
             "techniqueName": "System Service Discovery",
             "comment": "Turla (G0010)"
@@ -601,10 +601,10 @@
     ],
     "gradient": {
         "colors": [
-            "#8d83db",
-            "#d13ed1",
-            "#ce2b9a",
-            "#69e57e"
+            "#e827c1",
+            "#e26906",
+            "#efac92",
+            "#7e57c6"
         ],
         "minValue": 0,
         "maxValue": 3
