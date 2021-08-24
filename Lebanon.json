@@ -651,17 +651,47 @@
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
             "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0869",
+            "techniqueName": "Standard Application Layer Protocol",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0817",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0859",
+            "techniqueName": "Valid Accounts",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0865",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0853",
+            "techniqueName": "Scripting",
+            "comment": "OilRig (G0049)"
         }
     ],
     "gradient": {
         "colors": [
-            "#5adda0",
-            "#08a564",
-            "#a081e2",
-            "#cd29d8",
-            "#036372",
-            "#2ded30",
-            "#077cb2"
+            "#f470e9",
+            "#fffb21",
+            "#402d96",
+            "#ffd7cc",
+            "#8647d8",
+            "#288c04",
+            "#31e05d"
         ],
         "minValue": 0,
         "maxValue": 6

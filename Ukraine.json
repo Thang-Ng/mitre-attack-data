@@ -275,6 +275,36 @@
             "comment": "Dragonfly (G0035)"
         },
         {
+            "score": 2,
+            "techniqueID": "T0859",
+            "techniqueName": "Valid Accounts",
+            "comment": "Dragonfly (G0035) & Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0885",
+            "techniqueName": "Commonly Used Port",
+            "comment": "Dragonfly (G0035)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0852",
+            "techniqueName": "Screen Capture",
+            "comment": "Dragonfly (G0035)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T0865",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "Dragonfly (G0035) & Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0817",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Dragonfly (G0035)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1080",
             "techniqueName": "Taint Shared Content",
@@ -726,6 +756,60 @@
         },
         {
             "score": 1,
+            "techniqueID": "T0804",
+            "techniqueName": "Block Reporting Message",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0816",
+            "techniqueName": "Device Restart/Shutdown",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0857",
+            "techniqueName": "System Firmware",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0819",
+            "techniqueName": "Exploit Public-Facing Application",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0855",
+            "techniqueName": "Unauthorized Command Message",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0822",
+            "techniqueName": "External Remote Services",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0886",
+            "techniqueName": "Remote Services",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0803",
+            "techniqueName": "Block Command Message",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0823",
+            "techniqueName": "Graphical User Interface",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1072",
             "techniqueName": "Software Deployment Tools",
             "comment": "Silence (G0091)"
@@ -1123,15 +1207,15 @@
     ],
     "gradient": {
         "colors": [
-            "#d3f285",
-            "#a55ef2",
-            "#7b69ef",
-            "#ed9ad2",
-            "#63f2ce",
-            "#72f9bd",
-            "#e577d6",
-            "#f2cd76",
-            "#6bf9ca"
+            "#77b5ce",
+            "#27a810",
+            "#e0c57b",
+            "#fff1c9",
+            "#7bf779",
+            "#f9b3eb",
+            "#acf26a",
+            "#109356",
+            "#41f93e"
         ],
         "minValue": 0,
         "maxValue": 8

@@ -359,6 +359,72 @@
             "comment": "Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
+            "score": 1,
+            "techniqueID": "T0804",
+            "techniqueName": "Block Reporting Message",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0865",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0816",
+            "techniqueName": "Device Restart/Shutdown",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0857",
+            "techniqueName": "System Firmware",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0819",
+            "techniqueName": "Exploit Public-Facing Application",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0855",
+            "techniqueName": "Unauthorized Command Message",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0822",
+            "techniqueName": "External Remote Services",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0886",
+            "techniqueName": "Remote Services",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0803",
+            "techniqueName": "Block Command Message",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0823",
+            "techniqueName": "Graphical User Interface",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0859",
+            "techniqueName": "Valid Accounts",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1090.002",
             "techniqueName": "External Proxy",
@@ -907,12 +973,12 @@
     ],
     "gradient": {
         "colors": [
-            "#ed84b8",
-            "#ef0ea4",
-            "#019e5a",
-            "#3ceab3",
-            "#65db32",
-            "#d44fe2"
+            "#4fc136",
+            "#96af24",
+            "#6b7fce",
+            "#eff70e",
+            "#e55485",
+            "#55af15"
         ],
         "minValue": 0,
         "maxValue": 5

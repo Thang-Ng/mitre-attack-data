@@ -881,6 +881,12 @@
             "comment": "Lazarus Group (G0032)"
         },
         {
+            "score": 1,
+            "techniqueID": "T0865",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1190",
             "techniqueName": "Exploit Public-Facing Application",
@@ -1039,17 +1045,17 @@
     ],
     "gradient": {
         "colors": [
-            "#ef4637",
-            "#fc2879",
-            "#345791",
-            "#f7a0d1",
-            "#6d38c9",
-            "#ad013a",
-            "#f4d4b2",
-            "#ea834f",
-            "#006b62",
-            "#ffc9d8",
-            "#a0db5e"
+            "#1fc654",
+            "#d746f4",
+            "#e0a735",
+            "#f1ffaf",
+            "#f9d2b8",
+            "#33ce38",
+            "#cfccff",
+            "#df74ed",
+            "#cefca6",
+            "#3387e8",
+            "#4cdba2"
         ],
         "minValue": 0,
         "maxValue": 10

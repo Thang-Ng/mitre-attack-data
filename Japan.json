@@ -876,6 +876,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T0865",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1219",
             "techniqueName": "Remote Access Software",
             "comment": "Thrip (G0076)"
@@ -1159,19 +1165,19 @@
     ],
     "gradient": {
         "colors": [
-            "#58c117",
-            "#2bdbb5",
-            "#d77ee5",
-            "#a196e0",
-            "#a3c436",
-            "#4e8709",
-            "#117bf4",
-            "#eac58a",
-            "#2970bc",
-            "#a2c62b",
-            "#5fd8cc",
-            "#e22292",
-            "#86ef5f"
+            "#a4ef53",
+            "#efaae8",
+            "#ea46bc",
+            "#d14036",
+            "#44c13e",
+            "#fcc2c5",
+            "#3dc136",
+            "#d562db",
+            "#e0d72c",
+            "#dda956",
+            "#e8b551",
+            "#ef7396",
+            "#fccc79"
         ],
         "minValue": 0,
         "maxValue": 12

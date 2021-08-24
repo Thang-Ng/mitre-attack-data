@@ -665,6 +665,36 @@
             "comment": "Dragonfly (G0035)"
         },
         {
+            "score": 2,
+            "techniqueID": "T0859",
+            "techniqueName": "Valid Accounts",
+            "comment": "Dragonfly (G0035) & OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0885",
+            "techniqueName": "Commonly Used Port",
+            "comment": "Dragonfly (G0035)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0852",
+            "techniqueName": "Screen Capture",
+            "comment": "Dragonfly (G0035)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T0865",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "Dragonfly (G0035) & Lazarus Group (G0032) & OilRig (G0049)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T0817",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Dragonfly (G0035) & OilRig (G0049)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1564.005",
             "techniqueName": "Hidden File System",
@@ -1170,6 +1200,18 @@
         },
         {
             "score": 1,
+            "techniqueID": "T0869",
+            "techniqueName": "Standard Application Layer Protocol",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0853",
+            "techniqueName": "Scripting",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1587.002",
             "techniqueName": "Code Signing Certificates",
             "comment": "Patchwork (G0040)"
@@ -1447,27 +1489,27 @@
     ],
     "gradient": {
         "colors": [
-            "#67e0da",
-            "#f7c8b7",
-            "#d7f78c",
-            "#ef7158",
-            "#22e8ac",
-            "#72c2d8",
-            "#572ca0",
-            "#efcd92",
-            "#63bded",
-            "#6de084",
-            "#abf9a7",
-            "#e2090c",
-            "#45e04a",
-            "#bf2a16",
-            "#aadb72",
-            "#583bed",
-            "#87f287",
-            "#ea3f75",
-            "#90b221",
-            "#34aee2",
-            "#f466a9"
+            "#a9f9e9",
+            "#c48733",
+            "#e35ced",
+            "#b1a2e5",
+            "#768fdb",
+            "#0a2acc",
+            "#64fcc7",
+            "#18bf63",
+            "#70d5f9",
+            "#ea31d4",
+            "#f77eb2",
+            "#eda96a",
+            "#112dff",
+            "#ba682e",
+            "#ac57f2",
+            "#b76d31",
+            "#8eacf2",
+            "#f78fae",
+            "#ce77f9",
+            "#a6ba12",
+            "#c4872d"
         ],
         "minValue": 0,
         "maxValue": 20

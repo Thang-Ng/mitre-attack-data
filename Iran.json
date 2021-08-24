@@ -552,6 +552,24 @@
         },
         {
             "score": 1,
+            "techniqueID": "T0853",
+            "techniqueName": "Scripting",
+            "comment": "APT33 (G0064)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0852",
+            "techniqueName": "Screen Capture",
+            "comment": "APT33 (G0064)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T0865",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "APT33 (G0064) & Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1187",
             "techniqueName": "Forced Authentication",
             "comment": "DarkHydrus (G0079)"
@@ -1062,6 +1080,66 @@
         },
         {
             "score": 1,
+            "techniqueID": "T0804",
+            "techniqueName": "Block Reporting Message",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0816",
+            "techniqueName": "Device Restart/Shutdown",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0857",
+            "techniqueName": "System Firmware",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0819",
+            "techniqueName": "Exploit Public-Facing Application",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0855",
+            "techniqueName": "Unauthorized Command Message",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0822",
+            "techniqueName": "External Remote Services",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0886",
+            "techniqueName": "Remote Services",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0803",
+            "techniqueName": "Block Command Message",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0823",
+            "techniqueName": "Graphical User Interface",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0859",
+            "techniqueName": "Valid Accounts",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1598",
             "techniqueName": "Phishing for Information",
             "comment": "APT28 (G0007)"
@@ -1303,18 +1381,18 @@
     ],
     "gradient": {
         "colors": [
-            "#5bd856",
-            "#09a0a0",
-            "#ed0bd6",
-            "#e89a99",
-            "#9fef8d",
-            "#5ce072",
-            "#3582e0",
-            "#20c985",
-            "#51ff4f",
-            "#42c98e",
-            "#cc3b50",
-            "#21ea12"
+            "#a35b5c",
+            "#fcec99",
+            "#e5fc16",
+            "#e067ca",
+            "#e2349f",
+            "#131ca0",
+            "#ef628a",
+            "#8be3ef",
+            "#ea93aa",
+            "#5d38e2",
+            "#be69db",
+            "#e0ef39"
         ],
         "minValue": 0,
         "maxValue": 11

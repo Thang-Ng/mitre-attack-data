@@ -864,6 +864,36 @@
         },
         {
             "score": 1,
+            "techniqueID": "T0869",
+            "techniqueName": "Standard Application Layer Protocol",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T0817",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "OilRig (G0049) & TEMP.Veles (G0088)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T0859",
+            "techniqueName": "Valid Accounts",
+            "comment": "OilRig (G0049) & TEMP.Veles (G0088)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0865",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0853",
+            "techniqueName": "Scripting",
+            "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1072",
             "techniqueName": "Software Deployment Tools",
             "comment": "Silence (G0091)"
@@ -920,6 +950,24 @@
             "score": 1,
             "techniqueID": "T1329",
             "techniqueName": "Acquire and/or use 3rd party infrastructure services",
+            "comment": "TEMP.Veles (G0088)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0886",
+            "techniqueName": "Remote Services",
+            "comment": "TEMP.Veles (G0088)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0822",
+            "techniqueName": "External Remote Services",
+            "comment": "TEMP.Veles (G0088)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T0862",
+            "techniqueName": "Supply Chain Compromise",
             "comment": "TEMP.Veles (G0088)"
         },
         {
@@ -1033,18 +1081,18 @@
     ],
     "gradient": {
         "colors": [
-            "#18f958",
-            "#e52270",
-            "#d2ffaf",
-            "#a5ffe5",
-            "#22468e",
-            "#35088e",
-            "#f73db3",
-            "#699616",
-            "#73e855",
-            "#e163e8",
-            "#cc24c9",
-            "#36ad24"
+            "#cbe283",
+            "#155a96",
+            "#a0d6e8",
+            "#8769d3",
+            "#40859e",
+            "#f7f966",
+            "#cec027",
+            "#bf2def",
+            "#a81a3e",
+            "#8978e8",
+            "#66e8b6",
+            "#571bd1"
         ],
         "minValue": 0,
         "maxValue": 11

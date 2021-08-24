@@ -852,6 +852,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T0865",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1218.007",
             "techniqueName": "Msiexec",
             "comment": "Molerats (G0021)"
@@ -1387,22 +1393,22 @@
     ],
     "gradient": {
         "colors": [
-            "#64d699",
-            "#23ba25",
-            "#ceffaf",
-            "#126d7c",
-            "#fcf958",
-            "#9072f9",
-            "#db0682",
-            "#eabef7",
-            "#84e07f",
-            "#97ef9e",
-            "#2cd3a7",
-            "#235282",
-            "#e5308d",
-            "#7b7acc",
-            "#9faee0",
-            "#25d60a"
+            "#b73d1f",
+            "#dd4055",
+            "#a986d6",
+            "#88e27a",
+            "#58d8ce",
+            "#4fdd7a",
+            "#7797ef",
+            "#4ca31a",
+            "#76f77b",
+            "#dbfc99",
+            "#d7bef7",
+            "#ffc6e4",
+            "#d16d34",
+            "#f7da74",
+            "#d30abf",
+            "#058891"
         ],
         "minValue": 0,
         "maxValue": 15

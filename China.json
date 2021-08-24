@@ -1265,6 +1265,12 @@
             "comment": "Lazarus Group (G0032)"
         },
         {
+            "score": 1,
+            "techniqueID": "T0865",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1555.003",
             "techniqueName": "Credentials from Web Browsers",
@@ -1573,25 +1579,25 @@
     ],
     "gradient": {
         "colors": [
-            "#c4f484",
-            "#3cba0e",
-            "#fcecc4",
-            "#ef7756",
-            "#9d47e8",
-            "#05c60c",
-            "#d1a214",
-            "#d3ffb2",
-            "#5bbac6",
-            "#029357",
-            "#09f2b0",
-            "#e272ff",
-            "#ba88ea",
-            "#3bcea0",
-            "#049ea0",
-            "#21ff51",
-            "#ffc6c8",
-            "#82bfce",
-            "#b8ea77"
+            "#5dc43a",
+            "#4928c1",
+            "#e2ae7a",
+            "#f7e3be",
+            "#76e076",
+            "#0151b2",
+            "#8b25ea",
+            "#2e73a0",
+            "#f7c3ad",
+            "#64dbc9",
+            "#7fd159",
+            "#99db48",
+            "#97f28a",
+            "#ae1acc",
+            "#b0e1fc",
+            "#fc7ef4",
+            "#f47044",
+            "#82c4e0",
+            "#90f246"
         ],
         "minValue": 0,
         "maxValue": 18

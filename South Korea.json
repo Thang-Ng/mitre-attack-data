@@ -858,6 +858,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T0865",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1137.006",
             "techniqueName": "Add-ins",
             "comment": "Naikon (G0019)"
@@ -1171,21 +1177,21 @@
     ],
     "gradient": {
         "colors": [
-            "#35fc70",
-            "#757edd",
-            "#d31d10",
-            "#9bf7d2",
-            "#3ce87b",
-            "#7b9912",
-            "#9f7adb",
-            "#ffe859",
-            "#2a07b7",
-            "#94e86d",
-            "#f2be21",
-            "#2af78d",
-            "#a3164c",
-            "#e549ac",
-            "#db57e0"
+            "#380f99",
+            "#ea9194",
+            "#809b06",
+            "#10a394",
+            "#5745b2",
+            "#7ff4ae",
+            "#f271e9",
+            "#6621ce",
+            "#9289e5",
+            "#ed7a78",
+            "#5deaa1",
+            "#497c06",
+            "#dbcc59",
+            "#707acc",
+            "#4930ba"
         ],
         "minValue": 0,
         "maxValue": 14
