@@ -623,66 +623,6 @@
             "comment": "Dragonfly 2.0 (G0074) & Threat Group-3390 (G0027) & Lazarus Group (G0032)"
         },
         {
-            "score": 1,
-            "techniqueID": "T0853",
-            "techniqueName": "Scripting",
-            "comment": "Dragonfly 2.0 (G0074)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T0885",
-            "techniqueName": "Commonly Used Port",
-            "comment": "Dragonfly 2.0 (G0074) & Dragonfly (G0035)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0882",
-            "techniqueName": "Theft of Operational Information",
-            "comment": "Dragonfly 2.0 (G0074)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0811",
-            "techniqueName": "Data from Information Repositories",
-            "comment": "Dragonfly 2.0 (G0074)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0872",
-            "techniqueName": "Indicator Removal on Host",
-            "comment": "Dragonfly 2.0 (G0074)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T0852",
-            "techniqueName": "Screen Capture",
-            "comment": "Dragonfly 2.0 (G0074) & Dragonfly (G0035)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T0859",
-            "techniqueName": "Valid Accounts",
-            "comment": "Dragonfly 2.0 (G0074) & Dragonfly (G0035) & Sandworm Team (G0034)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T0865",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "Dragonfly 2.0 (G0074) & Dragonfly (G0035) & Lazarus Group (G0032) & Sandworm Team (G0034)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0862",
-            "techniqueName": "Supply Chain Compromise",
-            "comment": "Dragonfly 2.0 (G0074)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T0817",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Dragonfly 2.0 (G0074) & Dragonfly (G0035)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1574.002",
             "techniqueName": "DLL Side-Loading",
@@ -1440,60 +1380,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T0804",
-            "techniqueName": "Block Reporting Message",
-            "comment": "Sandworm Team (G0034)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0816",
-            "techniqueName": "Device Restart/Shutdown",
-            "comment": "Sandworm Team (G0034)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0857",
-            "techniqueName": "System Firmware",
-            "comment": "Sandworm Team (G0034)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0819",
-            "techniqueName": "Exploit Public-Facing Application",
-            "comment": "Sandworm Team (G0034)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0855",
-            "techniqueName": "Unauthorized Command Message",
-            "comment": "Sandworm Team (G0034)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0822",
-            "techniqueName": "External Remote Services",
-            "comment": "Sandworm Team (G0034)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0886",
-            "techniqueName": "Remote Services",
-            "comment": "Sandworm Team (G0034)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0803",
-            "techniqueName": "Block Command Message",
-            "comment": "Sandworm Team (G0034)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0823",
-            "techniqueName": "Graphical User Interface",
-            "comment": "Sandworm Team (G0034)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1072",
             "techniqueName": "Software Deployment Tools",
             "comment": "Silence (G0091)"
@@ -1627,25 +1513,25 @@
     ],
     "gradient": {
         "colors": [
-            "#f78351",
-            "#fca1ca",
-            "#e87161",
-            "#243099",
-            "#4ecea1",
-            "#a9edfc",
-            "#e2b7ff",
-            "#00056b",
-            "#f2dc3a",
-            "#97cdef",
-            "#35c419",
-            "#dd1ac3",
-            "#e8d376",
-            "#7bc124",
-            "#7c56bc",
-            "#73dd3e",
-            "#3240db",
-            "#8f99e0",
-            "#1ea87a"
+            "#13afa5",
+            "#c21edb",
+            "#52a81c",
+            "#0fad27",
+            "#edb79a",
+            "#7bf2e2",
+            "#63edaa",
+            "#c0aeef",
+            "#d1bb2e",
+            "#fcbba1",
+            "#e896e8",
+            "#dd0841",
+            "#8723b2",
+            "#e062b8",
+            "#d815c5",
+            "#3de837",
+            "#9df29e",
+            "#ed7d88",
+            "#2f1d93"
         ],
         "minValue": 0,
         "maxValue": 18

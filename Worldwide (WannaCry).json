@@ -429,18 +429,12 @@
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
             "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0865",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "Lazarus Group (G0032)"
         }
     ],
     "gradient": {
         "colors": [
-            "#4375f2",
-            "#6528d6"
+            "#9a08d8",
+            "#0ef9b7"
         ],
         "minValue": 0,
         "maxValue": 1

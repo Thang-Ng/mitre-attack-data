@@ -330,36 +330,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T0869",
-            "techniqueName": "Standard Application Layer Protocol",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0817",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0859",
-            "techniqueName": "Valid Accounts",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0865",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0853",
-            "techniqueName": "Scripting",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1021.002",
             "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Orangeworm (G0071)"
@@ -895,12 +865,12 @@
     ],
     "gradient": {
         "colors": [
-            "#f47c8e",
-            "#73efc8",
-            "#9ad3e2",
-            "#03a30b",
-            "#bdd619",
-            "#ea4bb2"
+            "#e391f7",
+            "#c829e8",
+            "#67db97",
+            "#0452a0",
+            "#f2e1b0",
+            "#e8c471"
         ],
         "minValue": 0,
         "maxValue": 5

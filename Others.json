@@ -303,44 +303,14 @@
             "techniqueID": "T1329",
             "techniqueName": "Acquire and/or use 3rd party infrastructure services",
             "comment": "TEMP.Veles (G0088)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0886",
-            "techniqueName": "Remote Services",
-            "comment": "TEMP.Veles (G0088)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0817",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "TEMP.Veles (G0088)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0822",
-            "techniqueName": "External Remote Services",
-            "comment": "TEMP.Veles (G0088)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0859",
-            "techniqueName": "Valid Accounts",
-            "comment": "TEMP.Veles (G0088)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0862",
-            "techniqueName": "Supply Chain Compromise",
-            "comment": "TEMP.Veles (G0088)"
         }
     ],
     "gradient": {
         "colors": [
-            "#d83e6d",
-            "#4c299b",
-            "#e0b37f",
-            "#f7b880"
+            "#11189e",
+            "#3e4ad1",
+            "#9cea72",
+            "#fca1c4"
         ],
         "minValue": 0,
         "maxValue": 3

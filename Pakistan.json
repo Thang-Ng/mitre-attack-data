@@ -624,36 +624,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T0869",
-            "techniqueName": "Standard Application Layer Protocol",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0817",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0859",
-            "techniqueName": "Valid Accounts",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0865",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0853",
-            "techniqueName": "Scripting",
-            "comment": "OilRig (G0049)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1587.002",
             "techniqueName": "Code Signing Certificates",
             "comment": "Patchwork (G0040)"
@@ -1081,15 +1051,15 @@
     ],
     "gradient": {
         "colors": [
-            "#7b20d6",
-            "#eda16a",
-            "#55d660",
-            "#4157d8",
-            "#c7ff4f",
-            "#edaef9",
-            "#ef8456",
-            "#b6ff7f",
-            "#a765f2"
+            "#ab96f2",
+            "#5ad653",
+            "#ddc249",
+            "#bc2d32",
+            "#b24807",
+            "#ffffba",
+            "#28ba54",
+            "#ffafbe",
+            "#6cc0cc"
         ],
         "minValue": 0,
         "maxValue": 8

@@ -918,24 +918,6 @@
         },
         {
             "score": 3,
-            "techniqueID": "T0853",
-            "techniqueName": "Scripting",
-            "comment": "APT33 (G0064) & Dragonfly 2.0 (G0074) & OilRig (G0049)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T0852",
-            "techniqueName": "Screen Capture",
-            "comment": "APT33 (G0064) & Dragonfly 2.0 (G0074) & Dragonfly (G0035)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T0865",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "APT33 (G0064) & Dragonfly 2.0 (G0074) & Dragonfly (G0035) & Lazarus Group (G0032) & OilRig (G0049)"
-        },
-        {
-            "score": 3,
             "techniqueID": "T1574.001",
             "techniqueName": "DLL Search Order Hijacking",
             "comment": "APT41 (G0096) & Threat Group-3390 (G0027) & menuPass (G0045)"
@@ -1083,48 +1065,6 @@
             "techniqueID": "T1087.002",
             "techniqueName": "Domain Account",
             "comment": "Dragonfly 2.0 (G0074) & BRONZE BUTLER (G0060) & MuddyWater (G0069) & OilRig (G0049) & Poseidon Group (G0033) & menuPass (G0045) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T0885",
-            "techniqueName": "Commonly Used Port",
-            "comment": "Dragonfly 2.0 (G0074) & Dragonfly (G0035)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0882",
-            "techniqueName": "Theft of Operational Information",
-            "comment": "Dragonfly 2.0 (G0074)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0811",
-            "techniqueName": "Data from Information Repositories",
-            "comment": "Dragonfly 2.0 (G0074)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0872",
-            "techniqueName": "Indicator Removal on Host",
-            "comment": "Dragonfly 2.0 (G0074)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T0859",
-            "techniqueName": "Valid Accounts",
-            "comment": "Dragonfly 2.0 (G0074) & Dragonfly (G0035) & OilRig (G0049) & TEMP.Veles (G0088)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T0862",
-            "techniqueName": "Supply Chain Compromise",
-            "comment": "Dragonfly 2.0 (G0074) & TEMP.Veles (G0088)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T0817",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Dragonfly 2.0 (G0074) & Dragonfly (G0035) & OilRig (G0049) & TEMP.Veles (G0088)"
         },
         {
             "score": 6,
@@ -1703,12 +1643,6 @@
             "comment": "OilRig (G0049) & admin@338 (G0018) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T0869",
-            "techniqueName": "Standard Application Layer Protocol",
-            "comment": "OilRig (G0049)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1587.002",
             "techniqueName": "Code Signing Certificates",
@@ -1878,18 +1812,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T0886",
-            "techniqueName": "Remote Services",
-            "comment": "TEMP.Veles (G0088)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T0822",
-            "techniqueName": "External Remote Services",
-            "comment": "TEMP.Veles (G0088)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1584.004",
             "techniqueName": "Server",
             "comment": "Turla (G0010)"
@@ -1927,41 +1849,41 @@
     ],
     "gradient": {
         "colors": [
-            "#6e17b5",
-            "#ce911e",
-            "#c817d8",
-            "#ccd861",
-            "#a1bef4",
-            "#5de282",
-            "#80e05e",
-            "#dda74f",
-            "#124472",
-            "#b593e2",
-            "#d6bc48",
-            "#ffeeb2",
-            "#a2b1f9",
-            "#4fea2c",
-            "#58c0e2",
-            "#f4adbe",
-            "#8774d3",
-            "#85a8dd",
-            "#fc74f3",
-            "#6060e0",
-            "#1db743",
-            "#5ef259",
-            "#94db39",
-            "#35a80b",
-            "#3bdb39",
-            "#fce1c4",
-            "#b73bf9",
-            "#087ed3",
-            "#9ee256",
-            "#edadcd",
-            "#e2366d",
-            "#f9b77c",
-            "#1e9e73",
-            "#2858c9",
-            "#4ecc35"
+            "#cfd854",
+            "#5fd3a1",
+            "#9eed5a",
+            "#fcf49f",
+            "#fcc2e2",
+            "#cdbef7",
+            "#d6ff8c",
+            "#72ce35",
+            "#25768e",
+            "#4bc42d",
+            "#e23664",
+            "#2bc65f",
+            "#92f4d5",
+            "#ba2c4b",
+            "#cce27c",
+            "#638ebf",
+            "#e8c276",
+            "#aff796",
+            "#d3bf26",
+            "#22d104",
+            "#67f7a1",
+            "#1d3793",
+            "#4a1cbf",
+            "#7ff489",
+            "#ff4c90",
+            "#47f430",
+            "#3d9b07",
+            "#f4868c",
+            "#5ccc3b",
+            "#f98ea9",
+            "#e56980",
+            "#51d1d1",
+            "#5ec9ff",
+            "#c0a8ed",
+            "#4ad674"
         ],
         "minValue": 0,
         "maxValue": 34
