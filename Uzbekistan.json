@@ -823,11 +823,11 @@
     ],
     "gradient": {
         "colors": [
-            "#d63ed8",
-            "#8060ea",
-            "#c97438",
-            "#8ca0e2",
-            "#bbb4f7"
+            "#f0bfff",
+            "#f481af",
+            "#e5c524",
+            "#7adb2b",
+            "#f2b0dd"
         ],
         "minValue": 0,
         "maxValue": 4
