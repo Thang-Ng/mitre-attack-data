@@ -36,54 +36,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1218.005",
-            "techniqueName": "Mshta",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059.005",
-            "techniqueName": "Visual Basic",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1027.002",
-            "techniqueName": "Software Packing",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1036.004",
-            "techniqueName": "Masquerade Task or Service",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1112",
-            "techniqueName": "Modify Registry",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1547.005",
-            "techniqueName": "Security Support Provider",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1566.003",
-            "techniqueName": "Spearphishing via Service",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1571",
             "techniqueName": "Non-Standard Port",
             "comment": "Lazarus Group (G0032)"
@@ -126,12 +78,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1496",
-            "techniqueName": "Resource Hijacking",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1485",
             "techniqueName": "Data Destruction",
             "comment": "Lazarus Group (G0032)"
@@ -156,12 +102,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1218.001",
-            "techniqueName": "Compiled HTML File",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "Lazarus Group (G0032)"
@@ -180,8 +120,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
+            "techniqueID": "T1218.001",
+            "techniqueName": "Compiled HTML File",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -198,20 +138,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1055.001",
-            "techniqueName": "Dynamic-link Library Injection",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1564.001",
             "techniqueName": "Hidden Files and Directories",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1547.009",
-            "techniqueName": "Shortcut Modification",
+            "techniqueID": "T1055.001",
+            "techniqueName": "Dynamic-link Library Injection",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -228,6 +162,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1547.009",
+            "techniqueName": "Shortcut Modification",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1090.002",
             "techniqueName": "External Proxy",
             "comment": "Lazarus Group (G0032)"
@@ -240,44 +180,14 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1542.003",
             "techniqueName": "Bootkit",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1021.001",
-            "techniqueName": "Remote Desktop Protocol",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1047",
-            "techniqueName": "Windows Management Instrumentation",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1110.003",
-            "techniqueName": "Password Spraying",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1048.003",
-            "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -288,8 +198,38 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1110.003",
+            "techniqueName": "Password Spraying",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1047",
+            "techniqueName": "Windows Management Instrumentation",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1021.001",
+            "techniqueName": "Remote Desktop Protocol",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1048.003",
+            "techniqueName": "Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -300,14 +240,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -324,12 +270,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1560",
             "techniqueName": "Archive Collected Data",
             "comment": "Lazarus Group (G0032)"
@@ -342,14 +282,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1010",
-            "techniqueName": "Application Window Discovery",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -360,14 +294,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -384,8 +312,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1098",
-            "techniqueName": "Account Manipulation",
+            "techniqueID": "T1010",
+            "techniqueName": "Application Window Discovery",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -396,8 +330,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
+            "techniqueID": "T1070.006",
+            "techniqueName": "Timestomp",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1098",
+            "techniqueName": "Account Manipulation",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1573.001",
+            "techniqueName": "Symmetric Cryptography",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -408,14 +354,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.006",
-            "techniqueName": "Timestomp",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1573.001",
-            "techniqueName": "Symmetric Cryptography",
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -433,8 +373,8 @@
     ],
     "gradient": {
         "colors": [
-            "#ff30ce",
-            "#61d8d4"
+            "#ddbe6e",
+            "#8b13d6"
         ],
         "minValue": 0,
         "maxValue": 1

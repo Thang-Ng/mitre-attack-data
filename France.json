@@ -6,6 +6,96 @@
     "techniques": [
         {
             "score": 2,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1036",
+            "techniqueName": "Masquerading",
+            "comment": "APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "APT28 (G0007) & GALLIUM (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1030",
+            "techniqueName": "Data Transfer Size Limits",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1048.002",
+            "techniqueName": "Exfiltration Over Asymmetric Encrypted Non-C2 Protocol",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1213",
+            "techniqueName": "Data from Information Repositories",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1074.002",
+            "techniqueName": "Remote Data Staging",
+            "comment": "APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
+            "comment": "APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1003.003",
+            "techniqueName": "NTDS",
+            "comment": "APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1098.002",
+            "techniqueName": "Exchange Email Delegate Permissions",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078.004",
+            "techniqueName": "Cloud Accounts",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1505.003",
+            "techniqueName": "Web Shell",
+            "comment": "APT28 (G0007) & GALLIUM (G0093)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1204.001",
             "techniqueName": "Malicious Link",
             "comment": "APT28 (G0007) & Turla (G0010)"
@@ -71,10 +161,10 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1190",
             "techniqueName": "Exploit Public-Facing Application",
-            "comment": "APT28 (G0007) & GALLIUM (G0093)"
+            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -162,12 +252,6 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1199",
-            "techniqueName": "Trusted Relationship",
-            "comment": "APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1560",
             "techniqueName": "Archive Collected Data",
             "comment": "APT28 (G0007) & menuPass (G0045)"
@@ -186,14 +270,14 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
+            "techniqueID": "T1199",
+            "techniqueName": "Trusted Relationship",
             "comment": "APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 2,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
             "comment": "APT28 (G0007) & menuPass (G0045)"
         },
         {
@@ -210,15 +294,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1211",
-            "techniqueName": "Exploitation for Defense Evasion",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1037.001",
             "techniqueName": "Logon Script (Windows)",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 4,
@@ -233,16 +317,22 @@
             "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "APT28 (G0007) & menuPass (G0045) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1210",
             "techniqueName": "Exploitation of Remote Services",
             "comment": "APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1211",
+            "techniqueName": "Exploitation for Defense Evasion",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "APT28 (G0007) & menuPass (G0045) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -258,15 +348,9 @@
         },
         {
             "score": 3,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "APT28 (G0007) & menuPass (G0045) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1134.001",
-            "techniqueName": "Token Impersonation/Theft",
-            "comment": "APT28 (G0007)"
+            "techniqueID": "T1078",
+            "techniqueName": "Valid Accounts",
+            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 2,
@@ -276,15 +360,21 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1137.002",
-            "techniqueName": "Office Test",
+            "techniqueID": "T1134.001",
+            "techniqueName": "Token Impersonation/Theft",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 3,
-            "techniqueID": "T1078",
-            "techniqueName": "Valid Accounts",
-            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "APT28 (G0007) & menuPass (G0045) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1137.002",
+            "techniqueName": "Office Test",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 2,
@@ -299,22 +389,10 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
             "comment": "APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
-            "comment": "APT28 (G0007)"
         },
         {
             "score": 2,
@@ -323,9 +401,21 @@
             "comment": "APT28 (G0007) & GALLIUM (G0093)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
             "score": 1,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1091",
+            "techniqueName": "Replication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -336,8 +426,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1091",
-            "techniqueName": "Replication Through Removable Media",
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
             "comment": "APT28 (G0007)"
         },
         {
@@ -348,9 +438,9 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
-            "comment": "APT28 (G0007) & Turla (G0010)"
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 1,
@@ -359,28 +449,16 @@
             "comment": "APT28 (G0007)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
             "score": 4,
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
             "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
-            "comment": "APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1070.006",
-            "techniqueName": "Timestomp",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
-            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -407,10 +485,28 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1070.006",
+            "techniqueName": "Timestomp",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
+            "comment": "APT28 (G0007)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1090.002",
             "techniqueName": "External Proxy",
             "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -420,9 +516,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
-            "comment": "APT28 (G0007)"
+            "techniqueID": "T1070.003",
+            "techniqueName": "Clear Command History",
+            "comment": "menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
+            "comment": "menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -435,12 +537,6 @@
             "techniqueID": "T1106",
             "techniqueName": "Native API",
             "comment": "menuPass (G0045) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1003.003",
-            "techniqueName": "NTDS",
-            "comment": "menuPass (G0045)"
         },
         {
             "score": 1,
@@ -462,33 +558,9 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1036",
-            "techniqueName": "Masquerading",
-            "comment": "menuPass (G0045)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1074.002",
-            "techniqueName": "Remote Data Staging",
-            "comment": "menuPass (G0045)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "menuPass (G0045)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1055.012",
             "techniqueName": "Process Hollowing",
             "comment": "menuPass (G0045)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -515,16 +587,10 @@
             "comment": "menuPass (G0045) & GALLIUM (G0093)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1039",
-            "techniqueName": "Data from Network Shared Drive",
-            "comment": "menuPass (G0045)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "menuPass (G0045)"
+            "score": 3,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -546,6 +612,18 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1021.004",
+            "techniqueName": "SSH",
+            "comment": "menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "menuPass (G0045)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1021.001",
             "techniqueName": "Remote Desktop Protocol",
             "comment": "menuPass (G0045)"
@@ -554,18 +632,6 @@
             "score": 3,
             "techniqueID": "T1018",
             "techniqueName": "Remote System Discovery",
-            "comment": "menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1021.004",
-            "techniqueName": "SSH",
-            "comment": "menuPass (G0045)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
             "comment": "menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
         },
         {
@@ -582,18 +648,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1588.002",
-            "techniqueName": "Tool",
-            "comment": "GALLIUM (G0093)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
-            "comment": "GALLIUM (G0093)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1041",
             "techniqueName": "Exfiltration Over C2 Channel",
             "comment": "GALLIUM (G0093)"
@@ -603,12 +657,6 @@
             "techniqueID": "T1027.005",
             "techniqueName": "Indicator Removal from Tools",
             "comment": "GALLIUM (G0093) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -624,15 +672,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1505.003",
-            "techniqueName": "Web Shell",
+            "techniqueID": "T1136.002",
+            "techniqueName": "Domain Account",
             "comment": "GALLIUM (G0093)"
         },
         {
             "score": 1,
-            "techniqueID": "T1136.002",
-            "techniqueName": "Domain Account",
-            "comment": "GALLIUM (G0093)"
+            "techniqueID": "T1615",
+            "techniqueName": "Group Policy Discovery",
+            "comment": "Turla (G0010)"
         },
         {
             "score": 1,
@@ -716,12 +764,6 @@
             "score": 1,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1213",
-            "techniqueName": "Data from Information Repositories",
             "comment": "Turla (G0010)"
         },
         {
@@ -840,12 +882,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1007",
             "techniqueName": "System Service Discovery",
             "comment": "Turla (G0010)"
@@ -853,11 +889,11 @@
     ],
     "gradient": {
         "colors": [
-            "#e0606d",
-            "#ddd958",
-            "#8cbad8",
-            "#ffc9fa",
-            "#a4f9ee"
+            "#7af5f9",
+            "#28d0d3",
+            "#e3f993",
+            "#f7bbcb",
+            "#e5006b"
         ],
         "minValue": 0,
         "maxValue": 4

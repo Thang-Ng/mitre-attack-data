@@ -17,6 +17,24 @@
             "comment": "Orangeworm (G0071) & APT37 (G0067) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1059",
+            "techniqueName": "Command and Scripting Interpreter",
+            "comment": "APT37 (G0067)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1059.006",
+            "techniqueName": "Python",
+            "comment": "APT37 (G0067) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
+            "comment": "APT37 (G0067) & Silence (G0091) & menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1059.005",
             "techniqueName": "Visual Basic",
@@ -47,18 +65,6 @@
             "comment": "APT37 (G0067) & Turla (G0010)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "APT37 (G0067) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
-            "comment": "APT37 (G0067) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1033",
             "techniqueName": "System Owner/User Discovery",
@@ -78,15 +84,21 @@
         },
         {
             "score": 3,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "APT37 (G0067) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "APT37 (G0067) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 3,
             "techniqueID": "T1055",
             "techniqueName": "Process Injection",
             "comment": "APT37 (G0067) & Silence (G0091) & Turla (G0010)"
-        },
-        {
-            "score": 7,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "APT37 (G0067) & Silence (G0091) & menuPass (G0045) & GALLIUM (G0093) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -99,30 +111,6 @@
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
             "comment": "APT37 (G0067) & Silence (G0091) & menuPass (G0045) & admin@338 (G0018) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1203",
-            "techniqueName": "Exploitation for Client Execution",
-            "comment": "APT37 (G0067) & admin@338 (G0018) & Tropic Trooper (G0081)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "APT37 (G0067) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
-            "comment": "APT37 (G0067)"
         },
         {
             "score": 6,
@@ -144,26 +132,44 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "APT37 (G0067) & Turla (G0010)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "APT37 (G0067) & Turla (G0010)"
         },
         {
+            "score": 7,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "APT37 (G0067) & Silence (G0091) & menuPass (G0045) & GALLIUM (G0093) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1203",
+            "techniqueName": "Exploitation for Client Execution",
+            "comment": "APT37 (G0067) & admin@338 (G0018) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "APT37 (G0067) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "APT37 (G0067) & Turla (G0010)"
+        },
+        {
             "score": 1,
-            "techniqueID": "T1559.002",
-            "techniqueName": "Dynamic Data Exchange",
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
             "comment": "APT37 (G0067)"
         },
         {
             "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
+            "techniqueID": "T1559.002",
+            "techniqueName": "Dynamic Data Exchange",
             "comment": "APT37 (G0067)"
         },
         {
@@ -173,10 +179,28 @@
             "comment": "APT37 (G0067) & Silence (G0091) & menuPass (G0045) & admin@338 (G0018) & Tropic Trooper (G0081)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "APT37 (G0067) & Silence (G0091) & Tropic Trooper (G0081) & Turla (G0010)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1036.001",
             "techniqueName": "Invalid Code Signature",
             "comment": "APT37 (G0067)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "APT37 (G0067)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "Silence (G0091) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -233,10 +257,10 @@
             "comment": "Silence (G0091) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
-            "comment": "Silence (G0091) & GALLIUM (G0093)"
+            "comment": "Silence (G0091) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 4,
@@ -249,12 +273,6 @@
             "techniqueID": "T1059.007",
             "techniqueName": "JavaScript",
             "comment": "Silence (G0091) & Turla (G0010)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1053.005",
-            "techniqueName": "Scheduled Task",
-            "comment": "Silence (G0091) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -285,6 +303,18 @@
             "techniqueID": "T1125",
             "techniqueName": "Video Capture",
             "comment": "Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.003",
+            "techniqueName": "Clear Command History",
+            "comment": "menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1190",
+            "techniqueName": "Exploit Public-Facing Application",
+            "comment": "menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -365,6 +395,12 @@
             "comment": "menuPass (G0045)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1055.012",
+            "techniqueName": "Process Hollowing",
+            "comment": "menuPass (G0045)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1140",
             "techniqueName": "Deobfuscate/Decode Files or Information",
@@ -372,21 +408,9 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1055.012",
-            "techniqueName": "Process Hollowing",
-            "comment": "menuPass (G0045)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1199",
             "techniqueName": "Trusted Relationship",
             "comment": "menuPass (G0045)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "menuPass (G0045) & GALLIUM (G0093) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -407,22 +431,22 @@
             "comment": "menuPass (G0045) & GALLIUM (G0093) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1047",
-            "techniqueName": "Windows Management Instrumentation",
-            "comment": "menuPass (G0045) & GALLIUM (G0093)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1039",
             "techniqueName": "Data from Network Shared Drive",
             "comment": "menuPass (G0045)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "menuPass (G0045)"
+            "score": 2,
+            "techniqueID": "T1047",
+            "techniqueName": "Windows Management Instrumentation",
+            "comment": "menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "menuPass (G0045) & GALLIUM (G0093) & admin@338 (G0018) & Tropic Trooper (G0081) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -456,6 +480,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "menuPass (G0045)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1583.004",
             "techniqueName": "Server",
             "comment": "GALLIUM (G0093)"
@@ -465,12 +495,6 @@
             "techniqueID": "T1570",
             "techniqueName": "Lateral Tool Transfer",
             "comment": "GALLIUM (G0093) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1588.002",
-            "techniqueName": "Tool",
-            "comment": "GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -515,21 +539,15 @@
             "comment": "GALLIUM (G0093)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1190",
-            "techniqueName": "Exploit Public-Facing Application",
-            "comment": "GALLIUM (G0093)"
+            "score": 2,
+            "techniqueID": "T1087.001",
+            "techniqueName": "Local Account",
+            "comment": "admin@338 (G0018) & Turla (G0010)"
         },
         {
             "score": 2,
             "techniqueID": "T1069.001",
             "techniqueName": "Local Groups",
-            "comment": "admin@338 (G0018) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1087.001",
-            "techniqueName": "Local Account",
             "comment": "admin@338 (G0018) & Turla (G0010)"
         },
         {
@@ -636,6 +654,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1615",
+            "techniqueName": "Group Policy Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1553.006",
             "techniqueName": "Code Signing Policy Modification",
             "comment": "Turla (G0010)"
@@ -650,12 +674,6 @@
             "score": 1,
             "techniqueID": "T1068",
             "techniqueName": "Exploitation for Privilege Escalation",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059.006",
-            "techniqueName": "Python",
             "comment": "Turla (G0010)"
         },
         {
@@ -774,14 +792,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1566.002",
-            "techniqueName": "Spearphishing Link",
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1204.001",
-            "techniqueName": "Malicious Link",
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
             "comment": "Turla (G0010)"
         },
         {
@@ -805,14 +823,14 @@
     ],
     "gradient": {
         "colors": [
-            "#fc74a3",
-            "#f92295",
-            "#1dba18",
-            "#35f4a5",
-            "#e80426",
-            "#fcc7d9",
-            "#6ca0cc",
-            "#db560f"
+            "#5433bf",
+            "#ea96f2",
+            "#719916",
+            "#6d6ac9",
+            "#51d6c0",
+            "#ff70e9",
+            "#ef9295",
+            "#e8db4c"
         ],
         "minValue": 0,
         "maxValue": 7

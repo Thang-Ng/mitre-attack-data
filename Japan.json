@@ -5,6 +5,12 @@
     "version": "3.0",
     "techniques": [
         {
+            "score": 8,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & Threat Group-3390 (G0027) & Thrip (G0076) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
             "score": 5,
             "techniqueID": "T1574.002",
             "techniqueName": "DLL Side-Loading",
@@ -35,16 +41,16 @@
             "comment": "BRONZE BUTLER (G0060)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1036",
             "techniqueName": "Masquerading",
-            "comment": "BRONZE BUTLER (G0060) & menuPass (G0045)"
+            "comment": "BRONZE BUTLER (G0060) & APT28 (G0007) & menuPass (G0045)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1059.006",
             "techniqueName": "Python",
-            "comment": "BRONZE BUTLER (G0060)"
+            "comment": "BRONZE BUTLER (G0060) & APT37 (G0067)"
         },
         {
             "score": 1,
@@ -59,22 +65,16 @@
             "comment": "BRONZE BUTLER (G0060) & Darkhotel (G0012) & Gamaredon Group (G0047)"
         },
         {
-            "score": 6,
+            "score": 5,
             "techniqueID": "T1059.005",
             "techniqueName": "Visual Basic",
-            "comment": "BRONZE BUTLER (G0060) & Gamaredon Group (G0047) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067)"
+            "comment": "BRONZE BUTLER (G0060) & Gamaredon Group (G0047) & Honeybee (G0072) & Patchwork (G0040) & APT37 (G0067)"
         },
         {
-            "score": 5,
+            "score": 6,
             "techniqueID": "T1053.005",
             "techniqueName": "Scheduled Task",
-            "comment": "BRONZE BUTLER (G0060) & Gamaredon Group (G0047) & Patchwork (G0040) & menuPass (G0045) & GALLIUM (G0093)"
-        },
-        {
-            "score": 8,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "BRONZE BUTLER (G0060) & Darkhotel (G0012) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045)"
+            "comment": "BRONZE BUTLER (G0060) & Gamaredon Group (G0047) & Patchwork (G0040) & APT37 (G0067) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 6,
@@ -95,34 +95,22 @@
             "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & Darkhotel (G0012) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045)"
         },
         {
+            "score": 8,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "BRONZE BUTLER (G0060) & Darkhotel (G0012) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1102.001",
             "techniqueName": "Dead Drop Resolver",
             "comment": "BRONZE BUTLER (G0060) & Patchwork (G0040)"
         },
         {
-            "score": 4,
+            "score": 5,
             "techniqueID": "T1560.001",
             "techniqueName": "Archive via Utility",
-            "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & menuPass (G0045) & GALLIUM (G0093)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1053.002",
-            "techniqueName": "At (Windows)",
-            "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 6,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & Darkhotel (G0012) & Lazarus Group (G0032) & Patchwork (G0040) & menuPass (G0045)"
-        },
-        {
-            "score": 9,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "BRONZE BUTLER (G0060) & Darkhotel (G0012) & Dust Storm (G0031) & Gamaredon Group (G0047) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045)"
+            "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 5,
@@ -137,76 +125,10 @@
             "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Lazarus Group (G0032) & APT37 (G0067) & APT28 (G0007)"
         },
         {
-            "score": 7,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "BRONZE BUTLER (G0060) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Honeybee (G0072) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
-            "comment": "BRONZE BUTLER (G0060) & menuPass (G0045)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
-            "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & menuPass (G0045) & GALLIUM (G0093)"
-        },
-        {
-            "score": 10,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
-            "comment": "BRONZE BUTLER (G0060) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1550.003",
-            "techniqueName": "Pass the Ticket",
-            "comment": "BRONZE BUTLER (G0060)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
-            "comment": "BRONZE BUTLER (G0060) & Gamaredon Group (G0047) & APT28 (G0007)"
-        },
-        {
-            "score": 6,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT28 (G0007) & GALLIUM (G0093)"
-        },
-        {
-            "score": 8,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 12,
-            "techniqueID": "T1005",
-            "techniqueName": "Data from Local System",
-            "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & Dust Storm (G0031) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1039",
-            "techniqueName": "Data from Network Shared Drive",
-            "comment": "BRONZE BUTLER (G0060) & Gamaredon Group (G0047) & menuPass (G0045)"
-        },
-        {
             "score": 9,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "BRONZE BUTLER (G0060) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "BRONZE BUTLER (G0060) & Gamaredon Group (G0047) & Patchwork (G0040)"
         },
         {
             "score": 3,
@@ -221,6 +143,66 @@
             "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1053.002",
+            "techniqueName": "At (Windows)",
+            "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 7,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & Darkhotel (G0012) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1550.003",
+            "techniqueName": "Pass the Ticket",
+            "comment": "BRONZE BUTLER (G0060)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "BRONZE BUTLER (G0060) & Gamaredon Group (G0047) & APT28 (G0007)"
+        },
+        {
+            "score": 8,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
+            "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
+            "score": 10,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
+            "comment": "BRONZE BUTLER (G0060) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
+            "score": 9,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "BRONZE BUTLER (G0060) & Darkhotel (G0012) & Dust Storm (G0031) & Gamaredon Group (G0047) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & Threat Group-3390 (G0027) & APT28 (G0007) & GALLIUM (G0093)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
+            "comment": "BRONZE BUTLER (G0060) & Gamaredon Group (G0047) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
             "score": 4,
             "techniqueID": "T1573.001",
             "techniqueName": "Symmetric Cryptography",
@@ -233,10 +215,34 @@
             "comment": "BRONZE BUTLER (G0060) & Lazarus Group (G0032) & Patchwork (G0040)"
         },
         {
-            "score": 8,
+            "score": 7,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
-            "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Thrip (G0076) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
+            "comment": "BRONZE BUTLER (G0060) & Threat Group-3390 (G0027) & Thrip (G0076) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
+            "score": 7,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "BRONZE BUTLER (G0060) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Honeybee (G0072) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
+            "comment": "BRONZE BUTLER (G0060) & menuPass (G0045)"
+        },
+        {
+            "score": 12,
+            "techniqueID": "T1005",
+            "techniqueName": "Data from Local System",
+            "comment": "BRONZE BUTLER (G0060) & APT1 (G0006) & Dust Storm (G0031) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
+            "comment": "BRONZE BUTLER (G0060) & Gamaredon Group (G0047) & Patchwork (G0040)"
         },
         {
             "score": 1,
@@ -317,6 +323,12 @@
             "comment": "APT1 (G0006) & Lazarus Group (G0032) & Patchwork (G0040) & menuPass (G0045)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1114.001",
+            "techniqueName": "Local Email Collection",
+            "comment": "APT1 (G0006)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1550.002",
             "techniqueName": "Pass the Hash",
@@ -324,15 +336,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1114.001",
-            "techniqueName": "Local Email Collection",
-            "comment": "APT1 (G0006)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1312",
             "techniqueName": "Compromise 3rd party infrastructure to support delivery",
             "comment": "APT1 (G0006)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
+            "comment": "APT1 (G0006) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -342,21 +354,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1330",
-            "techniqueName": "Acquire and/or use 3rd party software services",
-            "comment": "APT1 (G0006)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1333",
             "techniqueName": "Dynamic DNS",
             "comment": "APT1 (G0006)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
-            "comment": "APT1 (G0006) & APT28 (G0007)"
+            "score": 1,
+            "techniqueID": "T1330",
+            "techniqueName": "Acquire and/or use 3rd party software services",
+            "comment": "APT1 (G0006)"
         },
         {
             "score": 1,
@@ -401,22 +407,22 @@
             "comment": "Darkhotel (G0012) & Lazarus Group (G0032)"
         },
         {
-            "score": 5,
+            "score": 6,
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
-            "comment": "Darkhotel (G0012) & Honeybee (G0072) & Patchwork (G0040) & GALLIUM (G0093) & Winnti Group (G0044)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1091",
-            "techniqueName": "Replication Through Removable Media",
-            "comment": "Darkhotel (G0012) & APT28 (G0007)"
+            "comment": "Darkhotel (G0012) & Honeybee (G0072) & Patchwork (G0040) & menuPass (G0045) & GALLIUM (G0093) & Winnti Group (G0044)"
         },
         {
             "score": 5,
             "techniqueID": "T1056.001",
             "techniqueName": "Keylogging",
             "comment": "Darkhotel (G0012) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1091",
+            "techniqueName": "Replication Through Removable Media",
+            "comment": "Darkhotel (G0012) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -437,10 +443,10 @@
             "comment": "Threat Group-3390 (G0027) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1074.002",
             "techniqueName": "Remote Data Staging",
-            "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
+            "comment": "Threat Group-3390 (G0027) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 3,
@@ -449,10 +455,10 @@
             "comment": "Threat Group-3390 (G0027) & APT28 (G0007) & menuPass (G0045)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1505.003",
             "techniqueName": "Web Shell",
-            "comment": "Threat Group-3390 (G0027) & GALLIUM (G0093)"
+            "comment": "Threat Group-3390 (G0027) & APT28 (G0007) & GALLIUM (G0093)"
         },
         {
             "score": 3,
@@ -467,10 +473,16 @@
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
-            "score": 5,
+            "score": 4,
             "techniqueID": "T1112",
             "techniqueName": "Modify Registry",
-            "comment": "Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040)"
+            "comment": "Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Honeybee (G0072) & Patchwork (G0040)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1012",
+            "techniqueName": "Query Registry",
+            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
         },
         {
             "score": 2,
@@ -486,15 +498,9 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1012",
-            "techniqueName": "Query Registry",
-            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1070.005",
-            "techniqueName": "Network Share Connection Removal",
-            "comment": "Threat Group-3390 (G0027)"
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
+            "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -503,28 +509,16 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
-            "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1562.002",
             "techniqueName": "Disable Windows Event Logging",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1560.002",
-            "techniqueName": "Archive via Library",
-            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "Threat Group-3390 (G0027) & GALLIUM (G0093)"
+            "score": 1,
+            "techniqueID": "T1070.005",
+            "techniqueName": "Network Share Connection Removal",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 4,
@@ -533,22 +527,28 @@
             "comment": "Threat Group-3390 (G0027) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
-            "score": 1,
+            "score": 3,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "Threat Group-3390 (G0027) & APT28 (G0007) & GALLIUM (G0093)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1030",
             "techniqueName": "Data Transfer Size Limits",
-            "comment": "Threat Group-3390 (G0027)"
+            "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1560.002",
+            "techniqueName": "Archive via Library",
+            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
         },
         {
             "score": 7,
             "techniqueID": "T1074.001",
             "techniqueName": "Local Data Staging",
             "comment": "Threat Group-3390 (G0027) & Honeybee (G0072) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT37 (G0067) & APT28 (G0007)"
         },
         {
             "score": 2,
@@ -561,6 +561,12 @@
             "techniqueID": "T1046",
             "techniqueName": "Network Service Scanning",
             "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & APT37 (G0067) & APT28 (G0007)"
         },
         {
             "score": 2,
@@ -623,16 +629,16 @@
             "comment": "Gamaredon Group (G0047) & Lazarus Group (G0032) & GALLIUM (G0093)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "Gamaredon Group (G0047) & APT28 (G0007)"
-        },
-        {
             "score": 5,
             "techniqueID": "T1033",
             "techniqueName": "System Owner/User Discovery",
             "comment": "Gamaredon Group (G0047) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & GALLIUM (G0093)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "Gamaredon Group (G0047) & APT28 (G0007)"
         },
         {
             "score": 3,
@@ -690,36 +696,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1218.005",
-            "techniqueName": "Mshta",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1027.002",
-            "techniqueName": "Software Packing",
-            "comment": "Lazarus Group (G0032) & Patchwork (G0040) & GALLIUM (G0093)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1036.004",
-            "techniqueName": "Masquerade Task or Service",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1547.005",
-            "techniqueName": "Security Support Provider",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1566.003",
-            "techniqueName": "Spearphishing via Service",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1571",
             "techniqueName": "Non-Standard Port",
             "comment": "Lazarus Group (G0032)"
@@ -756,12 +732,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1496",
-            "techniqueName": "Resource Hijacking",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1485",
             "techniqueName": "Data Destruction",
             "comment": "Lazarus Group (G0032)"
@@ -791,16 +761,16 @@
             "comment": "Lazarus Group (G0032)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1055.001",
-            "techniqueName": "Dynamic-link Library Injection",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1564.001",
             "techniqueName": "Hidden Files and Directories",
             "comment": "Lazarus Group (G0032) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1055.001",
+            "techniqueName": "Dynamic-link Library Injection",
+            "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 4,
@@ -821,6 +791,12 @@
             "comment": "Lazarus Group (G0032) & APT28 (G0007)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1065",
+            "techniqueName": "Uncommonly Used Port",
+            "comment": "Lazarus Group (G0032)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1110.003",
             "techniqueName": "Password Spraying",
@@ -834,21 +810,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1065",
-            "techniqueName": "Uncommonly Used Port",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1008",
             "techniqueName": "Fallback Channels",
             "comment": "Lazarus Group (G0032)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1021.002",
             "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "Lazarus Group (G0032)"
+            "comment": "Lazarus Group (G0032) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -863,16 +833,16 @@
             "comment": "Lazarus Group (G0032)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1098",
-            "techniqueName": "Account Manipulation",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1070.006",
             "techniqueName": "Timestomp",
             "comment": "Lazarus Group (G0032) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1098",
+            "techniqueName": "Account Manipulation",
+            "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
@@ -912,14 +882,20 @@
         },
         {
             "score": 2,
+            "techniqueID": "T1027.002",
+            "techniqueName": "Software Packing",
+            "comment": "Patchwork (G0040) & GALLIUM (G0093)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1555.003",
             "techniqueName": "Credentials from Web Browsers",
             "comment": "Patchwork (G0040) & APT37 (G0067)"
         },
         {
             "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
+            "techniqueID": "T1059",
+            "techniqueName": "Command and Scripting Interpreter",
             "comment": "APT37 (G0067)"
         },
         {
@@ -936,9 +912,45 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
+            "comment": "APT37 (G0067)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1036.001",
             "techniqueName": "Invalid Code Signature",
             "comment": "APT37 (G0067)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1048.002",
+            "techniqueName": "Exfiltration Over Asymmetric Encrypted Non-C2 Protocol",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1213",
+            "techniqueName": "Data from Information Repositories",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1003.003",
+            "techniqueName": "NTDS",
+            "comment": "APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1098.002",
+            "techniqueName": "Exchange Email Delegate Permissions",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078.004",
+            "techniqueName": "Cloud Accounts",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -983,10 +995,10 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1190",
             "techniqueName": "Exploit Public-Facing Application",
-            "comment": "APT28 (G0007) & GALLIUM (G0093)"
+            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -1038,14 +1050,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1211",
-            "techniqueName": "Exploitation for Defense Evasion",
+            "techniqueID": "T1037.001",
+            "techniqueName": "Logon Script (Windows)",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1037.001",
-            "techniqueName": "Logon Script (Windows)",
+            "techniqueID": "T1211",
+            "techniqueName": "Exploitation for Defense Evasion",
             "comment": "APT28 (G0007)"
         },
         {
@@ -1080,12 +1092,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1001.001",
             "techniqueName": "Junk Data",
             "comment": "APT28 (G0007)"
@@ -1098,20 +1104,26 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1328",
             "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1568.001",
-            "techniqueName": "Fast Flux DNS",
+            "techniqueID": "T1070.003",
+            "techniqueName": "Clear Command History",
             "comment": "menuPass (G0045)"
         },
         {
             "score": 1,
-            "techniqueID": "T1003.003",
-            "techniqueName": "NTDS",
+            "techniqueID": "T1568.001",
+            "techniqueName": "Fast Flux DNS",
             "comment": "menuPass (G0045)"
         },
         {
@@ -1146,12 +1158,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1588.002",
-            "techniqueName": "Tool",
-            "comment": "GALLIUM (G0093)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1136.002",
             "techniqueName": "Domain Account",
             "comment": "GALLIUM (G0093)"
@@ -1159,19 +1165,19 @@
     ],
     "gradient": {
         "colors": [
-            "#210763",
-            "#1b2791",
-            "#76d8fc",
-            "#c49e23",
-            "#ccd7ff",
-            "#6fd615",
-            "#47aa23",
-            "#c1156e",
-            "#1daf69",
-            "#0ab9c9",
-            "#e2dc1f",
-            "#dd690b",
-            "#73f700"
+            "#f968ff",
+            "#ef7ce9",
+            "#1a13f2",
+            "#f9c9a7",
+            "#1da52d",
+            "#55b72c",
+            "#e21281",
+            "#ea6282",
+            "#38e064",
+            "#98dd18",
+            "#576b02",
+            "#eade83",
+            "#edc478"
         ],
         "minValue": 0,
         "maxValue": 12

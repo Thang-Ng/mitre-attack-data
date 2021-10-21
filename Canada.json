@@ -6,6 +6,66 @@
     "techniques": [
         {
             "score": 1,
+            "techniqueID": "T1589.002",
+            "techniqueName": "Email Addresses",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1589",
+            "techniqueName": "Gather Victim Identity Information",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "Magic Hound (G0059) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & APT28 (G0007)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & PROMETHIUM (G0056) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1585.001",
+            "techniqueName": "Social Media Accounts",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.001",
+            "techniqueName": "Domains",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1583.001",
+            "techniqueName": "Domains",
+            "comment": "Magic Hound (G0059) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1598.003",
+            "techniqueName": "Spearphishing Link",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1114",
+            "techniqueName": "Email Collection",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1586.002",
             "techniqueName": "Email Accounts",
             "comment": "Magic Hound (G0059)"
@@ -35,10 +95,10 @@
             "comment": "Magic Hound (G0059) & Silence (G0091)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1098.002",
             "techniqueName": "Exchange Email Delegate Permissions",
-            "comment": "Magic Hound (G0059)"
+            "comment": "Magic Hound (G0059) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -53,6 +113,12 @@
             "comment": "Magic Hound (G0059) & APT28 (G0007)"
         },
         {
+            "score": 4,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "Magic Hound (G0059) & Silence (G0091) & APT28 (G0007) & GALLIUM (G0093)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1114.001",
             "techniqueName": "Local Email Collection",
@@ -60,33 +126,15 @@
         },
         {
             "score": 4,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "Magic Hound (G0059) & Silence (G0091) & APT28 (G0007) & GALLIUM (G0093)"
-        },
-        {
-            "score": 3,
             "techniqueID": "T1560.001",
             "techniqueName": "Archive via Utility",
-            "comment": "Magic Hound (G0059) & menuPass (G0045) & GALLIUM (G0093)"
+            "comment": "Magic Hound (G0059) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 3,
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
             "comment": "Magic Hound (G0059) & Molerats (G0021) & APT28 (G0007)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "Magic Hound (G0059) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "Magic Hound (G0059) & APT28 (G0007)"
         },
         {
             "score": 6,
@@ -107,10 +155,46 @@
             "comment": "Magic Hound (G0059) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
+            "score": 3,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "Magic Hound (G0059) & menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "Magic Hound (G0059) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "Magic Hound (G0059) & APT28 (G0007)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "Magic Hound (G0059) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Magic Hound (G0059) & Orangeworm (G0071) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "Magic Hound (G0059) & GALLIUM (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 1,
@@ -125,40 +209,16 @@
             "comment": "Magic Hound (G0059) & Molerats (G0021) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "Magic Hound (G0059) & menuPass (G0045) & GALLIUM (G0093)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "Magic Hound (G0059)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "Magic Hound (G0059) & APT28 (G0007)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Magic Hound (G0059) & Orangeworm (G0071) & APT28 (G0007)"
+            "score": 6,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 5,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Magic Hound (G0059) & Molerats (G0021) & PROMETHIUM (G0056) & Silence (G0091) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "Magic Hound (G0059) & GALLIUM (G0093)"
         },
         {
             "score": 4,
@@ -215,34 +275,22 @@
             "comment": "Molerats (G0021) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "Molerats (G0021) & PROMETHIUM (G0056) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1204.001",
-            "techniqueName": "Malicious Link",
-            "comment": "Molerats (G0021) & APT28 (G0007)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1555.003",
             "techniqueName": "Credentials from Web Browsers",
             "comment": "Molerats (G0021)"
         },
         {
-            "score": 4,
+            "score": 5,
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
-            "comment": "Molerats (G0021) & PROMETHIUM (G0056) & Silence (G0091) & GALLIUM (G0093)"
+            "comment": "Molerats (G0021) & PROMETHIUM (G0056) & Silence (G0091) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1021.002",
             "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "Orangeworm (G0071)"
+            "comment": "Orangeworm (G0071) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -281,10 +329,10 @@
             "comment": "PROMETHIUM (G0056)"
         },
         {
-            "score": 3,
+            "score": 4,
             "techniqueID": "T1036.005",
             "techniqueName": "Match Legitimate Name or Location",
-            "comment": "PROMETHIUM (G0056) & Silence (G0091) & menuPass (G0045)"
+            "comment": "PROMETHIUM (G0056) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 1,
@@ -359,6 +407,66 @@
             "comment": "Silence (G0091)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1036",
+            "techniqueName": "Masquerading",
+            "comment": "APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "APT28 (G0007) & GALLIUM (G0093)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1030",
+            "techniqueName": "Data Transfer Size Limits",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1048.002",
+            "techniqueName": "Exfiltration Over Asymmetric Encrypted Non-C2 Protocol",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1213",
+            "techniqueName": "Data from Information Repositories",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1074.002",
+            "techniqueName": "Remote Data Staging",
+            "comment": "APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
+            "comment": "APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1003.003",
+            "techniqueName": "NTDS",
+            "comment": "APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078.004",
+            "techniqueName": "Cloud Accounts",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1505.003",
+            "techniqueName": "Web Shell",
+            "comment": "APT28 (G0007) & GALLIUM (G0093)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1598",
             "techniqueName": "Phishing for Information",
@@ -389,22 +497,16 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1583.001",
-            "techniqueName": "Domains",
-            "comment": "APT28 (G0007) & menuPass (G0045)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1498",
             "techniqueName": "Network Denial of Service",
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1190",
             "techniqueName": "Exploit Public-Facing Application",
-            "comment": "APT28 (G0007) & GALLIUM (G0093)"
+            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -468,12 +570,6 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1199",
-            "techniqueName": "Trusted Relationship",
-            "comment": "APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1560",
             "techniqueName": "Archive Collected Data",
             "comment": "APT28 (G0007) & menuPass (G0045)"
@@ -482,6 +578,12 @@
             "score": 2,
             "techniqueID": "T1119",
             "techniqueName": "Automated Collection",
+            "comment": "APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1199",
+            "techniqueName": "Trusted Relationship",
             "comment": "APT28 (G0007) & menuPass (G0045)"
         },
         {
@@ -494,12 +596,6 @@
             "score": 1,
             "techniqueID": "T1213.002",
             "techniqueName": "Sharepoint",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1211",
-            "techniqueName": "Exploitation for Defense Evasion",
             "comment": "APT28 (G0007)"
         },
         {
@@ -519,6 +615,12 @@
             "techniqueID": "T1210",
             "techniqueName": "Exploitation of Remote Services",
             "comment": "APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1211",
+            "techniqueName": "Exploitation for Defense Evasion",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -551,21 +653,9 @@
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -575,9 +665,15 @@
             "comment": "APT28 (G0007) & GALLIUM (G0093)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
             "score": 1,
-            "techniqueID": "T1546.015",
-            "techniqueName": "Component Object Model Hijacking",
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -588,8 +684,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
+            "techniqueID": "T1546.015",
+            "techniqueName": "Component Object Model Hijacking",
             "comment": "APT28 (G0007)"
         },
         {
@@ -600,14 +696,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.006",
-            "techniqueName": "Timestomp",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "APT28 (G0007)"
         },
         {
@@ -630,8 +720,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1070.006",
+            "techniqueName": "Timestomp",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
             "comment": "APT28 (G0007)"
         },
         {
@@ -642,14 +738,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1568.001",
-            "techniqueName": "Fast Flux DNS",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.003",
+            "techniqueName": "Clear Command History",
             "comment": "menuPass (G0045)"
         },
         {
             "score": 1,
-            "techniqueID": "T1003.003",
-            "techniqueName": "NTDS",
+            "techniqueID": "T1568.001",
+            "techniqueName": "Fast Flux DNS",
             "comment": "menuPass (G0045)"
         },
         {
@@ -669,18 +771,6 @@
             "techniqueID": "T1036.003",
             "techniqueName": "Rename System Utilities",
             "comment": "menuPass (G0045) & GALLIUM (G0093)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1036",
-            "techniqueName": "Masquerading",
-            "comment": "menuPass (G0045)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1074.002",
-            "techniqueName": "Remote Data Staging",
-            "comment": "menuPass (G0045)"
         },
         {
             "score": 1,
@@ -713,18 +803,6 @@
             "comment": "menuPass (G0045) & GALLIUM (G0093)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1039",
-            "techniqueName": "Data from Network Shared Drive",
-            "comment": "menuPass (G0045)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "menuPass (G0045)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1574.002",
             "techniqueName": "DLL Side-Loading",
@@ -744,6 +822,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "menuPass (G0045)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1583.004",
             "techniqueName": "Server",
             "comment": "GALLIUM (G0093)"
@@ -752,12 +836,6 @@
             "score": 1,
             "techniqueID": "T1570",
             "techniqueName": "Lateral Tool Transfer",
-            "comment": "GALLIUM (G0093)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1588.002",
-            "techniqueName": "Tool",
             "comment": "GALLIUM (G0093)"
         },
         {
@@ -774,20 +852,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "GALLIUM (G0093)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1027.002",
             "techniqueName": "Software Packing",
-            "comment": "GALLIUM (G0093)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1505.003",
-            "techniqueName": "Web Shell",
             "comment": "GALLIUM (G0093)"
         },
         {
@@ -799,13 +865,13 @@
     ],
     "gradient": {
         "colors": [
-            "#4adb73",
-            "#76d3d2",
-            "#63dd78",
-            "#e26a98",
-            "#a792db",
-            "#747be0",
-            "#bf0ecc"
+            "#d6d845",
+            "#58fc66",
+            "#5b98ba",
+            "#8e79ea",
+            "#c96e1a",
+            "#d8a2e8",
+            "#7272e0"
         ],
         "minValue": 0,
         "maxValue": 6

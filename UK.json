@@ -11,28 +11,22 @@
             "comment": "BlackOasis (G0063) & Cobalt Group (G0080) & Darkhotel (G0012) & Threat Group-3390 (G0027) & FIN7 (G0046) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & OilRig (G0049) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1008",
-            "techniqueName": "Fallback Channels",
-            "comment": "Carbanak (G0008) & Lazarus Group (G0032) & OilRig (G0049)"
+            "score": 15,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "Carbanak (G0008) & Cobalt Group (G0080) & APT1 (G0006) & Cleaver (G0003) & Threat Group-3390 (G0027) & Dragonfly (G0035) & Gorgon Group (G0078) & Ke3chang (G0004) & Magic Hound (G0059) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
         },
         {
-            "score": 3,
+            "score": 2,
             "techniqueID": "T1036.004",
             "techniqueName": "Masquerade Task or Service",
-            "comment": "Carbanak (G0008) & FIN7 (G0046) & Lazarus Group (G0032)"
+            "comment": "Carbanak (G0008) & FIN7 (G0046)"
         },
         {
             "score": 2,
             "techniqueID": "T1219",
             "techniqueName": "Remote Access Software",
             "comment": "Carbanak (G0008) & Cobalt Group (G0080)"
-        },
-        {
-            "score": 8,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "Carbanak (G0008) & APT1 (G0006) & Darkhotel (G0012) & Machete (G0095) & Lazarus Group (G0032) & Patchwork (G0040) & Silence (G0091) & menuPass (G0045)"
         },
         {
             "score": 6,
@@ -47,6 +41,12 @@
             "comment": "Carbanak (G0008) & FIN7 (G0046) & Magic Hound (G0059) & APT37 (G0067) & APT28 (G0007) & Turla (G0010)"
         },
         {
+            "score": 10,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "Carbanak (G0008) & APT1 (G0006) & Darkhotel (G0012) & Machete (G0095) & FIN7 (G0046) & Lazarus Group (G0032) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1218.011",
             "techniqueName": "Rundll32",
@@ -59,10 +59,10 @@
             "comment": "Carbanak (G0008) & Lazarus Group (G0032)"
         },
         {
-            "score": 8,
+            "score": 9,
             "techniqueID": "T1078",
             "techniqueName": "Valid Accounts",
-            "comment": "Carbanak (G0008) & Threat Group-3390 (G0027) & Leviathan (G0065) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
+            "comment": "Carbanak (G0008) & Threat Group-3390 (G0027) & FIN7 (G0046) & Leviathan (G0065) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 2,
@@ -77,16 +77,16 @@
             "comment": "Cobalt Group (G0080) & FIN7 (G0046) & Molerats (G0021) & Silence (G0091) & Turla (G0010)"
         },
         {
-            "score": 20,
+            "score": 19,
             "techniqueID": "T1059.003",
             "techniqueName": "Windows Command Shell",
-            "comment": "Cobalt Group (G0080) & APT1 (G0006) & Darkhotel (G0012) & Machete (G0095) & Threat Group-3390 (G0027) & FIN7 (G0046) & Gamaredon Group (G0047) & Gorgon Group (G0078) & Ke3chang (G0004) & Lazarus Group (G0032) & Leviathan (G0065) & Magic Hound (G0059) & OilRig (G0049) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
+            "comment": "Cobalt Group (G0080) & APT1 (G0006) & Darkhotel (G0012) & Machete (G0095) & Threat Group-3390 (G0027) & FIN7 (G0046) & Gamaredon Group (G0047) & Gorgon Group (G0078) & Ke3chang (G0004) & Lazarus Group (G0032) & Magic Hound (G0059) & OilRig (G0049) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
         },
         {
-            "score": 8,
+            "score": 10,
             "techniqueID": "T1204.001",
             "techniqueName": "Malicious Link",
-            "comment": "Cobalt Group (G0080) & Machete (G0095) & Leviathan (G0065) & Molerats (G0021) & OilRig (G0049) & Patchwork (G0040) & APT28 (G0007) & Turla (G0010)"
+            "comment": "Cobalt Group (G0080) & Machete (G0095) & FIN7 (G0046) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & OilRig (G0049) & Patchwork (G0040) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 4,
@@ -95,10 +95,10 @@
             "comment": "Cobalt Group (G0080) & FIN7 (G0046) & Ke3chang (G0004) & OilRig (G0049)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1572",
             "techniqueName": "Protocol Tunneling",
-            "comment": "Cobalt Group (G0080) & OilRig (G0049)"
+            "comment": "Cobalt Group (G0080) & Leviathan (G0065) & OilRig (G0049)"
         },
         {
             "score": 1,
@@ -119,46 +119,34 @@
             "comment": "Cobalt Group (G0080) & APT28 (G0007)"
         },
         {
-            "score": 11,
-            "techniqueID": "T1053.005",
-            "techniqueName": "Scheduled Task",
-            "comment": "Cobalt Group (G0080) & Machete (G0095) & FIN7 (G0046) & Gamaredon Group (G0047) & Molerats (G0021) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & Stealth Falcon (G0038) & menuPass (G0045) & GALLIUM (G0093)"
-        },
-        {
-            "score": 10,
-            "techniqueID": "T1566.002",
-            "techniqueName": "Spearphishing Link",
-            "comment": "Cobalt Group (G0080) & APT1 (G0006) & Machete (G0095) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & OilRig (G0049) & Patchwork (G0040) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 8,
-            "techniqueID": "T1021.001",
-            "techniqueName": "Remote Desktop Protocol",
-            "comment": "Cobalt Group (G0080) & APT1 (G0006) & Lazarus Group (G0032) & Leviathan (G0065) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & menuPass (G0045)"
-        },
-        {
-            "score": 12,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Ke3chang (G0004) & Lazarus Group (G0032) & Magic Hound (G0059) & OilRig (G0049) & Orangeworm (G0071) & APT37 (G0067) & APT28 (G0007) & Stealth Falcon (G0038) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1218.003",
-            "techniqueName": "CMSTP",
-            "comment": "Cobalt Group (G0080)"
-        },
-        {
-            "score": 15,
+            "score": 16,
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
-            "comment": "Cobalt Group (G0080) & Darkhotel (G0012) & Machete (G0095) & FIN7 (G0046) & Gamaredon Group (G0047) & Gorgon Group (G0078) & Lazarus Group (G0032) & Leviathan (G0065) & Molerats (G0021) & OilRig (G0049) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+            "comment": "Cobalt Group (G0080) & Darkhotel (G0012) & Machete (G0095) & FIN7 (G0046) & Gamaredon Group (G0047) & Gorgon Group (G0078) & Lazarus Group (G0032) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & OilRig (G0049) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 4,
             "techniqueID": "T1046",
             "techniqueName": "Network Service Scanning",
             "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027) & OilRig (G0049) & menuPass (G0045)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1548.002",
+            "techniqueName": "Bypass User Account Control",
+            "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027) & Patchwork (G0040) & APT37 (G0067)"
+        },
+        {
+            "score": 10,
+            "techniqueID": "T1070.004",
+            "techniqueName": "File Deletion",
+            "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Magic Hound (G0059) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1559.002",
+            "techniqueName": "Dynamic Data Exchange",
+            "comment": "Cobalt Group (G0080) & FIN7 (G0046) & Leviathan (G0065) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007)"
         },
         {
             "score": 4,
@@ -185,40 +173,22 @@
             "comment": "Cobalt Group (G0080) & Leviathan (G0065)"
         },
         {
-            "score": 10,
-            "techniqueID": "T1070.004",
-            "techniqueName": "File Deletion",
-            "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Magic Hound (G0059) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
+            "score": 9,
+            "techniqueID": "T1021.001",
+            "techniqueName": "Remote Desktop Protocol",
+            "comment": "Cobalt Group (G0080) & APT1 (G0006) & FIN7 (G0046) & Lazarus Group (G0032) & Leviathan (G0065) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & menuPass (G0045)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1573.002",
-            "techniqueName": "Asymmetric Cryptography",
-            "comment": "Cobalt Group (G0080) & OilRig (G0049)"
-        },
-        {
-            "score": 18,
-            "techniqueID": "T1105",
-            "techniqueName": "Ingress Tool Transfer",
-            "comment": "Cobalt Group (G0080) & Darkhotel (G0012) & Threat Group-3390 (G0027) & FIN7 (G0046) & Gamaredon Group (G0047) & Gorgon Group (G0078) & Lazarus Group (G0032) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & OilRig (G0049) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Account Control",
-            "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027) & Patchwork (G0040) & APT37 (G0067)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1559.002",
-            "techniqueName": "Dynamic Data Exchange",
-            "comment": "Cobalt Group (G0080) & FIN7 (G0046) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007)"
+            "score": 1,
+            "techniqueID": "T1218.003",
+            "techniqueName": "CMSTP",
+            "comment": "Cobalt Group (G0080)"
         },
         {
             "score": 13,
             "techniqueID": "T1059.005",
             "techniqueName": "Visual Basic",
-            "comment": "Cobalt Group (G0080) & Machete (G0095) & FIN7 (G0046) & Gamaredon Group (G0047) & Gorgon Group (G0078) & Lazarus Group (G0032) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091) & Turla (G0010)"
+            "comment": "Cobalt Group (G0080) & Machete (G0095) & FIN7 (G0046) & Gamaredon Group (G0047) & Gorgon Group (G0078) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & OilRig (G0049) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -227,10 +197,40 @@
             "comment": "Cobalt Group (G0080)"
         },
         {
-            "score": 16,
+            "score": 15,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
-            "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027) & FIN7 (G0046) & Gorgon Group (G0078) & Lazarus Group (G0032) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
+            "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027) & FIN7 (G0046) & Gorgon Group (G0078) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
+        },
+        {
+            "score": 12,
+            "techniqueID": "T1053.005",
+            "techniqueName": "Scheduled Task",
+            "comment": "Cobalt Group (G0080) & Machete (G0095) & FIN7 (G0046) & Gamaredon Group (G0047) & Molerats (G0021) & OilRig (G0049) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091) & Stealth Falcon (G0038) & menuPass (G0045) & GALLIUM (G0093)"
+        },
+        {
+            "score": 11,
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
+            "comment": "Cobalt Group (G0080) & APT1 (G0006) & Machete (G0095) & FIN7 (G0046) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & OilRig (G0049) & Patchwork (G0040) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1573.002",
+            "techniqueName": "Asymmetric Cryptography",
+            "comment": "Cobalt Group (G0080) & OilRig (G0049)"
+        },
+        {
+            "score": 12,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Ke3chang (G0004) & Lazarus Group (G0032) & Magic Hound (G0059) & OilRig (G0049) & Orangeworm (G0071) & APT37 (G0067) & APT28 (G0007) & Stealth Falcon (G0038) & Turla (G0010)"
+        },
+        {
+            "score": 18,
+            "techniqueID": "T1105",
+            "techniqueName": "Ingress Tool Transfer",
+            "comment": "Cobalt Group (G0080) & Darkhotel (G0012) & Threat Group-3390 (G0027) & FIN7 (G0046) & Gamaredon Group (G0047) & Gorgon Group (G0078) & Lazarus Group (G0032) & Leviathan (G0065) & Magic Hound (G0059) & Molerats (G0021) & OilRig (G0049) & Patchwork (G0040) & APT37 (G0067) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
         },
         {
             "score": 16,
@@ -251,22 +251,22 @@
             "comment": "APT1 (G0006) & Turla (G0010)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1585.002",
             "techniqueName": "Email Accounts",
+            "comment": "APT1 (G0006) & Leviathan (G0065) & Magic Hound (G0059)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1584.001",
+            "techniqueName": "Domains",
             "comment": "APT1 (G0006) & Magic Hound (G0059)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1584.001",
-            "techniqueName": "Domains",
-            "comment": "APT1 (G0006)"
-        },
-        {
-            "score": 4,
+            "score": 7,
             "techniqueID": "T1583.001",
             "techniqueName": "Domains",
-            "comment": "APT1 (G0006) & Lazarus Group (G0032) & APT28 (G0007) & menuPass (G0045)"
+            "comment": "APT1 (G0006) & FIN7 (G0046) & Lazarus Group (G0032) & Leviathan (G0065) & Magic Hound (G0059) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 3,
@@ -317,28 +317,22 @@
             "comment": "APT1 (G0006) & Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
         },
         {
-            "score": 12,
+            "score": 13,
             "techniqueID": "T1005",
             "techniqueName": "Data from Local System",
-            "comment": "APT1 (G0006) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Ke3chang (G0004) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
+            "comment": "APT1 (G0006) & Threat Group-3390 (G0027) & FIN7 (G0046) & Gamaredon Group (G0047) & Ke3chang (G0004) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
         },
         {
-            "score": 6,
+            "score": 7,
             "techniqueID": "T1560.001",
             "techniqueName": "Archive via Utility",
-            "comment": "APT1 (G0006) & Ke3chang (G0004) & Magic Hound (G0059) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
+            "comment": "APT1 (G0006) & Ke3chang (G0004) & Magic Hound (G0059) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
         },
         {
-            "score": 11,
+            "score": 10,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
-            "comment": "APT1 (G0006) & Cleaver (G0003) & Threat Group-3390 (G0027) & Ke3chang (G0004) & Lazarus Group (G0032) & Leviathan (G0065) & Magic Hound (G0059) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & GALLIUM (G0093)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1550.002",
-            "techniqueName": "Pass the Hash",
-            "comment": "APT1 (G0006) & APT28 (G0007) & GALLIUM (G0093)"
+            "comment": "APT1 (G0006) & Cleaver (G0003) & Threat Group-3390 (G0027) & Ke3chang (G0004) & Leviathan (G0065) & Magic Hound (G0059) & OilRig (G0049) & Silence (G0091) & APT28 (G0007) & GALLIUM (G0093)"
         },
         {
             "score": 2,
@@ -347,10 +341,22 @@
             "comment": "APT1 (G0006) & Magic Hound (G0059)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1550.002",
+            "techniqueName": "Pass the Hash",
+            "comment": "APT1 (G0006) & APT28 (G0007) & GALLIUM (G0093)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1312",
             "techniqueName": "Compromise 3rd party infrastructure to support delivery",
             "comment": "APT1 (G0006)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
+            "comment": "APT1 (G0006) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -360,21 +366,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1330",
-            "techniqueName": "Acquire and/or use 3rd party software services",
-            "comment": "APT1 (G0006)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1333",
             "techniqueName": "Dynamic DNS",
             "comment": "APT1 (G0006)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
-            "comment": "APT1 (G0006) & APT28 (G0007)"
+            "score": 1,
+            "techniqueID": "T1330",
+            "techniqueName": "Acquire and/or use 3rd party software services",
+            "comment": "APT1 (G0006)"
         },
         {
             "score": 1,
@@ -389,16 +389,10 @@
             "comment": "Cleaver (G0003) & FIN7 (G0046) & Lazarus Group (G0032) & Turla (G0010)"
         },
         {
-            "score": 1,
+            "score": 3,
             "techniqueID": "T1585.001",
             "techniqueName": "Social Media Accounts",
-            "comment": "Cleaver (G0003)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1345",
-            "techniqueName": "Create custom payloads",
-            "comment": "Cleaver (G0003)"
+            "comment": "Cleaver (G0003) & Leviathan (G0065) & Magic Hound (G0059)"
         },
         {
             "score": 1,
@@ -410,6 +404,12 @@
             "score": 1,
             "techniqueID": "T1342",
             "techniqueName": "Develop social network persona digital footprint",
+            "comment": "Cleaver (G0003)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1345",
+            "techniqueName": "Create custom payloads",
             "comment": "Cleaver (G0003)"
         },
         {
@@ -437,10 +437,10 @@
             "comment": "Darkhotel (G0012)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1497.001",
             "techniqueName": "System Checks",
-            "comment": "Darkhotel (G0012)"
+            "comment": "Darkhotel (G0012) & OilRig (G0049)"
         },
         {
             "score": 4,
@@ -467,10 +467,10 @@
             "comment": "Darkhotel (G0012) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Gorgon Group (G0078) & Leviathan (G0065) & Molerats (G0021) & OilRig (G0049) & APT28 (G0007) & menuPass (G0045) & Turla (G0010)"
         },
         {
-            "score": 8,
+            "score": 9,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
-            "comment": "Darkhotel (G0012) & Machete (G0095) & Threat Group-3390 (G0027) & Dragonfly (G0035) & Lazarus Group (G0032) & Patchwork (G0040) & APT37 (G0067) & Turla (G0010)"
+            "comment": "Darkhotel (G0012) & Machete (G0095) & Threat Group-3390 (G0027) & Dragonfly (G0035) & Lazarus Group (G0032) & Leviathan (G0065) & Patchwork (G0040) & APT37 (G0067) & Turla (G0010)"
         },
         {
             "score": 4,
@@ -479,16 +479,10 @@
             "comment": "Darkhotel (G0012) & Gorgon Group (G0078) & Lazarus Group (G0032) & Leviathan (G0065)"
         },
         {
-            "score": 7,
+            "score": 8,
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
-            "comment": "Darkhotel (G0012) & FIN7 (G0046) & Leviathan (G0065) & Molerats (G0021) & Patchwork (G0040) & Silence (G0091) & GALLIUM (G0093)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1091",
-            "techniqueName": "Replication Through Removable Media",
-            "comment": "Darkhotel (G0012) & APT28 (G0007)"
+            "comment": "Darkhotel (G0012) & FIN7 (G0046) & Leviathan (G0065) & Molerats (G0021) & Patchwork (G0040) & Silence (G0091) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 2,
@@ -504,6 +498,12 @@
         },
         {
             "score": 2,
+            "techniqueID": "T1091",
+            "techniqueName": "Replication Through Removable Media",
+            "comment": "Darkhotel (G0012) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1218.007",
             "techniqueName": "Msiexec",
             "comment": "Machete (G0095) & Molerats (G0021)"
@@ -515,10 +515,10 @@
             "comment": "Machete (G0095)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1059.006",
             "techniqueName": "Python",
-            "comment": "Machete (G0095) & Turla (G0010)"
+            "comment": "Machete (G0095) & APT37 (G0067) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -539,28 +539,22 @@
             "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
-            "score": 2,
+            "score": 4,
             "techniqueID": "T1074.002",
             "techniqueName": "Remote Data Staging",
-            "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1210",
-            "techniqueName": "Exploitation of Remote Services",
-            "comment": "Threat Group-3390 (G0027) & APT28 (G0007) & menuPass (G0045)"
+            "comment": "Threat Group-3390 (G0027) & Leviathan (G0065) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 4,
-            "techniqueID": "T1505.003",
-            "techniqueName": "Web Shell",
-            "comment": "Threat Group-3390 (G0027) & Leviathan (G0065) & OilRig (G0049) & GALLIUM (G0093)"
+            "techniqueID": "T1210",
+            "techniqueName": "Exploitation of Remote Services",
+            "comment": "Threat Group-3390 (G0027) & FIN7 (G0046) & APT28 (G0007) & menuPass (G0045)"
         },
         {
-            "score": 6,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
-            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & Silence (G0091) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
+            "score": 5,
+            "techniqueID": "T1505.003",
+            "techniqueName": "Web Shell",
+            "comment": "Threat Group-3390 (G0027) & Leviathan (G0065) & OilRig (G0049) & APT28 (G0007) & GALLIUM (G0093)"
         },
         {
             "score": 4,
@@ -569,22 +563,22 @@
             "comment": "Threat Group-3390 (G0027) & Gorgon Group (G0078) & Patchwork (G0040) & menuPass (G0045)"
         },
         {
-            "score": 7,
+            "score": 8,
             "techniqueID": "T1047",
             "techniqueName": "Windows Management Instrumentation",
-            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & Leviathan (G0065) & OilRig (G0049) & Stealth Falcon (G0038) & menuPass (G0045) & GALLIUM (G0093)"
+            "comment": "Threat Group-3390 (G0027) & FIN7 (G0046) & Lazarus Group (G0032) & Leviathan (G0065) & OilRig (G0049) & Stealth Falcon (G0038) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
-            "score": 7,
+            "score": 6,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
+            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & Silence (G0091) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
+        },
+        {
+            "score": 6,
             "techniqueID": "T1112",
             "techniqueName": "Modify Registry",
-            "comment": "Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Gorgon Group (G0078) & Lazarus Group (G0032) & Patchwork (G0040) & Silence (G0091) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1574.001",
-            "techniqueName": "DLL Search Order Hijacking",
-            "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
+            "comment": "Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Gorgon Group (G0078) & Patchwork (G0040) & Silence (G0091) & Turla (G0010)"
         },
         {
             "score": 5,
@@ -593,10 +587,10 @@
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & OilRig (G0049) & Stealth Falcon (G0038) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1070.005",
-            "techniqueName": "Network Share Connection Removal",
-            "comment": "Threat Group-3390 (G0027)"
+            "score": 2,
+            "techniqueID": "T1574.001",
+            "techniqueName": "DLL Search Order Hijacking",
+            "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
         },
         {
             "score": 1,
@@ -611,22 +605,28 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1070.005",
+            "techniqueName": "Network Share Connection Removal",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 6,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & Leviathan (G0065) & OilRig (G0049) & APT28 (G0007) & GALLIUM (G0093)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1030",
+            "techniqueName": "Data Transfer Size Limits",
+            "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1560.002",
             "techniqueName": "Archive via Library",
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & OilRig (G0049) & GALLIUM (G0093)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1030",
-            "techniqueName": "Data Transfer Size Limits",
-            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 7,
@@ -635,10 +635,10 @@
             "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032) & Leviathan (G0065) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
-            "score": 7,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "Threat Group-3390 (G0027) & FIN7 (G0046) & Lazarus Group (G0032) & Magic Hound (G0059) & OilRig (G0049) & APT37 (G0067) & APT28 (G0007)"
+            "score": 4,
+            "techniqueID": "T1003.004",
+            "techniqueName": "LSA Secrets",
+            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & OilRig (G0049) & menuPass (G0045)"
         },
         {
             "score": 1,
@@ -653,10 +653,10 @@
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1003.004",
-            "techniqueName": "LSA Secrets",
-            "comment": "Threat Group-3390 (G0027) & Ke3chang (G0004) & OilRig (G0049) & menuPass (G0045)"
+            "score": 7,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "Threat Group-3390 (G0027) & FIN7 (G0046) & Lazarus Group (G0032) & Magic Hound (G0059) & OilRig (G0049) & APT37 (G0067) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -683,16 +683,52 @@
             "comment": "Equation (G0020)"
         },
         {
+            "score": 6,
+            "techniqueID": "T1120",
+            "techniqueName": "Peripheral Device Discovery",
+            "comment": "Equation (G0020) & Gamaredon Group (G0047) & OilRig (G0049) & APT37 (G0067) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1109",
             "techniqueName": "Component Firmware",
             "comment": "Equation (G0020)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1120",
-            "techniqueName": "Peripheral Device Discovery",
-            "comment": "Equation (G0020) & Gamaredon Group (G0047) & APT37 (G0067) & APT28 (G0007) & Turla (G0010)"
+            "score": 3,
+            "techniqueID": "T1567.002",
+            "techniqueName": "Exfiltration to Cloud Storage",
+            "comment": "FIN7 (G0046) & Leviathan (G0065) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1021.005",
+            "techniqueName": "VNC",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1486",
+            "techniqueName": "Data Encrypted for Impact",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1021.004",
+            "techniqueName": "SSH",
+            "comment": "FIN7 (G0046) & Leviathan (G0065) & OilRig (G0049) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1558.003",
+            "techniqueName": "Kerberoasting",
+            "comment": "FIN7 (G0046)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1008",
+            "techniqueName": "Fallback Channels",
+            "comment": "FIN7 (G0046) & Lazarus Group (G0032) & OilRig (G0049)"
         },
         {
             "score": 4,
@@ -707,10 +743,10 @@
             "comment": "FIN7 (G0046) & Silence (G0091)"
         },
         {
-            "score": 4,
+            "score": 5,
             "techniqueID": "T1059",
             "techniqueName": "Command and Scripting Interpreter",
-            "comment": "FIN7 (G0046) & Ke3chang (G0004) & OilRig (G0049) & Stealth Falcon (G0038)"
+            "comment": "FIN7 (G0046) & Ke3chang (G0004) & OilRig (G0049) & APT37 (G0067) & Stealth Falcon (G0038)"
         },
         {
             "score": 6,
@@ -719,10 +755,10 @@
             "comment": "FIN7 (G0046) & Gamaredon Group (G0047) & Magic Hound (G0059) & OilRig (G0049) & Silence (G0091) & APT28 (G0007)"
         },
         {
-            "score": 2,
+            "score": 1,
             "techniqueID": "T1218.005",
             "techniqueName": "Mshta",
-            "comment": "FIN7 (G0046) & Lazarus Group (G0032)"
+            "comment": "FIN7 (G0046)"
         },
         {
             "score": 1,
@@ -731,10 +767,10 @@
             "comment": "FIN7 (G0046)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1039",
             "techniqueName": "Data from Network Shared Drive",
-            "comment": "Gamaredon Group (G0047) & menuPass (G0045)"
+            "comment": "Gamaredon Group (G0047) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 1,
@@ -755,10 +791,10 @@
             "comment": "Gamaredon Group (G0047)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1534",
             "techniqueName": "Internal Spearphishing",
-            "comment": "Gamaredon Group (G0047)"
+            "comment": "Gamaredon Group (G0047) & Leviathan (G0065)"
         },
         {
             "score": 4,
@@ -797,16 +833,10 @@
             "comment": "Gamaredon Group (G0047) & APT28 (G0007)"
         },
         {
-            "score": 5,
+            "score": 6,
             "techniqueID": "T1041",
             "techniqueName": "Exfiltration Over C2 Channel",
-            "comment": "Gamaredon Group (G0047) & Ke3chang (G0004) & Lazarus Group (G0032) & Stealth Falcon (G0038) & GALLIUM (G0093)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1025",
-            "techniqueName": "Data from Removable Media",
-            "comment": "Gamaredon Group (G0047) & APT28 (G0007) & Turla (G0010)"
+            "comment": "Gamaredon Group (G0047) & Ke3chang (G0004) & Lazarus Group (G0032) & Leviathan (G0065) & Stealth Falcon (G0038) & GALLIUM (G0093)"
         },
         {
             "score": 8,
@@ -816,21 +846,27 @@
         },
         {
             "score": 3,
+            "techniqueID": "T1025",
+            "techniqueName": "Data from Removable Media",
+            "comment": "Gamaredon Group (G0047) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 3,
             "techniqueID": "T1564.003",
             "techniqueName": "Hidden Window",
             "comment": "Gorgon Group (G0078) & Magic Hound (G0059) & APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1055.002",
-            "techniqueName": "Portable Executable Injection",
-            "comment": "Gorgon Group (G0078)"
         },
         {
             "score": 3,
             "techniqueID": "T1065",
             "techniqueName": "Uncommonly Used Port",
             "comment": "Gorgon Group (G0078) & Lazarus Group (G0032) & Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1055.002",
+            "techniqueName": "Portable Executable Injection",
+            "comment": "Gorgon Group (G0078)"
         },
         {
             "score": 1,
@@ -858,15 +894,15 @@
         },
         {
             "score": 4,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "Ke3chang (G0004) & Lazarus Group (G0032) & Orangeworm (G0071) & Turla (G0010)"
-        },
-        {
-            "score": 4,
             "techniqueID": "T1087.002",
             "techniqueName": "Domain Account",
             "comment": "Ke3chang (G0004) & OilRig (G0049) & menuPass (G0045) & Turla (G0010)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "Ke3chang (G0004) & Lazarus Group (G0032) & Orangeworm (G0071) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -875,10 +911,10 @@
             "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
         },
         {
-            "score": 5,
+            "score": 6,
             "techniqueID": "T1560",
             "techniqueName": "Archive Collected Data",
-            "comment": "Ke3chang (G0004) & Lazarus Group (G0032) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045)"
+            "comment": "Ke3chang (G0004) & Lazarus Group (G0032) & Leviathan (G0065) & Patchwork (G0040) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 2,
@@ -891,24 +927,6 @@
             "techniqueID": "T1588.004",
             "techniqueName": "Digital Certificates",
             "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1027.002",
-            "techniqueName": "Software Packing",
-            "comment": "Lazarus Group (G0032) & Patchwork (G0040) & GALLIUM (G0093)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1547.005",
-            "techniqueName": "Security Support Provider",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1566.003",
-            "techniqueName": "Spearphishing via Service",
-            "comment": "Lazarus Group (G0032) & Magic Hound (G0059) & OilRig (G0049)"
         },
         {
             "score": 1,
@@ -933,12 +951,6 @@
             "techniqueID": "T1529",
             "techniqueName": "System Shutdown/Reboot",
             "comment": "Lazarus Group (G0032) & APT37 (G0067)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1496",
-            "techniqueName": "Resource Hijacking",
-            "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
@@ -972,15 +984,15 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1055.001",
-            "techniqueName": "Dynamic-link Library Injection",
-            "comment": "Lazarus Group (G0032) & Turla (G0010)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1564.001",
             "techniqueName": "Hidden Files and Directories",
             "comment": "Lazarus Group (G0032) & APT28 (G0007)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1055.001",
+            "techniqueName": "Dynamic-link Library Injection",
+            "comment": "Lazarus Group (G0032) & Leviathan (G0065) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -1031,6 +1043,12 @@
             "comment": "Lazarus Group (G0032)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1070.006",
+            "techniqueName": "Timestomp",
+            "comment": "Lazarus Group (G0032) & APT28 (G0007)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1098",
             "techniqueName": "Account Manipulation",
@@ -1038,27 +1056,39 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1070.006",
-            "techniqueName": "Timestomp",
-            "comment": "Lazarus Group (G0032) & APT28 (G0007)"
+            "techniqueID": "T1090.003",
+            "techniqueName": "Multi-hop Proxy",
+            "comment": "Leviathan (G0065) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1586.001",
+            "techniqueName": "Social Media Accounts",
+            "comment": "Leviathan (G0065)"
         },
         {
             "score": 2,
-            "techniqueID": "T1567.002",
-            "techniqueName": "Exfiltration to Cloud Storage",
-            "comment": "Leviathan (G0065) & Turla (G0010)"
+            "techniqueID": "T1586.002",
+            "techniqueName": "Email Accounts",
+            "comment": "Leviathan (G0065) & Magic Hound (G0059)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1027.003",
+            "techniqueName": "Steganography",
+            "comment": "Leviathan (G0065) & APT37 (G0067)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1589.001",
+            "techniqueName": "Credentials",
+            "comment": "Leviathan (G0065) & Magic Hound (G0059) & APT28 (G0007)"
         },
         {
             "score": 2,
             "techniqueID": "T1003",
             "techniqueName": "OS Credential Dumping",
             "comment": "Leviathan (G0065) & APT28 (G0007)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1021.004",
-            "techniqueName": "SSH",
-            "comment": "Leviathan (G0065) & OilRig (G0049) & menuPass (G0045)"
         },
         {
             "score": 2,
@@ -1080,21 +1110,39 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1586.002",
-            "techniqueName": "Email Accounts",
+            "techniqueID": "T1589.002",
+            "techniqueName": "Email Addresses",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1589",
+            "techniqueName": "Gather Victim Identity Information",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1598.003",
+            "techniqueName": "Spearphishing Link",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1114",
+            "techniqueName": "Email Collection",
             "comment": "Magic Hound (G0059)"
         },
         {
             "score": 2,
-            "techniqueID": "T1589.001",
-            "techniqueName": "Credentials",
-            "comment": "Magic Hound (G0059) & APT28 (G0007)"
+            "techniqueID": "T1566.003",
+            "techniqueName": "Spearphishing via Service",
+            "comment": "Magic Hound (G0059) & OilRig (G0049)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1098.002",
             "techniqueName": "Exchange Email Delegate Permissions",
-            "comment": "Magic Hound (G0059)"
+            "comment": "Magic Hound (G0059) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -1107,6 +1155,12 @@
             "techniqueID": "T1555.003",
             "techniqueName": "Credentials from Web Browsers",
             "comment": "Molerats (G0021) & OilRig (G0049) & Patchwork (G0040) & APT37 (G0067) & Stealth Falcon (G0038)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1036",
+            "techniqueName": "Masquerading",
+            "comment": "OilRig (G0049) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 3,
@@ -1139,6 +1193,12 @@
             "comment": "OilRig (G0049)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1201",
+            "techniqueName": "Password Policy Discovery",
+            "comment": "OilRig (G0049) & Turla (G0010)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1110",
             "techniqueName": "Brute Force",
@@ -1146,21 +1206,15 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1201",
-            "techniqueName": "Password Policy Discovery",
-            "comment": "OilRig (G0049) & Turla (G0010)"
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
+            "comment": "OilRig (G0049) & APT37 (G0067)"
         },
         {
             "score": 2,
             "techniqueID": "T1069.001",
             "techniqueName": "Local Groups",
             "comment": "OilRig (G0049) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
-            "comment": "OilRig (G0049) & APT37 (G0067)"
         },
         {
             "score": 4,
@@ -1175,16 +1229,16 @@
             "comment": "Patchwork (G0040)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1027.002",
+            "techniqueName": "Software Packing",
+            "comment": "Patchwork (G0040) & GALLIUM (G0093)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1102.001",
             "techniqueName": "Dead Drop Resolver",
             "comment": "Patchwork (G0040)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1027.003",
-            "techniqueName": "Steganography",
-            "comment": "APT37 (G0067)"
         },
         {
             "score": 1,
@@ -1206,6 +1260,30 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1048.002",
+            "techniqueName": "Exfiltration Over Asymmetric Encrypted Non-C2 Protocol",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1213",
+            "techniqueName": "Data from Information Repositories",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1003.003",
+            "techniqueName": "NTDS",
+            "comment": "APT28 (G0007) & menuPass (G0045)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078.004",
+            "techniqueName": "Cloud Accounts",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1598",
             "techniqueName": "Phishing for Information",
             "comment": "APT28 (G0007)"
@@ -1224,21 +1302,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1090.003",
-            "techniqueName": "Multi-hop Proxy",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1498",
             "techniqueName": "Network Denial of Service",
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1190",
             "techniqueName": "Exploit Public-Facing Application",
-            "comment": "APT28 (G0007) & GALLIUM (G0093)"
+            "comment": "APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -1308,12 +1380,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1001.001",
             "techniqueName": "Junk Data",
             "comment": "APT28 (G0007)"
@@ -1326,20 +1392,26 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1328",
             "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1568.001",
-            "techniqueName": "Fast Flux DNS",
+            "techniqueID": "T1070.003",
+            "techniqueName": "Clear Command History",
             "comment": "menuPass (G0045)"
         },
         {
             "score": 1,
-            "techniqueID": "T1003.003",
-            "techniqueName": "NTDS",
+            "techniqueID": "T1568.001",
+            "techniqueName": "Fast Flux DNS",
             "comment": "menuPass (G0045)"
         },
         {
@@ -1356,12 +1428,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1036",
-            "techniqueName": "Masquerading",
-            "comment": "menuPass (G0045)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1583.004",
             "techniqueName": "Server",
             "comment": "GALLIUM (G0093)"
@@ -1374,15 +1440,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1588.002",
-            "techniqueName": "Tool",
+            "techniqueID": "T1136.002",
+            "techniqueName": "Domain Account",
             "comment": "GALLIUM (G0093)"
         },
         {
             "score": 1,
-            "techniqueID": "T1136.002",
-            "techniqueName": "Domain Account",
-            "comment": "GALLIUM (G0093)"
+            "techniqueID": "T1615",
+            "techniqueName": "Group Policy Discovery",
+            "comment": "Turla (G0010)"
         },
         {
             "score": 1,
@@ -1422,12 +1488,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1213",
-            "techniqueName": "Data from Information Repositories",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1090",
             "techniqueName": "Proxy",
             "comment": "Turla (G0010)"
@@ -1447,29 +1507,28 @@
     ],
     "gradient": {
         "colors": [
-            "#b0ea4b",
-            "#63dd86",
-            "#7fb2f4",
-            "#d88ce2",
-            "#f4c5ba",
-            "#f427a9",
-            "#d39bef",
-            "#0bddda",
-            "#6fe8e2",
-            "#f954cb",
-            "#e8db27",
-            "#196475",
-            "#fccb83",
-            "#8379e0",
-            "#70eaa3",
-            "#1bb4b7",
-            "#ea95ed",
-            "#ca64ef",
-            "#b137d3",
-            "#734bd8",
-            "#a83a2a"
+            "#b2caff",
+            "#4ea825",
+            "#11d89c",
+            "#4abde0",
+            "#4efcab",
+            "#15b53a",
+            "#55dd16",
+            "#5688bc",
+            "#3bbc2d",
+            "#ef97ee",
+            "#53f41d",
+            "#04e8d1",
+            "#a7e20f",
+            "#285696",
+            "#79d1f7",
+            "#dd1add",
+            "#e29324",
+            "#edd710",
+            "#3ad1a6",
+            "#e489ed"
         ],
         "minValue": 0,
-        "maxValue": 20
+        "maxValue": 19
     }
 }

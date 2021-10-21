@@ -12,12 +12,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1059.005",
-            "techniqueName": "Visual Basic",
-            "comment": "TA459 (G0062)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
             "comment": "TA459 (G0062)"
@@ -33,12 +27,18 @@
             "techniqueID": "T1204.002",
             "techniqueName": "Malicious File",
             "comment": "TA459 (G0062)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
+            "comment": "TA459 (G0062)"
         }
     ],
     "gradient": {
         "colors": [
-            "#f9b1d9",
-            "#e3f794"
+            "#fcfbb3",
+            "#d7fc9c"
         ],
         "minValue": 0,
         "maxValue": 1

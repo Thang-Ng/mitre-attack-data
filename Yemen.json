@@ -23,16 +23,76 @@
             "comment": "Equation (G0020)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1120",
+            "techniqueName": "Peripheral Device Discovery",
+            "comment": "Equation (G0020) & Turla (G0010)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1109",
             "techniqueName": "Component Firmware",
             "comment": "Equation (G0020)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1589.002",
+            "techniqueName": "Email Addresses",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1589",
+            "techniqueName": "Gather Victim Identity Information",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
             "score": 2,
-            "techniqueID": "T1120",
-            "techniqueName": "Peripheral Device Discovery",
-            "comment": "Equation (G0020) & Turla (G0010)"
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "Magic Hound (G0059) & Molerats (G0021)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1585.001",
+            "techniqueName": "Social Media Accounts",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1584.001",
+            "techniqueName": "Domains",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1583.001",
+            "techniqueName": "Domains",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1598.003",
+            "techniqueName": "Spearphishing Link",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1114",
+            "techniqueName": "Email Collection",
+            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 1,
@@ -84,14 +144,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1114.001",
-            "techniqueName": "Local Email Collection",
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
             "comment": "Magic Hound (G0059)"
         },
         {
             "score": 1,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
+            "techniqueID": "T1114.001",
+            "techniqueName": "Local Email Collection",
             "comment": "Magic Hound (G0059)"
         },
         {
@@ -105,18 +165,6 @@
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
             "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 3,
@@ -137,10 +185,46 @@
             "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
-            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
+            "score": 2,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1102.002",
+            "techniqueName": "Bidirectional Communication",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -155,40 +239,16 @@
             "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1102.002",
-            "techniqueName": "Bidirectional Communication",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
+            "score": 3,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
         },
         {
             "score": 3,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Magic Hound (G0059) & Molerats (G0021) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 1,
@@ -246,18 +306,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "Molerats (G0021)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1204.001",
-            "techniqueName": "Malicious Link",
-            "comment": "Molerats (G0021) & Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1555.003",
             "techniqueName": "Credentials from Web Browsers",
             "comment": "Molerats (G0021)"
@@ -267,6 +315,12 @@
             "techniqueID": "T1553.002",
             "techniqueName": "Code Signing",
             "comment": "Molerats (G0021)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1615",
+            "techniqueName": "Group Policy Discovery",
+            "comment": "Turla (G0010)"
         },
         {
             "score": 1,
@@ -504,26 +558,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1018",
             "techniqueName": "Remote System Discovery",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1124",
-            "techniqueName": "System Time Discovery",
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
             "techniqueID": "T1021.002",
             "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1124",
+            "techniqueName": "System Time Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -535,10 +589,10 @@
     ],
     "gradient": {
         "colors": [
-            "#f430a6",
-            "#99f931",
-            "#5e1fa5",
-            "#f265c3"
+            "#222189",
+            "#c11786",
+            "#e597ac",
+            "#eaa6b4"
         ],
         "minValue": 0,
         "maxValue": 3

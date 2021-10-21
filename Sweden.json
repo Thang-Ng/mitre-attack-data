@@ -24,6 +24,18 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1615",
+            "techniqueName": "Group Policy Discovery",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1059.007",
             "techniqueName": "JavaScript",
             "comment": "Turla (G0010)"
@@ -270,20 +282,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1055",
-            "techniqueName": "Process Injection",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1204.001",
+            "techniqueName": "Malicious Link",
             "comment": "Turla (G0010)"
         },
         {
@@ -294,14 +300,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
+            "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1102.002",
             "techniqueName": "Bidirectional Communication",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1204.001",
-            "techniqueName": "Malicious Link",
+            "techniqueID": "T1055",
+            "techniqueName": "Process Injection",
             "comment": "Turla (G0010)"
         },
         {
@@ -336,14 +348,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
+            "techniqueID": "T1012",
+            "techniqueName": "Query Registry",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1012",
-            "techniqueName": "Query Registry",
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -360,14 +372,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1124",
-            "techniqueName": "System Time Discovery",
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -378,14 +384,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1007",
-            "techniqueName": "System Service Discovery",
+            "techniqueID": "T1124",
+            "techniqueName": "System Time Discovery",
             "comment": "Turla (G0010)"
         },
         {
             "score": 1,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
+            "techniqueID": "T1007",
+            "techniqueName": "System Service Discovery",
             "comment": "Turla (G0010)"
         },
         {
@@ -393,12 +399,18 @@
             "techniqueID": "T1057",
             "techniqueName": "Process Discovery",
             "comment": "Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "Turla (G0010)"
         }
     ],
     "gradient": {
         "colors": [
-            "#f2ae41",
-            "#b25013"
+            "#7700ef",
+            "#39db2e"
         ],
         "minValue": 0,
         "maxValue": 1

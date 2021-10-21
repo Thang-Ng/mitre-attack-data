@@ -5,10 +5,64 @@
     "version": "3.0",
     "techniques": [
         {
-            "score": 8,
+            "score": 13,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "APT29 (G0016) & APT33 (G0064) & APT39 (G0087) & APT1 (G0006) & CopyKittens (G0052) & Cleaver (G0003) & Threat Group-3390 (G0027) & Leafminer (G0077) & Magic Hound (G0059) & MuddyWater (G0069) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
+            "comment": "APT29 (G0016) & Gamaredon Group (G0047) & Patchwork (G0040)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1110.003",
+            "techniqueName": "Password Spraying",
+            "comment": "APT29 (G0016) & APT33 (G0064) & Lazarus Group (G0032) & Leafminer (G0077) & Sandworm Team (G0034)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1566.003",
+            "techniqueName": "Spearphishing via Service",
+            "comment": "APT29 (G0016) & Magic Hound (G0059) & OilRig (G0049)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1199",
+            "techniqueName": "Trusted Relationship",
+            "comment": "APT29 (G0016) & Sandworm Team (G0034)"
+        },
+        {
+            "score": 11,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
+            "comment": "APT29 (G0016) & APT33 (G0064) & APT39 (G0087) & Gamaredon Group (G0047) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1505.003",
+            "techniqueName": "Web Shell",
+            "comment": "APT29 (G0016) & APT39 (G0087) & Threat Group-3390 (G0027) & OilRig (G0049) & Sandworm Team (G0034)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1595.002",
+            "techniqueName": "Vulnerability Scanning",
+            "comment": "APT29 (G0016) & Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1213.003",
+            "techniqueName": "Code Repositories",
+            "comment": "APT29 (G0016)"
+        },
+        {
+            "score": 9,
             "techniqueID": "T1204.001",
             "techniqueName": "Malicious Link",
-            "comment": "APT29 (G0016) & APT33 (G0064) & APT39 (G0087) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034)"
+            "comment": "APT29 (G0016) & APT33 (G0064) & APT39 (G0087) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034)"
         },
         {
             "score": 2,
@@ -17,10 +71,10 @@
             "comment": "APT29 (G0016) & Sandworm Team (G0034)"
         },
         {
-            "score": 2,
+            "score": 1,
             "techniqueID": "T1036.004",
             "techniqueName": "Masquerade Task or Service",
-            "comment": "APT29 (G0016) & Lazarus Group (G0032)"
+            "comment": "APT29 (G0016)"
         },
         {
             "score": 7,
@@ -35,10 +89,10 @@
             "comment": "APT29 (G0016)"
         },
         {
-            "score": 11,
+            "score": 12,
             "techniqueID": "T1059.003",
             "techniqueName": "Windows Command Shell",
-            "comment": "APT29 (G0016) & APT1 (G0006) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091)"
+            "comment": "APT29 (G0016) & APT1 (G0006) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
         },
         {
             "score": 14,
@@ -83,10 +137,10 @@
             "comment": "APT29 (G0016)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1036",
             "techniqueName": "Masquerading",
-            "comment": "APT29 (G0016)"
+            "comment": "APT29 (G0016) & OilRig (G0049)"
         },
         {
             "score": 10,
@@ -251,10 +305,10 @@
             "comment": "APT29 (G0016) & APT39 (G0087)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1562.002",
             "techniqueName": "Disable Windows Event Logging",
-            "comment": "APT29 (G0016) & Threat Group-3390 (G0027)"
+            "comment": "APT29 (G0016) & Threat Group-3390 (G0027) & Sandworm Team (G0034)"
         },
         {
             "score": 2,
@@ -269,16 +323,16 @@
             "comment": "APT29 (G0016) & Threat Group-3390 (G0027) & OilRig (G0049) & Sandworm Team (G0034)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1584.001",
             "techniqueName": "Domains",
-            "comment": "APT29 (G0016) & APT1 (G0006)"
+            "comment": "APT29 (G0016) & APT1 (G0006) & Magic Hound (G0059)"
         },
         {
-            "score": 4,
+            "score": 5,
             "techniqueID": "T1583.001",
             "techniqueName": "Domains",
-            "comment": "APT29 (G0016) & APT1 (G0006) & Lazarus Group (G0032) & Sandworm Team (G0034)"
+            "comment": "APT29 (G0016) & APT1 (G0006) & Lazarus Group (G0032) & Magic Hound (G0059) & Sandworm Team (G0034)"
         },
         {
             "score": 1,
@@ -359,16 +413,22 @@
             "comment": "APT29 (G0016)"
         },
         {
-            "score": 12,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "APT29 (G0016) & APT33 (G0064) & APT39 (G0087) & Darkhotel (G0012) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
-        },
-        {
             "score": 8,
             "techniqueID": "T1203",
             "techniqueName": "Exploitation for Client Execution",
             "comment": "APT29 (G0016) & APT33 (G0064) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & MuddyWater (G0069) & Patchwork (G0040) & Sandworm Team (G0034)"
+        },
+        {
+            "score": 13,
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
+            "comment": "APT29 (G0016) & APT33 (G0064) & APT39 (G0087) & Darkhotel (G0012) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
+        },
+        {
+            "score": 13,
+            "techniqueID": "T1566.001",
+            "techniqueName": "Spearphishing Attachment",
+            "comment": "APT29 (G0016) & APT33 (G0064) & APT39 (G0087) & APT1 (G0006) & Darkhotel (G0012) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
         },
         {
             "score": 10,
@@ -377,10 +437,10 @@
             "comment": "APT29 (G0016) & APT33 (G0064) & APT39 (G0087) & APT1 (G0006) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034)"
         },
         {
-            "score": 13,
-            "techniqueID": "T1566.001",
-            "techniqueName": "Spearphishing Attachment",
-            "comment": "APT29 (G0016) & APT33 (G0064) & APT39 (G0087) & APT1 (G0006) & Darkhotel (G0012) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
+            "score": 1,
+            "techniqueID": "T1090.004",
+            "techniqueName": "Domain Fronting",
+            "comment": "APT29 (G0016)"
         },
         {
             "score": 1,
@@ -390,8 +450,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1090.004",
-            "techniqueName": "Domain Fronting",
+            "techniqueID": "T1550.003",
+            "techniqueName": "Pass the Ticket",
             "comment": "APT29 (G0016)"
         },
         {
@@ -419,22 +479,16 @@
             "comment": "APT29 (G0016) & APT33 (G0064)"
         },
         {
+            "score": 6,
+            "techniqueID": "T1047",
+            "techniqueName": "Windows Management Instrumentation",
+            "comment": "APT29 (G0016) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & MuddyWater (G0069) & OilRig (G0049) & Sandworm Team (G0034)"
+        },
+        {
             "score": 4,
             "techniqueID": "T1027.002",
             "techniqueName": "Software Packing",
-            "comment": "APT29 (G0016) & APT39 (G0087) & Lazarus Group (G0032) & Patchwork (G0040)"
-        },
-        {
-            "score": 5,
-            "techniqueID": "T1047",
-            "techniqueName": "Windows Management Instrumentation",
-            "comment": "APT29 (G0016) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & MuddyWater (G0069) & OilRig (G0049)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1550.003",
-            "techniqueName": "Pass the Ticket",
-            "comment": "APT29 (G0016)"
+            "comment": "APT29 (G0016) & APT39 (G0087) & Patchwork (G0040) & Sandworm Team (G0034)"
         },
         {
             "score": 9,
@@ -443,22 +497,16 @@
             "comment": "APT29 (G0016) & APT33 (G0064) & APT39 (G0087) & Gamaredon Group (G0047) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Silence (G0091)"
         },
         {
-            "score": 13,
+            "score": 12,
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
-            "comment": "APT29 (G0016) & APT33 (G0064) & APT39 (G0087) & CopyKittens (G0052) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
+            "comment": "APT29 (G0016) & APT33 (G0064) & APT39 (G0087) & CopyKittens (G0052) & Threat Group-3390 (G0027) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
         },
         {
             "score": 10,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
             "comment": "APT29 (G0016) & APT39 (G0087) & Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Magic Hound (G0059) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
-        },
-        {
-            "score": 10,
-            "techniqueID": "T1059.005",
-            "techniqueName": "Visual Basic",
-            "comment": "APT33 (G0064) & APT39 (G0087) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Magic Hound (G0059) & Molerats (G0021) & MuddyWater (G0069) & Patchwork (G0040) & Sandworm Team (G0034) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -503,12 +551,6 @@
             "comment": "APT33 (G0064) & Leafminer (G0077) & MuddyWater (G0069) & OilRig (G0049)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1110.003",
-            "techniqueName": "Password Spraying",
-            "comment": "APT33 (G0064) & Lazarus Group (G0032) & Leafminer (G0077)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1068",
             "techniqueName": "Exploitation for Privilege Escalation",
@@ -539,10 +581,10 @@
             "comment": "APT33 (G0064) & Lazarus Group (G0032) & OilRig (G0049)"
         },
         {
-            "score": 12,
+            "score": 11,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
-            "comment": "APT33 (G0064) & APT39 (G0087) & APT1 (G0006) & Cleaver (G0003) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & Leafminer (G0077) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Sandworm Team (G0034) & Silence (G0091)"
+            "comment": "APT33 (G0064) & APT39 (G0087) & APT1 (G0006) & Cleaver (G0003) & Threat Group-3390 (G0027) & Leafminer (G0077) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Sandworm Team (G0034) & Silence (G0091)"
         },
         {
             "score": 2,
@@ -611,10 +653,10 @@
             "comment": "APT39 (G0087)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1021.002",
             "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "APT39 (G0087) & Lazarus Group (G0032)"
+            "comment": "APT39 (G0087) & Lazarus Group (G0032) & Sandworm Team (G0034)"
         },
         {
             "score": 1,
@@ -663,12 +705,6 @@
             "techniqueID": "T1033",
             "techniqueName": "System Owner/User Discovery",
             "comment": "APT39 (G0087) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Patchwork (G0040) & Sandworm Team (G0034)"
-        },
-        {
-            "score": 4,
-            "techniqueID": "T1505.003",
-            "techniqueName": "Web Shell",
-            "comment": "APT39 (G0087) & Threat Group-3390 (G0027) & OilRig (G0049) & Sandworm Team (G0034)"
         },
         {
             "score": 2,
@@ -737,12 +773,6 @@
             "comment": "APT1 (G0006) & OilRig (G0049)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1550.002",
-            "techniqueName": "Pass the Hash",
-            "comment": "APT1 (G0006)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1114.001",
             "techniqueName": "Local Email Collection",
@@ -750,8 +780,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1550.002",
+            "techniqueName": "Pass the Hash",
+            "comment": "APT1 (G0006)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1312",
             "techniqueName": "Compromise 3rd party infrastructure to support delivery",
+            "comment": "APT1 (G0006)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT1 (G0006)"
         },
         {
@@ -762,20 +804,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1330",
-            "techniqueName": "Acquire and/or use 3rd party software services",
-            "comment": "APT1 (G0006)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1333",
             "techniqueName": "Dynamic DNS",
             "comment": "APT1 (G0006)"
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1330",
+            "techniqueName": "Acquire and/or use 3rd party software services",
             "comment": "APT1 (G0006)"
         },
         {
@@ -797,16 +833,10 @@
             "comment": "Cleaver (G0003)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1585.001",
             "techniqueName": "Social Media Accounts",
-            "comment": "Cleaver (G0003) & Sandworm Team (G0034)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1345",
-            "techniqueName": "Create custom payloads",
-            "comment": "Cleaver (G0003)"
+            "comment": "Cleaver (G0003) & Magic Hound (G0059) & Sandworm Team (G0034)"
         },
         {
             "score": 1,
@@ -818,6 +848,12 @@
             "score": 1,
             "techniqueID": "T1342",
             "techniqueName": "Develop social network persona digital footprint",
+            "comment": "Cleaver (G0003)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1345",
+            "techniqueName": "Create custom payloads",
             "comment": "Cleaver (G0003)"
         },
         {
@@ -845,10 +881,10 @@
             "comment": "Darkhotel (G0012)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1497.001",
             "techniqueName": "System Checks",
-            "comment": "Darkhotel (G0012)"
+            "comment": "Darkhotel (G0012) & OilRig (G0049)"
         },
         {
             "score": 5,
@@ -863,16 +899,16 @@
             "comment": "Darkhotel (G0012) & MuddyWater (G0069) & Patchwork (G0040)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1091",
-            "techniqueName": "Replication Through Removable Media",
-            "comment": "Darkhotel (G0012)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1080",
             "techniqueName": "Taint Shared Content",
             "comment": "Darkhotel (G0012) & Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1091",
+            "techniqueName": "Replication Through Removable Media",
+            "comment": "Darkhotel (G0012)"
         },
         {
             "score": 1,
@@ -905,10 +941,10 @@
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
-            "score": 5,
+            "score": 4,
             "techniqueID": "T1112",
             "techniqueName": "Modify Registry",
-            "comment": "Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Lazarus Group (G0032) & Patchwork (G0040) & Silence (G0091)"
+            "comment": "Threat Group-3390 (G0027) & Gamaredon Group (G0047) & Patchwork (G0040) & Silence (G0091)"
         },
         {
             "score": 1,
@@ -929,16 +965,16 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1560.002",
-            "techniqueName": "Archive via Library",
-            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1030",
             "techniqueName": "Data Transfer Size Limits",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1560.002",
+            "techniqueName": "Archive via Library",
+            "comment": "Threat Group-3390 (G0027) & Lazarus Group (G0032)"
         },
         {
             "score": 1,
@@ -971,16 +1007,16 @@
             "comment": "Equation (G0020)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1120",
+            "techniqueName": "Peripheral Device Discovery",
+            "comment": "Equation (G0020) & Gamaredon Group (G0047) & OilRig (G0049)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1109",
             "techniqueName": "Component Firmware",
             "comment": "Equation (G0020)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1120",
-            "techniqueName": "Peripheral Device Discovery",
-            "comment": "Equation (G0020) & Gamaredon Group (G0047)"
         },
         {
             "score": 1,
@@ -1011,12 +1047,6 @@
             "techniqueID": "T1534",
             "techniqueName": "Internal Spearphishing",
             "comment": "Gamaredon Group (G0047)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1027.001",
-            "techniqueName": "Binary Padding",
-            "comment": "Gamaredon Group (G0047) & Patchwork (G0040)"
         },
         {
             "score": 2,
@@ -1055,24 +1085,6 @@
             "comment": "Lazarus Group (G0032)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1218.005",
-            "techniqueName": "Mshta",
-            "comment": "Lazarus Group (G0032) & MuddyWater (G0069)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1547.005",
-            "techniqueName": "Security Support Provider",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1566.003",
-            "techniqueName": "Spearphishing via Service",
-            "comment": "Lazarus Group (G0032) & Magic Hound (G0059) & OilRig (G0049)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1491.001",
             "techniqueName": "Internal Defacement",
@@ -1088,12 +1100,6 @@
             "score": 1,
             "techniqueID": "T1529",
             "techniqueName": "System Shutdown/Reboot",
-            "comment": "Lazarus Group (G0032)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1496",
-            "techniqueName": "Resource Hijacking",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -1128,14 +1134,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1055.001",
-            "techniqueName": "Dynamic-link Library Injection",
+            "techniqueID": "T1564.001",
+            "techniqueName": "Hidden Files and Directories",
             "comment": "Lazarus Group (G0032)"
         },
         {
             "score": 1,
-            "techniqueID": "T1564.001",
-            "techniqueName": "Hidden Files and Directories",
+            "techniqueID": "T1055.001",
+            "techniqueName": "Dynamic-link Library Injection",
             "comment": "Lazarus Group (G0032)"
         },
         {
@@ -1175,10 +1181,10 @@
             "comment": "Lazarus Group (G0032)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1098",
             "techniqueName": "Account Manipulation",
-            "comment": "Lazarus Group (G0032)"
+            "comment": "Lazarus Group (G0032) & Sandworm Team (G0034)"
         },
         {
             "score": 1,
@@ -1191,6 +1197,30 @@
             "techniqueID": "T1059.007",
             "techniqueName": "JavaScript",
             "comment": "Leafminer (G0077) & Molerats (G0021) & MuddyWater (G0069) & Silence (G0091)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1589.002",
+            "techniqueName": "Email Addresses",
+            "comment": "Magic Hound (G0059) & MuddyWater (G0069) & Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1589",
+            "techniqueName": "Gather Victim Identity Information",
+            "comment": "Magic Hound (G0059)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1598.003",
+            "techniqueName": "Spearphishing Link",
+            "comment": "Magic Hound (G0059) & Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1114",
+            "techniqueName": "Email Collection",
+            "comment": "Magic Hound (G0059)"
         },
         {
             "score": 1,
@@ -1235,18 +1265,6 @@
             "comment": "MuddyWater (G0069) & OilRig (G0049) & Sandworm Team (G0034)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1589.002",
-            "techniqueName": "Email Addresses",
-            "comment": "MuddyWater (G0069) & Sandworm Team (G0034)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1588.002",
-            "techniqueName": "Tool",
-            "comment": "MuddyWater (G0069) & Sandworm Team (G0034)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1137.001",
             "techniqueName": "Office Template Macros",
@@ -1269,6 +1287,12 @@
             "techniqueID": "T1559.002",
             "techniqueName": "Dynamic Data Exchange",
             "comment": "MuddyWater (G0069) & Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.005",
+            "techniqueName": "Mshta",
+            "comment": "MuddyWater (G0069)"
         },
         {
             "score": 1,
@@ -1314,14 +1338,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1069.001",
-            "techniqueName": "Local Groups",
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
             "comment": "OilRig (G0049)"
         },
         {
             "score": 1,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
+            "techniqueID": "T1069.001",
+            "techniqueName": "Local Groups",
             "comment": "OilRig (G0049)"
         },
         {
@@ -1344,14 +1368,32 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1589.003",
-            "techniqueName": "Employee Names",
+            "techniqueID": "T1570",
+            "techniqueName": "Lateral Tool Transfer",
             "comment": "Sandworm Team (G0034)"
         },
         {
             "score": 1,
-            "techniqueID": "T1598.003",
-            "techniqueName": "Spearphishing Link",
+            "techniqueID": "T1136",
+            "techniqueName": "Create Account",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1136.002",
+            "techniqueName": "Domain Account",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1505.001",
+            "techniqueName": "SQL Stored Procedures",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1589.003",
+            "techniqueName": "Employee Names",
             "comment": "Sandworm Team (G0034)"
         },
         {
@@ -1370,12 +1412,6 @@
             "score": 1,
             "techniqueID": "T1591.002",
             "techniqueName": "Business Relationships",
-            "comment": "Sandworm Team (G0034)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1595.002",
-            "techniqueName": "Vulnerability Scanning",
             "comment": "Sandworm Team (G0034)"
         },
         {
@@ -1416,12 +1452,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1199",
-            "techniqueName": "Trusted Relationship",
-            "comment": "Sandworm Team (G0034)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1087.003",
             "techniqueName": "Email Account",
             "comment": "Sandworm Team (G0034)"
@@ -1453,22 +1483,22 @@
     ],
     "gradient": {
         "colors": [
-            "#18bc4c",
-            "#79f7a3",
-            "#44ce4d",
-            "#fc25bf",
-            "#7ff9d3",
-            "#5d37f2",
-            "#380a82",
-            "#26c167",
-            "#f9bbf5",
-            "#98e585",
-            "#f7e08c",
-            "#cb56ef",
-            "#1e3591",
-            "#eeccff",
-            "#f2d8b0",
-            "#ff474a"
+            "#98c421",
+            "#5236a0",
+            "#f9edc2",
+            "#0b0b7f",
+            "#f154f9",
+            "#821001",
+            "#4adbc3",
+            "#840103",
+            "#c11f29",
+            "#f3f72a",
+            "#dd2ecf",
+            "#685c5c",
+            "#9bf7e0",
+            "#5e8be5",
+            "#f9d34a",
+            "#b460e5"
         ],
         "minValue": 0,
         "maxValue": 15

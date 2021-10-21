@@ -6,6 +6,60 @@
     "techniques": [
         {
             "score": 2,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "APT29 (G0016) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.001",
+            "techniqueName": "Binary Padding",
+            "comment": "APT29 (G0016)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1110.003",
+            "techniqueName": "Password Spraying",
+            "comment": "APT29 (G0016) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1566.003",
+            "techniqueName": "Spearphishing via Service",
+            "comment": "APT29 (G0016)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1199",
+            "techniqueName": "Trusted Relationship",
+            "comment": "APT29 (G0016) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.005",
+            "techniqueName": "Visual Basic",
+            "comment": "APT29 (G0016)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1505.003",
+            "techniqueName": "Web Shell",
+            "comment": "APT29 (G0016) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1595.002",
+            "techniqueName": "Vulnerability Scanning",
+            "comment": "APT29 (G0016) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1213.003",
+            "techniqueName": "Code Repositories",
+            "comment": "APT29 (G0016)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1204.001",
             "techniqueName": "Malicious Link",
             "comment": "APT29 (G0016) & APT28 (G0007)"
@@ -23,10 +77,10 @@
             "comment": "APT29 (G0016)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1560.001",
             "techniqueName": "Archive via Utility",
-            "comment": "APT29 (G0016)"
+            "comment": "APT29 (G0016) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -65,16 +119,16 @@
             "comment": "APT29 (G0016)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1036.005",
             "techniqueName": "Match Legitimate Name or Location",
-            "comment": "APT29 (G0016)"
+            "comment": "APT29 (G0016) & APT28 (G0007)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1074.002",
             "techniqueName": "Remote Data Staging",
-            "comment": "APT29 (G0016)"
+            "comment": "APT29 (G0016) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -83,10 +137,10 @@
             "comment": "APT29 (G0016)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1036",
             "techniqueName": "Masquerading",
-            "comment": "APT29 (G0016)"
+            "comment": "APT29 (G0016) & APT28 (G0007)"
         },
         {
             "score": 2,
@@ -113,10 +167,10 @@
             "comment": "APT29 (G0016)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1048.002",
             "techniqueName": "Exfiltration Over Asymmetric Encrypted Non-C2 Protocol",
-            "comment": "APT29 (G0016)"
+            "comment": "APT29 (G0016) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -125,10 +179,10 @@
             "comment": "APT29 (G0016)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1098.002",
             "techniqueName": "Exchange Email Delegate Permissions",
-            "comment": "APT29 (G0016)"
+            "comment": "APT29 (G0016) & APT28 (G0007)"
         },
         {
             "score": 2,
@@ -263,10 +317,10 @@
             "comment": "APT29 (G0016) & APT28 (G0007)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1133",
             "techniqueName": "External Remote Services",
-            "comment": "APT29 (G0016)"
+            "comment": "APT29 (G0016) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -360,20 +414,14 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1204.002",
-            "techniqueName": "Malicious File",
-            "comment": "APT29 (G0016) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1203",
             "techniqueName": "Exploitation for Client Execution",
             "comment": "APT29 (G0016) & APT28 (G0007)"
         },
         {
             "score": 2,
-            "techniqueID": "T1566.002",
-            "techniqueName": "Spearphishing Link",
+            "techniqueID": "T1204.002",
+            "techniqueName": "Malicious File",
             "comment": "APT29 (G0016) & APT28 (G0007)"
         },
         {
@@ -384,14 +432,26 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1090.003",
-            "techniqueName": "Multi-hop Proxy",
+            "techniqueID": "T1566.002",
+            "techniqueName": "Spearphishing Link",
             "comment": "APT29 (G0016) & APT28 (G0007)"
         },
         {
             "score": 1,
             "techniqueID": "T1090.004",
             "techniqueName": "Domain Fronting",
+            "comment": "APT29 (G0016)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1090.003",
+            "techniqueName": "Multi-hop Proxy",
+            "comment": "APT29 (G0016) & APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1550.003",
+            "techniqueName": "Pass the Ticket",
             "comment": "APT29 (G0016)"
         },
         {
@@ -420,20 +480,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1027.002",
-            "techniqueName": "Software Packing",
-            "comment": "APT29 (G0016)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1047",
             "techniqueName": "Windows Management Instrumentation",
             "comment": "APT29 (G0016)"
         },
         {
             "score": 1,
-            "techniqueID": "T1550.003",
-            "techniqueName": "Pass the Ticket",
+            "techniqueID": "T1027.002",
+            "techniqueName": "Software Packing",
             "comment": "APT29 (G0016)"
         },
         {
@@ -456,6 +510,42 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1030",
+            "techniqueName": "Data Transfer Size Limits",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1213",
+            "techniqueName": "Data from Information Repositories",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.003",
+            "techniqueName": "NTDS",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078.004",
+            "techniqueName": "Cloud Accounts",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1589.001",
             "techniqueName": "Credentials",
             "comment": "APT28 (G0007)"
@@ -474,12 +564,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1595.002",
-            "techniqueName": "Vulnerability Scanning",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1110",
             "techniqueName": "Brute Force",
             "comment": "APT28 (G0007)"
@@ -494,12 +578,6 @@
             "score": 1,
             "techniqueID": "T1110.001",
             "techniqueName": "Password Guessing",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1110.003",
-            "techniqueName": "Password Spraying",
             "comment": "APT28 (G0007)"
         },
         {
@@ -546,12 +624,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1199",
-            "techniqueName": "Trusted Relationship",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1560",
             "techniqueName": "Archive Collected Data",
             "comment": "APT28 (G0007)"
@@ -576,12 +648,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1211",
-            "techniqueName": "Exploitation for Defense Evasion",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1037.001",
             "techniqueName": "Logon Script (Windows)",
             "comment": "APT28 (G0007)"
@@ -590,6 +656,12 @@
             "score": 1,
             "techniqueID": "T1210",
             "techniqueName": "Exploitation of Remote Services",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1211",
+            "techniqueName": "Exploitation for Defense Evasion",
             "comment": "APT28 (G0007)"
         },
         {
@@ -624,20 +696,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1092",
-            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -648,14 +708,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1113",
-            "techniqueName": "Screen Capture",
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1546.015",
-            "techniqueName": "Component Object Model Hijacking",
+            "techniqueID": "T1092",
+            "techniqueName": "Communication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -666,20 +726,20 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1546.015",
+            "techniqueName": "Component Object Model Hijacking",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1113",
+            "techniqueName": "Screen Capture",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1068",
-            "techniqueName": "Exploitation for Privilege Escalation",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
@@ -690,8 +750,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1068",
+            "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "APT28 (G0007)"
         },
         {
@@ -708,14 +774,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1090.002",
-            "techniqueName": "External Proxy",
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1090.002",
+            "techniqueName": "External Proxy",
             "comment": "APT28 (G0007)"
         },
         {
@@ -723,13 +789,19 @@
             "techniqueID": "T1346",
             "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
+            "comment": "APT28 (G0007)"
         }
     ],
     "gradient": {
         "colors": [
-            "#4bead7",
-            "#cdbbf9",
-            "#2f19aa"
+            "#94fcb7",
+            "#fca4ca",
+            "#ff5bd6"
         ],
         "minValue": 0,
         "maxValue": 2

@@ -6,9 +6,75 @@
     "techniques": [
         {
             "score": 1,
+            "techniqueID": "T1098",
+            "techniqueName": "Account Manipulation",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1110.003",
+            "techniqueName": "Password Spraying",
+            "comment": "Sandworm Team (G0034) & APT28 (G0007)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1047",
+            "techniqueName": "Windows Management Instrumentation",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "Sandworm Team (G0034) & APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1570",
+            "techniqueName": "Lateral Tool Transfer",
+            "comment": "Sandworm Team (G0034) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027.002",
+            "techniqueName": "Software Packing",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1136",
+            "techniqueName": "Create Account",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1136.002",
+            "techniqueName": "Domain Account",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1562.002",
+            "techniqueName": "Disable Windows Event Logging",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1505.001",
+            "techniqueName": "SQL Stored Procedures",
+            "comment": "Sandworm Team (G0034)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1505.003",
             "techniqueName": "Web Shell",
-            "comment": "Sandworm Team (G0034)"
+            "comment": "Sandworm Team (G0034) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -77,10 +143,10 @@
             "comment": "Sandworm Team (G0034)"
         },
         {
-            "score": 1,
+            "score": 4,
             "techniqueID": "T1588.002",
             "techniqueName": "Tool",
-            "comment": "Sandworm Team (G0034)"
+            "comment": "Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & Turla (G0010)"
         },
         {
             "score": 5,
@@ -221,10 +287,10 @@
             "comment": "Sandworm Team (G0034)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1133",
             "techniqueName": "External Remote Services",
-            "comment": "Sandworm Team (G0034)"
+            "comment": "Sandworm Team (G0034) & APT28 (G0007)"
         },
         {
             "score": 4,
@@ -257,10 +323,10 @@
             "comment": "Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007) & TA459 (G0062)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1036.005",
             "techniqueName": "Match Legitimate Name or Location",
-            "comment": "Sandworm Team (G0034) & Silence (G0091)"
+            "comment": "Sandworm Team (G0034) & Silence (G0091) & APT28 (G0007)"
         },
         {
             "score": 3,
@@ -419,12 +485,6 @@
             "comment": "Silence (G0091)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "Silence (G0091) & APT28 (G0007) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1218.001",
             "techniqueName": "Compiled HTML File",
@@ -447,6 +507,66 @@
             "techniqueID": "T1125",
             "techniqueName": "Video Capture",
             "comment": "Silence (G0091)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1036",
+            "techniqueName": "Masquerading",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1030",
+            "techniqueName": "Data Transfer Size Limits",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1048.002",
+            "techniqueName": "Exfiltration Over Asymmetric Encrypted Non-C2 Protocol",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1213",
+            "techniqueName": "Data from Information Repositories",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1074.002",
+            "techniqueName": "Remote Data Staging",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1039",
+            "techniqueName": "Data from Network Shared Drive",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.003",
+            "techniqueName": "NTDS",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1098.002",
+            "techniqueName": "Exchange Email Delegate Permissions",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1078.004",
+            "techniqueName": "Cloud Accounts",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -494,12 +614,6 @@
             "score": 1,
             "techniqueID": "T1110.001",
             "techniqueName": "Password Guessing",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1110.003",
-            "techniqueName": "Password Spraying",
             "comment": "APT28 (G0007)"
         },
         {
@@ -582,12 +696,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1211",
-            "techniqueName": "Exploitation for Defense Evasion",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1037.001",
             "techniqueName": "Logon Script (Windows)",
             "comment": "APT28 (G0007)"
@@ -596,6 +704,12 @@
             "score": 1,
             "techniqueID": "T1210",
             "techniqueName": "Exploitation of Remote Services",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1211",
+            "techniqueName": "Exploitation for Defense Evasion",
             "comment": "APT28 (G0007)"
         },
         {
@@ -629,16 +743,22 @@
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
-            "comment": "APT28 (G0007)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
             "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1550.002",
+            "techniqueName": "Pass the Hash",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -648,8 +768,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1550.002",
-            "techniqueName": "Pass the Hash",
+            "techniqueID": "T1091",
+            "techniqueName": "Replication Through Removable Media",
             "comment": "APT28 (G0007)"
         },
         {
@@ -660,8 +780,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1091",
-            "techniqueName": "Replication Through Removable Media",
+            "techniqueID": "T1542.003",
+            "techniqueName": "Bootkit",
             "comment": "APT28 (G0007)"
         },
         {
@@ -669,24 +789,6 @@
             "techniqueID": "T1068",
             "techniqueName": "Exploitation for Privilege Escalation",
             "comment": "APT28 (G0007) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1542.003",
-            "techniqueName": "Bootkit",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1070.006",
-            "techniqueName": "Timestomp",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
-            "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
@@ -702,8 +804,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1070.006",
+            "techniqueName": "Timestomp",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
             "comment": "APT28 (G0007)"
         },
         {
@@ -711,6 +819,18 @@
             "techniqueID": "T1346",
             "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
+            "comment": "APT28 (G0007)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1615",
+            "techniqueName": "Group Policy Discovery",
+            "comment": "Turla (G0010)"
         },
         {
             "score": 1,
@@ -786,12 +906,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1213",
-            "techniqueName": "Data from Information Repositories",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1201",
             "techniqueName": "Password Policy Discovery",
             "comment": "Turla (G0010)"
@@ -816,20 +930,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1570",
-            "techniqueName": "Lateral Tool Transfer",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1055.001",
             "techniqueName": "Dynamic-link Library Injection",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
             "comment": "Turla (G0010)"
         },
         {
@@ -894,12 +996,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1007",
             "techniqueName": "System Service Discovery",
             "comment": "Turla (G0010)"
@@ -907,12 +1003,12 @@
     ],
     "gradient": {
         "colors": [
-            "#a00b47",
-            "#3be802",
-            "#ce8e1e",
-            "#431591",
-            "#b2ef83",
-            "#4cffc6"
+            "#e5ba85",
+            "#e1c2fc",
+            "#10e8bc",
+            "#135184",
+            "#b2ed5a",
+            "#2cc9cc"
         ],
         "minValue": 0,
         "maxValue": 5

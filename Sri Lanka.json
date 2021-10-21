@@ -6,6 +6,12 @@
     "techniques": [
         {
             "score": 1,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "Silence (G0091)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1571",
             "techniqueName": "Non-Standard Port",
             "comment": "Silence (G0091)"
@@ -169,8 +175,8 @@
     ],
     "gradient": {
         "colors": [
-            "#b54c07",
-            "#a690ed"
+            "#94fce7",
+            "#038464"
         ],
         "minValue": 0,
         "maxValue": 1

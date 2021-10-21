@@ -132,26 +132,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1091",
-            "techniqueName": "Replication Through Removable Media",
-            "comment": "Darkhotel (G0012)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1080",
             "techniqueName": "Taint Shared Content",
             "comment": "Darkhotel (G0012)"
         },
         {
             "score": 1,
-            "techniqueID": "T1547.001",
-            "techniqueName": "Registry Run Keys / Startup Folder",
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
             "comment": "Darkhotel (G0012)"
         },
         {
             "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
+            "techniqueID": "T1091",
+            "techniqueName": "Replication Through Removable Media",
+            "comment": "Darkhotel (G0012)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1547.001",
+            "techniqueName": "Registry Run Keys / Startup Folder",
             "comment": "Darkhotel (G0012)"
         },
         {
@@ -195,6 +195,12 @@
             "techniqueID": "T1566.002",
             "techniqueName": "Spearphishing Link",
             "comment": "Machete (G0095)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "TEMP.Veles (G0088)"
         },
         {
             "score": 1,
@@ -307,10 +313,10 @@
     ],
     "gradient": {
         "colors": [
-            "#f9a7b3",
-            "#c677dd",
-            "#39a814",
-            "#3145b2"
+            "#bcf497",
+            "#3770a3",
+            "#ffccfb",
+            "#e5a862"
         ],
         "minValue": 0,
         "maxValue": 3

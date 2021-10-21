@@ -36,6 +36,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1555.003",
             "techniqueName": "Credentials from Web Browsers",
             "comment": "Leafminer (G0077)"
@@ -78,24 +84,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1046",
-            "techniqueName": "Network Service Scanning",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1136.001",
             "techniqueName": "Local Account",
             "comment": "Leafminer (G0077)"
@@ -114,14 +102,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
+            "techniqueID": "T1046",
+            "techniqueName": "Network Service Scanning",
             "comment": "Leafminer (G0077)"
         },
         {
             "score": 1,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -129,12 +123,24 @@
             "techniqueID": "T1059.007",
             "techniqueName": "JavaScript",
             "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
+            "comment": "Leafminer (G0077)"
         }
     ],
     "gradient": {
         "colors": [
-            "#64cde0",
-            "#6fe8af"
+            "#d979ea",
+            "#fff8bf"
         ],
         "minValue": 0,
         "maxValue": 1
