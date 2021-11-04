@@ -1,13 +1,13 @@
 {
     "description": "Techniques of groups: ",
-    "name": "South Asia",
+    "name": "Nigeria",
     "domain": "mitre-enterprise",
     "version": "3.0",
     "techniques": [],
     "gradient": {
         "colors": [
-            "#ffccfc",
-            "#acd85b"
+            "#7652bf",
+            "#8dc1dd"
         ],
         "minValue": 0,
         "maxValue": 1
