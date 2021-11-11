@@ -6,14 +6,14 @@
     "techniques": [
         {
             "score": 2,
-            "techniqueID": "T1083",
-            "techniqueName": "File and Directory Discovery",
+            "techniqueID": "T1027",
+            "techniqueName": "Obfuscated Files or Information",
             "comment": "Dust Storm (G0031) & Leafminer (G0077)"
         },
         {
             "score": 2,
-            "techniqueID": "T1027",
-            "techniqueName": "Obfuscated Files or Information",
+            "techniqueID": "T1083",
+            "techniqueName": "File and Directory Discovery",
             "comment": "Dust Storm (G0031) & Leafminer (G0077)"
         },
         {
@@ -84,8 +84,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1046",
-            "techniqueName": "Network Service Scanning",
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -96,20 +96,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript",
+            "techniqueID": "T1046",
+            "techniqueName": "Network Service Scanning",
             "comment": "Leafminer (G0077)"
         },
         {
             "score": 1,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -121,9 +121,9 @@
     ],
     "gradient": {
         "colors": [
-            "#ad432e",
-            "#84e8bc",
-            "#ccd7ff"
+            "#eda1ea",
+            "#58d306",
+            "#6839ba"
         ],
         "minValue": 0,
         "maxValue": 2

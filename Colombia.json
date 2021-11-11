@@ -222,18 +222,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Gamaredon Group (G0047)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1033",
-            "techniqueName": "System Owner/User Discovery",
-            "comment": "Gamaredon Group (G0047)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
             "comment": "Gamaredon Group (G0047)"
@@ -242,6 +230,18 @@
             "score": 1,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Gamaredon Group (G0047)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1033",
+            "techniqueName": "System Owner/User Discovery",
             "comment": "Gamaredon Group (G0047)"
         },
         {
@@ -295,10 +295,10 @@
     ],
     "gradient": {
         "colors": [
-            "#34c17b",
-            "#f2ef3a",
-            "#e5fc99",
-            "#14016d"
+            "#22b5a3",
+            "#badbf2",
+            "#d16827",
+            "#57ed9d"
         ],
         "minValue": 0,
         "maxValue": 3

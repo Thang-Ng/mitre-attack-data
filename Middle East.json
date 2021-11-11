@@ -378,9 +378,21 @@
         },
         {
             "score": 2,
+            "techniqueID": "T1548.002",
+            "techniqueName": "Bypass User Account Control",
+            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1189",
             "techniqueName": "Drive-by Compromise",
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
@@ -395,12 +407,6 @@
             "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Account Control",
-            "comment": "Threat Group-3390 (G0027) & Patchwork (G0040)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1574.001",
             "techniqueName": "DLL Search Order Hijacking",
@@ -408,14 +414,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
+            "techniqueID": "T1087.001",
+            "techniqueName": "Local Account",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
-            "techniqueID": "T1087.001",
-            "techniqueName": "Local Account",
+            "techniqueID": "T1021.006",
+            "techniqueName": "Windows Remote Management",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -443,12 +449,6 @@
             "comment": "Threat Group-3390 (G0027)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1021.006",
-            "techniqueName": "Windows Remote Management",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1059.003",
             "techniqueName": "Windows Command Shell",
@@ -468,12 +468,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1030",
             "techniqueName": "Data Transfer Size Limits",
             "comment": "Threat Group-3390 (G0027)"
@@ -482,6 +476,12 @@
             "score": 1,
             "techniqueID": "T1560.002",
             "techniqueName": "Archive via Library",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
             "comment": "Threat Group-3390 (G0027)"
         },
         {
@@ -583,13 +583,13 @@
     ],
     "gradient": {
         "colors": [
-            "#f7b860",
-            "#5039a0",
-            "#ef150e",
-            "#90f3f4",
-            "#ef75db",
-            "#45abad",
-            "#d11006"
+            "#123b96",
+            "#ae93ed",
+            "#4c77ce",
+            "#81d2f4",
+            "#09f9cd",
+            "#b0f9a9",
+            "#e263c9"
         ],
         "minValue": 0,
         "maxValue": 6

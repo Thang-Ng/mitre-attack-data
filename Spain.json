@@ -35,16 +35,16 @@
             "comment": "Carbanak (G0008) & APT39 (G0087) & Magic Hound (G0059) & APT28 (G0007) & Turla (G0010)"
         },
         {
-            "score": 5,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "Carbanak (G0008) & APT39 (G0087) & Machete (G0095) & Silence (G0091) & APT28 (G0007)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1218.011",
             "techniqueName": "Rundll32",
             "comment": "Carbanak (G0008) & Gamaredon Group (G0047) & APT28 (G0007)"
+        },
+        {
+            "score": 5,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "Carbanak (G0008) & APT39 (G0087) & Machete (G0095) & Silence (G0091) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -390,15 +390,21 @@
         },
         {
             "score": 2,
+            "techniqueID": "T1559.002",
+            "techniqueName": "Dynamic Data Exchange",
+            "comment": "Cobalt Group (G0080) & APT28 (G0007)"
+        },
+        {
+            "score": 2,
             "techniqueID": "T1548.002",
             "techniqueName": "Bypass User Account Control",
             "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1559.002",
-            "techniqueName": "Dynamic Data Exchange",
-            "comment": "Cobalt Group (G0080) & APT28 (G0007)"
+            "score": 1,
+            "techniqueID": "T1220",
+            "techniqueName": "XSL Script Processing",
+            "comment": "Cobalt Group (G0080)"
         },
         {
             "score": 4,
@@ -422,12 +428,6 @@
             "score": 1,
             "techniqueID": "T1218.003",
             "techniqueName": "CMSTP",
-            "comment": "Cobalt Group (G0080)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1220",
-            "techniqueName": "XSL Script Processing",
             "comment": "Cobalt Group (G0080)"
         },
         {
@@ -521,6 +521,12 @@
             "comment": "Threat Group-3390 (G0027) & Turla (G0010)"
         },
         {
+            "score": 1,
+            "techniqueID": "T1021.006",
+            "techniqueName": "Windows Remote Management",
+            "comment": "Threat Group-3390 (G0027)"
+        },
+        {
             "score": 3,
             "techniqueID": "T1016",
             "techniqueName": "System Network Configuration Discovery",
@@ -540,12 +546,6 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1021.006",
-            "techniqueName": "Windows Remote Management",
-            "comment": "Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1562.002",
             "techniqueName": "Disable Windows Event Logging",
             "comment": "Threat Group-3390 (G0027)"
@@ -558,12 +558,6 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1133",
-            "techniqueName": "External Remote Services",
-            "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1030",
             "techniqueName": "Data Transfer Size Limits",
             "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
@@ -573,6 +567,12 @@
             "techniqueID": "T1560.002",
             "techniqueName": "Archive via Library",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "Threat Group-3390 (G0027) & APT28 (G0007)"
         },
         {
             "score": 1,
@@ -972,14 +972,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1134.001",
-            "techniqueName": "Token Impersonation/Theft",
+            "techniqueID": "T1137.002",
+            "techniqueName": "Office Test",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1137.002",
-            "techniqueName": "Office Test",
+            "techniqueID": "T1134.001",
+            "techniqueName": "Token Impersonation/Theft",
             "comment": "APT28 (G0007)"
         },
         {
@@ -1038,14 +1038,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
@@ -1201,17 +1201,17 @@
     ],
     "gradient": {
         "colors": [
-            "#8beddb",
-            "#02dbef",
-            "#42579e",
-            "#db4ea0",
-            "#2e8be8",
-            "#57e0d0",
-            "#dda41f",
-            "#6b87db",
-            "#ed9b80",
-            "#fcbad8",
-            "#1c08d1"
+            "#ebaef2",
+            "#9ff4a1",
+            "#cc4f4d",
+            "#75bad6",
+            "#84ed74",
+            "#dd56d2",
+            "#3623e0",
+            "#2b59b5",
+            "#fce055",
+            "#82d155",
+            "#edaef9"
         ],
         "minValue": 0,
         "maxValue": 10

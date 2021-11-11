@@ -102,8 +102,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1046",
-            "techniqueName": "Network Service Scanning",
+            "techniqueID": "T1059.007",
+            "techniqueName": "JavaScript",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -114,20 +114,20 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
-            "comment": "Leafminer (G0077)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059.007",
-            "techniqueName": "JavaScript",
+            "techniqueID": "T1046",
+            "techniqueName": "Network Service Scanning",
             "comment": "Leafminer (G0077)"
         },
         {
             "score": 1,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
+            "comment": "Leafminer (G0077)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
             "comment": "Leafminer (G0077)"
         },
         {
@@ -139,8 +139,8 @@
     ],
     "gradient": {
         "colors": [
-            "#fffbbf",
-            "#c0c1f9"
+            "#9eff3d",
+            "#0058fc"
         ],
         "minValue": 0,
         "maxValue": 1

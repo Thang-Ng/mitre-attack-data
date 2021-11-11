@@ -77,6 +77,12 @@
             "comment": "Naikon (G0019) & menuPass (G0045) & GALLIUM (G0093) & Tropic Trooper (G0081)"
         },
         {
+            "score": 2,
+            "techniqueID": "T1518.001",
+            "techniqueName": "Security Software Discovery",
+            "comment": "Naikon (G0019) & Tropic Trooper (G0081)"
+        },
+        {
             "score": 4,
             "techniqueID": "T1016",
             "techniqueName": "System Network Configuration Discovery",
@@ -84,21 +90,15 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1518.001",
-            "techniqueName": "Security Software Discovery",
-            "comment": "Naikon (G0019) & Tropic Trooper (G0081)"
+            "techniqueID": "T1071.001",
+            "techniqueName": "Web Protocols",
+            "comment": "Orangeworm (G0071) & Tropic Trooper (G0081)"
         },
         {
             "score": 1,
             "techniqueID": "T1021.002",
             "techniqueName": "SMB/Windows Admin Shares",
             "comment": "Orangeworm (G0071)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1071.001",
-            "techniqueName": "Web Protocols",
-            "comment": "Orangeworm (G0071) & Tropic Trooper (G0081)"
         },
         {
             "score": 1,
@@ -215,16 +215,16 @@
             "comment": "menuPass (G0045)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1055.012",
-            "techniqueName": "Process Hollowing",
-            "comment": "menuPass (G0045)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1027",
             "techniqueName": "Obfuscated Files or Information",
             "comment": "menuPass (G0045) & GALLIUM (G0093) & Tropic Trooper (G0081)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1055.012",
+            "techniqueName": "Process Hollowing",
+            "comment": "menuPass (G0045)"
         },
         {
             "score": 2,
@@ -263,6 +263,12 @@
             "comment": "menuPass (G0045) & GALLIUM (G0093) & Tropic Trooper (G0081)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "menuPass (G0045) & GALLIUM (G0093) & Tropic Trooper (G0081)"
+        },
+        {
             "score": 2,
             "techniqueID": "T1078",
             "techniqueName": "Valid Accounts",
@@ -282,15 +288,9 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1074.001",
-            "techniqueName": "Local Data Staging",
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
             "comment": "menuPass (G0045) & GALLIUM (G0093)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "menuPass (G0045) & GALLIUM (G0093) & Tropic Trooper (G0081)"
         },
         {
             "score": 2,
@@ -300,8 +300,8 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
+            "techniqueID": "T1074.001",
+            "techniqueName": "Local Data Staging",
             "comment": "menuPass (G0045) & GALLIUM (G0093)"
         },
         {
@@ -311,16 +311,16 @@
             "comment": "menuPass (G0045)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "menuPass (G0045) & GALLIUM (G0093)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1574.001",
             "techniqueName": "DLL Search Order Hijacking",
             "comment": "menuPass (G0045)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "menuPass (G0045) & GALLIUM (G0093)"
         },
         {
             "score": 1,
@@ -517,11 +517,11 @@
     ],
     "gradient": {
         "colors": [
-            "#e904ed",
-            "#2ec173",
-            "#88ccd8",
-            "#f9d09d",
-            "#d75ae2"
+            "#98f9ad",
+            "#62e5a1",
+            "#ff30c7",
+            "#c787db",
+            "#ea798a"
         ],
         "minValue": 0,
         "maxValue": 4

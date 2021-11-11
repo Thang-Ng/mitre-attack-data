@@ -372,27 +372,15 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1345",
-            "techniqueName": "Create custom payloads",
-            "comment": "Cleaver (G0003)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1313",
             "techniqueName": "Obfuscation or cryptography",
             "comment": "Cleaver (G0003)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Leviathan (G0065) & Turla (G0010)"
-        },
-        {
-            "score": 8,
-            "techniqueID": "T1059.003",
-            "techniqueName": "Windows Command Shell",
-            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & Turla (G0010)"
+            "score": 1,
+            "techniqueID": "T1345",
+            "techniqueName": "Create custom payloads",
+            "comment": "Cleaver (G0003)"
         },
         {
             "score": 3,
@@ -405,6 +393,18 @@
             "techniqueID": "T1218.001",
             "techniqueName": "Compiled HTML File",
             "comment": "Dark Caracal (G0070) & OilRig (G0049) & Silence (G0091)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Leviathan (G0065) & Turla (G0010)"
+        },
+        {
+            "score": 8,
+            "techniqueID": "T1059.003",
+            "techniqueName": "Windows Command Shell",
+            "comment": "Dark Caracal (G0070) & Darkhotel (G0012) & Ke3chang (G0004) & Magic Hound (G0059) & MuddyWater (G0069) & OilRig (G0049) & Silence (G0091) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -522,6 +522,12 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1543.003",
             "techniqueName": "Windows Service",
             "comment": "Ke3chang (G0004)"
@@ -539,12 +545,6 @@
             "comment": "Ke3chang (G0004)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1114.002",
-            "techniqueName": "Remote Email Collection",
-            "comment": "Ke3chang (G0004)"
-        },
-        {
             "score": 4,
             "techniqueID": "T1087.002",
             "techniqueName": "Domain Account",
@@ -557,16 +557,16 @@
             "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1069.002",
-            "techniqueName": "Domain Groups",
-            "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1560",
             "techniqueName": "Archive Collected Data",
             "comment": "Ke3chang (G0004) & Leviathan (G0065)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1069.002",
+            "techniqueName": "Domain Groups",
+            "comment": "Ke3chang (G0004) & OilRig (G0049) & Turla (G0010)"
         },
         {
             "score": 4,
@@ -737,16 +737,16 @@
             "comment": "Magic Hound (G0059)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1043",
-            "techniqueName": "Commonly Used Port",
-            "comment": "Magic Hound (G0059) & OilRig (G0049) & TEMP.Veles (G0088)"
-        },
-        {
             "score": 2,
             "techniqueID": "T1065",
             "techniqueName": "Uncommonly Used Port",
             "comment": "Magic Hound (G0059) & TEMP.Veles (G0088)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1043",
+            "techniqueName": "Commonly Used Port",
+            "comment": "Magic Hound (G0059) & OilRig (G0049) & TEMP.Veles (G0088)"
         },
         {
             "score": 1,
@@ -840,14 +840,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1218.005",
-            "techniqueName": "Mshta",
+            "techniqueID": "T1218.003",
+            "techniqueName": "CMSTP",
             "comment": "MuddyWater (G0069)"
         },
         {
             "score": 1,
-            "techniqueID": "T1218.003",
-            "techniqueName": "CMSTP",
+            "techniqueID": "T1218.005",
+            "techniqueName": "Mshta",
             "comment": "MuddyWater (G0069)"
         },
         {
@@ -923,16 +923,16 @@
             "comment": "OilRig (G0049)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1069.001",
-            "techniqueName": "Local Groups",
-            "comment": "OilRig (G0049) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1008",
             "techniqueName": "Fallback Channels",
             "comment": "OilRig (G0049)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1069.001",
+            "techniqueName": "Local Groups",
+            "comment": "OilRig (G0049) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -1111,18 +1111,18 @@
     ],
     "gradient": {
         "colors": [
-            "#fffda3",
-            "#40d626",
-            "#eaa1d7",
-            "#6f2ef2",
-            "#a3ffe1",
-            "#102770",
-            "#5e26a8",
-            "#e096c0",
-            "#7baf00",
-            "#3f75d3",
-            "#22d688",
-            "#23ff9f"
+            "#cc20b8",
+            "#b2fff7",
+            "#bad0f2",
+            "#20ba12",
+            "#c14911",
+            "#a9fcb0",
+            "#5ead26",
+            "#fc77ff",
+            "#ef81be",
+            "#7bbbe0",
+            "#6152e5",
+            "#c8d664"
         ],
         "minValue": 0,
         "maxValue": 11

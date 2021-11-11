@@ -287,18 +287,6 @@
             "comment": "MuddyWater (G0069)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1140",
-            "techniqueName": "Deobfuscate/Decode Files or Information",
-            "comment": "MuddyWater (G0069) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1036.005",
-            "techniqueName": "Match Legitimate Name or Location",
-            "comment": "MuddyWater (G0069) & PROMETHIUM (G0056)"
-        },
-        {
             "score": 3,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
@@ -306,9 +294,27 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1218.003",
+            "techniqueName": "CMSTP",
+            "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1140",
+            "techniqueName": "Deobfuscate/Decode Files or Information",
+            "comment": "MuddyWater (G0069) & Turla (G0010)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1003.001",
             "techniqueName": "LSASS Memory",
             "comment": "MuddyWater (G0069)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1036.005",
+            "techniqueName": "Match Legitimate Name or Location",
+            "comment": "MuddyWater (G0069) & PROMETHIUM (G0056)"
         },
         {
             "score": 1,
@@ -321,12 +327,6 @@
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
             "comment": "MuddyWater (G0069) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1218.003",
-            "techniqueName": "CMSTP",
-            "comment": "MuddyWater (G0069)"
         },
         {
             "score": 1,
@@ -607,10 +607,10 @@
     ],
     "gradient": {
         "colors": [
-            "#a67add",
-            "#2174a8",
-            "#d407ef",
-            "#ae37dd"
+            "#aaffeb",
+            "#0630a3",
+            "#be60ea",
+            "#2841ba"
         ],
         "minValue": 0,
         "maxValue": 3

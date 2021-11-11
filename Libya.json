@@ -90,21 +90,21 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
+            "techniqueID": "T1553.002",
+            "techniqueName": "Code Signing",
             "comment": "Molerats (G0021)"
         },
         {
             "score": 1,
-            "techniqueID": "T1553.002",
-            "techniqueName": "Code Signing",
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
             "comment": "Molerats (G0021)"
         }
     ],
     "gradient": {
         "colors": [
-            "#97ea60",
-            "#3c57f2"
+            "#3fdb7d",
+            "#8f24c9"
         ],
         "minValue": 0,
         "maxValue": 1

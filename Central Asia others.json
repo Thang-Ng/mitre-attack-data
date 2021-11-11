@@ -6,18 +6,6 @@
     "techniques": [
         {
             "score": 1,
-            "techniqueID": "T1203",
-            "techniqueName": "Exploitation for Client Execution",
-            "comment": "TA459 (G0062)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1059.001",
-            "techniqueName": "PowerShell",
-            "comment": "TA459 (G0062)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1566.001",
             "techniqueName": "Spearphishing Attachment",
             "comment": "TA459 (G0062)"
@@ -33,12 +21,24 @@
             "techniqueID": "T1059.005",
             "techniqueName": "Visual Basic",
             "comment": "TA459 (G0062)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1203",
+            "techniqueName": "Exploitation for Client Execution",
+            "comment": "TA459 (G0062)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059.001",
+            "techniqueName": "PowerShell",
+            "comment": "TA459 (G0062)"
         }
     ],
     "gradient": {
         "colors": [
-            "#ad2b63",
-            "#6dffa2"
+            "#1c1e8e",
+            "#a3ffc4"
         ],
         "minValue": 0,
         "maxValue": 1

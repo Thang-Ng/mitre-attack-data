@@ -12,14 +12,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1272",
-            "techniqueName": "Identify business relationships",
+            "techniqueID": "T1334",
+            "techniqueName": "Compromise 3rd party infrastructure to support delivery",
             "comment": "APT16 (G0023)"
         },
         {
             "score": 1,
-            "techniqueID": "T1334",
-            "techniqueName": "Compromise 3rd party infrastructure to support delivery",
+            "techniqueID": "T1272",
+            "techniqueName": "Identify business relationships",
             "comment": "APT16 (G0023)"
         },
         {
@@ -371,10 +371,22 @@
             "comment": "APT32 (G0050) & APT41 (G0096) & Lazarus Group (G0032) & APT28 (G0007) & Turla (G0010)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1070.001",
+            "techniqueName": "Clear Windows Event Logs",
+            "comment": "APT32 (G0050) & APT41 (G0096) & APT28 (G0007)"
+        },
+        {
             "score": 5,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
             "comment": "APT32 (G0050) & Darkhotel (G0012) & Lazarus Group (G0032) & Stealth Falcon (G0038) & Turla (G0010)"
+        },
+        {
+            "score": 7,
+            "techniqueID": "T1189",
+            "techniqueName": "Drive-by Compromise",
+            "comment": "APT32 (G0050) & Dark Caracal (G0070) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & PLATINUM (G0068) & Turla (G0010)"
         },
         {
             "score": 5,
@@ -389,18 +401,6 @@
             "comment": "APT32 (G0050)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1070.001",
-            "techniqueName": "Clear Windows Event Logs",
-            "comment": "APT32 (G0050) & APT41 (G0096) & APT28 (G0007)"
-        },
-        {
-            "score": 7,
-            "techniqueID": "T1189",
-            "techniqueName": "Drive-by Compromise",
-            "comment": "APT32 (G0050) & Dark Caracal (G0070) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & PLATINUM (G0068) & Turla (G0010)"
-        },
-        {
             "score": 6,
             "techniqueID": "T1574.002",
             "techniqueName": "DLL Side-Loading",
@@ -413,16 +413,16 @@
             "comment": "APT32 (G0050)"
         },
         {
-            "score": 4,
-            "techniqueID": "T1505.003",
-            "techniqueName": "Web Shell",
-            "comment": "APT32 (G0050) & Threat Group-3390 (G0027) & APT28 (G0007) & GALLIUM (G0093)"
-        },
-        {
             "score": 12,
             "techniqueID": "T1105",
             "techniqueName": "Ingress Tool Transfer",
             "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Darkhotel (G0012) & Threat Group-3390 (G0027) & Lazarus Group (G0032) & PLATINUM (G0068) & Silence (G0091) & APT28 (G0007) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
+        },
+        {
+            "score": 4,
+            "techniqueID": "T1505.003",
+            "techniqueName": "Web Shell",
+            "comment": "APT32 (G0050) & Threat Group-3390 (G0027) & APT28 (G0007) & GALLIUM (G0093)"
         },
         {
             "score": 9,
@@ -437,6 +437,12 @@
             "comment": "APT32 (G0050) & Silence (G0091)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1070.006",
+            "techniqueName": "Timestomp",
+            "comment": "APT32 (G0050) & Lazarus Group (G0032) & APT28 (G0007)"
+        },
+        {
             "score": 6,
             "techniqueID": "T1068",
             "techniqueName": "Exploitation for Privilege Escalation",
@@ -447,6 +453,12 @@
             "techniqueID": "T1059.001",
             "techniqueName": "PowerShell",
             "comment": "APT32 (G0050) & APT41 (G0096) & Cobalt Group (G0080) & Threat Group-3390 (G0027) & Thrip (G0076) & Silence (G0091) & APT28 (G0007) & Stealth Falcon (G0038) & menuPass (G0045) & GALLIUM (G0093) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1094",
+            "techniqueName": "Custom Command and Control Protocol",
+            "comment": "APT32 (G0050) & PLATINUM (G0068)"
         },
         {
             "score": 12,
@@ -465,18 +477,6 @@
             "techniqueID": "T1036.005",
             "techniqueName": "Match Legitimate Name or Location",
             "comment": "APT32 (G0050) & APT41 (G0096) & Darkhotel (G0012) & Lazarus Group (G0032) & Naikon (G0019) & Silence (G0091) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
-            "score": 3,
-            "techniqueID": "T1070.006",
-            "techniqueName": "Timestomp",
-            "comment": "APT32 (G0050) & Lazarus Group (G0032) & APT28 (G0007)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1094",
-            "techniqueName": "Custom Command and Control Protocol",
-            "comment": "APT32 (G0050) & PLATINUM (G0068)"
         },
         {
             "score": 8,
@@ -690,12 +690,6 @@
         },
         {
             "score": 2,
-            "techniqueID": "T1548.002",
-            "techniqueName": "Bypass User Account Control",
-            "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027)"
-        },
-        {
-            "score": 2,
             "techniqueID": "T1559.002",
             "techniqueName": "Dynamic Data Exchange",
             "comment": "Cobalt Group (G0080) & APT28 (G0007)"
@@ -707,15 +701,21 @@
             "comment": "Cobalt Group (G0080) & Thrip (G0076)"
         },
         {
-            "score": 1,
-            "techniqueID": "T1218.003",
-            "techniqueName": "CMSTP",
-            "comment": "Cobalt Group (G0080)"
+            "score": 2,
+            "techniqueID": "T1548.002",
+            "techniqueName": "Bypass User Account Control",
+            "comment": "Cobalt Group (G0080) & Threat Group-3390 (G0027)"
         },
         {
             "score": 1,
             "techniqueID": "T1220",
             "techniqueName": "XSL Script Processing",
+            "comment": "Cobalt Group (G0080)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1218.003",
+            "techniqueName": "CMSTP",
             "comment": "Cobalt Group (G0080)"
         },
         {
@@ -845,16 +845,16 @@
             "comment": "Threat Group-3390 (G0027) & menuPass (G0045)"
         },
         {
-            "score": 3,
-            "techniqueID": "T1119",
-            "techniqueName": "Automated Collection",
-            "comment": "Threat Group-3390 (G0027) & APT28 (G0007) & menuPass (G0045)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1021.006",
             "techniqueName": "Windows Remote Management",
             "comment": "Threat Group-3390 (G0027)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1119",
+            "techniqueName": "Automated Collection",
+            "comment": "Threat Group-3390 (G0027) & APT28 (G0007) & menuPass (G0045)"
         },
         {
             "score": 1,
@@ -971,16 +971,16 @@
             "comment": "Lazarus Group (G0032)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1055.001",
-            "techniqueName": "Dynamic-link Library Injection",
-            "comment": "Lazarus Group (G0032) & Turla (G0010)"
-        },
-        {
             "score": 1,
             "techniqueID": "T1132.001",
             "techniqueName": "Standard Encoding",
             "comment": "Lazarus Group (G0032)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1055.001",
+            "techniqueName": "Dynamic-link Library Injection",
+            "comment": "Lazarus Group (G0032) & Turla (G0010)"
         },
         {
             "score": 5,
@@ -1038,14 +1038,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1095",
-            "techniqueName": "Non-Application Layer Protocol",
+            "techniqueID": "T1056.004",
+            "techniqueName": "Credential API Hooking",
             "comment": "PLATINUM (G0068)"
         },
         {
             "score": 1,
-            "techniqueID": "T1056.004",
-            "techniqueName": "Credential API Hooking",
+            "techniqueID": "T1095",
+            "techniqueName": "Non-Application Layer Protocol",
             "comment": "PLATINUM (G0068)"
         },
         {
@@ -1200,26 +1200,26 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1134.001",
-            "techniqueName": "Token Impersonation/Theft",
-            "comment": "APT28 (G0007)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1137.002",
             "techniqueName": "Office Test",
             "comment": "APT28 (G0007)"
         },
         {
-            "score": 2,
-            "techniqueID": "T1120",
-            "techniqueName": "Peripheral Device Discovery",
-            "comment": "APT28 (G0007) & Turla (G0010)"
+            "score": 1,
+            "techniqueID": "T1134.001",
+            "techniqueName": "Token Impersonation/Theft",
+            "comment": "APT28 (G0007)"
         },
         {
             "score": 2,
             "techniqueID": "T1025",
             "techniqueName": "Data from Removable Media",
+            "comment": "APT28 (G0007) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1120",
+            "techniqueName": "Peripheral Device Discovery",
             "comment": "APT28 (G0007) & Turla (G0010)"
         },
         {
@@ -1242,14 +1242,14 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1346",
-            "techniqueName": "Obtain/re-use payloads",
+            "techniqueID": "T1328",
+            "techniqueName": "Buy domain name",
             "comment": "APT28 (G0007)"
         },
         {
             "score": 1,
-            "techniqueID": "T1328",
-            "techniqueName": "Buy domain name",
+            "techniqueID": "T1346",
+            "techniqueName": "Obtain/re-use payloads",
             "comment": "APT28 (G0007)"
         },
         {
@@ -1405,19 +1405,19 @@
     ],
     "gradient": {
         "colors": [
-            "#63bcc6",
-            "#0911a3",
-            "#777dd1",
-            "#ea23e0",
-            "#1b1175",
-            "#8feade",
-            "#381096",
-            "#a4fcb4",
-            "#addaf4",
-            "#44d6b9",
-            "#b585d3",
-            "#8e9ae2",
-            "#5f2f9e"
+            "#3fdd0b",
+            "#6a1dad",
+            "#03756d",
+            "#def44b",
+            "#ccbffc",
+            "#b1f9a7",
+            "#7c8c07",
+            "#f475e1",
+            "#f918b2",
+            "#603e3e",
+            "#d87eea",
+            "#6de4f2",
+            "#f2f29b"
         ],
         "minValue": 0,
         "maxValue": 12
