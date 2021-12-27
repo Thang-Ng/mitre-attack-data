@@ -1,5 +1,5 @@
 {
-    "description": "Techniques of groups: Dark Caracal (G0070) & Machete (G0095) & Magic Hound (G0059) & Turla (G0010) & ",
+    "description": "Techniques of groups: Dark Caracal (G0070) & Machete (G0095) & Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010) & ",
     "name": "Venezuela",
     "domain": "mitre-enterprise",
     "version": "3.0",
@@ -11,10 +11,10 @@
             "comment": "Dark Caracal (G0070) & Magic Hound (G0059)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1005",
             "techniqueName": "Data from Local System",
-            "comment": "Dark Caracal (G0070) & Turla (G0010)"
+            "comment": "Dark Caracal (G0070) & Ke3chang (G0004) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -29,10 +29,10 @@
             "comment": "Dark Caracal (G0070) & Machete (G0095) & Magic Hound (G0059)"
         },
         {
-            "score": 3,
+            "score": 4,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Dark Caracal (G0070) & Magic Hound (G0059) & Turla (G0010)"
+            "comment": "Dark Caracal (G0070) & Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -41,10 +41,10 @@
             "comment": "Dark Caracal (G0070)"
         },
         {
-            "score": 3,
+            "score": 4,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
-            "comment": "Dark Caracal (G0070) & Magic Hound (G0059) & Turla (G0010)"
+            "comment": "Dark Caracal (G0070) & Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 3,
@@ -59,16 +59,16 @@
             "comment": "Dark Caracal (G0070) & Magic Hound (G0059) & Turla (G0010)"
         },
         {
-            "score": 4,
+            "score": 5,
             "techniqueID": "T1059.003",
             "techniqueName": "Windows Command Shell",
-            "comment": "Dark Caracal (G0070) & Machete (G0095) & Magic Hound (G0059) & Turla (G0010)"
+            "comment": "Dark Caracal (G0070) & Machete (G0095) & Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
         },
         {
-            "score": 3,
+            "score": 4,
             "techniqueID": "T1071.001",
             "techniqueName": "Web Protocols",
-            "comment": "Dark Caracal (G0070) & Magic Hound (G0059) & Turla (G0010)"
+            "comment": "Dark Caracal (G0070) & Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -143,6 +143,168 @@
             "comment": "Machete (G0095)"
         },
         {
+            "score": 3,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.004",
+            "techniqueName": "LSA Secrets",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.002",
+            "techniqueName": "Security Account Manager",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1087.001",
+            "techniqueName": "Local Account",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1071.004",
+            "techniqueName": "DNS",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1036.002",
+            "techniqueName": "Right-to-Left Override",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1558.001",
+            "techniqueName": "Golden Ticket",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1213.002",
+            "techniqueName": "Sharepoint",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1569.002",
+            "techniqueName": "Service Execution",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1082",
+            "techniqueName": "System Information Discovery",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1007",
+            "techniqueName": "System Service Discovery",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1069.002",
+            "techniqueName": "Domain Groups",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 3,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "Ke3chang (G0004) & Magic Hound (G0059) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1041",
+            "techniqueName": "Exfiltration Over C2 Channel",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "Ke3chang (G0004) & Turla (G0010)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059",
+            "techniqueName": "Command and Scripting Interpreter",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
             "score": 1,
             "techniqueID": "T1589.002",
             "techniqueName": "Email Addresses",
@@ -153,12 +315,6 @@
             "techniqueID": "T1589",
             "techniqueName": "Gather Victim Identity Information",
             "comment": "Magic Hound (G0059)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1588.002",
-            "techniqueName": "Tool",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 1,
@@ -240,33 +396,9 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1003.001",
-            "techniqueName": "LSASS Memory",
-            "comment": "Magic Hound (G0059)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1560.001",
-            "techniqueName": "Archive via Utility",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1016",
-            "techniqueName": "System Network Configuration Discovery",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1033",
             "techniqueName": "System Owner/User Discovery",
             "comment": "Magic Hound (G0059)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1082",
-            "techniqueName": "System Information Discovery",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
         },
         {
             "score": 2,
@@ -302,18 +434,6 @@
             "score": 1,
             "techniqueID": "T1070.004",
             "techniqueName": "File Deletion",
-            "comment": "Magic Hound (G0059)"
-        },
-        {
-            "score": 2,
-            "techniqueID": "T1057",
-            "techniqueName": "Process Discovery",
-            "comment": "Magic Hound (G0059) & Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1056.001",
-            "techniqueName": "Keylogging",
             "comment": "Magic Hound (G0059)"
         },
         {
@@ -426,26 +546,8 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1087.001",
-            "techniqueName": "Local Account",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1087.002",
-            "techniqueName": "Domain Account",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1069.001",
             "techniqueName": "Local Groups",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1069.002",
-            "techniqueName": "Domain Groups",
             "comment": "Turla (G0010)"
         },
         {
@@ -558,44 +660,21 @@
         },
         {
             "score": 1,
-            "techniqueID": "T1049",
-            "techniqueName": "System Network Connections Discovery",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1018",
-            "techniqueName": "Remote System Discovery",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1021.002",
-            "techniqueName": "SMB/Windows Admin Shares",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
             "techniqueID": "T1124",
             "techniqueName": "System Time Discovery",
-            "comment": "Turla (G0010)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1007",
-            "techniqueName": "System Service Discovery",
             "comment": "Turla (G0010)"
         }
     ],
     "gradient": {
         "colors": [
-            "#40ede1",
-            "#7546e2",
-            "#119b7f",
-            "#ef589f",
-            "#e1fca6"
+            "#8b62c4",
+            "#92ea8a",
+            "#8df221",
+            "#777ed1",
+            "#d5fca6",
+            "#44ea7b"
         ],
         "minValue": 0,
-        "maxValue": 4
+        "maxValue": 5
     }
 }

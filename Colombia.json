@@ -1,5 +1,5 @@
 {
-    "description": "Techniques of groups: Machete (G0095) & Gamaredon Group (G0047) & PROMETHIUM (G0056) & ",
+    "description": "Techniques of groups: Machete (G0095) & Gamaredon Group (G0047) & Ke3chang (G0004) & PROMETHIUM (G0056) & ",
     "name": "Colombia",
     "domain": "mitre-enterprise",
     "version": "3.0",
@@ -17,10 +17,10 @@
             "comment": "Machete (G0095) & Gamaredon Group (G0047)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1059.003",
             "techniqueName": "Windows Command Shell",
-            "comment": "Machete (G0095) & Gamaredon Group (G0047)"
+            "comment": "Machete (G0095) & Gamaredon Group (G0047) & Ke3chang (G0004)"
         },
         {
             "score": 1,
@@ -143,10 +143,10 @@
             "comment": "Gamaredon Group (G0047)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1083",
             "techniqueName": "File and Directory Discovery",
-            "comment": "Gamaredon Group (G0047)"
+            "comment": "Gamaredon Group (G0047) & Ke3chang (G0004)"
         },
         {
             "score": 1,
@@ -173,10 +173,10 @@
             "comment": "Gamaredon Group (G0047)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1005",
             "techniqueName": "Data from Local System",
-            "comment": "Gamaredon Group (G0047)"
+            "comment": "Gamaredon Group (G0047) & Ke3chang (G0004)"
         },
         {
             "score": 1,
@@ -197,10 +197,10 @@
             "comment": "Gamaredon Group (G0047)"
         },
         {
-            "score": 2,
+            "score": 3,
             "techniqueID": "T1547.001",
             "techniqueName": "Registry Run Keys / Startup Folder",
-            "comment": "Gamaredon Group (G0047) & PROMETHIUM (G0056)"
+            "comment": "Gamaredon Group (G0047) & Ke3chang (G0004) & PROMETHIUM (G0056)"
         },
         {
             "score": 1,
@@ -209,16 +209,16 @@
             "comment": "Gamaredon Group (G0047)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1041",
             "techniqueName": "Exfiltration Over C2 Channel",
-            "comment": "Gamaredon Group (G0047)"
+            "comment": "Gamaredon Group (G0047) & Ke3chang (G0004)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1082",
             "techniqueName": "System Information Discovery",
-            "comment": "Gamaredon Group (G0047)"
+            "comment": "Gamaredon Group (G0047) & Ke3chang (G0004)"
         },
         {
             "score": 1,
@@ -233,10 +233,10 @@
             "comment": "Gamaredon Group (G0047)"
         },
         {
-            "score": 1,
+            "score": 2,
             "techniqueID": "T1071.001",
             "techniqueName": "Web Protocols",
-            "comment": "Gamaredon Group (G0047)"
+            "comment": "Gamaredon Group (G0047) & Ke3chang (G0004)"
         },
         {
             "score": 1,
@@ -252,6 +252,156 @@
         },
         {
             "score": 1,
+            "techniqueID": "T1588.002",
+            "techniqueName": "Tool",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.004",
+            "techniqueName": "LSA Secrets",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.002",
+            "techniqueName": "Security Account Manager",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1087.001",
+            "techniqueName": "Local Account",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1071.004",
+            "techniqueName": "DNS",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1036.002",
+            "techniqueName": "Right-to-Left Override",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1558.001",
+            "techniqueName": "Golden Ticket",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1114.002",
+            "techniqueName": "Remote Email Collection",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1018",
+            "techniqueName": "Remote System Discovery",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 2,
+            "techniqueID": "T1543.003",
+            "techniqueName": "Windows Service",
+            "comment": "Ke3chang (G0004) & PROMETHIUM (G0056)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1133",
+            "techniqueName": "External Remote Services",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1213.002",
+            "techniqueName": "Sharepoint",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1569.002",
+            "techniqueName": "Service Execution",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1056.001",
+            "techniqueName": "Keylogging",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1087.002",
+            "techniqueName": "Domain Account",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1021.002",
+            "techniqueName": "SMB/Windows Admin Shares",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1560.001",
+            "techniqueName": "Archive via Utility",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1057",
+            "techniqueName": "Process Discovery",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1003.001",
+            "techniqueName": "LSASS Memory",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1007",
+            "techniqueName": "System Service Discovery",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1560",
+            "techniqueName": "Archive Collected Data",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1069.002",
+            "techniqueName": "Domain Groups",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1016",
+            "techniqueName": "System Network Configuration Discovery",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1049",
+            "techniqueName": "System Network Connections Discovery",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
+            "techniqueID": "T1059",
+            "techniqueName": "Command and Scripting Interpreter",
+            "comment": "Ke3chang (G0004)"
+        },
+        {
+            "score": 1,
             "techniqueID": "T1587.002",
             "techniqueName": "Code Signing Certificates",
             "comment": "PROMETHIUM (G0056)"
@@ -260,12 +410,6 @@
             "score": 1,
             "techniqueID": "T1587.003",
             "techniqueName": "Digital Certificates",
-            "comment": "PROMETHIUM (G0056)"
-        },
-        {
-            "score": 1,
-            "techniqueID": "T1543.003",
-            "techniqueName": "Windows Service",
             "comment": "PROMETHIUM (G0056)"
         },
         {
@@ -295,10 +439,10 @@
     ],
     "gradient": {
         "colors": [
-            "#33b750",
-            "#a9d64f",
-            "#e09af9",
-            "#d30e88"
+            "#276e93",
+            "#d0e881",
+            "#59babf",
+            "#cc7657"
         ],
         "minValue": 0,
         "maxValue": 3
